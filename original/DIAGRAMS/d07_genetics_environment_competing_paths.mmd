@@ -1,0 +1,21 @@
+%% Genetics and environment — competing causal paths
+%% A = Julius; B = inferred connection; C = independent evidence.
+%% See README.md for the source ledger for every edge.
+flowchart TD
+    pg["Parental inherited traits"]
+    pt["Parental behavior / interests"]
+    cg["Child inherited traits"]
+    hb["Home books / activities"]
+    fa["Father absence / disruption"]
+    re["Resources / caregiving"]
+    ex["Child exposure / learning"]
+    co["Child outcomes"]
+    pg -->|"D07-E01: predispositions"| pt
+    pg -->|"D07-E02: genetic transmission"| cg
+    pt -->|"D07-E03: parent chooses books"| hb
+    pt -->|"D07-E04: possible contribution"| fa
+    cg -->|"D07-E05: inherited contribution"| co
+    hb -.->|"D07-E06: opportunity to learn"| ex
+    fa -->|"D07-E07: changes family conditions"| re
+    re -.->|"D07-E08: access and support"| ex
+    ex -->|"D07-E09: environmental effects possible"| co
