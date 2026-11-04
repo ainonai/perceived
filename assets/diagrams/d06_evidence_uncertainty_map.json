@@ -1,0 +1,108 @@
+{
+  "id": "D06",
+  "title": "Evidence & inference",
+  "nodes": [
+    {
+      "name": "a",
+      "label": "A: Physical attractiveness"
+    },
+    {
+      "name": "b",
+      "label": "Romantic evaluations"
+    },
+    {
+      "name": "c",
+      "label": "A: Genetic differences"
+    },
+    {
+      "name": "d",
+      "label": "Population trait variance"
+    },
+    {
+      "name": "e",
+      "label": "Immutable individual destiny"
+    },
+    {
+      "name": "f",
+      "label": "A: Rival / preselection cues"
+    },
+    {
+      "name": "g",
+      "label": "Desirability ratings"
+    },
+    {
+      "name": "h",
+      "label": "Healthy long-term bond"
+    },
+    {
+      "name": "i",
+      "label": "Publication bias"
+    },
+    {
+      "name": "j",
+      "label": "Inflated published benefit"
+    },
+    {
+      "name": "k",
+      "label": "No actual drug benefit"
+    }
+  ],
+  "edges": [
+    {
+      "tail": "a",
+      "head": "b",
+      "id": "D06-E01",
+      "label": "C: supported association",
+      "originalDashed": false,
+      "status": "C: supported association"
+    },
+    {
+      "tail": "c",
+      "head": "d",
+      "id": "D06-E02",
+      "label": "C: substantial conditional support",
+      "originalDashed": false,
+      "status": "C: supported, conditional"
+    },
+    {
+      "tail": "d",
+      "head": "e",
+      "id": "D06-E03",
+      "label": "A: leap not warranted",
+      "originalDashed": false,
+      "status": "C: contradicted inference"
+    },
+    {
+      "tail": "f",
+      "head": "g",
+      "id": "D06-E04",
+      "label": "C: conditional support",
+      "originalDashed": false,
+      "status": "C: conditional, heterogeneous"
+    },
+    {
+      "tail": "g",
+      "head": "h",
+      "id": "D06-E05",
+      "label": "B: does not establish this outcome",
+      "originalDashed": true,
+      "status": "B: unverified inferred connection"
+    },
+    {
+      "tail": "i",
+      "head": "j",
+      "id": "D06-E06",
+      "label": "C: supported in studied trials",
+      "originalDashed": false,
+      "status": "C: supported"
+    },
+    {
+      "tail": "j",
+      "head": "k",
+      "id": "D06-E07",
+      "label": "A: zero-effect leap contradicted",
+      "originalDashed": false,
+      "status": "C: contradicted inference"
+    }
+  ]
+}

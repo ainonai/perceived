@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="926" height="777" viewBox="0 0 926 777" role="img" aria-labelledby="title desc"><title id="title">Causation, meaning &amp; the cosmos</title><desc id="desc">Philosophical commitments and physical hypotheses. Ivory lines denote expressed claims; dashed rose lines denote editorial or competing pathways; sage denotes evaluated support; red denotes contradicted inference. Full status remains in each edge title and the source ledger. This diagram preserves 12 original nodes and 11 original directed links.</desc><rect width="926" height="777" fill="#151313"/><text x="28" y="30" fill="#d67272" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">D05 / WORLDVIEW ATLAS</text><text x="28" y="62" fill="#f1eade" font-family="Georgia,serif" font-size="28">Causation, meaning &amp; the cosmos</text><text x="28" y="88" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="12">Philosophical commitments and physical hypotheses</text><line x1="28" x2="898" y1="108" y2="108" stroke="#383737"/><g transform="translate(27,119)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 570.6)">
+<title>D05</title>
+<polygon fill="#151313" stroke="none" points="-21.6,21.6 -21.6,-570.6 850.69,-570.6 850.69,21.6 -21.6,21.6"/>
+<!-- d&#45;&gt;c -->
+<g id="D05&#45;E01" class="edge">
+<title>d&#45;&gt;c</title>
+<g id="a_D05&#45;E01"><a xlink:title="D05&#45;E01 | A: philosophical commitment | causal account">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M203.52,-257.11C183.47,-238.68 152.66,-210.38 128.4,-188.09"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="130.1,-186.32 123.29,-183.39 126.79,-189.93 130.1,-186.32"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="196.81" y="-211.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">causal account</text>
+</g>
+<!-- d&#45;&gt;a -->
+<g id="D05&#45;E03" class="edge">
+<title>d&#45;&gt;a</title>
+<g id="a_D05&#45;E03"><a xlink:title="D05&#45;E03 | A: normative response | amor fati response">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M234.46,-257.11C245.43,-236.48 262.98,-203.48 275.27,-180.38"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="277.31,-181.76 278.43,-174.43 272.98,-179.46 277.31,-181.76"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="302.23" y="-211.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">amor fati response</text>
+</g>
+<!-- c&#45;&gt;b -->
+<g id="D05&#45;E02" class="edge">
+<title>c&#45;&gt;b</title>
+<g id="a_D05&#45;E02"><a xlink:title="D05&#45;E02 | A: normative inference | compassion inference">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M91.3,-123.96C91.3,-104.04 91.3,-77.41 91.3,-57.56"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="93.75,-57.62 91.3,-50.62 88.85,-57.62 93.75,-57.62"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="142.37" y="-87.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">compassion inference</text>
+</g>
+<!-- a&#45;&gt;m -->
+<g id="D05&#45;E04" class="edge">
+<title>a&#45;&gt;m</title>
+<g id="a_D05&#45;E04"><a xlink:title="D05&#45;E04 | A: practical claim | claimed peace">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M309.32,-132.83C324.31,-118.85 345.6,-99.77 365.59,-84.6 375.55,-77.05 386.54,-69.44 397.22,-62.41"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="398.25,-64.66 402.77,-58.78 395.57,-60.56 398.25,-64.66"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="399.45" y="-87.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">claimed peace</text>
+</g>
+<!-- e&#45;&gt;p -->
+<g id="D05&#45;E05" class="edge">
+<title>e&#45;&gt;p</title>
+<g id="a_D05&#45;E05"><a xlink:title="D05&#45;E05 | A: philosophical interpretation | function becomes purpose">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M466.3,-248.16C466.3,-231.01 466.3,-208.88 466.3,-190.38"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="468.75,-190.57 466.3,-183.57 463.85,-190.57 468.75,-190.57"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="527.88" y="-211.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">function becomes purpose</text>
+</g>
+<!-- p&#45;&gt;m -->
+<g id="D05&#45;E06" class="edge">
+<title>p&#45;&gt;m</title>
+<g id="a_D05&#45;E06"><a xlink:title="D05&#45;E06 | A: asserted practical pathway | congruence / duty">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M452.97,-123.87C449.63,-115.48 446.52,-106.14 444.83,-97.2 442.96,-87.3 442.96,-76.46 443.78,-66.42"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="446.21,-66.73 444.52,-59.51 441.34,-66.21 446.21,-66.73"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="486.57" y="-87.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">congruence / duty</text>
+</g>
+<!-- t&#45;&gt;h -->
+<g id="D05&#45;E07" class="edge">
+<title>t&#45;&gt;h</title>
+<g id="a_D05&#45;E07"><a xlink:title="D05&#45;E07 | A: physical account | model&#45;dependent extrapolation">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M697.3,-490.97C697.3,-470.14 697.3,-441.95 697.3,-421.22"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="699.75,-421.22 697.3,-414.22 694.85,-421.22 699.75,-421.22"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="738.17" y="-454.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">model&#45;dependent</text>
+<text xml:space="preserve" text-anchor="middle" x="738.17" y="-442.35" font-family="Arial" font-size="10.50" fill="#b8b0a4">extrapolation</text>
+</g>
+<!-- h&#45;&gt;f -->
+<g id="D05&#45;E08" class="edge">
+<title>h&#45;&gt;f</title>
+<g id="a_D05&#45;E08"><a xlink:title="D05&#45;E08 | A: speculative | if suitable dynamics">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M697.3,-372.2C697.3,-356.55 697.3,-334.01 697.3,-314.92"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="699.75,-315.09 697.3,-308.09 694.85,-315.09 699.75,-315.09"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="743.11" y="-336.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">if suitable dynamics</text>
+</g>
+<!-- f&#45;&gt;r -->
+<g id="D05&#45;E09" class="edge">
+<title>f&#45;&gt;r</title>
+<g id="a_D05&#45;E09"><a xlink:title="D05&#45;E09 | A: speculative | state recreation proposed">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M697.3,-248.16C697.3,-228.24 697.3,-201.61 697.3,-181.76"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="699.75,-181.82 697.3,-174.82 694.85,-181.82 699.75,-181.82"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="756.84" y="-211.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">state recreation proposed</text>
+</g>
+<!-- r&#45;&gt;m -->
+<g id="D05&#45;E11" class="edge">
+<title>r&#45;&gt;m</title>
+<g id="a_D05&#45;E11"><a xlink:title="D05&#45;E11 | B: inferred connection | comforting interpretation">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M658.44,-132.77C620.04,-113.77 560.6,-84.37 515.06,-61.84"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="516.16,-59.65 508.8,-58.74 513.98,-64.04 516.16,-59.65"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="637.82" y="-87.75" font-family="Arial" font-size="10.50" fill="#d67272">comforting interpretation</text>
+</g>
+<!-- r&#45;&gt;s -->
+<g id="D05&#45;E10" class="edge">
+<title>r&#45;&gt;s</title>
+<g id="a_D05&#45;E10"><a xlink:title="D05&#45;E10 | A: explicit open question | identity unresolved">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M704.02,-132.91C711.21,-112.46 722.69,-79.85 730.81,-56.79"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="733.06,-57.75 733.08,-50.33 728.44,-56.12 733.06,-57.75"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="763.87" y="-87.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">identity unresolved</text>
+</g>
+<!-- d -->
+<g id="D05&#45;node&#45;d" class="node">
+<title>d</title>
+<g id="a_D05&#45;node&#45;d"><a xlink:title="Physical determinism">
+<path fill="#302020" stroke="#b64747" d="M299,-297C299,-297 149.61,-297 149.61,-297 143.61,-297 137.61,-291 137.61,-285 137.61,-285 137.61,-269.4 137.61,-269.4 137.61,-263.4 143.61,-257.4 149.61,-257.4 149.61,-257.4 299,-257.4 299,-257.4 305,-257.4 311,-263.4 311,-269.4 311,-269.4 311,-285 311,-285 311,-291 305,-297 299,-297"/>
+<text xml:space="preserve" text-anchor="middle" x="224.3" y="-272.7" font-family="Arial" font-size="15.00" fill="#f1eade">Physical determinism</text>
+</a>
+</g>
+</g>
+<!-- c -->
+<g id="D05&#45;node&#45;c" class="node">
+<title>c</title>
+<g id="a_D05&#45;node&#45;c"><a xlink:title="Choices have prior causes">
+<path fill="#272424" stroke="#56534f" d="M157.67,-181.8C157.67,-181.8 24.93,-181.8 24.93,-181.8 18.93,-181.8 12.93,-175.8 12.93,-169.8 12.93,-169.8 12.93,-136.2 12.93,-136.2 12.93,-130.2 18.93,-124.2 24.93,-124.2 24.93,-124.2 157.67,-124.2 157.67,-124.2 163.67,-124.2 169.67,-130.2 169.67,-136.2 169.67,-136.2 169.67,-169.8 169.67,-169.8 169.67,-175.8 163.67,-181.8 157.67,-181.8"/>
+<text xml:space="preserve" text-anchor="middle" x="91.3" y="-157.5" font-family="Arial" font-size="15.00" fill="#f1eade">Choices have prior</text>
+<text xml:space="preserve" text-anchor="middle" x="91.3" y="-139.5" font-family="Arial" font-size="15.00" fill="#f1eade">causes</text>
+</a>
+</g>
+</g>
+<!-- b -->
+<g id="D05&#45;node&#45;b" class="node">
+<title>b</title>
+<g id="a_D05&#45;node&#45;b"><a xlink:title="Reduced blame / pride">
+<path fill="#272424" stroke="#56534f" d="M170.6,-48.6C170.6,-48.6 12,-48.6 12,-48.6 6,-48.6 0,-42.6 0,-36.6 0,-36.6 0,-21 0,-21 0,-15 6,-9 12,-9 12,-9 170.6,-9 170.6,-9 176.6,-9 182.6,-15 182.6,-21 182.6,-21 182.6,-36.6 182.6,-36.6 182.6,-42.6 176.6,-48.6 170.6,-48.6"/>
+<text xml:space="preserve" text-anchor="middle" x="91.3" y="-24.3" font-family="Arial" font-size="15.00" fill="#f1eade">Reduced blame / pride</text>
+</a>
+</g>
+</g>
+<!-- a -->
+<g id="D05&#45;node&#45;a" class="node">
+<title>a</title>
+<g id="a_D05&#45;node&#45;a"><a xlink:title="Acceptance of fate">
+<path fill="#272424" stroke="#56534f" d="M355.27,-172.8C355.27,-172.8 223.34,-172.8 223.34,-172.8 217.34,-172.8 211.34,-166.8 211.34,-160.8 211.34,-160.8 211.34,-145.2 211.34,-145.2 211.34,-139.2 217.34,-133.2 223.34,-133.2 223.34,-133.2 355.27,-133.2 355.27,-133.2 361.27,-133.2 367.27,-139.2 367.27,-145.2 367.27,-145.2 367.27,-160.8 367.27,-160.8 367.27,-166.8 361.27,-172.8 355.27,-172.8"/>
+<text xml:space="preserve" text-anchor="middle" x="289.3" y="-148.5" font-family="Arial" font-size="15.00" fill="#f1eade">Acceptance of fate</text>
+</a>
+</g>
+</g>
+<!-- m -->
+<g id="D05&#45;node&#45;m" class="node">
+<title>m</title>
+<g id="a_D05&#45;node&#45;m"><a xlink:title="Practical peace / meaning">
+<path fill="#272424" stroke="#56534f" d="M509.59,-57.6C509.59,-57.6 391.02,-57.6 391.02,-57.6 385.02,-57.6 379.02,-51.6 379.02,-45.6 379.02,-45.6 379.02,-12 379.02,-12 379.02,-6 385.02,0 391.02,0 391.02,0 509.59,0 509.59,0 515.59,0 521.59,-6 521.59,-12 521.59,-12 521.59,-45.6 521.59,-45.6 521.59,-51.6 515.59,-57.6 509.59,-57.6"/>
+<text xml:space="preserve" text-anchor="middle" x="450.3" y="-33.3" font-family="Arial" font-size="15.00" fill="#f1eade">Practical peace /</text>
+<text xml:space="preserve" text-anchor="middle" x="450.3" y="-15.3" font-family="Arial" font-size="15.00" fill="#f1eade">meaning</text>
+</a>
+</g>
+</g>
+<!-- e -->
+<g id="D05&#45;node&#45;e" class="node">
+<title>e</title>
+<g id="a_D05&#45;node&#45;e"><a xlink:title="Evolutionary replication">
+<path fill="#272424" stroke="#56534f" d="M511.41,-306C511.41,-306 421.19,-306 421.19,-306 415.19,-306 409.19,-300 409.19,-294 409.19,-294 409.19,-260.4 409.19,-260.4 409.19,-254.4 415.19,-248.4 421.19,-248.4 421.19,-248.4 511.41,-248.4 511.41,-248.4 517.41,-248.4 523.41,-254.4 523.41,-260.4 523.41,-260.4 523.41,-294 523.41,-294 523.41,-300 517.41,-306 511.41,-306"/>
+<text xml:space="preserve" text-anchor="middle" x="466.3" y="-281.7" font-family="Arial" font-size="15.00" fill="#f1eade">Evolutionary</text>
+<text xml:space="preserve" text-anchor="middle" x="466.3" y="-263.7" font-family="Arial" font-size="15.00" fill="#f1eade">replication</text>
+</a>
+</g>
+</g>
+<!-- p -->
+<g id="D05&#45;node&#45;p" class="node">
+<title>p</title>
+<g id="a_D05&#45;node&#45;p"><a xlink:title="Life purpose interpreted">
+<path fill="#272424" stroke="#56534f" d="M511.42,-181.8C511.42,-181.8 421.18,-181.8 421.18,-181.8 415.18,-181.8 409.18,-175.8 409.18,-169.8 409.18,-169.8 409.18,-136.2 409.18,-136.2 409.18,-130.2 415.18,-124.2 421.18,-124.2 421.18,-124.2 511.42,-124.2 511.42,-124.2 517.42,-124.2 523.42,-130.2 523.42,-136.2 523.42,-136.2 523.42,-169.8 523.42,-169.8 523.42,-175.8 517.42,-181.8 511.42,-181.8"/>
+<text xml:space="preserve" text-anchor="middle" x="466.3" y="-157.5" font-family="Arial" font-size="15.00" fill="#f1eade">Life purpose</text>
+<text xml:space="preserve" text-anchor="middle" x="466.3" y="-139.5" font-family="Arial" font-size="15.00" fill="#f1eade">interpreted</text>
+</a>
+</g>
+</g>
+<!-- t -->
+<g id="D05&#45;node&#45;t" class="node">
+<title>t</title>
+<g id="a_D05&#45;node&#45;t"><a xlink:title="Entropy / cosmic expansion">
+<path fill="#272424" stroke="#56534f" d="M756.57,-549C756.57,-549 638.03,-549 638.03,-549 632.03,-549 626.03,-543 626.03,-537 626.03,-537 626.03,-503.4 626.03,-503.4 626.03,-497.4 632.03,-491.4 638.03,-491.4 638.03,-491.4 756.57,-491.4 756.57,-491.4 762.57,-491.4 768.57,-497.4 768.57,-503.4 768.57,-503.4 768.57,-537 768.57,-537 768.57,-543 762.57,-549 756.57,-549"/>
+<text xml:space="preserve" text-anchor="middle" x="697.3" y="-524.7" font-family="Arial" font-size="15.00" fill="#f1eade">Entropy / cosmic</text>
+<text xml:space="preserve" text-anchor="middle" x="697.3" y="-506.7" font-family="Arial" font-size="15.00" fill="#f1eade">expansion</text>
+</a>
+</g>
+</g>
+<!-- h -->
+<g id="D05&#45;node&#45;h" class="node">
+<title>h</title>
+<g id="a_D05&#45;node&#45;h"><a xlink:title="Far&#45;future heat death">
+<path fill="#272424" stroke="#56534f" d="M771.6,-412.2C771.6,-412.2 623,-412.2 623,-412.2 617,-412.2 611,-406.2 611,-400.2 611,-400.2 611,-384.6 611,-384.6 611,-378.6 617,-372.6 623,-372.6 623,-372.6 771.6,-372.6 771.6,-372.6 777.6,-372.6 783.6,-378.6 783.6,-384.6 783.6,-384.6 783.6,-400.2 783.6,-400.2 783.6,-406.2 777.6,-412.2 771.6,-412.2"/>
+<text xml:space="preserve" text-anchor="middle" x="697.3" y="-387.9" font-family="Arial" font-size="15.00" fill="#f1eade">Far&#45;future heat death</text>
+</a>
+</g>
+</g>
+<!-- f -->
+<g id="D05&#45;node&#45;f" class="node">
+<title>f</title>
+<g id="a_D05&#45;node&#45;f"><a xlink:title="Hypothetical fluctuations">
+<path fill="#272424" stroke="#56534f" d="M742.41,-306C742.41,-306 652.19,-306 652.19,-306 646.19,-306 640.19,-300 640.19,-294 640.19,-294 640.19,-260.4 640.19,-260.4 640.19,-254.4 646.19,-248.4 652.19,-248.4 652.19,-248.4 742.41,-248.4 742.41,-248.4 748.41,-248.4 754.41,-254.4 754.41,-260.4 754.41,-260.4 754.41,-294 754.41,-294 754.41,-300 748.41,-306 742.41,-306"/>
+<text xml:space="preserve" text-anchor="middle" x="697.3" y="-281.7" font-family="Arial" font-size="15.00" fill="#f1eade">Hypothetical</text>
+<text xml:space="preserve" text-anchor="middle" x="697.3" y="-263.7" font-family="Arial" font-size="15.00" fill="#f1eade">fluctuations</text>
+</a>
+</g>
+</g>
+<!-- r -->
+<g id="D05&#45;node&#45;r" class="node">
+<title>r</title>
+<g id="a_D05&#45;node&#45;r"><a xlink:title="Recurrence proposed">
+<path fill="#272424" stroke="#56534f" d="M773.27,-172.8C773.27,-172.8 621.34,-172.8 621.34,-172.8 615.34,-172.8 609.34,-166.8 609.34,-160.8 609.34,-160.8 609.34,-145.2 609.34,-145.2 609.34,-139.2 615.34,-133.2 621.34,-133.2 621.34,-133.2 773.27,-133.2 773.27,-133.2 779.27,-133.2 785.27,-139.2 785.27,-145.2 785.27,-145.2 785.27,-160.8 785.27,-160.8 785.27,-166.8 779.27,-172.8 773.27,-172.8"/>
+<text xml:space="preserve" text-anchor="middle" x="697.3" y="-148.5" font-family="Arial" font-size="15.00" fill="#f1eade">Recurrence proposed</text>
+</a>
+</g>
+</g>
+<!-- s -->
+<g id="D05&#45;node&#45;s" class="node">
+<title>s</title>
+<g id="a_D05&#45;node&#45;s"><a xlink:title="Same subjective self?">
+<path fill="#272424" stroke="#56534f" d="M817.09,-48.6C817.09,-48.6 663.51,-48.6 663.51,-48.6 657.51,-48.6 651.51,-42.6 651.51,-36.6 651.51,-36.6 651.51,-21 651.51,-21 651.51,-15 657.51,-9 663.51,-9 663.51,-9 817.09,-9 817.09,-9 823.09,-9 829.09,-15 829.09,-21 829.09,-21 829.09,-36.6 829.09,-36.6 829.09,-42.6 823.09,-48.6 817.09,-48.6"/>
+<text xml:space="preserve" text-anchor="middle" x="740.3" y="-24.3" font-family="Arial" font-size="15.00" fill="#f1eade">Same subjective self?</text>
+</a>
+</g>
+</g>
+</g>
+</g><line x1="28" x2="898" y1="726" y2="726" stroke="#383737"/><text x="28" y="749" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="10">11 links · Same nodes and directions as the original · Read the edge ledger for qualifications</text></svg>

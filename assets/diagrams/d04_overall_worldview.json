@@ -1,0 +1,164 @@
+{
+  "id": "D04",
+  "title": "A map of the worldview",
+  "nodes": [
+    {
+      "name": "g",
+      "label": "Inherited dispositions"
+    },
+    {
+      "name": "e",
+      "label": "Experienced environment"
+    },
+    {
+      "name": "a",
+      "label": "Attention and interpretation"
+    },
+    {
+      "name": "c",
+      "label": "Choices and behavior"
+    },
+    {
+      "name": "k",
+      "label": "Practice and acquired skill"
+    },
+    {
+      "name": "i",
+      "label": "Institutions and incentives"
+    },
+    {
+      "name": "s",
+      "label": "Opportunities / success"
+    },
+    {
+      "name": "r",
+      "label": "Rewards and discomfort"
+    },
+    {
+      "name": "p",
+      "label": "Self-knowledge / purpose"
+    },
+    {
+      "name": "f",
+      "label": "Environment fit"
+    },
+    {
+      "name": "w",
+      "label": "Fulfillment / acceptance"
+    }
+  ],
+  "edges": [
+    {
+      "tail": "g",
+      "head": "a",
+      "id": "D04-E01",
+      "label": "predisposes noticing",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "e",
+      "head": "a",
+      "id": "D04-E02",
+      "label": "encountered inputs",
+      "originalDashed": false,
+      "status": "A: asserted, sometimes minimized"
+    },
+    {
+      "tail": "a",
+      "head": "c",
+      "id": "D04-E03",
+      "label": "interpreted opportunities",
+      "originalDashed": true,
+      "status": "B: inferred connection"
+    },
+    {
+      "tail": "g",
+      "head": "c",
+      "id": "D04-E04",
+      "label": "behavioral dispositions",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "c",
+      "head": "e",
+      "id": "D04-E05",
+      "label": "selects / evokes",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "c",
+      "head": "k",
+      "id": "D04-E06",
+      "label": "deliberate practice",
+      "originalDashed": false,
+      "status": "A: self-reported mechanism"
+    },
+    {
+      "tail": "k",
+      "head": "s",
+      "id": "D04-E07",
+      "label": "improvement / learning",
+      "originalDashed": false,
+      "status": "A: self-reported mechanism"
+    },
+    {
+      "tail": "i",
+      "head": "c",
+      "id": "D04-E08",
+      "label": "rewards and constraints",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "s",
+      "head": "e",
+      "id": "D04-E09",
+      "label": "new resources and exposure",
+      "originalDashed": true,
+      "status": "B: inferred connection"
+    },
+    {
+      "tail": "r",
+      "head": "p",
+      "id": "D04-E10",
+      "label": "prompts reflection",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "p",
+      "head": "f",
+      "id": "D04-E11",
+      "label": "choose congruence",
+      "originalDashed": false,
+      "status": "A: recommended mechanism"
+    },
+    {
+      "tail": "f",
+      "head": "w",
+      "id": "D04-E12",
+      "label": "more workable life",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "c",
+      "head": "r",
+      "id": "D04-E13",
+      "label": "evolved reward account",
+      "originalDashed": false,
+      "status": "A: asserted, overgeneralized"
+    },
+    {
+      "tail": "p",
+      "head": "w",
+      "id": "D04-E14",
+      "label": "release outcome control",
+      "originalDashed": false,
+      "status": "A: recommended mechanism"
+    }
+  ]
+}

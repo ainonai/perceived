@@ -1,0 +1,156 @@
+{
+  "id": "D02",
+  "title": "The life of a relationship",
+  "nodes": [
+    {
+      "name": "e",
+      "label": "Encounter and initial appraisal"
+    },
+    {
+      "name": "i",
+      "label": "Mutual interest"
+    },
+    {
+      "name": "f",
+      "label": "Practical fit and expectations"
+    },
+    {
+      "name": "b",
+      "label": "Ongoing bond"
+    },
+    {
+      "name": "s",
+      "label": "Guaranteed attention inferred"
+    },
+    {
+      "name": "v",
+      "label": "Inferred alternatives / value falls"
+    },
+    {
+      "name": "l",
+      "label": "Desire or pursuit declines"
+    },
+    {
+      "name": "c",
+      "label": "Care and reliability"
+    },
+    {
+      "name": "x",
+      "label": "Withdrawal or separation"
+    },
+    {
+      "name": "r",
+      "label": "Renewed contact"
+    },
+    {
+      "name": "z",
+      "label": "Exit despite remaining desire"
+    }
+  ],
+  "edges": [
+    {
+      "tail": "e",
+      "head": "i",
+      "id": "D02-E01",
+      "label": "appearance / context",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "i",
+      "head": "b",
+      "id": "D02-E02",
+      "label": "initial attraction",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "f",
+      "head": "b",
+      "id": "D02-E03",
+      "label": "workable arrangement",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "c",
+      "head": "b",
+      "id": "D02-E04",
+      "label": "sustains relationship",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "b",
+      "head": "s",
+      "id": "D02-E05",
+      "label": "security develops",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "s",
+      "head": "v",
+      "id": "D02-E06",
+      "label": "may imply dependence",
+      "originalDashed": false,
+      "status": "A: asserted, contested"
+    },
+    {
+      "tail": "v",
+      "head": "l",
+      "id": "D02-E07",
+      "label": "proposed attraction loss",
+      "originalDashed": false,
+      "status": "A: asserted, contested"
+    },
+    {
+      "tail": "l",
+      "head": "x",
+      "id": "D02-E08",
+      "label": "relationship strain",
+      "originalDashed": true,
+      "status": "B: inferred connection"
+    },
+    {
+      "tail": "b",
+      "head": "x",
+      "id": "D02-E09",
+      "label": "commitment mismatch",
+      "originalDashed": false,
+      "status": "A: self-reported interpretation"
+    },
+    {
+      "tail": "x",
+      "head": "r",
+      "id": "D02-E10",
+      "label": "possible return",
+      "originalDashed": false,
+      "status": "A: self-reported outcome"
+    },
+    {
+      "tail": "r",
+      "head": "b",
+      "id": "D02-E11",
+      "label": "possible resumption",
+      "originalDashed": false,
+      "status": "A: self-reported outcome"
+    },
+    {
+      "tail": "c",
+      "head": "z",
+      "id": "D02-E12",
+      "label": "too little care can prompt exit",
+      "originalDashed": false,
+      "status": "A: asserted, conditional"
+    },
+    {
+      "tail": "b",
+      "head": "z",
+      "id": "D02-E13",
+      "label": "trust / feasibility limits",
+      "originalDashed": true,
+      "status": "B: inferred connection"
+    }
+  ]
+}

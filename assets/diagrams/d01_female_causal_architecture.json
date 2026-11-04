@@ -1,0 +1,156 @@
+{
+  "id": "D01",
+  "title": "Attraction & perceived value",
+  "nodes": [
+    {
+      "name": "g",
+      "label": "Inherited dispositions"
+    },
+    {
+      "name": "p",
+      "label": "Physical phenotype"
+    },
+    {
+      "name": "m",
+      "label": "Mating-market conditions"
+    },
+    {
+      "name": "a",
+      "label": "Perceived alternatives"
+    },
+    {
+      "name": "b",
+      "label": "Behavior and availability"
+    },
+    {
+      "name": "q",
+      "label": "Perceived genetic / mate value"
+    },
+    {
+      "name": "r",
+      "label": "Resources and care"
+    },
+    {
+      "name": "u",
+      "label": "Logistical relationship value"
+    },
+    {
+      "name": "d",
+      "label": "Sexual desire"
+    },
+    {
+      "name": "v",
+      "label": "Pursuit / investment"
+    },
+    {
+      "name": "t",
+      "label": "Relationship retention"
+    }
+  ],
+  "edges": [
+    {
+      "tail": "g",
+      "head": "p",
+      "id": "D01-E01",
+      "label": "traits expressed",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "m",
+      "head": "a",
+      "id": "D01-E02",
+      "label": "choice set",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "p",
+      "head": "q",
+      "id": "D01-E03",
+      "label": "rapid appraisal",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "a",
+      "head": "b",
+      "id": "D01-E04",
+      "label": "less dependence",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "b",
+      "head": "q",
+      "id": "D01-E05",
+      "label": "signals options",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "q",
+      "head": "d",
+      "id": "D01-E06",
+      "label": "relative quality",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "r",
+      "head": "u",
+      "id": "D01-E07",
+      "label": "care and support",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "u",
+      "head": "t",
+      "id": "D01-E08",
+      "label": "practical feasibility",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "d",
+      "head": "v",
+      "id": "D01-E09",
+      "label": "wanting the partner",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "v",
+      "head": "a",
+      "id": "D01-E10",
+      "label": "social proof feedback",
+      "originalDashed": true,
+      "status": "B: inferred connection"
+    },
+    {
+      "tail": "d",
+      "head": "t",
+      "id": "D01-E11",
+      "label": "desire contributes",
+      "originalDashed": false,
+      "status": "A: asserted, conditional"
+    },
+    {
+      "tail": "u",
+      "head": "d",
+      "id": "D01-E12",
+      "label": "possible synergy",
+      "originalDashed": false,
+      "status": "A: asserted, conditional"
+    },
+    {
+      "tail": "r",
+      "head": "q",
+      "id": "D01-E13",
+      "label": "overt compensation can lower",
+      "originalDashed": false,
+      "status": "A: asserted, conditional"
+    }
+  ]
+}

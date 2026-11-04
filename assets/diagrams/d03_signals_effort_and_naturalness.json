@@ -1,0 +1,128 @@
+{
+  "id": "D03",
+  "title": "Effort, signals & naturalness",
+  "nodes": [
+    {
+      "name": "g",
+      "label": "Grooming / major improvement"
+    },
+    {
+      "name": "p",
+      "label": "Observable appearance"
+    },
+    {
+      "name": "q",
+      "label": "Perceived desirability"
+    },
+    {
+      "name": "e",
+      "label": "Visible optimization effort"
+    },
+    {
+      "name": "c",
+      "label": "Compensation inferred"
+    },
+    {
+      "name": "o",
+      "label": "Real alternatives / purpose"
+    },
+    {
+      "name": "b",
+      "label": "Genuine varied availability"
+    },
+    {
+      "name": "s",
+      "label": "High options inferred"
+    },
+    {
+      "name": "f",
+      "label": "Fabricated rival cues"
+    },
+    {
+      "name": "r",
+      "label": "Pursuit or attention"
+    }
+  ],
+  "edges": [
+    {
+      "tail": "g",
+      "head": "p",
+      "id": "D03-E01",
+      "label": "consequential change",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "p",
+      "head": "q",
+      "id": "D03-E02",
+      "label": "appearance appraisal",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "e",
+      "head": "c",
+      "id": "D03-E03",
+      "label": "effort signals insufficiency",
+      "originalDashed": false,
+      "status": "A: asserted, unverified generalization"
+    },
+    {
+      "tail": "c",
+      "head": "q",
+      "id": "D03-E04",
+      "label": "can lower value",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "o",
+      "head": "b",
+      "id": "D03-E05",
+      "label": "actually busy",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "b",
+      "head": "s",
+      "id": "D03-E06",
+      "label": "not dependent",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "s",
+      "head": "q",
+      "id": "D03-E07",
+      "label": "inferred quality",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "f",
+      "head": "s",
+      "id": "D03-E08",
+      "label": "mimics alternatives",
+      "originalDashed": false,
+      "status": "A: recommended tactic; efficacy unverified"
+    },
+    {
+      "tail": "q",
+      "head": "r",
+      "id": "D03-E09",
+      "label": "predicted response",
+      "originalDashed": false,
+      "status": "A: asserted"
+    },
+    {
+      "tail": "r",
+      "head": "s",
+      "id": "D03-E10",
+      "label": "apparent preselection",
+      "originalDashed": true,
+      "status": "B: inferred connection"
+    }
+  ]
+}

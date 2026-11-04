@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="848" height="759" viewBox="0 0 848 759" role="img" aria-labelledby="title desc"><title id="title">Effort, signals &amp; naturalness</title><desc id="desc">Real circumstances and inferred alternatives. Ivory lines denote expressed claims; dashed rose lines denote editorial or competing pathways; sage denotes evaluated support; red denotes contradicted inference. Full status remains in each edge title and the source ledger. This diagram preserves 10 original nodes and 10 original directed links.</desc><rect width="848" height="759" fill="#151313"/><text x="28" y="30" fill="#d67272" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">D03 / WORLDVIEW ATLAS</text><text x="28" y="62" fill="#f1eade" font-family="Georgia,serif" font-size="28">Effort, signals &amp; naturalness</text><text x="28" y="88" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="12">Real circumstances and inferred alternatives</text><line x1="28" x2="820" y1="108" y2="108" stroke="#383737"/><g transform="translate(27,119)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 552.6)">
+<title>D03</title>
+<polygon fill="#151313" stroke="none" points="-21.6,21.6 -21.6,-552.6 772.53,-552.6 772.53,21.6 -21.6,21.6"/>
+<!-- g&#45;&gt;p -->
+<g id="D03&#45;E01" class="edge">
+<title>g&#45;&gt;p</title>
+<g id="a_D03&#45;E01"><a xlink:title="D03&#45;E01 | A: asserted | consequential change">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M95.89,-472.97C95.89,-452.14 95.89,-423.95 95.89,-403.22"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="98.34,-403.22 95.89,-396.22 93.44,-403.22 98.34,-403.22"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="146.98" y="-430.65" font-family="Arial" font-size="10.50" fill="#b8b0a4">consequential change</text>
+</g>
+<!-- p&#45;&gt;q -->
+<g id="D03&#45;E02" class="edge">
+<title>p&#45;&gt;q</title>
+<g id="a_D03&#45;E02"><a xlink:title="D03&#45;E02 | A: asserted | appearance appraisal">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M113.78,-354.19C124.65,-342.67 138.89,-327.81 151.9,-315 161.96,-305.11 173.25,-294.5 183.24,-285.28"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="184.87,-287.11 188.37,-280.57 181.56,-283.5 184.87,-287.11"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="202.4" y="-318.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">appearance appraisal</text>
+</g>
+<!-- q&#45;&gt;r -->
+<g id="D03&#45;E09" class="edge">
+<title>q&#45;&gt;r</title>
+<g id="a_D03&#45;E09"><a xlink:title="D03&#45;E09 | A: asserted | predicted response">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M197.15,-239.11C189.73,-228.66 180.5,-215.42 172.59,-203.4 163.74,-189.95 154.26,-174.71 146.59,-162.13"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="148.89,-161.2 143.16,-156.49 144.7,-163.74 148.89,-161.2"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="217.24" y="-193.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">predicted response</text>
+</g>
+<!-- e&#45;&gt;c -->
+<g id="D03&#45;E03" class="edge">
+<title>e&#45;&gt;c</title>
+<g id="a_D03&#45;E03"><a xlink:title="D03&#45;E03 | A: asserted, unverified generalization | effort signals insufficiency">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M325.89,-472.97C325.89,-452.14 325.89,-423.95 325.89,-403.22"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="328.34,-403.22 325.89,-396.22 323.44,-403.22 328.34,-403.22"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="355.66" y="-436.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">effort signals</text>
+<text xml:space="preserve" text-anchor="middle" x="355.66" y="-424.35" font-family="Arial" font-size="10.50" fill="#b8b0a4">insufficiency</text>
+</g>
+<!-- c&#45;&gt;q -->
+<g id="D03&#45;E04" class="edge">
+<title>c&#45;&gt;q</title>
+<g id="a_D03&#45;E04"><a xlink:title="D03&#45;E04 | A: asserted | can lower value">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M306.39,-354.2C287.14,-335.25 257.61,-306.19 236.49,-285.39"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="238.39,-283.83 231.68,-280.66 234.95,-287.32 238.39,-283.83"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="315.17" y="-318.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">can lower value</text>
+</g>
+<!-- o&#45;&gt;b -->
+<g id="D03&#45;E05" class="edge">
+<title>o&#45;&gt;b</title>
+<g id="a_D03&#45;E05"><a xlink:title="D03&#45;E05 | A: asserted | actually busy">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M471.89,-230.16C471.89,-213.01 471.89,-190.88 471.89,-172.38"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="474.34,-172.57 471.89,-165.57 469.44,-172.57 474.34,-172.57"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="502.24" y="-193.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">actually busy</text>
+</g>
+<!-- b&#45;&gt;s -->
+<g id="D03&#45;E06" class="edge">
+<title>b&#45;&gt;s</title>
+<g id="a_D03&#45;E06"><a xlink:title="D03&#45;E06 | A: asserted | not dependent">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M449.66,-105.73C435.39,-87.57 417,-64.18 403.14,-46.55"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="405.16,-45.15 398.9,-41.16 401.3,-48.18 405.16,-45.15"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="460.97" y="-69.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">not dependent</text>
+</g>
+<!-- s&#45;&gt;q -->
+<g id="D03&#45;E07" class="edge">
+<title>s&#45;&gt;q</title>
+<g id="a_D03&#45;E07"><a xlink:title="D03&#45;E07 | A: asserted | inferred quality">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M365.69,-39.9C351.13,-56.63 330.25,-81.99 315.02,-106.2 289.46,-146.84 296.11,-164.56 267.89,-203.4 260.16,-214.05 250.22,-224.41 240.82,-233.2"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="239.18,-231.37 235.66,-237.9 242.48,-235 239.18,-231.37"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="349.46" y="-131.85" font-family="Arial" font-size="10.50" fill="#b8b0a4">inferred quality</text>
+</g>
+<!-- f&#45;&gt;s -->
+<g id="D03&#45;E08" class="edge">
+<title>f&#45;&gt;s</title>
+<g id="a_D03&#45;E08"><a xlink:title="D03&#45;E08 | A: recommended tactic; efficacy unverified | mimics alternatives">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M621.31,-114.81C589.1,-101.07 544.47,-82.3 504.89,-66.6 485.03,-58.72 463.2,-50.41 443.58,-43.07"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="444.58,-40.83 437.16,-40.68 442.87,-45.42 444.58,-40.83"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="580.51" y="-69.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">mimics alternatives</text>
+</g>
+<!-- r&#45;&gt;s -->
+<g id="D03&#45;E10" class="edge">
+<title>r&#45;&gt;s</title>
+<g id="a_D03&#45;E10"><a xlink:title="D03&#45;E10 | B: inferred connection | apparent preselection">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M134.45,-114.79C138.31,-99.44 146.04,-78.57 160.91,-66.6 180.84,-50.56 237.78,-39 289,-31.51"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="289.26,-33.94 295.84,-30.53 288.57,-29.09 289.26,-33.94"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="211.4" y="-69.75" font-family="Arial" font-size="10.50" fill="#d67272">apparent preselection</text>
+</g>
+<!-- g -->
+<g id="D03&#45;node&#45;g" class="node">
+<title>g</title>
+<g id="a_D03&#45;node&#45;g"><a xlink:title="Grooming / major improvement">
+<path fill="#302020" stroke="#b64747" d="M157.67,-531C157.67,-531 34.12,-531 34.12,-531 28.12,-531 22.12,-525 22.12,-519 22.12,-519 22.12,-485.4 22.12,-485.4 22.12,-479.4 28.12,-473.4 34.12,-473.4 34.12,-473.4 157.67,-473.4 157.67,-473.4 163.67,-473.4 169.67,-479.4 169.67,-485.4 169.67,-485.4 169.67,-519 169.67,-519 169.67,-525 163.67,-531 157.67,-531"/>
+<text xml:space="preserve" text-anchor="middle" x="95.89" y="-506.7" font-family="Arial" font-size="15.00" fill="#f1eade">Grooming / major</text>
+<text xml:space="preserve" text-anchor="middle" x="95.89" y="-488.7" font-family="Arial" font-size="15.00" fill="#f1eade">improvement</text>
+</a>
+</g>
+</g>
+<!-- p -->
+<g id="D03&#45;node&#45;p" class="node">
+<title>p</title>
+<g id="a_D03&#45;node&#45;p"><a xlink:title="Observable appearance">
+<path fill="#272424" stroke="#56534f" d="M179.79,-394.2C179.79,-394.2 12,-394.2 12,-394.2 6,-394.2 0,-388.2 0,-382.2 0,-382.2 0,-366.6 0,-366.6 0,-360.6 6,-354.6 12,-354.6 12,-354.6 179.79,-354.6 179.79,-354.6 185.79,-354.6 191.79,-360.6 191.79,-366.6 191.79,-366.6 191.79,-382.2 191.79,-382.2 191.79,-388.2 185.79,-394.2 179.79,-394.2"/>
+<text xml:space="preserve" text-anchor="middle" x="95.89" y="-369.9" font-family="Arial" font-size="15.00" fill="#f1eade">Observable appearance</text>
+</a>
+</g>
+</g>
+<!-- q -->
+<g id="D03&#45;node&#45;q" class="node">
+<title>q</title>
+<g id="a_D03&#45;node&#45;q"><a xlink:title="Perceived desirability">
+<path fill="#272424" stroke="#56534f" d="M285.6,-279C285.6,-279 136.19,-279 136.19,-279 130.19,-279 124.19,-273 124.19,-267 124.19,-267 124.19,-251.4 124.19,-251.4 124.19,-245.4 130.19,-239.4 136.19,-239.4 136.19,-239.4 285.6,-239.4 285.6,-239.4 291.6,-239.4 297.6,-245.4 297.6,-251.4 297.6,-251.4 297.6,-267 297.6,-267 297.6,-273 291.6,-279 285.6,-279"/>
+<text xml:space="preserve" text-anchor="middle" x="210.89" y="-254.7" font-family="Arial" font-size="15.00" fill="#f1eade">Perceived desirability</text>
+</a>
+</g>
+</g>
+<!-- e -->
+<g id="D03&#45;node&#45;e" class="node">
+<title>e</title>
+<g id="a_D03&#45;node&#45;e"><a xlink:title="Visible optimization effort">
+<path fill="#272424" stroke="#56534f" d="M393.93,-531C393.93,-531 257.86,-531 257.86,-531 251.86,-531 245.86,-525 245.86,-519 245.86,-519 245.86,-485.4 245.86,-485.4 245.86,-479.4 251.86,-473.4 257.86,-473.4 257.86,-473.4 393.93,-473.4 393.93,-473.4 399.93,-473.4 405.93,-479.4 405.93,-485.4 405.93,-485.4 405.93,-519 405.93,-519 405.93,-525 399.93,-531 393.93,-531"/>
+<text xml:space="preserve" text-anchor="middle" x="325.89" y="-506.7" font-family="Arial" font-size="15.00" fill="#f1eade">Visible optimization</text>
+<text xml:space="preserve" text-anchor="middle" x="325.89" y="-488.7" font-family="Arial" font-size="15.00" fill="#f1eade">effort</text>
+</a>
+</g>
+</g>
+<!-- c -->
+<g id="D03&#45;node&#45;c" class="node">
+<title>c</title>
+<g id="a_D03&#45;node&#45;c"><a xlink:title="Compensation inferred">
+<path fill="#272424" stroke="#56534f" d="M405.61,-394.2C405.61,-394.2 246.18,-394.2 246.18,-394.2 240.18,-394.2 234.18,-388.2 234.18,-382.2 234.18,-382.2 234.18,-366.6 234.18,-366.6 234.18,-360.6 240.18,-354.6 246.18,-354.6 246.18,-354.6 405.61,-354.6 405.61,-354.6 411.61,-354.6 417.61,-360.6 417.61,-366.6 417.61,-366.6 417.61,-382.2 417.61,-382.2 417.61,-388.2 411.61,-394.2 405.61,-394.2"/>
+<text xml:space="preserve" text-anchor="middle" x="325.89" y="-369.9" font-family="Arial" font-size="15.00" fill="#f1eade">Compensation inferred</text>
+</a>
+</g>
+</g>
+<!-- o -->
+<g id="D03&#45;node&#45;o" class="node">
+<title>o</title>
+<g id="a_D03&#45;node&#45;o"><a xlink:title="Real alternatives / purpose">
+<path fill="#272424" stroke="#56534f" d="M535.76,-288C535.76,-288 408.02,-288 408.02,-288 402.02,-288 396.02,-282 396.02,-276 396.02,-276 396.02,-242.4 396.02,-242.4 396.02,-236.4 402.02,-230.4 408.02,-230.4 408.02,-230.4 535.76,-230.4 535.76,-230.4 541.76,-230.4 547.76,-236.4 547.76,-242.4 547.76,-242.4 547.76,-276 547.76,-276 547.76,-282 541.76,-288 535.76,-288"/>
+<text xml:space="preserve" text-anchor="middle" x="471.89" y="-263.7" font-family="Arial" font-size="15.00" fill="#f1eade">Real alternatives /</text>
+<text xml:space="preserve" text-anchor="middle" x="471.89" y="-245.7" font-family="Arial" font-size="15.00" fill="#f1eade">purpose</text>
+</a>
+</g>
+</g>
+<!-- b -->
+<g id="D03&#45;node&#45;b" class="node">
+<title>b</title>
+<g id="a_D03&#45;node&#45;b"><a xlink:title="Genuine varied availability">
+<path fill="#272424" stroke="#56534f" d="M526.6,-163.8C526.6,-163.8 417.19,-163.8 417.19,-163.8 411.19,-163.8 405.19,-157.8 405.19,-151.8 405.19,-151.8 405.19,-118.2 405.19,-118.2 405.19,-112.2 411.19,-106.2 417.19,-106.2 417.19,-106.2 526.6,-106.2 526.6,-106.2 532.6,-106.2 538.6,-112.2 538.6,-118.2 538.6,-118.2 538.6,-151.8 538.6,-151.8 538.6,-157.8 532.6,-163.8 526.6,-163.8"/>
+<text xml:space="preserve" text-anchor="middle" x="471.89" y="-139.5" font-family="Arial" font-size="15.00" fill="#f1eade">Genuine varied</text>
+<text xml:space="preserve" text-anchor="middle" x="471.89" y="-121.5" font-family="Arial" font-size="15.00" fill="#f1eade">availability</text>
+</a>
+</g>
+</g>
+<!-- s -->
+<g id="D03&#45;node&#45;s" class="node">
+<title>s</title>
+<g id="a_D03&#45;node&#45;s"><a xlink:title="High options inferred">
+<path fill="#272424" stroke="#56534f" d="M455.94,-39.6C455.94,-39.6 309.85,-39.6 309.85,-39.6 303.85,-39.6 297.85,-33.6 297.85,-27.6 297.85,-27.6 297.85,-12 297.85,-12 297.85,-6 303.85,0 309.85,0 309.85,0 455.94,0 455.94,0 461.94,0 467.94,-6 467.94,-12 467.94,-12 467.94,-27.6 467.94,-27.6 467.94,-33.6 461.94,-39.6 455.94,-39.6"/>
+<text xml:space="preserve" text-anchor="middle" x="382.89" y="-15.3" font-family="Arial" font-size="15.00" fill="#f1eade">High options inferred</text>
+</a>
+</g>
+</g>
+<!-- f -->
+<g id="D03&#45;node&#45;f" class="node">
+<title>f</title>
+<g id="a_D03&#45;node&#45;f"><a xlink:title="Fabricated rival cues">
+<path fill="#272424" stroke="#56534f" d="M738.93,-154.8C738.93,-154.8 592.86,-154.8 592.86,-154.8 586.86,-154.8 580.86,-148.8 580.86,-142.8 580.86,-142.8 580.86,-127.2 580.86,-127.2 580.86,-121.2 586.86,-115.2 592.86,-115.2 592.86,-115.2 738.93,-115.2 738.93,-115.2 744.93,-115.2 750.93,-121.2 750.93,-127.2 750.93,-127.2 750.93,-142.8 750.93,-142.8 750.93,-148.8 744.93,-154.8 738.93,-154.8"/>
+<text xml:space="preserve" text-anchor="middle" x="665.89" y="-130.5" font-family="Arial" font-size="15.00" fill="#f1eade">Fabricated rival cues</text>
+</a>
+</g>
+</g>
+<!-- r -->
+<g id="D03&#45;node&#45;r" class="node">
+<title>r</title>
+<g id="a_D03&#45;node&#45;r"><a xlink:title="Pursuit or attention">
+<path fill="#272424" stroke="#56534f" d="M197.69,-154.8C197.69,-154.8 64.1,-154.8 64.1,-154.8 58.1,-154.8 52.1,-148.8 52.1,-142.8 52.1,-142.8 52.1,-127.2 52.1,-127.2 52.1,-121.2 58.1,-115.2 64.1,-115.2 64.1,-115.2 197.69,-115.2 197.69,-115.2 203.69,-115.2 209.69,-121.2 209.69,-127.2 209.69,-127.2 209.69,-142.8 209.69,-142.8 209.69,-148.8 203.69,-154.8 197.69,-154.8"/>
+<text xml:space="preserve" text-anchor="middle" x="130.89" y="-130.5" font-family="Arial" font-size="15.00" fill="#f1eade">Pursuit or attention</text>
+</a>
+</g>
+</g>
+</g>
+</g><line x1="28" x2="820" y1="708" y2="708" stroke="#383737"/><text x="28" y="731" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="10">10 links · Same nodes and directions as the original · Read the edge ledger for qualifications</text></svg>

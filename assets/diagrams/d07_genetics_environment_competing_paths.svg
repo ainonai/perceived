@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="740" height="937" viewBox="0 0 740 937" role="img" aria-labelledby="title desc"><title id="title">Inheritance &amp; competing pathways</title><desc id="desc">Selection, transmission, exposure, and learning. Ivory lines denote expressed claims; dashed rose lines denote editorial or competing pathways; sage denotes evaluated support; red denotes contradicted inference. Full status remains in each edge title and the source ledger. This diagram preserves 8 original nodes and 9 original directed links.</desc><rect width="740" height="937" fill="#151313"/><text x="28" y="30" fill="#d67272" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">D07 / WORLDVIEW ATLAS</text><text x="28" y="62" fill="#f1eade" font-family="Georgia,serif" font-size="28">Inheritance &amp; competing pathways</text><text x="28" y="88" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="12">Selection, transmission, exposure, and learning</text><line x1="28" x2="712" y1="108" y2="108" stroke="#383737"/><g transform="translate(61.5,119)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 730.8)">
+<title>D07</title>
+<polygon fill="#151313" stroke="none" points="-21.6,21.6 -21.6,-730.8 595.03,-730.8 595.03,21.6 -21.6,21.6"/>
+<!-- pg&#45;&gt;pt -->
+<g id="D07&#45;E01" class="edge">
+<title>pg&#45;&gt;pt</title>
+<g id="a_D07&#45;E01"><a xlink:title="D07&#45;E01 | A: proposed; B diagram placement | predispositions">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M356.37,-651.3C348.75,-642.98 340.71,-633.67 333.91,-624.6 326.38,-614.54 318.98,-603.03 312.58,-592.4"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="314.85,-591.42 309.18,-586.64 310.63,-593.91 314.85,-591.42"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="368.93" y="-615.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">predispositions</text>
+</g>
+<!-- pg&#45;&gt;cg -->
+<g id="D07&#45;E02" class="edge">
+<title>pg&#45;&gt;cg</title>
+<g id="a_D07&#45;E02"><a xlink:title="D07&#45;E02 | A: stated biological premise | genetic transmission">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M397.37,-651.27C401.43,-642.71 405.89,-633.28 409.95,-624.6 428.92,-584.08 450.6,-536.94 463.78,-508.2"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="465.88,-509.5 466.57,-502.11 461.43,-507.45 465.88,-509.5"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="462.95" y="-615.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">genetic transmission</text>
+</g>
+<!-- pt&#45;&gt;hb -->
+<g id="D07&#45;E03" class="edge">
+<title>pt&#45;&gt;hb</title>
+<g id="a_D07&#45;E03"><a xlink:title="D07&#45;E03 | A: explicit example | parent chooses books">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M213.88,-533.69C195.16,-525.65 176.5,-514.83 162.22,-500.4 122.68,-460.46 104.74,-394.87 97.41,-357.92"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="99.86,-357.68 96.16,-351.25 95.04,-358.59 99.86,-357.68"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="213.59" y="-477.45" font-family="Arial" font-size="10.50" fill="#b8b0a4">parent chooses books</text>
+</g>
+<!-- pt&#45;&gt;fa -->
+<g id="D07&#45;E04" class="edge">
+<title>pt&#45;&gt;fa</title>
+<g id="a_D07&#45;E04"><a xlink:title="D07&#45;E04 | A: qualified hypothesis | possible contribution">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M283.26,-527.08C280.78,-518.61 278.47,-509.22 277.23,-500.4 274.78,-482.97 274.49,-478.19 277.23,-460.8 278.19,-454.69 279.72,-448.33 281.5,-442.2"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="283.8,-443.03 283.54,-435.62 279.12,-441.58 283.8,-443.03"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="325.09" y="-477.45" font-family="Arial" font-size="10.50" fill="#b8b0a4">possible contribution</text>
+</g>
+<!-- cg&#45;&gt;co -->
+<g id="D07&#45;E05" class="edge">
+<title>cg&#45;&gt;co</title>
+<g id="a_D07&#45;E05"><a xlink:title="D07&#45;E05 | A/C: conditional support | inherited contribution">
+<path fill="none" stroke="#8fb8aa" stroke-width="1.1" d="M475.95,-460.76C475.95,-432.46 475.95,-377.28 475.95,-330.4 475.95,-330.4 475.95,-330.4 475.95,-146.6 475.95,-109.21 471.81,-96.93 449.95,-66.6 444.09,-58.46 436.33,-51.15 428.31,-44.9"/>
+<polygon fill="#8fb8aa" stroke="#8fb8aa" stroke-width="1.1" points="429.96,-43.07 422.87,-40.88 427.05,-47.01 429.96,-43.07"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="524.69" y="-259.65" font-family="Arial" font-size="10.50" fill="#8fb8aa">inherited contribution</text>
+</g>
+<!-- hb&#45;&gt;ex -->
+<g id="D07&#45;E06" class="edge">
+<title>hb&#45;&gt;ex</title>
+<g id="a_D07&#45;E06"><a xlink:title="D07&#45;E06 | B: competing inferred pathway | opportunity to learn">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M88.61,-309.35C85.5,-290.79 83.9,-262.59 97.06,-243 125.21,-201.11 177.04,-177.42 221.27,-164.26"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="221.78,-166.66 227.83,-162.38 220.43,-161.95 221.78,-166.66"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="142.01" y="-259.65" font-family="Arial" font-size="10.50" fill="#d67272">opportunity to learn</text>
+</g>
+<!-- fa&#45;&gt;re -->
+<g id="D07&#45;E07" class="edge">
+<title>fa&#45;&gt;re</title>
+<g id="a_D07&#45;E07"><a xlink:title="D07&#45;E07 | B/C: competing pathway | changes family conditions">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M295.95,-375.97C296.83,-351.34 298.1,-315.73 298.97,-291.27"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="301.41,-291.55 299.22,-284.47 296.52,-291.38 301.41,-291.55"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="358.31" y="-326.25" font-family="Arial" font-size="10.50" fill="#d67272">changes family conditions</text>
+</g>
+<!-- re&#45;&gt;ex -->
+<g id="D07&#45;E08" class="edge">
+<title>re&#45;&gt;ex</title>
+<g id="a_D07&#45;E08"><a xlink:title="D07&#45;E08 | B: competing inferred pathway | access and support">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M299.95,-242.6C299.95,-226.95 299.95,-204.41 299.95,-185.32"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="302.4,-185.49 299.95,-178.49 297.5,-185.49 302.4,-185.49"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="345.48" y="-206.55" font-family="Arial" font-size="10.50" fill="#d67272">access and support</text>
+</g>
+<!-- ex&#45;&gt;co -->
+<g id="D07&#45;E09" class="edge">
+<title>ex&#45;&gt;co</title>
+<g id="a_D07&#45;E09"><a xlink:title="D07&#45;E09 | C: supported in specified designs | environmental effects possible">
+<path fill="none" stroke="#8fb8aa" stroke-width="1.1" d="M313.22,-118.5C321.24,-102.65 332.22,-82.84 344.15,-66.6 349.33,-59.55 355.52,-52.47 361.59,-46.04"/>
+<polygon fill="#8fb8aa" stroke="#8fb8aa" stroke-width="1.1" points="363.3,-47.79 366.42,-41.06 359.79,-44.38 363.3,-47.79"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="394.05" y="-82.35" font-family="Arial" font-size="10.50" fill="#8fb8aa">environmental effects</text>
+<text xml:space="preserve" text-anchor="middle" x="394.05" y="-69.75" font-family="Arial" font-size="10.50" fill="#8fb8aa">possible</text>
+</g>
+<!-- pg -->
+<g id="D07&#45;node&#45;pg" class="node">
+<title>pg</title>
+<g id="a_D07&#45;node&#45;pg"><a xlink:title="Parental inherited traits">
+<path fill="#302020" stroke="#b64747" d="M446.58,-709.2C446.58,-709.2 321.33,-709.2 321.33,-709.2 315.33,-709.2 309.33,-703.2 309.33,-697.2 309.33,-697.2 309.33,-663.6 309.33,-663.6 309.33,-657.6 315.33,-651.6 321.33,-651.6 321.33,-651.6 446.58,-651.6 446.58,-651.6 452.58,-651.6 458.58,-657.6 458.58,-663.6 458.58,-663.6 458.58,-697.2 458.58,-697.2 458.58,-703.2 452.58,-709.2 446.58,-709.2"/>
+<text xml:space="preserve" text-anchor="middle" x="383.95" y="-684.9" font-family="Arial" font-size="15.00" fill="#f1eade">Parental inherited</text>
+<text xml:space="preserve" text-anchor="middle" x="383.95" y="-666.9" font-family="Arial" font-size="15.00" fill="#f1eade">traits</text>
+</a>
+</g>
+</g>
+<!-- pt -->
+<g id="D07&#45;node&#45;pt" class="node">
+<title>pt</title>
+<g id="a_D07&#45;node&#45;pt"><a xlink:title="Parental behavior / interests">
+<path fill="#272424" stroke="#56534f" d="M359.75,-585C359.75,-585 226.16,-585 226.16,-585 220.16,-585 214.16,-579 214.16,-573 214.16,-573 214.16,-539.4 214.16,-539.4 214.16,-533.4 220.16,-527.4 226.16,-527.4 226.16,-527.4 359.75,-527.4 359.75,-527.4 365.75,-527.4 371.75,-533.4 371.75,-539.4 371.75,-539.4 371.75,-573 371.75,-573 371.75,-579 365.75,-585 359.75,-585"/>
+<text xml:space="preserve" text-anchor="middle" x="292.95" y="-560.7" font-family="Arial" font-size="15.00" fill="#f1eade">Parental behavior /</text>
+<text xml:space="preserve" text-anchor="middle" x="292.95" y="-542.7" font-family="Arial" font-size="15.00" fill="#f1eade">interests</text>
+</a>
+</g>
+</g>
+<!-- cg -->
+<g id="D07&#45;node&#45;cg" class="node">
+<title>cg</title>
+<g id="a_D07&#45;node&#45;cg"><a xlink:title="Child inherited traits">
+<path fill="#272424" stroke="#56534f" d="M546.07,-500.4C546.07,-500.4 405.83,-500.4 405.83,-500.4 399.83,-500.4 393.83,-494.4 393.83,-488.4 393.83,-488.4 393.83,-472.8 393.83,-472.8 393.83,-466.8 399.83,-460.8 405.83,-460.8 405.83,-460.8 546.07,-460.8 546.07,-460.8 552.07,-460.8 558.07,-466.8 558.07,-472.8 558.07,-472.8 558.07,-488.4 558.07,-488.4 558.07,-494.4 552.07,-500.4 546.07,-500.4"/>
+<text xml:space="preserve" text-anchor="middle" x="475.95" y="-476.1" font-family="Arial" font-size="15.00" fill="#f1eade">Child inherited traits</text>
+</a>
+</g>
+</g>
+<!-- hb -->
+<g id="D07&#45;node&#45;hb" class="node">
+<title>hb</title>
+<g id="a_D07&#45;node&#45;hb"><a xlink:title="Home books / activities">
+<path fill="#272424" stroke="#56534f" d="M173.91,-349.2C173.91,-349.2 12,-349.2 12,-349.2 6,-349.2 0,-343.2 0,-337.2 0,-337.2 0,-321.6 0,-321.6 0,-315.6 6,-309.6 12,-309.6 12,-309.6 173.91,-309.6 173.91,-309.6 179.91,-309.6 185.91,-315.6 185.91,-321.6 185.91,-321.6 185.91,-337.2 185.91,-337.2 185.91,-343.2 179.91,-349.2 173.91,-349.2"/>
+<text xml:space="preserve" text-anchor="middle" x="92.95" y="-324.9" font-family="Arial" font-size="15.00" fill="#f1eade">Home books / activities</text>
+</a>
+</g>
+</g>
+<!-- fa -->
+<g id="D07&#45;node&#45;fa" class="node">
+<title>fa</title>
+<g id="a_D07&#45;node&#45;fa"><a xlink:title="Father absence / disruption">
+<path fill="#272424" stroke="#56534f" d="M355.08,-433.8C355.08,-433.8 234.83,-433.8 234.83,-433.8 228.83,-433.8 222.83,-427.8 222.83,-421.8 222.83,-421.8 222.83,-388.2 222.83,-388.2 222.83,-382.2 228.83,-376.2 234.83,-376.2 234.83,-376.2 355.08,-376.2 355.08,-376.2 361.08,-376.2 367.08,-382.2 367.08,-388.2 367.08,-388.2 367.08,-421.8 367.08,-421.8 367.08,-427.8 361.08,-433.8 355.08,-433.8"/>
+<text xml:space="preserve" text-anchor="middle" x="294.95" y="-409.5" font-family="Arial" font-size="15.00" fill="#f1eade">Father absence /</text>
+<text xml:space="preserve" text-anchor="middle" x="294.95" y="-391.5" font-family="Arial" font-size="15.00" fill="#f1eade">disruption</text>
+</a>
+</g>
+</g>
+<!-- re -->
+<g id="D07&#45;node&#45;re" class="node">
+<title>re</title>
+<g id="a_D07&#45;node&#45;re"><a xlink:title="Resources / caregiving">
+<path fill="#272424" stroke="#56534f" d="M380.08,-282.6C380.08,-282.6 219.83,-282.6 219.83,-282.6 213.83,-282.6 207.83,-276.6 207.83,-270.6 207.83,-270.6 207.83,-255 207.83,-255 207.83,-249 213.83,-243 219.83,-243 219.83,-243 380.08,-243 380.08,-243 386.08,-243 392.08,-249 392.08,-255 392.08,-255 392.08,-270.6 392.08,-270.6 392.08,-276.6 386.08,-282.6 380.08,-282.6"/>
+<text xml:space="preserve" text-anchor="middle" x="299.95" y="-258.3" font-family="Arial" font-size="15.00" fill="#f1eade">Resources / caregiving</text>
+</a>
+</g>
+</g>
+<!-- ex -->
+<g id="D07&#45;node&#45;ex" class="node">
+<title>ex</title>
+<g id="a_D07&#45;node&#45;ex"><a xlink:title="Child exposure / learning">
+<path fill="#272424" stroke="#56534f" d="M357.99,-176.4C357.99,-176.4 241.92,-176.4 241.92,-176.4 235.92,-176.4 229.92,-170.4 229.92,-164.4 229.92,-164.4 229.92,-130.8 229.92,-130.8 229.92,-124.8 235.92,-118.8 241.92,-118.8 241.92,-118.8 357.99,-118.8 357.99,-118.8 363.99,-118.8 369.99,-124.8 369.99,-130.8 369.99,-130.8 369.99,-164.4 369.99,-164.4 369.99,-170.4 363.99,-176.4 357.99,-176.4"/>
+<text xml:space="preserve" text-anchor="middle" x="299.95" y="-152.1" font-family="Arial" font-size="15.00" fill="#f1eade">Child exposure /</text>
+<text xml:space="preserve" text-anchor="middle" x="299.95" y="-134.1" font-family="Arial" font-size="15.00" fill="#f1eade">learning</text>
+</a>
+</g>
+</g>
+<!-- co -->
+<g id="D07&#45;node&#45;co" class="node">
+<title>co</title>
+<g id="a_D07&#45;node&#45;co"><a xlink:title="Child outcomes">
+<path fill="#272424" stroke="#56534f" d="M443.48,-39.6C443.48,-39.6 332.42,-39.6 332.42,-39.6 326.42,-39.6 320.42,-33.6 320.42,-27.6 320.42,-27.6 320.42,-12 320.42,-12 320.42,-6 326.42,0 332.42,0 332.42,0 443.48,0 443.48,0 449.48,0 455.48,-6 455.48,-12 455.48,-12 455.48,-27.6 455.48,-27.6 455.48,-33.6 449.48,-39.6 443.48,-39.6"/>
+<text xml:space="preserve" text-anchor="middle" x="387.95" y="-15.3" font-family="Arial" font-size="15.00" fill="#f1eade">Child outcomes</text>
+</a>
+</g>
+</g>
+</g>
+</g><line x1="28" x2="712" y1="886" y2="886" stroke="#383737"/><text x="28" y="909" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="10">9 links · Same nodes and directions as the original · Read the edge ledger for qualifications</text></svg>

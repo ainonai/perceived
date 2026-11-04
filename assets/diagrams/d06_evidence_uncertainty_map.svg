@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="933" height="559" viewBox="0 0 933 559" role="img" aria-labelledby="title desc"><title id="title">Evidence &amp; inference</title><desc id="desc">What one finding does—and does not—establish. Ivory lines denote expressed claims; dashed rose lines denote editorial or competing pathways; sage denotes evaluated support; red denotes contradicted inference. Full status remains in each edge title and the source ledger. This diagram preserves 11 original nodes and 7 original directed links.</desc><rect width="933" height="559" fill="#151313"/><text x="28" y="30" fill="#d67272" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">D06 / WORLDVIEW ATLAS</text><text x="28" y="62" fill="#f1eade" font-family="Georgia,serif" font-size="28">Evidence &amp; inference</text><text x="28" y="88" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="12">What one finding does—and does not—establish</text><line x1="28" x2="905" y1="108" y2="108" stroke="#383737"/><g transform="translate(27,119)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 352.8)">
+<title>D06</title>
+<polygon fill="#151313" stroke="none" points="-21.6,21.6 -21.6,-352.8 857.13,-352.8 857.13,21.6 -21.6,21.6"/>
+<!-- a&#45;&gt;b -->
+<g id="D06&#45;E01" class="edge">
+<title>a&#45;&gt;b</title>
+<g id="a_D06&#45;E01"><a xlink:title="D06&#45;E01 | C: supported association | C: supported association">
+<path fill="none" stroke="#8fb8aa" stroke-width="1.1" d="M87.54,-273.14C87.54,-249.97 87.54,-217.35 87.54,-194.32"/>
+<polygon fill="#8fb8aa" stroke="#8fb8aa" stroke-width="1.1" points="89.99,-194.37 87.54,-187.37 85.09,-194.37 89.99,-194.37"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="145.33" y="-230.85" font-family="Arial" font-size="10.50" fill="#8fb8aa">C: supported association</text>
+</g>
+<!-- c&#45;&gt;d -->
+<g id="D06&#45;E02" class="edge">
+<title>c&#45;&gt;d</title>
+<g id="a_D06&#45;E02"><a xlink:title="D06&#45;E02 | C: supported, conditional | C: substantial conditional support">
+<path fill="none" stroke="#8fb8aa" stroke-width="1.1" d="M282.54,-282.37C282.54,-261.83 282.54,-228.63 282.54,-203.03"/>
+<polygon fill="#8fb8aa" stroke="#8fb8aa" stroke-width="1.1" points="284.99,-203.34 282.54,-196.34 280.09,-203.34 284.99,-203.34"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="326.62" y="-237.15" font-family="Arial" font-size="10.50" fill="#8fb8aa">C: substantial</text>
+<text xml:space="preserve" text-anchor="middle" x="326.62" y="-224.55" font-family="Arial" font-size="10.50" fill="#8fb8aa">conditional support</text>
+</g>
+<!-- d&#45;&gt;e -->
+<g id="D06&#45;E03" class="edge">
+<title>d&#45;&gt;e</title>
+<g id="a_D06&#45;E03"><a xlink:title="D06&#45;E03 | C: contradicted inference | A: leap not warranted">
+<path fill="none" stroke="#e07878" stroke-width="1.1" d="M282.54,-136.34C282.54,-116.03 282.54,-88.46 282.54,-66.46"/>
+<polygon fill="#e07878" stroke="#e07878" stroke-width="1.1" points="284.99,-66.69 282.54,-59.69 280.09,-66.69 284.99,-66.69"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="336.83" y="-94.05" font-family="Arial" font-size="10.50" fill="#e07878">× A: leap not warranted</text>
+</g>
+<!-- f&#45;&gt;g -->
+<g id="D06&#45;E04" class="edge">
+<title>f&#45;&gt;g</title>
+<g id="a_D06&#45;E04"><a xlink:title="D06&#45;E04 | C: conditional, heterogeneous | C: conditional support">
+<path fill="none" stroke="#8fb8aa" stroke-width="1.1" d="M502.54,-273.14C502.54,-249.97 502.54,-217.35 502.54,-194.32"/>
+<polygon fill="#8fb8aa" stroke="#8fb8aa" stroke-width="1.1" points="504.99,-194.37 502.54,-187.37 500.09,-194.37 504.99,-194.37"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="553.32" y="-230.85" font-family="Arial" font-size="10.50" fill="#8fb8aa">C: conditional support</text>
+</g>
+<!-- g&#45;&gt;h -->
+<g id="D06&#45;E05" class="edge">
+<title>g&#45;&gt;h</title>
+<g id="a_D06&#45;E05"><a xlink:title="D06&#45;E05 | B: unverified inferred connection | B: does not establish this outcome">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M502.54,-145.57C502.54,-122.49 502.54,-83.41 502.54,-57.12"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="504.99,-57.4 502.54,-50.4 500.09,-57.4 504.99,-57.4"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="551.28" y="-100.35" font-family="Arial" font-size="10.50" fill="#d67272">B: does not establish</text>
+<text xml:space="preserve" text-anchor="middle" x="551.28" y="-87.75" font-family="Arial" font-size="10.50" fill="#d67272">this outcome</text>
+</g>
+<!-- i&#45;&gt;j -->
+<g id="D06&#45;E06" class="edge">
+<title>i&#45;&gt;j</title>
+<g id="a_D06&#45;E06"><a xlink:title="D06&#45;E06 | C: supported | C: supported in studied trials">
+<path fill="none" stroke="#8fb8aa" stroke-width="1.1" d="M727.54,-282.37C727.54,-261.83 727.54,-228.63 727.54,-203.03"/>
+<polygon fill="#8fb8aa" stroke="#8fb8aa" stroke-width="1.1" points="729.99,-203.34 727.54,-196.34 725.09,-203.34 729.99,-203.34"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="781.54" y="-237.15" font-family="Arial" font-size="10.50" fill="#8fb8aa">C: supported in studied</text>
+<text xml:space="preserve" text-anchor="middle" x="781.54" y="-224.55" font-family="Arial" font-size="10.50" fill="#8fb8aa">trials</text>
+</g>
+<!-- j&#45;&gt;k -->
+<g id="D06&#45;E07" class="edge">
+<title>j&#45;&gt;k</title>
+<g id="a_D06&#45;E07"><a xlink:title="D06&#45;E07 | C: contradicted inference | A: zero&#45;effect leap contradicted">
+<path fill="none" stroke="#e07878" stroke-width="1.1" d="M727.54,-136.34C727.54,-113.17 727.54,-80.55 727.54,-57.52"/>
+<polygon fill="#e07878" stroke="#e07878" stroke-width="1.1" points="729.99,-57.57 727.54,-50.57 725.09,-57.57 729.99,-57.57"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="774.52" y="-100.35" font-family="Arial" font-size="10.50" fill="#e07878">× A: zero&#45;effect leap</text>
+<text xml:space="preserve" text-anchor="middle" x="774.52" y="-87.75" font-family="Arial" font-size="10.50" fill="#e07878">contradicted</text>
+</g>
+<!-- a -->
+<g id="D06&#45;node&#45;a" class="node">
+<title>a</title>
+<g id="a_D06&#45;node&#45;a"><a xlink:title="A: Physical attractiveness">
+<path fill="#302020" stroke="#b64747" d="M137.65,-331.2C137.65,-331.2 37.43,-331.2 37.43,-331.2 31.43,-331.2 25.43,-325.2 25.43,-319.2 25.43,-319.2 25.43,-285.6 25.43,-285.6 25.43,-279.6 31.43,-273.6 37.43,-273.6 37.43,-273.6 137.65,-273.6 137.65,-273.6 143.65,-273.6 149.65,-279.6 149.65,-285.6 149.65,-285.6 149.65,-319.2 149.65,-319.2 149.65,-325.2 143.65,-331.2 137.65,-331.2"/>
+<text xml:space="preserve" text-anchor="middle" x="87.54" y="-306.9" font-family="Arial" font-size="15.00" fill="#f1eade">A: Physical</text>
+<text xml:space="preserve" text-anchor="middle" x="87.54" y="-288.9" font-family="Arial" font-size="15.00" fill="#f1eade">attractiveness</text>
+</a>
+</g>
+</g>
+<!-- b -->
+<g id="D06&#45;node&#45;b" class="node">
+<title>b</title>
+<g id="a_D06&#45;node&#45;b"><a xlink:title="Romantic evaluations">
+<path fill="#272424" stroke="#56534f" d="M163.09,-185.4C163.09,-185.4 12,-185.4 12,-185.4 6,-185.4 0,-179.4 0,-173.4 0,-173.4 0,-157.8 0,-157.8 0,-151.8 6,-145.8 12,-145.8 12,-145.8 163.09,-145.8 163.09,-145.8 169.09,-145.8 175.09,-151.8 175.09,-157.8 175.09,-157.8 175.09,-173.4 175.09,-173.4 175.09,-179.4 169.09,-185.4 163.09,-185.4"/>
+<text xml:space="preserve" text-anchor="middle" x="87.54" y="-161.1" font-family="Arial" font-size="15.00" fill="#f1eade">Romantic evaluations</text>
+</a>
+</g>
+</g>
+<!-- c -->
+<g id="D06&#45;node&#45;c" class="node">
+<title>c</title>
+<g id="a_D06&#45;node&#45;c"><a xlink:title="A: Genetic differences">
+<path fill="#272424" stroke="#56534f" d="M360.17,-322.2C360.17,-322.2 204.92,-322.2 204.92,-322.2 198.92,-322.2 192.92,-316.2 192.92,-310.2 192.92,-310.2 192.92,-294.6 192.92,-294.6 192.92,-288.6 198.92,-282.6 204.92,-282.6 204.92,-282.6 360.17,-282.6 360.17,-282.6 366.17,-282.6 372.17,-288.6 372.17,-294.6 372.17,-294.6 372.17,-310.2 372.17,-310.2 372.17,-316.2 366.17,-322.2 360.17,-322.2"/>
+<text xml:space="preserve" text-anchor="middle" x="282.54" y="-297.9" font-family="Arial" font-size="15.00" fill="#f1eade">A: Genetic differences</text>
+</a>
+</g>
+</g>
+<!-- d -->
+<g id="D06&#45;node&#45;d" class="node">
+<title>d</title>
+<g id="a_D06&#45;node&#45;d"><a xlink:title="Population trait variance">
+<path fill="#272424" stroke="#56534f" d="M336.42,-194.4C336.42,-194.4 228.67,-194.4 228.67,-194.4 222.67,-194.4 216.67,-188.4 216.67,-182.4 216.67,-182.4 216.67,-148.8 216.67,-148.8 216.67,-142.8 222.67,-136.8 228.67,-136.8 228.67,-136.8 336.42,-136.8 336.42,-136.8 342.42,-136.8 348.42,-142.8 348.42,-148.8 348.42,-148.8 348.42,-182.4 348.42,-182.4 348.42,-188.4 342.42,-194.4 336.42,-194.4"/>
+<text xml:space="preserve" text-anchor="middle" x="282.54" y="-170.1" font-family="Arial" font-size="15.00" fill="#f1eade">Population trait</text>
+<text xml:space="preserve" text-anchor="middle" x="282.54" y="-152.1" font-family="Arial" font-size="15.00" fill="#f1eade">variance</text>
+</a>
+</g>
+</g>
+<!-- e -->
+<g id="D06&#45;node&#45;e" class="node">
+<title>e</title>
+<g id="a_D06&#45;node&#45;e"><a xlink:title="Immutable individual destiny">
+<path fill="#272424" stroke="#56534f" d="M354.75,-57.6C354.75,-57.6 210.34,-57.6 210.34,-57.6 204.34,-57.6 198.34,-51.6 198.34,-45.6 198.34,-45.6 198.34,-12 198.34,-12 198.34,-6 204.34,0 210.34,0 210.34,0 354.75,0 354.75,0 360.75,0 366.75,-6 366.75,-12 366.75,-12 366.75,-45.6 366.75,-45.6 366.75,-51.6 360.75,-57.6 354.75,-57.6"/>
+<text xml:space="preserve" text-anchor="middle" x="282.54" y="-33.3" font-family="Arial" font-size="15.00" fill="#f1eade">Immutable individual</text>
+<text xml:space="preserve" text-anchor="middle" x="282.54" y="-15.3" font-family="Arial" font-size="15.00" fill="#f1eade">destiny</text>
+</a>
+</g>
+</g>
+<!-- f -->
+<g id="D06&#45;node&#45;f" class="node">
+<title>f</title>
+<g id="a_D06&#45;node&#45;f"><a xlink:title="A: Rival / preselection cues">
+<path fill="#272424" stroke="#56534f" d="M578.92,-331.2C578.92,-331.2 426.17,-331.2 426.17,-331.2 420.17,-331.2 414.17,-325.2 414.17,-319.2 414.17,-319.2 414.17,-285.6 414.17,-285.6 414.17,-279.6 420.17,-273.6 426.17,-273.6 426.17,-273.6 578.92,-273.6 578.92,-273.6 584.92,-273.6 590.92,-279.6 590.92,-285.6 590.92,-285.6 590.92,-319.2 590.92,-319.2 590.92,-325.2 584.92,-331.2 578.92,-331.2"/>
+<text xml:space="preserve" text-anchor="middle" x="502.54" y="-306.9" font-family="Arial" font-size="15.00" fill="#f1eade">A: Rival / preselection</text>
+<text xml:space="preserve" text-anchor="middle" x="502.54" y="-288.9" font-family="Arial" font-size="15.00" fill="#f1eade">cues</text>
+</a>
+</g>
+</g>
+<!-- g -->
+<g id="D06&#45;node&#45;g" class="node">
+<title>g</title>
+<g id="a_D06&#45;node&#45;g"><a xlink:title="Desirability ratings">
+<path fill="#272424" stroke="#56534f" d="M567.65,-185.4C567.65,-185.4 437.43,-185.4 437.43,-185.4 431.43,-185.4 425.43,-179.4 425.43,-173.4 425.43,-173.4 425.43,-157.8 425.43,-157.8 425.43,-151.8 431.43,-145.8 437.43,-145.8 437.43,-145.8 567.65,-145.8 567.65,-145.8 573.65,-145.8 579.65,-151.8 579.65,-157.8 579.65,-157.8 579.65,-173.4 579.65,-173.4 579.65,-179.4 573.65,-185.4 567.65,-185.4"/>
+<text xml:space="preserve" text-anchor="middle" x="502.54" y="-161.1" font-family="Arial" font-size="15.00" fill="#f1eade">Desirability ratings</text>
+</a>
+</g>
+</g>
+<!-- h -->
+<g id="D06&#45;node&#45;h" class="node">
+<title>h</title>
+<g id="a_D06&#45;node&#45;h"><a xlink:title="Healthy long&#45;term bond">
+<path fill="#272424" stroke="#56534f" d="M584.34,-48.6C584.34,-48.6 420.75,-48.6 420.75,-48.6 414.75,-48.6 408.75,-42.6 408.75,-36.6 408.75,-36.6 408.75,-21 408.75,-21 408.75,-15 414.75,-9 420.75,-9 420.75,-9 584.34,-9 584.34,-9 590.34,-9 596.34,-15 596.34,-21 596.34,-21 596.34,-36.6 596.34,-36.6 596.34,-42.6 590.34,-48.6 584.34,-48.6"/>
+<text xml:space="preserve" text-anchor="middle" x="502.54" y="-24.3" font-family="Arial" font-size="15.00" fill="#f1eade">Healthy long&#45;term bond</text>
+</a>
+</g>
+</g>
+<!-- i -->
+<g id="D06&#45;node&#45;i" class="node">
+<title>i</title>
+<g id="a_D06&#45;node&#45;i"><a xlink:title="Publication bias">
+<path fill="#272424" stroke="#56534f" d="M783.92,-322.2C783.92,-322.2 671.17,-322.2 671.17,-322.2 665.17,-322.2 659.17,-316.2 659.17,-310.2 659.17,-310.2 659.17,-294.6 659.17,-294.6 659.17,-288.6 665.17,-282.6 671.17,-282.6 671.17,-282.6 783.92,-282.6 783.92,-282.6 789.92,-282.6 795.92,-288.6 795.92,-294.6 795.92,-294.6 795.92,-310.2 795.92,-310.2 795.92,-316.2 789.92,-322.2 783.92,-322.2"/>
+<text xml:space="preserve" text-anchor="middle" x="727.54" y="-297.9" font-family="Arial" font-size="15.00" fill="#f1eade">Publication bias</text>
+</a>
+</g>
+</g>
+<!-- j -->
+<g id="D06&#45;node&#45;j" class="node">
+<title>j</title>
+<g id="a_D06&#45;node&#45;j"><a xlink:title="Inflated published benefit">
+<path fill="#272424" stroke="#56534f" d="M790.18,-194.4C790.18,-194.4 664.91,-194.4 664.91,-194.4 658.91,-194.4 652.91,-188.4 652.91,-182.4 652.91,-182.4 652.91,-148.8 652.91,-148.8 652.91,-142.8 658.91,-136.8 664.91,-136.8 664.91,-136.8 790.18,-136.8 790.18,-136.8 796.18,-136.8 802.18,-142.8 802.18,-148.8 802.18,-148.8 802.18,-182.4 802.18,-182.4 802.18,-188.4 796.18,-194.4 790.18,-194.4"/>
+<text xml:space="preserve" text-anchor="middle" x="727.54" y="-170.1" font-family="Arial" font-size="15.00" fill="#f1eade">Inflated published</text>
+<text xml:space="preserve" text-anchor="middle" x="727.54" y="-152.1" font-family="Arial" font-size="15.00" fill="#f1eade">benefit</text>
+</a>
+</g>
+</g>
+<!-- k -->
+<g id="D06&#45;node&#45;k" class="node">
+<title>k</title>
+<g id="a_D06&#45;node&#45;k"><a xlink:title="No actual drug benefit">
+<path fill="#272424" stroke="#56534f" d="M804.77,-48.6C804.77,-48.6 650.32,-48.6 650.32,-48.6 644.32,-48.6 638.32,-42.6 638.32,-36.6 638.32,-36.6 638.32,-21 638.32,-21 638.32,-15 644.32,-9 650.32,-9 650.32,-9 804.77,-9 804.77,-9 810.77,-9 816.77,-15 816.77,-21 816.77,-21 816.77,-36.6 816.77,-36.6 816.77,-42.6 810.77,-48.6 804.77,-48.6"/>
+<text xml:space="preserve" text-anchor="middle" x="727.54" y="-24.3" font-family="Arial" font-size="15.00" fill="#f1eade">No actual drug benefit</text>
+</a>
+</g>
+</g>
+</g>
+</g><line x1="28" x2="905" y1="508" y2="508" stroke="#383737"/><text x="28" y="531" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="10">7 links · Same nodes and directions as the original · Read the edge ledger for qualifications</text></svg>
