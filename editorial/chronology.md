@@ -1,0 +1,19 @@
+# Chronology, contradictions, and development
+
+[Atlas entrance](../START_HERE.md) · [Full source index](../REFERENCE/Glossary_Questions_and_Source_Index.md#source-coverage-index-all-202-videos)
+
+The dates follow the supplied video catalog. They organize the publication history of the topics and the source videos associated with each period.
+
+## 1. Development by period
+
+| Publication period | Main emphasis | Source videos |
+|---|---|---|
+| May–June 2022 | Perceptual bias, looks, replication, cooperation, lie detection, free will | [V001 · 2022-05-30 · 00:00](https://www.youtube.com/watch?v=0DJPyH4JouA&t=0s) [V003 · 2022-06-05 · 00:00](https://www.youtube.com/watch?v=E7rekEt5whE&t=0s) [V004 · 2022-06-08 · 12:42](https://www.youtube.com/watch?v=dovqFBFGOY4&t=762s) [V007 · 2022-06-22 · 06:40](https://www.youtube.com/watch?v=BI0kEbHWHck&t=400s) |
+| July–September 2022 | ESG, genetic technology, longevity, time, cosmic origin/future, behavior genetics | [V008 · 2022-07-05 · 00:00](https://www.youtube.com/watch?v=A9JF2kBiKlU&t=0s) [V009 · 2022-07-11 · 14:26](https://www.youtube.com/watch?v=YfjiIxNXzgM&t=866s) [V017 · 2022-08-29 · 00:00](https://www.youtube.com/watch?v=bPrDpVOu5Y8&t=0s) [V020 · 2022-09-17 · 00:00](https://www.youtube.com/watch?v=Oz7CwcUmzDM&t=0s) |
+| Late 2022–2023 | Mimetic desire, selection, inequality, social institutions, black-pill psychology, power | [V022 · 2022-10-06 · 00:00](https://www.youtube.com/watch?v=UdwcKO_hzto&t=0s) [V025 · 2022-12-01 · 00:00](https://www.youtube.com/watch?v=8X27qfh9D4A&t=0s) [V031 · 2023-06-20 · 00:00](https://www.youtube.com/watch?v=vfu_dgODbCc&t=0s) [V048 · 2023-09-11 · 00:00](https://www.youtube.com/watch?v=WdwwFVNsmLM&t=0s) |
+| 2024–2025 | Markets, fighting, eugenics versus mate choice, public controversy, preselection, cosmetic intervention | [V067 · 2024-02-22 · 00:01](https://www.youtube.com/watch?v=Z4bJITINMLw&t=1s) [V070 · 2024-07-14 · 00:00](https://www.youtube.com/watch?v=d-ozlIxnJK8&t=0s) [V071 · 2024-08-19 · 00:00](https://www.youtube.com/watch?v=6LlWaKIB1_Y&t=0s) [V074 · 2025-05-08 · 00:00](https://www.youtube.com/watch?v=Vol8SIdq9mE&t=0s) [V077 · 2025-11-27 · 00:00](https://www.youtube.com/watch?v=yEPQh-b79wU&t=0s) |
+| April–May 2026 | Intensive dating theory and personal stories; SMV discrepancy; attachment; alpha/beta balance; congruence | [V083 · 2026-04-10 · 00:00](https://www.youtube.com/watch?v=G2YXmz68BHM&t=0s) [V104 · 2026-05-07 · 00:00](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=0s) [V127 · 2026-05-19 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V136 · 2026-05-27 · 30:55](https://www.youtube.com/watch?v=n8qUXvXAKfI&t=1855s) |
+| June–July 2026 | Heritability snowballing, environmental fit, criticism of studies and medication, life purpose, relationship retellings | [V147 · 2026-06-01 · 00:00](https://www.youtube.com/watch?v=eZHlruluYDI&t=0s) [V149 · 2026-06-03 · 00:01](https://www.youtube.com/watch?v=8kEcZI7Ph6c&t=1s) [V169 · 2026-07-02 · 00:01](https://www.youtube.com/watch?v=FPYBq8qbB4I&t=1s) [V179 · 2026-07-15 · 00:00](https://www.youtube.com/watch?v=uZZHNSxx5qw&t=0s) [V182 · 2026-07-21 · 00:00](https://www.youtube.com/watch?v=u7lsEOFUwQA&t=0s) |
+| August–October 2026 | AI incentives and investing; indirect wealth signaling; purpose, humility, diminishing returns; environment/genetics | [V187 · 2026-08-04 · 00:00](https://www.youtube.com/watch?v=sEzWT25cB4w&t=0s) [V190 · 2026-08-23 · 00:00](https://www.youtube.com/watch?v=Jq6SD2UkJFs&t=0s) [V191 · 2026-09-08 · 00:00](https://www.youtube.com/watch?v=CH21iH14Ers&t=0s) [V194 · 2026-09-14 · 00:00](https://www.youtube.com/watch?v=pNx6vJqGkL4&t=0s) [V196 · 2026-10-03 · 00:00](https://www.youtube.com/watch?v=N-fhDbxBEBk&t=0s) [V199 · 2026-10-21 · 00:08](https://www.youtube.com/watch?v=VKc6PQpxjAU&t=8s) [V202 · 2026-10-25 · 24:28](https://www.youtube.com/watch?v=QwRAAQC4fSs&t=1468s) |
+
+## 2. Competing claims and how to read them

@@ -1,0 +1,245 @@
+[
+  {
+    "number": 1,
+    "title": "Appearance and attraction",
+    "method": "Meta-analyses",
+    "category": "research",
+    "topic": "Attraction",
+    "findings": "Langlois et al. found agreement in attractiveness judgments and favorable judgments and treatment of attractive people across multiple meta-analyses [R01]. Eastwick et al. synthesized 97 studies: attractiveness correlated about .40 with romantic evaluations for both sexes, and earning prospects about .10 [R02].",
+    "scope": "These outcomes concern ratings, treatment, and romantic evaluations in the studied samples. The correlation does not provide a percentage allocation of every cause of attraction. Relationship stage, prior acquaintance, and the variables measured affect the comparison."
+  },
+  {
+    "number": 2,
+    "title": "Stated preferences and observed choices",
+    "method": "Surveys, dating and couples",
+    "category": "research",
+    "topic": "Attraction",
+    "findings": "Walter et al. studied 14,399 participants in 45 countries and found average sex differences in stated partner preferences [R03]. Eastwick and Finkel found that stated differences did not correspond to the same sex differences in live romantic interest [R04]. Hunt et al., studying 167 couples, found stronger attractiveness matching among couples with shorter prior acquaintance [R05].",
+    "scope": "Survey ideals, initial interest, and established partnerships are different outcomes. The acquaintance result is observational, so selection into friendship and other differences remain relevant to its interpretation."
+  },
+  {
+    "number": 3,
+    "title": "Hypergamy and dating networks",
+    "method": "Messaging and demographic data",
+    "category": "research",
+    "topic": "Attraction",
+    "findings": "Bruch and Newman found a desirability hierarchy in one online service across four US cities. Both sexes contacted people about 25% higher on the study’s network measure, and reply probabilities declined with a larger gap [R06]. Esteve et al. documented declining educational hypergamy across 56 countries [R07]. Hopcroft examined associations between income, marriage, and childbearing [R08].",
+    "scope": "Network desirability, education, income, physical appearance, and inherited traits are different measures. Messaging, partnership, and reproduction also require different denominators. The platform and demographic samples specify where each result applies."
+  },
+  {
+    "number": 4,
+    "title": "Preselection and mate-choice copying",
+    "method": "Meta-analysis of social cues",
+    "category": "research",
+    "topic": "Attraction",
+    "findings": "Gouda-Vossos et al. found support for some mate-choice-copying effects. Women rated male targets more favorably beside a woman in cue-addition designs, while attractive companions influenced ratings by both sexes in some cue-augmentation designs. Effect estimates varied and the review identified moderate publication bias [R09].",
+    "scope": "These designs measure responses to social information. Ratings of a prospective partner, continued pursuit, fidelity, trust, and relationship satisfaction are separate outcomes. A finding about one does not directly estimate the effect of planting rival cues in an existing relationship."
+  },
+  {
+    "number": 5,
+    "title": "Commitment, responsiveness and desire",
+    "method": "Longitudinal and interaction studies",
+    "category": "research",
+    "topic": "Relationships",
+    "findings": "Joel et al. analyzed 43 longitudinal datasets involving 11,196 couples. Perceived commitment, appreciation, sexual satisfaction, perceived partner satisfaction, and conflict were leading predictors of reported relationship quality [R10]. Le and Agnew linked satisfaction, alternatives, and investment with commitment and commitment with breakup [R11]. Birnbaum et al. found associations between responsiveness and desire across experimental, interaction, and diary methods [R12].",
+    "scope": "Commitment, responsiveness, dependence, desire, and relationship quality are distinct variables. Existing associations describe particular measures and settings; changes in relationship quality were difficult to predict. Different combinations of care and perceived alternatives require their own comparisons."
+  },
+  {
+    "number": 6,
+    "title": "Jealousy, attachment and fidelity",
+    "method": "Observational studies and meta-analysis",
+    "category": "research",
+    "topic": "Relationships",
+    "findings": "A study of 892 young adults in the Toledo Adolescent Relationships Study reported associations between jealousy induction, troubled relationship dynamics, and intimate partner violence [R13]. Ghiasi et al. pooled 17 studies with 13,666 participants and found an association around r=.18 between attachment insecurity and infidelity, with variation across subtypes and studies [R14].",
+    "scope": "The jealousy study examines associations with conflict and violence; the meta-analysis examines attachment insecurity and infidelity. Neither directly estimates whether strategically creating rival cues improves fidelity. Prior conflict and selection can affect the associations. Renewed contact, desire, trust, and fidelity are different outcomes to measure."
+  },
+  {
+    "number": 7,
+    "title": "Dual mating and extra-pair paternity",
+    "method": "Meta-analyses and longitudinal data",
+    "category": "research",
+    "topic": "Attraction",
+    "findings": "Gildersleeve, Haselton, and Fales reported cycle-related shifts in preferences for hypothesized genetic-quality cues [R15]. Wood et al.’s meta-analysis reported largely nonsupportive results and methodological patterns [R16]. Jones et al., in a longitudinal sample of 584, found no compelling hormone-linked changes in facial-masculinity preferences [R17]. Larmuseau et al. summarized low historical extra-pair paternity estimates in the populations studied [R18].",
+    "scope": "The reviews differ in inclusion rules, measurement, and analysis. Preference shifts, extra-pair desire, sexual behavior, and paternity describe different stages. A dual-mating explanation needs evidence connecting the relevant stages in the population being considered."
+  },
+  {
+    "number": 8,
+    "title": "Approach signals and appearance interventions",
+    "method": "Specific interventions not directly reviewed",
+    "category": "unreviewed",
+    "topic": "Attraction",
+    "findings": "The appearance and partner-choice studies above examine attractiveness, evaluations, context, and acquaintance. The supplied targeted review did not identify direct tests of the absolute approach rule, precise body-fat target, Coke-can signal, meeting-the-friends penalty, or disclosure effect after an appearance intervention.",
+    "scope": "These propositions can be tested by defining the signal and outcome in advance. A successful encounter, a rating change, and a lasting relationship would provide different kinds of evidence. An unreviewed proposition remains an open question rather than a result supplied by adjacent studies."
+  },
+  {
+    "number": 9,
+    "title": "Heritability and individual prediction",
+    "method": "Twin-study synthesis",
+    "category": "research",
+    "topic": "Biology",
+    "findings": "Polderman et al. synthesized 2,748 publications covering 17,804 traits. The mean reported heritability across traits was 49%, with substantial differences between domains; many twin correlations were consistent with additive genetic resemblance [R19].",
+    "scope": "Heritability describes variation in a specified population under specified conditions. Translating it into a prediction for one person requires additional information. Estimating existing variation and estimating the effect of an intervention are different tasks."
+  },
+  {
+    "number": 10,
+    "title": "Education, nutrition and development",
+    "method": "Quasi-experiments and developmental data",
+    "category": "research",
+    "topic": "Biology",
+    "findings": "Ritchie and Tucker-Drob synthesized 42 datasets involving more than 600,000 participants, estimating roughly 1–5 additional IQ points per year of education depending on design [R20]. NCD-RisC documented substantial changes in height across populations over a century [R21]. EPA’s summary reports cognitive and behavioral effects associated with childhood lead exposure [R22].",
+    "scope": "The designs examine changes in education, developmental conditions, and exposure. Genetic variation and environmental effects can be investigated together. The magnitude and interpretation of a result depend on the intervention, outcome, comparison, and population."
+  },
+  {
+    "number": 11,
+    "title": "Gene–environment correlation and family settings",
+    "method": "Causal models and family designs",
+    "category": "research",
+    "topic": "Biology",
+    "findings": "Scarr and McCartney distinguish passive, evocative, and active genotype–environment correlations [R23]. McLanahan, Tach, and Schneider reviewed father-absence studies using more rigorous designs and found adverse effects that were often smaller than cross-sectional estimates, with relatively consistent findings for graduation, social-emotional adjustment, and adult mental health [R24].",
+    "scope": "A family characteristic can be associated with inherited dispositions and also have environmental consequences. Comparisons address different parts of that causal structure. Establishing a particular pathway requires measures and designs capable of distinguishing it from the others."
+  },
+  {
+    "number": 12,
+    "title": "Populations, ancestry and environment",
+    "method": "Measurement and inference frameworks",
+    "category": "methods",
+    "topic": "Biology",
+    "findings": "NHGRI distinguishes race, ethnicity, and genetic ancestry [R25]. The National Academies’ 2023 report addresses the use of population descriptors in genetics and the evaluation of environmental context [R26].",
+    "scope": "A within-population heritability estimate and an explanation of differences between population averages answer different questions. An analysis of a between-population difference needs measures of the proposed inherited causes and relevant environmental alternatives."
+  },
+  {
+    "number": 13,
+    "title": "Ancestry and reproductive distributions",
+    "method": "Original study not identified",
+    "category": "unreviewed",
+    "topic": "Biology",
+    "findings": "The unnamed German ancestor study invoked in the early videos was not independently traced in the supplied review. The 90% and 40–50% figures therefore remain claims awaiting an identified source, population, and denominator.",
+    "scope": "Genetic ancestor counts, the fraction of people who reproduced, and present-day relationship prospects are different measures. Paternity studies and animal mating distributions answer further questions and cannot supply the missing denominator."
+  },
+  {
+    "number": 14,
+    "title": "Embryo selection and genetic prediction",
+    "method": "Simulations and family data",
+    "category": "research",
+    "topic": "Biology",
+    "findings": "Karavani et al. used theory, simulations, and adult-family data to evaluate polygenic embryo screening. Under their 2019 scores and embryo-pool assumptions, average predicted gains were modest and uncertain; the highest-scoring child was often not the tallest [R27].",
+    "scope": "The result concerns specific predictors, traits, family comparisons, and available embryo numbers. Forecasting a later technology requires a stated improvement in those inputs and separate validation of its outcomes."
+  },
+  {
+    "number": 15,
+    "title": "Neurodevelopment and environmental fit",
+    "method": "Developmental and clinical summaries",
+    "category": "research",
+    "topic": "Health",
+    "findings": "NIH/NIMH summaries of ADHD and autism describe developmental patterns, functional difficulties, strengths, and support [R28–R29].",
+    "scope": "A trait’s usefulness in one setting and the presence of impairment in another can be considered together. Assessing environmental fit requires information about the person, task demands, severity, and available support. A social label or a public self-description is different from a clinical assessment."
+  },
+  {
+    "number": 16,
+    "title": "Antidepressant trials and publication bias",
+    "method": "Regulatory records and trial syntheses",
+    "category": "research",
+    "topic": "Health",
+    "findings": "Turner et al. compared FDA reviews and publications covering 74 studies of 12 agents. The published record appeared 94% positive versus 51% in FDA assessments; publication-based effect sizes were inflated by 32% overall, with means of .41 in publications and .31 in FDA records [R30]. Cipriani et al. synthesized 522 trials involving 116,477 adults and reported efficacy advantages over placebo in acute major depression, with varying tolerability and limitations [R31]. Moncrieff et al. found no consistent support for a simple reduced-serotonin explanation [R32].",
+    "scope": "Publication bias, average trial efficacy, a proposed biological mechanism, and benefit for a particular person are separate questions. The acute-trial results do not settle every long-term outcome, severity subgroup, withdrawal issue, or treatment comparison."
+  },
+  {
+    "number": 17,
+    "title": "Approval standards, family designs and alternatives",
+    "method": "Regulatory guidance and comparative designs",
+    "category": "research",
+    "topic": "Health",
+    "findings": "The FDA materials summarized in the supplied review describe adequate, well-controlled investigations and substantial evidence; the June 2026 draft discusses one investigation plus confirmatory evidence in specified circumstances [R33–R34]. Sujan et al., studying 1.58 million offspring, found that autism and ADHD associations were not retained in sibling comparisons, while a preterm-birth association remained [R35]. The review also includes evidence concerning exercise and non-drug approaches [R36–R37].",
+    "scope": "Approval standards, an individual product’s dossier, familial confounding, and comparative treatment effects require different records and designs. The supplied review did not audit every historical approval dossier. A finding about one exposure or intervention does not estimate every alternative or outcome."
+  },
+  {
+    "number": 18,
+    "title": "Repeated games and cooperation",
+    "method": "Evolutionary game models",
+    "category": "theory",
+    "topic": "Reasoning",
+    "findings": "Axelrod and Hamilton examined conditions under which repeated interaction supports cooperation [R38]. Nowak and Sigmund described win-stay, lose-shift outperforming tit-for-tat in a specified model [R39].",
+    "scope": "Payoffs, repetition, error, memory, and population structure affect the comparison. Applying a strategy outside its model requires specifying which of those conditions the real interaction shares."
+  },
+  {
+    "number": 19,
+    "title": "Lie detection and motive inference",
+    "method": "Classification performance",
+    "category": "methods",
+    "topic": "Reasoning",
+    "findings": "Bond and DePaulo synthesized 206 documents involving 24,483 judges and estimated average unaided lie/truth classification around 54%, with differences between detecting lies and accepting truths [R40].",
+    "scope": "Classification accuracy, a structured interview, and inference from a particular message or social-media post are different questions. Evaluating a proposed cue requires a known comparison outcome and a record of both correct and incorrect interpretations."
+  },
+  {
+    "number": 20,
+    "title": "Replication and statistical significance",
+    "method": "Replication and statistical methods",
+    "category": "methods",
+    "topic": "Reasoning",
+    "findings": "The Open Science Collaboration repeated 100 studies from three psychology journals. Significant results occurred in 97% of the original studies and 36% of the replications, with smaller average effects; other success criteria produced different figures [R41]. The ASA statement explains p-values in relation to an assumed statistical model [R42].",
+    "scope": "The replication project samples particular journals and methods. A p-value, effect magnitude, replication outcome, and probability that an explanation is correct are different quantities. Definitions, controls, and disconfirming outcomes can be specified for any proposed explanation."
+  },
+  {
+    "number": 21,
+    "title": "Determinism and agency",
+    "method": "Physical experiments and philosophy",
+    "category": "theory",
+    "topic": "Philosophy",
+    "findings": "Bell experiments observed violations of inequalities constraining local hidden-variable accounts under their assumptions [R43].",
+    "scope": "These experiments constrain physical accounts under specified assumptions. Questions about uncaused choice, reasons-responsive agency, and moral responsibility require additional philosophical arguments. The causal effects of information and practice can be discussed separately from ultimate authorship."
+  },
+  {
+    "number": 22,
+    "title": "Relativity and thermal time",
+    "method": "Relativity and theoretical physics",
+    "category": "theory",
+    "topic": "Physics",
+    "findings": "Einstein Online describes frame-dependent simultaneity and distant synchronization [R44–R45]. Connes and Rovelli’s 1994 paper proposes a relationship between thermodynamic state and time flow in generally covariant quantum theory [R46].",
+    "scope": "Signal propagation, coordinate time, simultaneity, thermodynamic irreversibility, and the thermal-time proposal refer to different concepts. The Earth–Mars illustration needs propagation time in both directions. A theoretical proposal and an experimentally measured effect have different evidential roles."
+  },
+  {
+    "number": 23,
+    "title": "Cosmic history and recurrence",
+    "method": "Observations and cosmological models",
+    "category": "theory",
+    "topic": "Physics",
+    "findings": "NASA’s overview describes a hot early universe, expansion, nucleosynthesis, and the cosmic microwave background [R47]. The cited Super-Kamiokande search found no significant proton-decay signal in its tested channels [R48]. Recurrence theorems specify mathematical conditions [R49], while Boltzmann-brain arguments examine observer assumptions in cosmological models [R50].",
+    "scope": "Early-universe evidence, long-term extrapolation, mathematical recurrence, and continuity of personal identity are distinct questions. A recurrence argument needs the dynamics and conditions of the relevant theorem; its implications for an experiencing subject require a further account of identity."
+  },
+  {
+    "number": 24,
+    "title": "Preferences and personalized media",
+    "method": "Platform exposure data",
+    "category": "research",
+    "topic": "Society",
+    "findings": "Bakshy, Messing, and Adamic studied Facebook news exposure and found roles for network composition, algorithmic ranking, and users’ click choices. Individual choice strongly limited cross-cutting exposure in their data [R51].",
+    "scope": "The result concerns a particular platform and period. A user’s selection and a platform’s influence can both be investigated. Genetic mediation, the roughly 48-hour reset-feed estimate, and differential reproduction require additional measures beyond content choice."
+  },
+  {
+    "number": 25,
+    "title": "Dollar-cost averaging and timing",
+    "method": "Historical and simulation comparisons",
+    "category": "research",
+    "topic": "Markets",
+    "findings": "Vanguard’s 2023 comparisons found that immediately investing an available lump sum outperformed common staged-averaging strategies roughly two-thirds of the time in the historical and simulation settings examined [R52].",
+    "scope": "Investing an available lump sum and investing wages as they arrive are different comparisons. Expected return, downside risk, available information, transaction costs, and the ability to stay invested define the outcome being evaluated."
+  },
+  {
+    "number": 26,
+    "title": "Parenthood and fulfillment",
+    "method": "Review of parental well-being",
+    "category": "research",
+    "topic": "Purpose",
+    "findings": "Nelson, Kushlev, and Lyubomirsky reviewed parental well-being and described roles for meaning, need satisfaction, stress, finances, sleep, and relationship conditions [R53].",
+    "scope": "Voluntary childlessness, involuntary infertility, parenthood, and prior preferences identify different comparisons. Well-being measures and philosophical accounts of purpose address different aspects of the question."
+  },
+  {
+    "number": 27,
+    "title": "Implicit associations and behavior",
+    "method": "Meta-analyses of implicit tasks",
+    "category": "research",
+    "topic": "Reasoning",
+    "findings": "Greenwald et al. reported predictive associations across varied outcomes in an IAT meta-analysis [R54]. Oswald et al. found weaker prediction of racial and ethnic discrimination and questioned stronger interpretations [R55].",
+    "scope": "Task reliability, the construct measured, predictive performance, and the origin of an association are separate questions. The reviews differ in scope and inclusion decisions. A group-level association does not directly identify one person’s private motive."
+  }
+]
