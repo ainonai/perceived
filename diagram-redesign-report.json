@@ -1,0 +1,159 @@
+{
+  "totalEdges": 77,
+  "diagrams": [
+    {
+      "id": "D01",
+      "nodes": 11,
+      "edges": 13,
+      "nodeLabelsPreserved": true,
+      "directionsPreserved": true,
+      "edgeIDs": [
+        "D01-E01",
+        "D01-E02",
+        "D01-E03",
+        "D01-E04",
+        "D01-E05",
+        "D01-E06",
+        "D01-E07",
+        "D01-E08",
+        "D01-E09",
+        "D01-E10",
+        "D01-E11",
+        "D01-E12",
+        "D01-E13"
+      ],
+      "width": 789,
+      "height": 972
+    },
+    {
+      "id": "D02",
+      "nodes": 11,
+      "edges": 13,
+      "nodeLabelsPreserved": true,
+      "directionsPreserved": true,
+      "edgeIDs": [
+        "D02-E01",
+        "D02-E02",
+        "D02-E03",
+        "D02-E04",
+        "D02-E05",
+        "D02-E06",
+        "D02-E07",
+        "D02-E08",
+        "D02-E09",
+        "D02-E10",
+        "D02-E11",
+        "D02-E12",
+        "D02-E13"
+      ],
+      "width": 740,
+      "height": 1132
+    },
+    {
+      "id": "D03",
+      "nodes": 10,
+      "edges": 10,
+      "nodeLabelsPreserved": true,
+      "directionsPreserved": true,
+      "edgeIDs": [
+        "D03-E01",
+        "D03-E02",
+        "D03-E03",
+        "D03-E04",
+        "D03-E05",
+        "D03-E06",
+        "D03-E07",
+        "D03-E08",
+        "D03-E09",
+        "D03-E10"
+      ],
+      "width": 848,
+      "height": 759
+    },
+    {
+      "id": "D04",
+      "nodes": 11,
+      "edges": 14,
+      "nodeLabelsPreserved": true,
+      "directionsPreserved": true,
+      "edgeIDs": [
+        "D04-E01",
+        "D04-E02",
+        "D04-E03",
+        "D04-E04",
+        "D04-E05",
+        "D04-E06",
+        "D04-E07",
+        "D04-E08",
+        "D04-E09",
+        "D04-E10",
+        "D04-E11",
+        "D04-E12",
+        "D04-E13",
+        "D04-E14"
+      ],
+      "width": 763,
+      "height": 990
+    },
+    {
+      "id": "D05",
+      "nodes": 12,
+      "edges": 11,
+      "nodeLabelsPreserved": true,
+      "directionsPreserved": true,
+      "edgeIDs": [
+        "D05-E01",
+        "D05-E02",
+        "D05-E03",
+        "D05-E04",
+        "D05-E05",
+        "D05-E06",
+        "D05-E07",
+        "D05-E08",
+        "D05-E09",
+        "D05-E10",
+        "D05-E11"
+      ],
+      "width": 926,
+      "height": 777
+    },
+    {
+      "id": "D06",
+      "nodes": 11,
+      "edges": 7,
+      "nodeLabelsPreserved": true,
+      "directionsPreserved": true,
+      "edgeIDs": [
+        "D06-E01",
+        "D06-E02",
+        "D06-E03",
+        "D06-E04",
+        "D06-E05",
+        "D06-E06",
+        "D06-E07"
+      ],
+      "width": 933,
+      "height": 559
+    },
+    {
+      "id": "D07",
+      "nodes": 8,
+      "edges": 9,
+      "nodeLabelsPreserved": true,
+      "directionsPreserved": true,
+      "edgeIDs": [
+        "D07-E01",
+        "D07-E02",
+        "D07-E03",
+        "D07-E04",
+        "D07-E05",
+        "D07-E06",
+        "D07-E07",
+        "D07-E08",
+        "D07-E09"
+      ],
+      "width": 740,
+      "height": 937
+    }
+  ]
+}

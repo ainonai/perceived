@@ -1,0 +1,3705 @@
+{
+  "bounds": {
+    "x": -1851.8271022354597,
+    "y": -1851.196868959247,
+    "width": 3624.096385361518,
+    "height": 3651.1883450401338
+  },
+  "nodes": [
+    {
+      "id": "human",
+      "label": "Human experience",
+      "group": "center",
+      "kind": "Conceptual meeting point",
+      "summary": "Julius Perceiver’s connected ideas: inheritance, attraction, relationships, ambition, social incentives, and physical reality. Select a topic to follow its explanation and source videos.",
+      "href": "methods",
+      "x": 0,
+      "y": 0,
+      "videos": [
+        7,
+        20,
+        194
+      ],
+      "radius": 235,
+      "tier": 0
+    },
+    {
+      "id": "biology",
+      "label": "Biology",
+      "x": -721.2489168102784,
+      "y": -721.2489168102785,
+      "group": "biology",
+      "kind": "Subject",
+      "summary": "Inheritance, development, and the environments people partly select.",
+      "href": "biology",
+      "videos": [
+        20,
+        147,
+        199
+      ],
+      "major": true,
+      "radius": 140,
+      "tier": 1
+    },
+    {
+      "id": "inheritance",
+      "label": "Inherited traits",
+      "group": "biology",
+      "kind": "Scientific concept",
+      "summary": "Inherited dispositions contribute to appearance, temperament, and interests. Genetic recombination helps explain why siblings differ.",
+      "href": "biology",
+      "x": -1024.8897647009649,
+      "y": -443.93628624479413,
+      "videos": [
+        20,
+        199
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "biology",
+      "direction": -3.856194490192345
+    },
+    {
+      "id": "heritability",
+      "label": "Heritability",
+      "group": "biology",
+      "kind": "Scientific concept",
+      "summary": "Heritability concerns differences within a population under particular conditions. Twin comparisons help examine inherited similarities across different upbringings.",
+      "href": "biology-heritability-is-a-population-measure",
+      "x": -1133.8552577037383,
+      "y": -842.3109152016399,
+      "videos": [
+        20,
+        147
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "biology",
+      "direction": -2.856194490192345
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "group": "biology",
+      "kind": "Scientific concept",
+      "summary": "Interests and behavior help select and create surroundings. Knowing a predisposition can then change the conditions in which it operates.",
+      "href": "biology-dispositions-help-shape-experience",
+      "x": -842.3109152016397,
+      "y": -1133.8552577037385,
+      "videos": [
+        23,
+        147
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "biology",
+      "direction": -1.8561944901923448
+    },
+    {
+      "id": "gene-environment",
+      "label": "Selection & feedback",
+      "group": "biology",
+      "kind": "Causal question",
+      "summary": "Dispositions can influence the experiences a person seeks or evokes. Those experiences can also change skills and opportunities.",
+      "href": "biology-dispositions-help-shape-experience",
+      "x": -443.2641077247205,
+      "y": -1030.045514548221,
+      "videos": [
+        128,
+        147,
+        201
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "biology",
+      "direction": -0.8561944901923448
+    },
+    {
+      "id": "attraction",
+      "label": "Attraction",
+      "x": 263.99542600457113,
+      "y": -985.2443428148497,
+      "group": "attraction",
+      "kind": "Subject",
+      "summary": "Appearance, selection, social signals, and perceived alternatives.",
+      "href": "attraction",
+      "videos": [
+        3,
+        104,
+        136
+      ],
+      "major": true,
+      "radius": 140,
+      "tier": 1
+    },
+    {
+      "id": "appearance",
+      "label": "Appearance & halo",
+      "group": "attraction",
+      "kind": "Research topic",
+      "summary": "Physical cues influence initial appraisal. An overall impression can change how confidence, shyness, or personality is interpreted.",
+      "href": "attraction-appearance-and-the-halo-effect",
+      "x": -129.66047315409878,
+      "y": -1181.2491237812494,
+      "videos": [
+        3,
+        63
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "attraction",
+      "direction": -2.8089969389957474
+    },
+    {
+      "id": "female-choice",
+      "label": "Female choice",
+      "group": "attraction",
+      "kind": "Hypothesis & selection theory",
+      "summary": "The female-choice hypothesis connects greater reproductive investment with selectivity. Cultural and economic conditions constrain how preferences are expressed.",
+      "href": "attraction-hypergamy-and-female-choice",
+      "x": 168.03530760320714,
+      "y": -1403.5299531843734,
+      "videos": [
+        3,
+        136,
+        153
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "attraction",
+      "direction": -1.8089969389957472
+    },
+    {
+      "id": "relative-value",
+      "label": "Relative desirability",
+      "group": "attraction",
+      "kind": "Proposed mechanism",
+      "summary": "Perceived desirability is compared with oneself and available alternatives. Relative differences replace an absolute threshold in the qualified account.",
+      "href": "attraction-relative-desirability-and-alternatives",
+      "x": 560.7919997851689,
+      "y": -1296.3902793014095,
+      "videos": [
+        104,
+        190
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "attraction",
+      "direction": -0.8089969389957472
+    },
+    {
+      "id": "preselection",
+      "label": "Preselection",
+      "group": "attraction",
+      "kind": "Conditional research topic",
+      "summary": "Other women’s apparent interest supplies information about a man’s desirability. Availability and visible rival cues communicate alternatives.",
+      "href": "attraction-preselection-and-social-proof",
+      "x": 690.0135472828954,
+      "y": -947.2448698293161,
+      "videos": [
+        74,
+        83,
+        160
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "attraction",
+      "direction": 0.1910030610042528
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships",
+      "x": 985.2443428148497,
+      "y": -263.99542600457113,
+      "group": "relationships",
+      "kind": "Subject",
+      "summary": "Desire, practical care, attachment, and continued commitment.",
+      "href": "relationships",
+      "videos": [
+        83,
+        127,
+        190
+      ],
+      "major": true,
+      "radius": 140,
+      "tier": 1
+    },
+    {
+      "id": "desire",
+      "label": "Sexual desire",
+      "group": "relationships",
+      "kind": "Relationship outcome",
+      "summary": "Wanting a person erotically is distinct from remaining in a relationship. Desire can coexist with distrust or an unworkable arrangement.",
+      "href": "relationships-security-and-desire",
+      "x": 957.7676272986333,
+      "y": -705.1813051909623,
+      "videos": [
+        83,
+        127,
+        190
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "relationships",
+      "direction": -1.7617993877991494
+    },
+    {
+      "id": "care",
+      "label": "Care & reliability",
+      "group": "relationships",
+      "kind": "Relationship factor",
+      "summary": "Care and logistical attraction help sustain a desired relationship, especially when partners are close in perceived desirability.",
+      "href": "relationships-security-and-desire",
+      "x": 1296.3902793014095,
+      "y": -560.7919997851689,
+      "videos": [
+        127,
+        190
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "relationships",
+      "direction": -0.7617993877991494
+    },
+    {
+      "id": "attachment",
+      "label": "Attachment",
+      "group": "relationships",
+      "kind": "Relationship factor",
+      "summary": "An existing bond is considered as one possible explanation in the Austin Dunham anecdote. The video also considers a particular preference and leaves the choice open.",
+      "href": "relationships-personal-accounts-and-general-explanations",
+      "x": 1403.1029149868086,
+      "y": -162.5350215976709,
+      "videos": [
+        106,
+        127
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "relationships",
+      "direction": 0.2382006122008506
+    },
+    {
+      "id": "commitment",
+      "label": "Commitment & exit",
+      "group": "relationships",
+      "kind": "Relationship outcome",
+      "summary": "The personal stories connect desire with different aims: casual contact, commitment, a stable household, and choosing a mother for one’s children.",
+      "href": "relationships-compatibility-agreements-and-exit",
+      "x": 1165.3448945181194,
+      "y": 123.94682598774428,
+      "videos": [
+        184,
+        185,
+        190
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "relationships",
+      "direction": 1.2382006122008506
+    },
+    {
+      "id": "living",
+      "label": "Success & purpose",
+      "x": 721.2489168102785,
+      "y": 721.2489168102784,
+      "group": "living",
+      "kind": "Subject",
+      "summary": "Congruence, deliberate effort, meaningful work, and acceptance.",
+      "href": "living",
+      "videos": [
+        70,
+        149,
+        194
+      ],
+      "major": true,
+      "radius": 140,
+      "tier": 1
+    },
+    {
+      "id": "congruence",
+      "label": "Congruence",
+      "group": "living",
+      "kind": "Practical philosophy",
+      "summary": "A life organized around actual capacities, constraints, and values rather than an incompatible ideal. Fit can involve changing the setting as well as changing behavior.",
+      "href": "living-congruence-and-environmental-fit",
+      "x": 1089.5887382185574,
+      "y": 476.8604435674812,
+      "videos": [
+        119,
+        149,
+        164
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "living",
+      "direction": -0.7146018366025517
+    },
+    {
+      "id": "purpose",
+      "label": "Purpose",
+      "group": "living",
+      "kind": "Philosophy & personal value",
+      "summary": "Generational replication extends continuity beyond one child to descendants and the community that helps them survive and reproduce.",
+      "href": "living-pleasure-purpose-and-continuity",
+      "x": 1133.8552577037385,
+      "y": 842.3109152016397,
+      "videos": [
+        4,
+        175,
+        191
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "living",
+      "direction": 0.2853981633974483
+    },
+    {
+      "id": "effort",
+      "label": "Practice & skill",
+      "group": "living",
+      "kind": "Learning process",
+      "summary": "Persistence differs from repeating a routine. Feedback, revision, and experience can change performance even when stable dispositions also matter.",
+      "href": "living-persistence-and-learning",
+      "x": 842.3109152016398,
+      "y": 1133.8552577037383,
+      "videos": [
+        70,
+        85,
+        126
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "living",
+      "direction": 1.2853981633974483
+    },
+    {
+      "id": "acceptance",
+      "label": "Acceptance",
+      "group": "living",
+      "kind": "Practical philosophy",
+      "summary": "Amor fati concerns accepting the conditions of a life. It can coexist with action when control is distinguished from a guaranteed result.",
+      "href": "living-action-and-acceptance",
+      "x": 475.3313472352239,
+      "y": 1071.1916958170602,
+      "videos": [
+        129,
+        163,
+        194
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "living",
+      "direction": 2.2853981633974483
+    },
+    {
+      "id": "society",
+      "label": "Society & technology",
+      "x": -263.99542600457124,
+      "y": 985.2443428148497,
+      "group": "society",
+      "kind": "Subject",
+      "summary": "Institutions, attention, incentives, markets, and forecasts.",
+      "href": "society",
+      "videos": [
+        8,
+        187,
+        201
+      ],
+      "major": true,
+      "radius": 140,
+      "tier": 1
+    },
+    {
+      "id": "incentives",
+      "label": "Incentives",
+      "group": "society",
+      "kind": "Analytical concept",
+      "summary": "What another person stands to gain can supply a stronger reason to act than gratitude for past service alone.",
+      "href": "society-information-and-public-narratives",
+      "x": 131.82111091992385,
+      "y": 1182.0417487584439,
+      "videos": [
+        8,
+        52,
+        166
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "society",
+      "direction": 0.33259571459404613
+    },
+    {
+      "id": "media",
+      "label": "Media & attention",
+      "group": "society",
+      "kind": "Feedback process",
+      "summary": "Viewing choices shape the feed; the feed then offers more of what holds attention. Familiar interests can reappear after an account reset.",
+      "href": "society-social-media-and-feedback",
+      "x": -162.53502159767106,
+      "y": 1403.1029149868086,
+      "videos": [
+        19,
+        201
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "society",
+      "direction": 1.3325957145940461
+    },
+    {
+      "id": "markets",
+      "label": "Valuation & timing",
+      "group": "society",
+      "kind": "Decision framework",
+      "summary": "Technical usefulness differs from investment valuation. An early correct thesis can still lose money while recognition is delayed.",
+      "href": "living-technology-valuation-and-timing",
+      "x": -560.791999785169,
+      "y": 1296.3902793014095,
+      "videos": [
+        67,
+        165,
+        188
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "society",
+      "direction": 2.332595714594046
+    },
+    {
+      "id": "ai",
+      "label": "AI & forecasts",
+      "group": "society",
+      "kind": "Dated technical claims",
+      "summary": "Julius’s 2026 position separates useful, revolutionary AI from claims of present AGI and the investment narrative surrounding it.",
+      "href": "society-ai-capability-and-valuation",
+      "x": -690.0135472828955,
+      "y": 947.2448698293163,
+      "videos": [
+        61,
+        187,
+        189
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "society",
+      "direction": 3.332595714594046
+    },
+    {
+      "id": "reality",
+      "label": "Universe & mind",
+      "x": -985.2443428148496,
+      "y": 263.9954260045714,
+      "group": "reality",
+      "kind": "Subject",
+      "summary": "Causation, agency, consciousness, time, and cosmic futures.",
+      "href": "reality",
+      "videos": [
+        7,
+        12,
+        18
+      ],
+      "major": true,
+      "radius": 140,
+      "tier": 1
+    },
+    {
+      "id": "causation",
+      "label": "Causation",
+      "group": "reality",
+      "kind": "Physical & philosophical question",
+      "summary": "The free-will argument traces a decision through wants, memories, inherited dispositions, and circumstances that the person did not originally choose.",
+      "href": "reality-determinism-and-agency",
+      "x": -957.7676272986331,
+      "y": 705.1813051909627,
+      "videos": [
+        7,
+        194
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "reality",
+      "direction": 1.3797932657906435
+    },
+    {
+      "id": "agency",
+      "label": "Agency",
+      "group": "reality",
+      "kind": "Philosophical question",
+      "summary": "Clicking a video supplies the example: did you choose the desire to click, or the title, free time, memories, and dispositions that helped produce it?",
+      "href": "reality-determinism-and-agency",
+      "x": -1296.3902793014092,
+      "y": 560.7919997851692,
+      "videos": [
+        7,
+        194
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "reality",
+      "direction": 2.3797932657906435
+    },
+    {
+      "id": "time",
+      "label": "Time & entropy",
+      "group": "reality",
+      "kind": "Physics & theory",
+      "summary": "Signal travel time, simultaneity, thermodynamic irreversibility, and thermal time are separate ideas with different evidence.",
+      "href": "reality-relativity-and-the-distant-present",
+      "x": -1403.1029149868086,
+      "y": 162.53502159767132,
+      "videos": [
+        12,
+        13
+      ],
+      "radius": 108,
+      "tier": 2,
+      "parent": "reality",
+      "direction": 3.3797932657906435
+    },
+    {
+      "id": "recurrence",
+      "label": "Cosmic recurrence",
+      "group": "reality",
+      "kind": "Speculative extension",
+      "summary": "The proposed recurrence combines heat death, rare fluctuations, infinite duration, and determinism to argue for a repetition of cosmic history.",
+      "href": "reality-entropy-heat-death-and-recurrence",
+      "x": -1179.8470170549906,
+      "y": -117.65796553649277,
+      "videos": [
+        17,
+        18,
+        32,
+        68
+      ],
+      "radius": 96,
+      "tier": 2,
+      "parent": "reality",
+      "direction": 4.379793265790644
+    },
+    {
+      "id": "siblings",
+      "label": "Sibling differences",
+      "summary": "Siblings inherit different combinations of variants. One sibling’s height does not establish another’s destiny.",
+      "href": "biology-heritability-is-a-population-measure",
+      "videos": [
+        126,
+        199
+      ],
+      "group": "biology",
+      "parent": "inheritance",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -1008.7287317801582,
+      "y": -190.55880534373415
+    },
+    {
+      "id": "prediction",
+      "label": "Polygenic prediction",
+      "summary": "A polygenic score estimates an outcome with uncertainty. Prediction and gene editing are different operations.",
+      "href": "biology-biotechnology-and-prediction",
+      "videos": [
+        29,
+        199
+      ],
+      "group": "biology",
+      "parent": "inheritance",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -1336.432368677649,
+      "y": -506.0908874234423
+    },
+    {
+      "id": "twins",
+      "label": "Twin comparisons",
+      "summary": "Separated identical twins are a central illustration in the argument that inherited dispositions shape later similarity despite different upbringings.",
+      "href": "biology-heritability-is-a-population-measure",
+      "videos": [
+        20,
+        199
+      ],
+      "group": "biology",
+      "parent": "heritability",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -1342.191049712562,
+      "y": -695.2694320478845
+    },
+    {
+      "id": "populations",
+      "label": "Within & between",
+      "summary": "The island and country comparisons extend the inheritance argument from individuals to communities. The research notes treat the population-inference questions separately.",
+      "href": "biology-individuals-and-populations",
+      "videos": [
+        123,
+        153
+      ],
+      "group": "biology",
+      "parent": "heritability",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -1245.485398090581,
+      "y": -1101.6428015821205
+    },
+    {
+      "id": "nutrition",
+      "label": "Shared baseline",
+      "summary": "A generation’s shared baseline and differences in rank among peers are separate questions. Better shared conditions can change the former without erasing the latter.",
+      "href": "biology-heritability-is-a-population-measure",
+      "videos": [
+        199
+      ],
+      "group": "biology",
+      "parent": "environment",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -1089.2679499281878,
+      "y": -1104.825500214394
+    },
+    {
+      "id": "intervention",
+      "label": "Curating conditions",
+      "summary": "The snack-cabinet example uses knowledge of a predisposition to change what is available at home rather than rely only on willpower.",
+      "href": "biology-biotechnology-and-prediction",
+      "videos": [
+        149
+      ],
+      "group": "biology",
+      "parent": "environment",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -921.1419839215959,
+      "y": -1402.52915409948
+    },
+    {
+      "id": "snowball",
+      "label": "Snowballing",
+      "summary": "An interest in electronics creates practice, and competence opens further opportunities. Disposition and experience can reinforce each other.",
+      "href": "biology-dispositions-help-shape-experience",
+      "videos": [
+        147,
+        199
+      ],
+      "group": "biology",
+      "parent": "gene-environment",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -488.467446468592,
+      "y": -1327.8062107651476
+    },
+    {
+      "id": "selection-exposure",
+      "label": "Selection into exposure",
+      "summary": "Books at home, father absence, and media feeds raise questions about prior characteristics, selection, and environmental effects.",
+      "href": "biology-dispositions-help-shape-experience",
+      "videos": [
+        128,
+        147,
+        201
+      ],
+      "group": "biology",
+      "parent": "gene-environment",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -154.43998201121303,
+      "y": -976.7449039206309
+    },
+    {
+      "id": "halo-detail",
+      "label": "Halo effect",
+      "summary": "An overall impression changes how confidence, shyness, and particular personality traits are interpreted.",
+      "href": "attraction-appearance-and-the-halo-effect",
+      "videos": [
+        3,
+        63
+      ],
+      "group": "attraction",
+      "parent": "appearance",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -283.1475039369082,
+      "y": -888.5951801561931
+    },
+    {
+      "id": "harmony",
+      "label": "Harmony & archetypes",
+      "summary": "Changing one feature can alter an overall configuration. A numerical aesthetic rating and contextual appeal need not coincide.",
+      "href": "attraction-presentation-effort-and-diminishing-returns",
+      "videos": [
+        77,
+        158,
+        164
+      ],
+      "group": "attraction",
+      "parent": "appearance",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -381.7380173355498,
+      "y": -1214.030822454581
+    },
+    {
+      "id": "hypergamy-detail",
+      "label": "Hypergamy",
+      "summary": "Upward partner selection is used broadly here for perceived quality; demographic upward marriage is a narrower meaning.",
+      "href": "attraction-hypergamy-and-female-choice",
+      "videos": [
+        153,
+        192
+      ],
+      "group": "attraction",
+      "parent": "female-choice",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -17.4114741867558,
+      "y": -1389.0951847627875
+    },
+    {
+      "id": "investment",
+      "label": "Reproductive investment",
+      "summary": "The female-choice hypothesis connects reproductive investment with selectivity, under cultural and economic constraints.",
+      "href": "attraction-hypergamy-and-female-choice",
+      "videos": [
+        3,
+        136,
+        153
+      ],
+      "group": "attraction",
+      "parent": "female-choice",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 96.46778151875912,
+      "y": -1675.196868959247
+    },
+    {
+      "id": "archetype-labels",
+      "label": "Chad, Stacy & Becky",
+      "summary": "Chad and Stacy name idealized highly attractive men and women; Becky describes a woman below the Stacy ideal. Discrepancy theory compares the alternatives within a relationship.",
+      "href": "attraction-relative-desirability-and-alternatives",
+      "videos": [
+        104,
+        198
+      ],
+      "group": "attraction",
+      "parent": "relative-value",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 538.8796644636827,
+      "y": -1553.5069912490817
+    },
+    {
+      "id": "alternatives",
+      "label": "Alternatives",
+      "summary": "Discrepancy theory links a larger perceived desirability gap with credible alternatives and stronger desire.",
+      "href": "attraction-relative-desirability-and-alternatives",
+      "videos": [
+        104,
+        190
+      ],
+      "group": "attraction",
+      "parent": "relative-value",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 839.6333817174811,
+      "y": -1270.9445778554216
+    },
+    {
+      "id": "social-proof",
+      "label": "Social proof",
+      "summary": "Other people’s interest supplies information that can affect perceived desirability.",
+      "href": "attraction-preselection-and-social-proof",
+      "videos": [
+        74,
+        160
+      ],
+      "group": "attraction",
+      "parent": "preselection",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 879.7244842563791,
+      "y": -1069.6350583355652
+    },
+    {
+      "id": "scarcity",
+      "label": "Performed scarcity",
+      "summary": "A calculated delay in replying can resemble genuine busyness while remaining organized around the desired response.",
+      "href": "relationships-independence-and-performed-indifference",
+      "videos": [
+        101,
+        192
+      ],
+      "group": "attraction",
+      "parent": "preselection",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 762.4726095898455,
+      "y": -634.5144455621914
+    },
+    {
+      "id": "security",
+      "label": "Security & uncertainty",
+      "summary": "Uncertainty can increase the urgency of securing a desired partner. Too little care can also make that partner leave while desire persists.",
+      "href": "relationships-security-and-desire",
+      "videos": [
+        83,
+        127,
+        190
+      ],
+      "group": "relationships",
+      "parent": "desire",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 672.3591564513354,
+      "y": -761.9551659688038
+    },
+    {
+      "id": "dissatisfaction",
+      "label": "Desire & dissatisfaction",
+      "summary": "Desire and dissatisfaction coexist in Julius’s relationship with Emiliana, through insecurity, conflict, and renewed contact.",
+      "href": "relationships-personal-accounts-and-general-explanations",
+      "videos": [
+        127
+      ],
+      "group": "relationships",
+      "parent": "desire",
+      "tier": 3,
+      "radius": 82,
+      "kind": "Subtopic",
+      "x": 1085.9118773357902,
+      "y": -898.6998673416798
+    },
+    {
+      "id": "logistics",
+      "label": "Logistical attraction",
+      "summary": "Reliability, resources, affection, and practical support concern whether a shared life is feasible alongside erotic desire.",
+      "href": "attraction-sexual-desire-and-logistical-attraction",
+      "videos": [
+        190
+      ],
+      "group": "relationships",
+      "parent": "care",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 1273.2165154845275,
+      "y": -814.736829759239
+    },
+    {
+      "id": "reciprocity",
+      "label": "Reciprocity",
+      "summary": "Tit-for-tat begins with cooperation, returns cooperation, and responds when the other person cheats.",
+      "href": "living-cooperation-conflict-and-unequal-starting-conditions",
+      "videos": [
+        5,
+        123
+      ],
+      "group": "relationships",
+      "parent": "care",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 1573.7206151564571,
+      "y": -522.2188897922416
+    },
+    {
+      "id": "jealousy",
+      "label": "Jealousy",
+      "summary": "A headband left on the table makes the possibility of another woman visible. The rival cue is intended to change perceived alternatives.",
+      "href": "relationships-rival-cues-and-jealousy",
+      "videos": [
+        74,
+        83,
+        127
+      ],
+      "group": "relationships",
+      "parent": "attachment",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 1604.2692831260583,
+      "y": -319.2420486566509
+    },
+    {
+      "id": "ghosting",
+      "label": "Ghosting",
+      "summary": "Boyfriend baiting uses withdrawal to press a desired partner toward commitment. Monica’s commitment dispute supplies the recurring example.",
+      "href": "relationships-ghosting-and-inferred-motives",
+      "videos": [
+        101,
+        103,
+        122,
+        145
+      ],
+      "group": "relationships",
+      "parent": "attachment",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 1520.4869820836248,
+      "y": 91.67154950506472
+    },
+    {
+      "id": "agreements",
+      "label": "Agreements",
+      "summary": "Exclusivity changes what continued involvement means. Julius’s overlapping relationships with Gianna and Bella make those commitments concrete.",
+      "href": "relationships-compatibility-agreements-and-exit",
+      "videos": [
+        184,
+        185
+      ],
+      "group": "relationships",
+      "parent": "commitment",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 1366.1933754252389,
+      "y": 227.04622252940527
+    },
+    {
+      "id": "exit",
+      "label": "Leaving & repair",
+      "summary": "Julius recommends leaving after discovered infidelity and seeking a relationship congruent with the individual.",
+      "href": "relationships-compatibility-agreements-and-exit",
+      "videos": [
+        127,
+        190
+      ],
+      "group": "relationships",
+      "parent": "commitment",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 930.7419337199788,
+      "y": 343.0634268135249
+    },
+    {
+      "id": "career-fit",
+      "label": "Career fit",
+      "summary": "A skilled trade or specialized project may fit someone’s interests better than pursuing prestige alone.",
+      "href": "living-congruence-and-environmental-fit",
+      "videos": [
+        146,
+        149,
+        164
+      ],
+      "group": "living",
+      "parent": "congruence",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 996.0521084994399,
+      "y": 201.3025269695304
+    },
+    {
+      "id": "setting",
+      "label": "Changing the setting",
+      "summary": "A trait can be useful in one environment and costly in another. Support and task demands change the comparison.",
+      "href": "living-congruence-and-environmental-fit",
+      "videos": [
+        149,
+        179
+      ],
+      "group": "living",
+      "parent": "congruence",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 1321.252854163495,
+      "y": 491.07733837320546
+    },
+    {
+      "id": "generations",
+      "label": "Generational continuity",
+      "summary": "Care, cooperation, innovation, and a future community extend the reproductive theme beyond individual parenthood.",
+      "href": "living-pleasure-purpose-and-continuity",
+      "videos": [
+        175,
+        195
+      ],
+      "group": "living",
+      "parent": "purpose",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 1342.1910497125623,
+      "y": 695.2694320478843
+    },
+    {
+      "id": "fulfillment",
+      "label": "Pleasure & fulfillment",
+      "summary": "The kite-flying and shared basketball-celebration examples connect immediate enjoyment with the broader question of a worthwhile life.",
+      "href": "living-roi-wealth-and-ordinary-experience",
+      "videos": [
+        85,
+        152,
+        195
+      ],
+      "group": "living",
+      "parent": "purpose",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 1245.4853980905814,
+      "y": 1101.6428015821205
+    },
+    {
+      "id": "fight-camp",
+      "label": "Fight preparation",
+      "summary": "Training can produce conditioning and judgment even when the final fight is lost or canceled.",
+      "href": "living-persistence-and-learning",
+      "videos": [
+        70
+      ],
+      "group": "living",
+      "parent": "effort",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 1089.2679499281878,
+      "y": 1104.8255002143935
+    },
+    {
+      "id": "failed-projects",
+      "label": "Failed projects",
+      "summary": "Early uploads, busboy shifts, and small initial earnings illustrate learning before substantial progress.",
+      "href": "living-persistence-and-learning",
+      "videos": [
+        70
+      ],
+      "group": "living",
+      "parent": "effort",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 921.141983921596,
+      "y": 1402.5291540994797
+    },
+    {
+      "id": "amor-fati",
+      "label": "Amor fati",
+      "summary": "Love of fate concerns accepting the conditions of a life while still participating in its causal course.",
+      "href": "living-action-and-acceptance",
+      "videos": [
+        129,
+        194
+      ],
+      "group": "living",
+      "parent": "acceptance",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 473.4814377152736,
+      "y": 1301.847795952875
+    },
+    {
+      "id": "ego-control",
+      "label": "Outcome control",
+      "summary": "Trying to preserve social proof can crowd out enjoying an evening. Acting effectively is different from guaranteeing the result.",
+      "href": "living-action-and-acceptance",
+      "videos": [
+        163,
+        194
+      ],
+      "group": "living",
+      "parent": "acceptance",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 168.2693241301332,
+      "y": 977.5778723757165
+    },
+    {
+      "id": "esg",
+      "label": "ESG & incentives",
+      "summary": "Ratings can affect access to capital, giving companies a financial reason to pursue a public position independently of personal convictions.",
+      "href": "society-information-and-public-narratives",
+      "videos": [
+        8
+      ],
+      "group": "society",
+      "parent": "incentives",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 323.6929520481046,
+      "y": 963.2576929383342
+    },
+    {
+      "id": "narratives",
+      "label": "Public narratives",
+      "summary": "The customer-support example compares a modest productivity tool with a civilization-changing AGI story that can attract much more attention and funding.",
+      "href": "society-information-and-public-narratives",
+      "videos": [
+        8,
+        30,
+        166
+      ],
+      "group": "society",
+      "parent": "incentives",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": 235.34097682770454,
+      "y": 1389.7772057148854
+    },
+    {
+      "id": "feeds",
+      "label": "Personalized feeds",
+      "summary": "Your choices about what to stop and watch begin changing a reset or borrowed account’s recommendations.",
+      "href": "society-social-media-and-feedback",
+      "videos": [
+        201
+      ],
+      "group": "society",
+      "parent": "media",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": 68.97453422803457,
+      "y": 1510.0062618071233
+    },
+    {
+      "id": "mimesis",
+      "label": "Mimetic desire",
+      "summary": "An admired person can make an object or way of life desirable. Celebrity advertising illustrates this connection.",
+      "href": "reality-perception-and-levels-of-explanation",
+      "videos": [
+        22
+      ],
+      "group": "society",
+      "parent": "media",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -334.60548268204127,
+      "y": 1623.9914760808867
+    },
+    {
+      "id": "timing",
+      "label": "Recognition & timing",
+      "summary": "A correct early observation can lose money while wider recognition is delayed.",
+      "href": "living-technology-valuation-and-timing",
+      "videos": [
+        161,
+        188
+      ],
+      "group": "society",
+      "parent": "markets",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -525.6629174701817,
+      "y": 1548.9589780265421
+    },
+    {
+      "id": "solvency",
+      "label": "Risk & solvency",
+      "summary": "Avoiding a hyped asset and shorting it are different positions. Resources and time horizon affect the ability to wait.",
+      "href": "living-technology-valuation-and-timing",
+      "videos": [
+        165,
+        188
+      ],
+      "group": "society",
+      "parent": "markets",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -839.6333817174813,
+      "y": 1270.9445778554216
+    },
+    {
+      "id": "capability",
+      "label": "Capability & adoption",
+      "summary": "Pattern recognition, tool use, general intelligence, and a profitable business are distinct capabilities and outcomes.",
+      "href": "society-ai-capability-and-valuation",
+      "videos": [
+        61,
+        187,
+        189
+      ],
+      "group": "society",
+      "parent": "ai",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -879.7244842563791,
+      "y": 1069.6350583355652
+    },
+    {
+      "id": "valuation",
+      "label": "Valuation",
+      "summary": "The 2026 argument is that revolutionary technology can coexist with inflated prices, as in the railroad and internet comparisons.",
+      "href": "society-ai-capability-and-valuation",
+      "videos": [
+        187,
+        188
+      ],
+      "group": "society",
+      "parent": "ai",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -762.4726095898454,
+      "y": 634.5144455621916
+    },
+    {
+      "id": "determinism",
+      "label": "Determinism",
+      "summary": "Physical determinism holds that earlier states and physical laws fix what follows. Laplace’s imagined intelligence knows every force and position.",
+      "href": "reality-determinism-and-agency",
+      "videos": [
+        7,
+        194
+      ],
+      "group": "reality",
+      "parent": "causation",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -672.3591564513351,
+      "y": 761.9551659688038
+    },
+    {
+      "id": "responsibility",
+      "label": "Responsibility",
+      "summary": "The poisoned-drink thought experiment asks how consequences should differ when someone did not choose the cause of harmful conduct, and when the danger persists.",
+      "href": "reality-determinism-and-agency",
+      "videos": [
+        7
+      ],
+      "group": "reality",
+      "parent": "causation",
+      "tier": 3,
+      "radius": 82,
+      "kind": "Subtopic",
+      "x": -1085.91187733579,
+      "y": 898.6998673416801
+    },
+    {
+      "id": "compatibilism",
+      "label": "Unchosen wants",
+      "summary": "The video asks whether you chose to want something, or instead inherited and encountered the variables that produced the want.",
+      "href": "reality-determinism-and-agency",
+      "videos": [
+        7
+      ],
+      "group": "reality",
+      "parent": "agency",
+      "tier": 3,
+      "radius": 82,
+      "kind": "Free-will argument",
+      "x": -1273.2165154845272,
+      "y": 814.7368297592393
+    },
+    {
+      "id": "advice",
+      "label": "Advice as a cause",
+      "summary": "A video is an environmental event that can change what a person notices or does next.",
+      "href": "reality-determinism-and-agency",
+      "videos": [
+        126,
+        149
+      ],
+      "group": "reality",
+      "parent": "agency",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -1576.7933511116664,
+      "y": 527.8005939979581
+    },
+    {
+      "id": "relativity",
+      "label": "Simultaneity",
+      "summary": "Observers need not assign the same time order to distant spacelike-separated events.",
+      "href": "reality-relativity-and-the-distant-present",
+      "videos": [
+        12
+      ],
+      "group": "reality",
+      "parent": "time",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -1501.4409248986087,
+      "y": 390.92096605881005
+    },
+    {
+      "id": "light-travel",
+      "label": "Signal travel",
+      "summary": "The Mars illustration challenges the everyday sense of a shared distant present. The research notes discuss signal delay and simultaneity.",
+      "href": "reality-relativity-and-the-distant-present",
+      "videos": [
+        12
+      ],
+      "group": "reality",
+      "parent": "time",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -1675.8271022354597,
+      "y": 225.95045891038544
+    },
+    {
+      "id": "entropy-detail",
+      "label": "Entropy",
+      "summary": "Cooling drinks, tire wear, and dissipated motion illustrate thermodynamic irreversibility.",
+      "href": "reality-entropy-heat-death-and-recurrence",
+      "videos": [
+        13
+      ],
+      "group": "reality",
+      "parent": "time",
+      "tier": 3,
+      "radius": 74,
+      "kind": "Subtopic",
+      "x": -1597.3357909604215,
+      "y": -2.6878275819113924
+    },
+    {
+      "id": "thermal-time",
+      "label": "Thermal time",
+      "summary": "A theoretical proposal relates time flow to thermodynamic state. It is distinct from the everyday thermodynamic arrow.",
+      "href": "reality-entropy-heat-death-and-recurrence",
+      "videos": [
+        13
+      ],
+      "group": "reality",
+      "parent": "time",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -1411.5898463457004,
+      "y": -177.81293645304117
+    },
+    {
+      "id": "heat-death",
+      "label": "Heat death",
+      "summary": "A possible far-future lack of useful energy gradients depends on assumptions about long-term cosmology.",
+      "href": "reality-entropy-heat-death-and-recurrence",
+      "videos": [
+        14,
+        15,
+        18
+      ],
+      "group": "reality",
+      "parent": "recurrence",
+      "tier": 3,
+      "radius": 58,
+      "kind": "Subtopic",
+      "x": -1349.961910740872,
+      "y": -40.37688426675457
+    },
+    {
+      "id": "boltzmann",
+      "label": "Boltzmann brains",
+      "summary": "The short describes a hypothetical fluctuation-generated observer with apparent memories and contrasts it with a computer simulation built by a civilization.",
+      "href": "reality-entropy-heat-death-and-recurrence",
+      "videos": [
+        17,
+        18
+      ],
+      "group": "reality",
+      "parent": "recurrence",
+      "tier": 3,
+      "radius": 66,
+      "kind": "Subtopic",
+      "x": -1223.039585647094,
+      "y": -387.60807264269573
+    },
+    {
+      "id": "identity",
+      "label": "Personal identity",
+      "summary": "Would recreating your physical state restore your consciousness, or produce an identical copy convinced of being you?",
+      "href": "reality-consciousness-and-meaning",
+      "videos": [
+        17,
+        32,
+        68
+      ],
+      "group": "reality",
+      "parent": "recurrence",
+      "tier": 3,
+      "radius": 74,
+      "kind": "Subtopic",
+      "x": -874.2176868227,
+      "y": -284.3819303420662
+    },
+    {
+      "id": "mismatch",
+      "label": "Environmental mismatch",
+      "summary": "The snack example connects a formerly useful inclination to store energy with readily available food in a changed environment.",
+      "href": "biology-evolution-without-a-planner",
+      "videos": [
+        4,
+        149,
+        172
+      ],
+      "group": "biology",
+      "parent": "environment",
+      "tier": 3,
+      "radius": 82,
+      "kind": "Subtopic",
+      "x": -632.9456019947675,
+      "y": -1234.0992714893862
+    },
+    {
+      "id": "looksmaxxing",
+      "label": "Looksmaxxing",
+      "summary": "Grooming, training, styling, and appearance interventions target different features. The overall configuration, costs, and diminishing returns matter when comparing changes.",
+      "href": "attraction-presentation-effort-and-diminishing-returns",
+      "videos": [
+        77,
+        158,
+        164
+      ],
+      "group": "attraction",
+      "parent": "appearance",
+      "tier": 3,
+      "radius": 74,
+      "kind": "Subtopic",
+      "x": -181.71012757922006,
+      "y": -1388.8228058178347
+    },
+    {
+      "id": "costly-signals",
+      "label": "Costly signals",
+      "summary": "A display may be informative because it is costly to sustain. The peacock example distinguishes a costly-signal explanation from a preference that becomes self-reinforcing.",
+      "href": "attraction-sexual-selection-and-costly-signals",
+      "videos": [
+        4,
+        84
+      ],
+      "group": "attraction",
+      "parent": "female-choice",
+      "tier": 3,
+      "radius": 74,
+      "kind": "Subtopic",
+      "x": 383.28592327102456,
+      "y": -1499.9656476312787
+    },
+    {
+      "id": "return-on-investment",
+      "label": "Return on investment",
+      "summary": "Gaming can become a marketplace and watching a fight can become training. The kite-flying example asks whether an experience needs a further return to be worthwhile.",
+      "href": "living-roi-wealth-and-ordinary-experience",
+      "videos": [
+        85
+      ],
+      "group": "living",
+      "parent": "effort",
+      "tier": 3,
+      "radius": 74,
+      "kind": "Subtopic",
+      "x": 626.3758278706297,
+      "y": 1241.025158442247
+    }
+  ],
+  "edges": [
+    {
+      "from": "human",
+      "to": "biology",
+      "kind": "concept",
+      "label": "Conceptual connection",
+      "summary": "A subject contributing to questions about human experience. This is an organizing connection, not a measured causal effect."
+    },
+    {
+      "from": "biology",
+      "to": "inheritance",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Inherited differences contribute to variation in traits. Genetic influence, prediction, and inevitability are different propositions."
+    },
+    {
+      "from": "biology",
+      "to": "heritability",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "A measure of variation in a specified population and environment. It is not an individual percentage or a guarantee of immutability."
+    },
+    {
+      "from": "biology",
+      "to": "environment",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Resources, exposure, institutions, practice, and other conditions can affect development. Explaining variation differs from testing an intervention."
+    },
+    {
+      "from": "biology",
+      "to": "gene-environment",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Dispositions can influence the experiences a person seeks or evokes. Those experiences can also change skills and opportunities."
+    },
+    {
+      "from": "human",
+      "to": "attraction",
+      "kind": "concept",
+      "label": "Conceptual connection",
+      "summary": "A subject contributing to questions about human experience. This is an organizing connection, not a measured causal effect."
+    },
+    {
+      "from": "attraction",
+      "to": "appearance",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Physical cues influence initial appraisal. An overall impression can change how confidence, shyness, or personality is interpreted."
+    },
+    {
+      "from": "attraction",
+      "to": "female-choice",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "The female-choice hypothesis connects greater reproductive investment with selectivity. Cultural and economic conditions constrain how preferences are expressed."
+    },
+    {
+      "from": "attraction",
+      "to": "relative-value",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Perceived desirability is compared with oneself and available alternatives. Relative differences replace an absolute threshold in the qualified account."
+    },
+    {
+      "from": "attraction",
+      "to": "preselection",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Apparent interest from others supplies social information. A desirability rating and a healthy established relationship remain different outcomes."
+    },
+    {
+      "from": "human",
+      "to": "relationships",
+      "kind": "concept",
+      "label": "Conceptual connection",
+      "summary": "A subject contributing to questions about human experience. This is an organizing connection, not a measured causal effect."
+    },
+    {
+      "from": "relationships",
+      "to": "desire",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Wanting a person erotically is distinct from remaining in a relationship. Desire can coexist with distrust or an unworkable arrangement."
+    },
+    {
+      "from": "relationships",
+      "to": "care",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Practical support and responsiveness can make a bond workable. The proposed compensation effect and the benefits of care require separate assessment."
+    },
+    {
+      "from": "relationships",
+      "to": "attachment",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Emotional investment, prior connection, insecurity, and clinical attachment constructs are not interchangeable."
+    },
+    {
+      "from": "relationships",
+      "to": "commitment",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "A relationship can continue for several reasons or end despite attraction. Agreements, alternatives, and practical conditions matter to interpretation."
+    },
+    {
+      "from": "human",
+      "to": "living",
+      "kind": "concept",
+      "label": "Conceptual connection",
+      "summary": "A subject contributing to questions about human experience. This is an organizing connection, not a measured causal effect."
+    },
+    {
+      "from": "living",
+      "to": "congruence",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "A life organized around actual capacities, constraints, and values rather than an incompatible ideal. Fit can involve changing the setting as well as changing behavior."
+    },
+    {
+      "from": "living",
+      "to": "purpose",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "A sustained direction for action, including work, contribution, family, curiosity, and generational continuity. Biological function and personal calling are different questions."
+    },
+    {
+      "from": "living",
+      "to": "effort",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Persistence differs from repeating a routine. Feedback, revision, and experience can change performance even when stable dispositions also matter."
+    },
+    {
+      "from": "living",
+      "to": "acceptance",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Amor fati concerns accepting the conditions of a life. It can coexist with action when control is distinguished from a guaranteed result."
+    },
+    {
+      "from": "human",
+      "to": "society",
+      "kind": "concept",
+      "label": "Conceptual connection",
+      "summary": "A subject contributing to questions about human experience. This is an organizing connection, not a measured causal effect."
+    },
+    {
+      "from": "society",
+      "to": "incentives",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Rewards and constraints can help explain behavior. A possible benefit is not unique evidence of an action or a private motive."
+    },
+    {
+      "from": "society",
+      "to": "media",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Users select content and ranking systems shape available exposure. Selection and influence can operate together."
+    },
+    {
+      "from": "society",
+      "to": "markets",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Technical usefulness differs from investment valuation. An early correct thesis can still lose money while recognition is delayed."
+    },
+    {
+      "from": "society",
+      "to": "ai",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Capability, adoption, imminent AGI, and market pricing are different predictions. A forecast needs an outcome and a timeline."
+    },
+    {
+      "from": "human",
+      "to": "reality",
+      "kind": "concept",
+      "label": "Conceptual connection",
+      "summary": "A subject contributing to questions about human experience. This is an organizing connection, not a measured causal effect."
+    },
+    {
+      "from": "reality",
+      "to": "causation",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Decisions have prior conditions. The implications for ultimate authorship, responsibility, and social protection are philosophical questions as well as physical ones."
+    },
+    {
+      "from": "reality",
+      "to": "agency",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Uncaused choice, reasons-responsive behavior, deliberation, and predictability are different concepts. Randomness is not automatically authorship."
+    },
+    {
+      "from": "reality",
+      "to": "time",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Signal travel time, simultaneity, thermodynamic irreversibility, and thermal time are separate ideas with different evidence."
+    },
+    {
+      "from": "reality",
+      "to": "recurrence",
+      "kind": "topic",
+      "label": "Part of this subject",
+      "summary": "Infinite duration alone does not establish repetition. Recurrence needs particular dynamics, while continuity of personal identity is an additional question."
+    },
+    {
+      "from": "inheritance",
+      "to": "siblings",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Siblings inherit different combinations of variants. One sibling’s height does not establish another’s destiny."
+    },
+    {
+      "from": "inheritance",
+      "to": "prediction",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A polygenic score estimates an outcome with uncertainty. Prediction and gene editing are different operations."
+    },
+    {
+      "from": "heritability",
+      "to": "twins",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Twin resemblance can inform estimates of variation under a model’s assumptions; it is not an individual fate score."
+    },
+    {
+      "from": "heritability",
+      "to": "populations",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Variation within one population and differences between populations require separate explanations."
+    },
+    {
+      "from": "environment",
+      "to": "nutrition",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A population can have high height heritability while inadequate nutrition still changes development."
+    },
+    {
+      "from": "environment",
+      "to": "intervention",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "An association predicts a difference; an intervention asks what changes when a condition is altered."
+    },
+    {
+      "from": "gene-environment",
+      "to": "snowball",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "An interest in electronics creates practice, and competence opens further opportunities. Disposition and experience can reinforce each other."
+    },
+    {
+      "from": "gene-environment",
+      "to": "selection-exposure",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Books at home, father absence, and media feeds raise questions about prior characteristics, selection, and environmental effects."
+    },
+    {
+      "from": "appearance",
+      "to": "halo-detail",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "An overall impression changes how confidence, shyness, and particular personality traits are interpreted."
+    },
+    {
+      "from": "appearance",
+      "to": "harmony",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Changing one feature can alter an overall configuration. A numerical aesthetic rating and contextual appeal need not coincide."
+    },
+    {
+      "from": "female-choice",
+      "to": "hypergamy-detail",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Upward partner selection is used broadly here for perceived quality; demographic upward marriage is a narrower meaning."
+    },
+    {
+      "from": "female-choice",
+      "to": "investment",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "The female-choice hypothesis connects reproductive investment with selectivity, under cultural and economic constraints."
+    },
+    {
+      "from": "relative-value",
+      "to": "archetype-labels",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Informal attractiveness labels. A Chad may face comparable alternatives with a Stacy; relative desirability matters within a relationship."
+    },
+    {
+      "from": "relative-value",
+      "to": "alternatives",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Visible opportunities and perceived options change the comparison between partners. They are not measurements of a genome."
+    },
+    {
+      "from": "preselection",
+      "to": "social-proof",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Other people’s interest supplies information that can affect perceived desirability."
+    },
+    {
+      "from": "preselection",
+      "to": "scarcity",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A calculated delay in replying can resemble genuine busyness while remaining organized around the desired response."
+    },
+    {
+      "from": "desire",
+      "to": "security",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Reassurance, dependence, surveillance, and uncertainty are distinct. Too little care can also make a desired partner leave."
+    },
+    {
+      "from": "desire",
+      "to": "dissatisfaction",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Continued desire does not establish trust or a workable relationship. The Emiliana example puts these outcomes side by side."
+    },
+    {
+      "from": "care",
+      "to": "logistics",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Reliability, resources, affection, and practical support concern whether a shared life is feasible alongside erotic desire."
+    },
+    {
+      "from": "care",
+      "to": "reciprocity",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Mutual care and cooperation depend on both people’s conduct over time, rather than a single display of attention."
+    },
+    {
+      "from": "attachment",
+      "to": "jealousy",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A rival cue can provoke attention through desire, anxiety, anger, or information seeking. Pursuit and trust need separate assessment."
+    },
+    {
+      "from": "attachment",
+      "to": "ghosting",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Silence has several possible causes. The Stacy date and Monica withdrawal illustrate different outcomes and interpretive limits."
+    },
+    {
+      "from": "commitment",
+      "to": "agreements",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A relationship label does not settle what people have promised or understood about exclusivity."
+    },
+    {
+      "from": "commitment",
+      "to": "exit",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A person can leave someone they still desire. Compatibility, boundaries, and the conditions of continuing remain relevant."
+    },
+    {
+      "from": "congruence",
+      "to": "career-fit",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A skilled trade or specialized project may fit someone’s interests better than pursuing prestige alone."
+    },
+    {
+      "from": "congruence",
+      "to": "setting",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A trait can be useful in one environment and costly in another. Support and task demands change the comparison."
+    },
+    {
+      "from": "purpose",
+      "to": "generations",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Care, cooperation, innovation, and a future community extend the reproductive theme beyond individual parenthood."
+    },
+    {
+      "from": "purpose",
+      "to": "fulfillment",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "The kite-flying and shared basketball-celebration examples connect immediate enjoyment with the broader question of a worthwhile life."
+    },
+    {
+      "from": "effort",
+      "to": "fight-camp",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Training can produce conditioning and judgment even when the final fight is lost or canceled."
+    },
+    {
+      "from": "effort",
+      "to": "failed-projects",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Early uploads, busboy shifts, and small initial earnings illustrate learning before substantial progress."
+    },
+    {
+      "from": "acceptance",
+      "to": "amor-fati",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Love of fate concerns accepting the conditions of a life while still participating in its causal course."
+    },
+    {
+      "from": "acceptance",
+      "to": "ego-control",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Trying to preserve social proof can crowd out enjoying an evening. Acting effectively is different from guaranteeing the result."
+    },
+    {
+      "from": "incentives",
+      "to": "esg",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A score combines criteria and weights. Belief in its goals and financial incentives can coexist."
+    },
+    {
+      "from": "incentives",
+      "to": "narratives",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A documented event, a plausible motive, and an allegation of coordination require different evidence."
+    },
+    {
+      "from": "media",
+      "to": "feeds",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A user’s selections train ranking systems, which then shape future exposure. The interaction can run in both directions."
+    },
+    {
+      "from": "media",
+      "to": "mimesis",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "An admired person can make an object or way of life desirable. Celebrity advertising illustrates this connection."
+    },
+    {
+      "from": "markets",
+      "to": "timing",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A correct early observation can lose money while wider recognition is delayed."
+    },
+    {
+      "from": "markets",
+      "to": "solvency",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Avoiding a hyped asset and shorting it are different positions. Resources and time horizon affect the ability to wait."
+    },
+    {
+      "from": "ai",
+      "to": "capability",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Present usefulness, future capability, deployment cost, and adoption are separate technical and practical outcomes."
+    },
+    {
+      "from": "ai",
+      "to": "valuation",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A useful tool can coexist with an inflated investment price. Pricing and progress cannot stand in for one another."
+    },
+    {
+      "from": "causation",
+      "to": "determinism",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A deterministic system’s state and laws determine its evolution. Predictability and the interpretation of quantum physics are further questions."
+    },
+    {
+      "from": "causation",
+      "to": "responsibility",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Metaphysical blame and protecting people from future harm provide different rationales for restraint."
+    },
+    {
+      "from": "agency",
+      "to": "compatibilism",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Meaningful agency may be understood in terms of deliberation and response to reasons within a causal process."
+    },
+    {
+      "from": "agency",
+      "to": "advice",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A video is an environmental event that can change what a person notices or does next."
+    },
+    {
+      "from": "time",
+      "to": "relativity",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Observers need not assign the same time order to distant spacelike-separated events."
+    },
+    {
+      "from": "time",
+      "to": "light-travel",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "An Earth–Mars question and its reply both require propagation time. This differs from relativity of simultaneity."
+    },
+    {
+      "from": "time",
+      "to": "entropy-detail",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Cooling drinks, tire wear, and dissipated motion illustrate thermodynamic irreversibility."
+    },
+    {
+      "from": "time",
+      "to": "thermal-time",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A theoretical proposal relates time flow to thermodynamic state. It is distinct from the everyday thermodynamic arrow."
+    },
+    {
+      "from": "recurrence",
+      "to": "heat-death",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A possible far-future lack of useful energy gradients depends on assumptions about long-term cosmology."
+    },
+    {
+      "from": "recurrence",
+      "to": "boltzmann",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Hypothetical fluctuation-generated observers raise questions about cosmological models and observer assumptions."
+    },
+    {
+      "from": "recurrence",
+      "to": "identity",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "An exact physical repetition leaves a further question about whether the resulting observer is the same subject."
+    },
+    {
+      "from": "environment",
+      "to": "mismatch",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A reward system can remain engaged by a modern stimulus even when its proposed ancestral benefit is absent. Food abundance and concentrated rewards provide concrete examples."
+    },
+    {
+      "from": "appearance",
+      "to": "looksmaxxing",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Grooming, training, styling, and appearance interventions target different features. The overall configuration, costs, and diminishing returns matter when comparing changes."
+    },
+    {
+      "from": "female-choice",
+      "to": "costly-signals",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "A display may be informative because it is costly to sustain. The peacock example distinguishes a costly-signal explanation from a preference that becomes self-reinforcing."
+    },
+    {
+      "from": "effort",
+      "to": "return-on-investment",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "Gaming can become a marketplace and watching a fight can become training. The kite-flying example asks whether an experience needs a further return to be worthwhile."
+    },
+    {
+      "from": "inheritance",
+      "to": "appearance",
+      "kind": "claim",
+      "label": "Traits and phenotype",
+      "summary": "Inherited dispositions contribute to physical phenotype; appearance then enters the proposed attraction pathway.",
+      "sourceEdges": [
+        "D01-E01",
+        "D01-E03"
+      ]
+    },
+    {
+      "from": "gene-environment",
+      "to": "effort",
+      "kind": "concept",
+      "label": "Selected experience and practice",
+      "summary": "Selected settings can supply practice and opportunity. This is a conceptual connection between the environment and learning discussions.",
+      "sourceEdges": [
+        "D04-E05",
+        "D04-E06"
+      ]
+    },
+    {
+      "from": "environment",
+      "to": "congruence",
+      "kind": "concept",
+      "label": "Environment fit",
+      "summary": "Self-knowledge and selection of a compatible setting form the practical congruence account.",
+      "sourceEdges": [
+        "D04-E11",
+        "D04-E12"
+      ]
+    },
+    {
+      "from": "preselection",
+      "to": "relative-value",
+      "kind": "concept",
+      "label": "Social information and value",
+      "summary": "Other people’s apparent interest can affect inferred alternatives and desirability.",
+      "sourceEdges": [
+        "D01-E10",
+        "D03-E10"
+      ]
+    },
+    {
+      "from": "relative-value",
+      "to": "desire",
+      "kind": "claim",
+      "label": "Perceived quality and desire",
+      "summary": "Relative desirability enters the proposed sexual-desire pathway. The variables are not genetic measurements.",
+      "sourceEdges": [
+        "D01-E06"
+      ]
+    },
+    {
+      "from": "care",
+      "to": "desire",
+      "kind": "claim",
+      "label": "Possible synergy",
+      "summary": "Practical value and care can contribute to desire in the qualified account. The link is conditional.",
+      "sourceEdges": [
+        "D01-E12"
+      ]
+    },
+    {
+      "from": "desire",
+      "to": "commitment",
+      "kind": "claim",
+      "label": "Desire and retention",
+      "summary": "Desire can contribute to staying without uniquely determining the outcome.",
+      "sourceEdges": [
+        "D01-E11"
+      ]
+    },
+    {
+      "from": "purpose",
+      "to": "acceptance",
+      "kind": "concept",
+      "label": "Action and outcome control",
+      "summary": "Purpose and acceptance meet in the distinction between sustained action and guaranteed results.",
+      "sourceEdges": [
+        "D04-E14"
+      ]
+    },
+    {
+      "from": "causation",
+      "to": "agency",
+      "kind": "claim",
+      "label": "Prior causes and choice",
+      "summary": "Physical determinism motivates the philosophical argument about prior causes of decisions.",
+      "sourceEdges": [
+        "D05-E01"
+      ]
+    },
+    {
+      "from": "agency",
+      "to": "acceptance",
+      "kind": "concept",
+      "label": "From causation to acceptance",
+      "summary": "Acceptance is a normative response to causation, not an experimentally required consequence of physics.",
+      "sourceEdges": [
+        "D05-E02",
+        "D05-E03"
+      ]
+    },
+    {
+      "from": "time",
+      "to": "recurrence",
+      "kind": "claim",
+      "label": "Model-dependent cosmic future",
+      "summary": "Entropy and cosmic expansion enter a speculative account of future states and recurrence. The intermediate assumptions remain essential.",
+      "sourceEdges": [
+        "D05-E07",
+        "D05-E08",
+        "D05-E09"
+      ]
+    },
+    {
+      "from": "media",
+      "to": "relative-value",
+      "kind": "concept",
+      "label": "Visible alternatives",
+      "summary": "Platforms can change the visible choice environment. This joins two topics; it is not an estimated effect in the supplied diagrams.",
+      "sourceEdges": []
+    },
+    {
+      "from": "ai",
+      "to": "markets",
+      "kind": "concept",
+      "label": "Capability and valuation",
+      "summary": "A useful technology and a profitable investment are different propositions.",
+      "sourceEdges": []
+    },
+    {
+      "from": "snowball",
+      "to": "feeds",
+      "label": "Selection and feedback",
+      "summary": "Interests help select inputs, and inputs can provide further practice or exposure. The same causal question appears in both topics.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "mimesis",
+      "to": "social-proof",
+      "label": "Other people’s attention",
+      "summary": "Imitation and social proof both concern information carried by other people’s preferences; their mechanisms and outcomes need not be identical.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "alternatives",
+      "to": "scarcity",
+      "label": "Options and availability",
+      "summary": "Actual alternatives can affect availability. Performing scarcity is a separate strategy for changing what someone infers.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "dissatisfaction",
+      "to": "exit",
+      "label": "Wanting and leaving",
+      "summary": "A continuing desire can coexist with a decision to leave an unworkable relationship.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "nutrition",
+      "to": "intervention",
+      "label": "Variation and change",
+      "summary": "A small contribution to existing differences does not imply that changing a condition has no effect.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "determinism",
+      "to": "amor-fati",
+      "label": "Causation and acceptance",
+      "summary": "Acceptance is a philosophical response to prior causes, not an experimentally required conclusion of physics.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "advice",
+      "to": "failed-projects",
+      "label": "Learning as a cause",
+      "summary": "Advice and experience can become inputs to later action; neither requires an uncaused act of choosing.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "valuation",
+      "to": "timing",
+      "label": "Price and recognition",
+      "summary": "A useful technology, a justified price, and a successful time to invest are different propositions.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "entropy-detail",
+      "to": "heat-death",
+      "label": "Energy gradients",
+      "summary": "Thermodynamic ideas enter far-future cosmological scenarios alongside assumptions about expansion and long-term physics.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "fulfillment",
+      "to": "identity",
+      "label": "Experience and meaning",
+      "summary": "What makes experience worthwhile and what preserves a subject over time are connected philosophical questions, not one deduction.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "mismatch",
+      "to": "fulfillment",
+      "label": "Reward and fulfillment",
+      "summary": "Stimulation, pleasure, and a sustained sense of purpose can come apart. These chapters examine different outcomes of the same reward-seeking activity.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "looksmaxxing",
+      "to": "effort",
+      "label": "Effort and its returns",
+      "summary": "Practice changes a skill; appearance work changes particular cues. Both involve feedback, limits, and a comparison between further effort and its expected benefit.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "return-on-investment",
+      "to": "fulfillment",
+      "label": "Use and experience",
+      "summary": "The same afternoon can be evaluated for an external return or for what it feels like to live through it.",
+      "kind": "concept",
+      "sourceEdges": []
+    },
+    {
+      "from": "costly-signals",
+      "to": "social-proof",
+      "label": "Different kinds of signals",
+      "summary": "A costly display and other people’s apparent interest provide different kinds of information. Evidence for one does not establish the mechanism of the other.",
+      "kind": "concept",
+      "sourceEdges": []
+    }
+  ],
+  "sourceLinks": {
+    "D01-E01": {
+      "label": "traits expressed",
+      "status": "A: asserted"
+    },
+    "D01-E02": {
+      "label": "choice set",
+      "status": "A: asserted"
+    },
+    "D01-E03": {
+      "label": "rapid appraisal",
+      "status": "A: asserted"
+    },
+    "D01-E04": {
+      "label": "less dependence",
+      "status": "A: asserted"
+    },
+    "D01-E05": {
+      "label": "signals options",
+      "status": "A: asserted"
+    },
+    "D01-E06": {
+      "label": "relative quality",
+      "status": "A: asserted"
+    },
+    "D01-E07": {
+      "label": "care and support",
+      "status": "A: asserted"
+    },
+    "D01-E08": {
+      "label": "practical feasibility",
+      "status": "A: asserted"
+    },
+    "D01-E09": {
+      "label": "wanting the partner",
+      "status": "A: asserted"
+    },
+    "D01-E10": {
+      "label": "social proof feedback",
+      "status": "B: inferred connection"
+    },
+    "D01-E11": {
+      "label": "desire contributes",
+      "status": "A: asserted, conditional"
+    },
+    "D01-E12": {
+      "label": "possible synergy",
+      "status": "A: asserted, conditional"
+    },
+    "D01-E13": {
+      "label": "overt compensation can lower",
+      "status": "A: asserted, conditional"
+    },
+    "D02-E01": {
+      "label": "appearance / context",
+      "status": "A: asserted"
+    },
+    "D02-E02": {
+      "label": "initial attraction",
+      "status": "A: asserted"
+    },
+    "D02-E03": {
+      "label": "workable arrangement",
+      "status": "A: asserted"
+    },
+    "D02-E04": {
+      "label": "sustains relationship",
+      "status": "A: asserted"
+    },
+    "D02-E05": {
+      "label": "security develops",
+      "status": "A: asserted"
+    },
+    "D02-E06": {
+      "label": "may imply dependence",
+      "status": "A: asserted, contested"
+    },
+    "D02-E07": {
+      "label": "proposed attraction loss",
+      "status": "A: asserted, contested"
+    },
+    "D02-E08": {
+      "label": "relationship strain",
+      "status": "B: inferred connection"
+    },
+    "D02-E09": {
+      "label": "commitment mismatch",
+      "status": "A: self-reported interpretation"
+    },
+    "D02-E10": {
+      "label": "possible return",
+      "status": "A: self-reported outcome"
+    },
+    "D02-E11": {
+      "label": "possible resumption",
+      "status": "A: self-reported outcome"
+    },
+    "D02-E12": {
+      "label": "too little care can prompt exit",
+      "status": "A: asserted, conditional"
+    },
+    "D02-E13": {
+      "label": "trust / feasibility limits",
+      "status": "B: inferred connection"
+    },
+    "D03-E01": {
+      "label": "consequential change",
+      "status": "A: asserted"
+    },
+    "D03-E02": {
+      "label": "appearance appraisal",
+      "status": "A: asserted"
+    },
+    "D03-E03": {
+      "label": "effort signals insufficiency",
+      "status": "A: asserted, unverified generalization"
+    },
+    "D03-E04": {
+      "label": "can lower value",
+      "status": "A: asserted"
+    },
+    "D03-E05": {
+      "label": "actually busy",
+      "status": "A: asserted"
+    },
+    "D03-E06": {
+      "label": "not dependent",
+      "status": "A: asserted"
+    },
+    "D03-E07": {
+      "label": "inferred quality",
+      "status": "A: asserted"
+    },
+    "D03-E08": {
+      "label": "mimics alternatives",
+      "status": "A: recommended tactic; efficacy unverified"
+    },
+    "D03-E09": {
+      "label": "predicted response",
+      "status": "A: asserted"
+    },
+    "D03-E10": {
+      "label": "apparent preselection",
+      "status": "B: inferred connection"
+    },
+    "D04-E01": {
+      "label": "predisposes noticing",
+      "status": "A: asserted"
+    },
+    "D04-E02": {
+      "label": "encountered inputs",
+      "status": "A: asserted, sometimes minimized"
+    },
+    "D04-E03": {
+      "label": "interpreted opportunities",
+      "status": "B: inferred connection"
+    },
+    "D04-E04": {
+      "label": "behavioral dispositions",
+      "status": "A: asserted"
+    },
+    "D04-E05": {
+      "label": "selects / evokes",
+      "status": "A: asserted"
+    },
+    "D04-E06": {
+      "label": "deliberate practice",
+      "status": "A: self-reported mechanism"
+    },
+    "D04-E07": {
+      "label": "improvement / learning",
+      "status": "A: self-reported mechanism"
+    },
+    "D04-E08": {
+      "label": "rewards and constraints",
+      "status": "A: asserted"
+    },
+    "D04-E09": {
+      "label": "new resources and exposure",
+      "status": "B: inferred connection"
+    },
+    "D04-E10": {
+      "label": "prompts reflection",
+      "status": "A: asserted"
+    },
+    "D04-E11": {
+      "label": "choose congruence",
+      "status": "A: recommended mechanism"
+    },
+    "D04-E12": {
+      "label": "more workable life",
+      "status": "A: asserted"
+    },
+    "D04-E13": {
+      "label": "evolved reward account",
+      "status": "A: asserted, overgeneralized"
+    },
+    "D04-E14": {
+      "label": "release outcome control",
+      "status": "A: recommended mechanism"
+    },
+    "D05-E01": {
+      "label": "causal account",
+      "status": "A: philosophical commitment"
+    },
+    "D05-E02": {
+      "label": "compassion inference",
+      "status": "A: normative inference"
+    },
+    "D05-E03": {
+      "label": "amor fati response",
+      "status": "A: normative response"
+    },
+    "D05-E04": {
+      "label": "claimed peace",
+      "status": "A: practical claim"
+    },
+    "D05-E05": {
+      "label": "function becomes purpose",
+      "status": "A: philosophical interpretation"
+    },
+    "D05-E06": {
+      "label": "congruence / duty",
+      "status": "A: asserted practical pathway"
+    },
+    "D05-E07": {
+      "label": "model-dependent extrapolation",
+      "status": "A: physical account"
+    },
+    "D05-E08": {
+      "label": "if suitable dynamics",
+      "status": "A: speculative"
+    },
+    "D05-E09": {
+      "label": "state recreation proposed",
+      "status": "A: speculative"
+    },
+    "D05-E10": {
+      "label": "identity unresolved",
+      "status": "A: explicit open question"
+    },
+    "D05-E11": {
+      "label": "comforting interpretation",
+      "status": "B: inferred connection"
+    },
+    "D06-E01": {
+      "label": "C: supported association",
+      "status": "C: supported association"
+    },
+    "D06-E02": {
+      "label": "C: substantial conditional support",
+      "status": "C: supported, conditional"
+    },
+    "D06-E03": {
+      "label": "A: leap not warranted",
+      "status": "C: contradicted inference"
+    },
+    "D06-E04": {
+      "label": "C: conditional support",
+      "status": "C: conditional, heterogeneous"
+    },
+    "D06-E05": {
+      "label": "B: does not establish this outcome",
+      "status": "B: unverified inferred connection"
+    },
+    "D06-E06": {
+      "label": "C: supported in studied trials",
+      "status": "C: supported"
+    },
+    "D06-E07": {
+      "label": "A: zero-effect leap contradicted",
+      "status": "C: contradicted inference"
+    },
+    "D07-E01": {
+      "label": "predispositions",
+      "status": "A: proposed; B diagram placement"
+    },
+    "D07-E02": {
+      "label": "genetic transmission",
+      "status": "A: stated biological premise"
+    },
+    "D07-E03": {
+      "label": "parent chooses books",
+      "status": "A: explicit example"
+    },
+    "D07-E04": {
+      "label": "possible contribution",
+      "status": "A: qualified hypothesis"
+    },
+    "D07-E05": {
+      "label": "inherited contribution",
+      "status": "A/C: conditional support"
+    },
+    "D07-E06": {
+      "label": "opportunity to learn",
+      "status": "B: competing inferred pathway"
+    },
+    "D07-E07": {
+      "label": "changes family conditions",
+      "status": "B/C: competing pathway"
+    },
+    "D07-E08": {
+      "label": "access and support",
+      "status": "B: competing inferred pathway"
+    },
+    "D07-E09": {
+      "label": "environmental effects possible",
+      "status": "C: supported in specified designs"
+    }
+  },
+  "groups": [
+    {
+      "id": "biology",
+      "label": "Biology"
+    },
+    {
+      "id": "attraction",
+      "label": "Attraction"
+    },
+    {
+      "id": "relationships",
+      "label": "Relationships"
+    },
+    {
+      "id": "living",
+      "label": "Success & purpose"
+    },
+    {
+      "id": "society",
+      "label": "Society & technology"
+    },
+    {
+      "id": "reality",
+      "label": "Universe & mind"
+    }
+  ],
+  "videos": {
+    "1": {
+      "title": "These Tables are EXACTLY The SAME Size - Mind Bugs",
+      "url": "https://www.youtube.com/watch?v=0DJPyH4JouA",
+      "date": "2022-05-30"
+    },
+    "2": {
+      "title": "The Test that Everyone is AFRAID to Take - IAT Test",
+      "url": "https://www.youtube.com/watch?v=RLKdXTwrzh0",
+      "date": "2022-05-31"
+    },
+    "3": {
+      "title": "Looks matter more than Personality (The Cold Truth)",
+      "url": "https://www.youtube.com/watch?v=E7rekEt5whE",
+      "date": "2022-06-05"
+    },
+    "4": {
+      "title": "What is the Purpose of Life (Direct Answer)",
+      "url": "https://www.youtube.com/watch?v=dovqFBFGOY4",
+      "date": "2022-06-08"
+    },
+    "5": {
+      "title": "NICE Guys Finish FIRST (But Only this Type)",
+      "url": "https://www.youtube.com/watch?v=K2eXB1G-vZ8",
+      "date": "2022-06-14"
+    },
+    "6": {
+      "title": "How to Spot a Liar  (CIA Method)",
+      "url": "https://www.youtube.com/watch?v=nYkwhzBa3nc",
+      "date": "2022-06-19"
+    },
+    "7": {
+      "title": "The ILLUSION of Free Will (You Shouldn't See This)",
+      "url": "https://www.youtube.com/watch?v=BI0kEbHWHck",
+      "date": "2022-06-22"
+    },
+    "8": {
+      "title": "The Real Reason your Favorite Company is \"Woke\" - The ESG Scam",
+      "url": "https://www.youtube.com/watch?v=A9JF2kBiKlU",
+      "date": "2022-07-05"
+    },
+    "9": {
+      "title": "What Came BEFORE The Big Bang - Explained",
+      "url": "https://www.youtube.com/watch?v=YfjiIxNXzgM",
+      "date": "2022-07-11"
+    },
+    "10": {
+      "title": "Picking Your Child's Height and IQ - Hacking Darwin",
+      "url": "https://www.youtube.com/watch?v=hyqA7x1KzhU",
+      "date": "2022-07-19"
+    },
+    "11": {
+      "title": "How To ACTUALLY Increase Your Lifespan - Hacking Darwin",
+      "url": "https://www.youtube.com/watch?v=icGRanS0brA",
+      "date": "2022-07-27"
+    },
+    "12": {
+      "title": "The Present is an ILLUSION - Explained",
+      "url": "https://www.youtube.com/watch?v=Jq3AdkdJbu4",
+      "date": "2022-08-05"
+    },
+    "13": {
+      "title": "The ONLY Way To Distinguish The PAST From FUTURE - Explained",
+      "url": "https://www.youtube.com/watch?v=qYni0I-J9_k",
+      "date": "2022-08-15"
+    },
+    "14": {
+      "title": "The Universe is Expanding at an ALARMING Rate - The End of Everything",
+      "url": "https://www.youtube.com/watch?v=eE37Ns3UCcs",
+      "date": "2022-08-21"
+    },
+    "15": {
+      "title": "Galaxies are Starting to DISAPPEAR - Here's Why",
+      "url": "https://www.youtube.com/watch?v=RK025NrkqLI",
+      "date": "2022-08-24"
+    },
+    "16": {
+      "title": "The IRREVERSIBLE Process that ENDS the Universe - Explained",
+      "url": "https://www.youtube.com/watch?v=x-bUugTWrQk",
+      "date": "2022-08-25"
+    },
+    "17": {
+      "title": "How the END of the Universe RECREATES a New Universe",
+      "url": "https://www.youtube.com/watch?v=bPrDpVOu5Y8",
+      "date": "2022-08-29"
+    },
+    "18": {
+      "title": "How the Universe ENDS and RESTARTS - Heat Death",
+      "url": "https://www.youtube.com/watch?v=8IgjE-19FeM",
+      "date": "2022-09-02"
+    },
+    "19": {
+      "title": "TikTok and Psychological Warfare - Explained",
+      "url": "https://www.youtube.com/watch?v=HX1Z_NyQrMo",
+      "date": "2022-09-04"
+    },
+    "20": {
+      "title": "Why Your Life Sucks (or doesn't) - Genetic Determinism",
+      "url": "https://www.youtube.com/watch?v=Oz7CwcUmzDM",
+      "date": "2022-09-17"
+    },
+    "21": {
+      "title": "Reject Modernity; Embrace Stoicism. Reject Weakness; Embrace Strength.",
+      "url": "https://www.youtube.com/watch?v=UnBo1mJfiSc",
+      "date": "2022-09-24"
+    },
+    "22": {
+      "title": "So you think you're unique? - Mimetic Theory",
+      "url": "https://www.youtube.com/watch?v=UdwcKO_hzto",
+      "date": "2022-10-06"
+    },
+    "23": {
+      "title": "How Your BIRTHDAY Affects Your Life (Not Astrology)",
+      "url": "https://www.youtube.com/watch?v=2h9nkqaymwg",
+      "date": "2022-10-19"
+    },
+    "24": {
+      "title": "FTX & Sam Bankman-Fried were WEF Plants",
+      "url": "https://www.youtube.com/watch?v=5g9t08IskiA",
+      "date": "2022-11-16"
+    },
+    "25": {
+      "title": "Why You Should Take The Black Pill - or shouldn't...",
+      "url": "https://www.youtube.com/watch?v=8X27qfh9D4A",
+      "date": "2022-12-01"
+    },
+    "26": {
+      "title": "Does Your Happiness Always Get Taken Away?",
+      "url": "https://www.youtube.com/watch?v=Z6oaQzR7PDc",
+      "date": "2022-12-17"
+    },
+    "27": {
+      "title": "This 1981 Article Perfectly Predicts Why You're Lonely",
+      "url": "https://www.youtube.com/watch?v=ZGAyckiW2tk",
+      "date": "2023-01-18"
+    },
+    "28": {
+      "title": "The Sad Story of Curly Head James - Amygdala Override",
+      "url": "https://www.youtube.com/watch?v=dfaaPHg_pCY",
+      "date": "2023-01-27"
+    },
+    "29": {
+      "title": "The Future of Inequality",
+      "url": "https://www.youtube.com/watch?v=I-lgwbsZrJc",
+      "date": "2023-05-31"
+    },
+    "30": {
+      "title": "Why The US Cares About Ukraine - A New World Order",
+      "url": "https://www.youtube.com/watch?v=MBtq1GyaDMg",
+      "date": "2023-06-09"
+    },
+    "31": {
+      "title": "Is Your Rejection Paving the Way for a Better Future?",
+      "url": "https://www.youtube.com/watch?v=vfu_dgODbCc",
+      "date": "2023-06-20"
+    },
+    "32": {
+      "title": "You’re Living The Same Life Again… Infinite Times #physics  #science #shorts",
+      "url": "https://www.youtube.com/watch?v=1AfLmhKxI_A",
+      "date": "2023-06-22"
+    },
+    "33": {
+      "title": "Why this might ACTUALLY be a SIMULATION - Quantum Fluctuations #physics #simulation #quantumphysics",
+      "url": "https://www.youtube.com/watch?v=DREpJt0Sduk",
+      "date": "2023-06-26"
+    },
+    "34": {
+      "title": "Nikola Tesla's Prediction of the Future",
+      "url": "https://www.youtube.com/watch?v=yi1tkx11GaA",
+      "date": "2023-06-28"
+    },
+    "35": {
+      "title": "Fake News is Like Cancer #biology #science #shorts",
+      "url": "https://www.youtube.com/watch?v=uQVKpOnpu0Y",
+      "date": "2023-07-07"
+    },
+    "36": {
+      "title": "History is Written by the Victor",
+      "url": "https://www.youtube.com/watch?v=MbsDKeL0Xq4",
+      "date": "2023-07-13"
+    },
+    "37": {
+      "title": "Why The US Cares About Ukraine - A New World Order",
+      "url": "https://www.youtube.com/watch?v=XVonFkeOqCE",
+      "date": "2023-07-17"
+    },
+    "38": {
+      "title": "Is Your Rejection Paving the Way for a Better Future?",
+      "url": "https://www.youtube.com/watch?v=PqeQOZNxoCA",
+      "date": "2023-07-17"
+    },
+    "39": {
+      "title": "Nikola Tesla's Prediction of the Future",
+      "url": "https://www.youtube.com/watch?v=ocd08MYGnwc",
+      "date": "2023-07-17"
+    },
+    "40": {
+      "title": "History is Written by the Victor",
+      "url": "https://www.youtube.com/watch?v=CO0qdxJOoVc",
+      "date": "2023-07-17"
+    },
+    "41": {
+      "title": "The Plight of Sub 5 Men",
+      "url": "https://www.youtube.com/watch?v=gzh1wScwNsM",
+      "date": "2023-07-20"
+    },
+    "42": {
+      "title": "The Plight of Sub 5 Men",
+      "url": "https://www.youtube.com/watch?v=C8OVRJvf-O8",
+      "date": "2023-07-20"
+    },
+    "43": {
+      "title": "Defending Gerbert Johnson Against Einstein | Free Listening Comprehension Transgression Guide",
+      "url": "https://www.youtube.com/watch?v=4gcCkGUMSWA",
+      "date": "2023-07-31"
+    },
+    "44": {
+      "title": "Your Therapist is LYING To You - The Ostrich Effect",
+      "url": "https://www.youtube.com/watch?v=nQl8f-4sKOg",
+      "date": "2023-08-10"
+    },
+    "45": {
+      "title": "Your Therapist is LYING To You - The Ostrich Effect",
+      "url": "https://www.youtube.com/watch?v=XAsvntpttJs",
+      "date": "2023-08-10"
+    },
+    "46": {
+      "title": "Just Shut Up",
+      "url": "https://www.youtube.com/watch?v=e-Z99gV6esg",
+      "date": "2023-08-20"
+    },
+    "47": {
+      "title": "Just Shut Up",
+      "url": "https://www.youtube.com/watch?v=yqwuWwmnw-E",
+      "date": "2023-08-20"
+    },
+    "48": {
+      "title": "Just Pretend To Be Normal",
+      "url": "https://www.youtube.com/watch?v=WdwwFVNsmLM",
+      "date": "2023-09-11"
+    },
+    "49": {
+      "title": "Just Pretend To Be Normal",
+      "url": "https://www.youtube.com/watch?v=MwgJSGMijPs",
+      "date": "2023-09-11"
+    },
+    "50": {
+      "title": "How To Win Any Argument",
+      "url": "https://www.youtube.com/watch?v=MfNm43IYKOk",
+      "date": "2023-09-15"
+    },
+    "51": {
+      "title": "How To Win Any Argument",
+      "url": "https://www.youtube.com/watch?v=cM1yuMPV76w",
+      "date": "2023-09-15"
+    },
+    "52": {
+      "title": "How To Actually Get What You Want",
+      "url": "https://www.youtube.com/watch?v=yjXVDCs7UZE",
+      "date": "2023-09-21"
+    },
+    "53": {
+      "title": "How To Actually Get What You Want",
+      "url": "https://www.youtube.com/watch?v=Q9A3gKvibbQ",
+      "date": "2023-09-21"
+    },
+    "54": {
+      "title": "The Seduction Method You're Afraid To Try",
+      "url": "https://www.youtube.com/watch?v=BRhSDHiB-jw",
+      "date": "2023-09-30"
+    },
+    "55": {
+      "title": "A Consequence of The Death of The Family - Gerbert Johnson",
+      "url": "https://www.youtube.com/watch?v=mPrccBHM2TE",
+      "date": "2023-10-10"
+    },
+    "56": {
+      "title": "A Consequence of The Death of The Family - Gerbert Johnson",
+      "url": "https://www.youtube.com/watch?v=7sqkCsk_-VI",
+      "date": "2023-10-10"
+    },
+    "57": {
+      "title": "well you SHOULD be insecure...",
+      "url": "https://www.youtube.com/watch?v=EBETo9zCOPM",
+      "date": "2023-11-06"
+    },
+    "58": {
+      "title": "Wise words from @Dbdr",
+      "url": "https://www.youtube.com/watch?v=vWOElY0Axgs",
+      "date": "2023-11-08"
+    },
+    "59": {
+      "title": "It feels good when people fail  @Dbdr",
+      "url": "https://www.youtube.com/watch?v=WruJj1jTcfA",
+      "date": "2023-11-14"
+    },
+    "60": {
+      "title": "Everything becomes predictable when you accept this @dbdr #blackpill #redpill",
+      "url": "https://www.youtube.com/watch?v=jh6uQ9k0pXE",
+      "date": "2023-11-20"
+    },
+    "61": {
+      "title": "AGI IS COMING… but #agi #ai #openai #chatgpt",
+      "url": "https://www.youtube.com/watch?v=F1MPOLWUIx0",
+      "date": "2023-11-21"
+    },
+    "62": {
+      "title": "It's not your fault",
+      "url": "https://www.youtube.com/watch?v=XAN1mwci24c",
+      "date": "2023-12-04"
+    },
+    "63": {
+      "title": "Are Ugly People More Dangerous? - Lookism & Subconscious Bias",
+      "url": "https://www.youtube.com/watch?v=IaY9zK191RA",
+      "date": "2023-12-15"
+    },
+    "64": {
+      "title": "The Smartest thing You can do",
+      "url": "https://www.youtube.com/watch?v=xoUOnibdsF0",
+      "date": "2024-01-03"
+    },
+    "65": {
+      "title": "The China Pill (1 Child Law Repercussions) #dating",
+      "url": "https://www.youtube.com/watch?v=2xtDgGJM7m4",
+      "date": "2024-01-23"
+    },
+    "66": {
+      "title": "and YOU thought Dating was Hard ?",
+      "url": "https://www.youtube.com/watch?v=UAOz2P6Eh_I",
+      "date": "2024-01-24"
+    },
+    "67": {
+      "title": "Insider Trading Should be Possible Here...",
+      "url": "https://www.youtube.com/watch?v=Z4bJITINMLw",
+      "date": "2024-02-22"
+    },
+    "68": {
+      "title": "The One Way Back - Inception & Physics",
+      "url": "https://www.youtube.com/watch?v=3ZuykQMmAfI",
+      "date": "2024-04-04"
+    },
+    "69": {
+      "title": "7 Chess Lessons From Drake vs Kendrick Lamar",
+      "url": "https://www.youtube.com/watch?v=t4OSOc8C0r4",
+      "date": "2024-04-21"
+    },
+    "70": {
+      "title": "My First Fight - 5 Life Lessons",
+      "url": "https://www.youtube.com/watch?v=d-ozlIxnJK8",
+      "date": "2024-07-14"
+    },
+    "71": {
+      "title": "What if He Just Invented Tinder Instead? (Eugenx VS Hypergamy)",
+      "url": "https://www.youtube.com/watch?v=6LlWaKIB1_Y",
+      "date": "2024-08-19"
+    },
+    "72": {
+      "title": "The truth you don't want to hear about the United Healthcare CEO Killer",
+      "url": "https://www.youtube.com/watch?v=zut3PWPxCns",
+      "date": "2024-12-12"
+    },
+    "73": {
+      "title": "TikTok, Ross Ulbricht, & Machiavelli - You wouldn’t get it.",
+      "url": "https://www.youtube.com/watch?v=SjNfkwhq1DY",
+      "date": "2025-01-25"
+    },
+    "74": {
+      "title": "Cheat on her",
+      "url": "https://www.youtube.com/watch?v=Vol8SIdq9mE",
+      "date": "2025-05-08"
+    },
+    "75": {
+      "title": "Incel seal resorts to penguins due to hypergamy frustrations #hypergamy #dating #blackpill",
+      "url": "https://www.youtube.com/watch?v=eZa3THcFDRg",
+      "date": "2025-05-09"
+    },
+    "76": {
+      "title": "NPC with 900k Reacts to ​⁠@gerbertsvoid3125 ( @Philion ) #blackpill #genz",
+      "url": "https://www.youtube.com/watch?v=aQ_4V5CVeyM",
+      "date": "2025-05-17"
+    },
+    "77": {
+      "title": "Clavicular is Destroying his Face - a Losing Bet",
+      "url": "https://www.youtube.com/watch?v=yEPQh-b79wU",
+      "date": "2025-11-27"
+    },
+    "78": {
+      "title": "How You Can Profit off Controversy Today",
+      "url": "https://www.youtube.com/watch?v=Q5cCcICOfws",
+      "date": "2026-01-27"
+    },
+    "79": {
+      "title": "The Epstein Files Expose a Funny Truth About Dating",
+      "url": "https://www.youtube.com/watch?v=qTvyD7gcBcE",
+      "date": "2026-02-09"
+    },
+    "80": {
+      "title": "Candace Owens is smart, actually",
+      "url": "https://www.youtube.com/watch?v=L-TYE4m01-c",
+      "date": "2026-02-14"
+    },
+    "81": {
+      "title": "I witnessed Androgenic beat up a guy who stole his wig and I approved of it",
+      "url": "https://www.youtube.com/watch?v=4rX5zqlMYXQ",
+      "date": "2026-04-06"
+    },
+    "82": {
+      "title": "The Future of the Blackpill and Lookism",
+      "url": "https://www.youtube.com/watch?v=L8b_6ycWCmc",
+      "date": "2026-04-09"
+    },
+    "83": {
+      "title": "The Science Behind Why Females Cheat",
+      "url": "https://www.youtube.com/watch?v=G2YXmz68BHM",
+      "date": "2026-04-10"
+    },
+    "84": {
+      "title": "Why we Find People Attractive Without Survival Advantage - The Handicap Principle Explained",
+      "url": "https://www.youtube.com/watch?v=_bVBbBFRevY",
+      "date": "2026-04-11"
+    },
+    "85": {
+      "title": "practicing acting normal",
+      "url": "https://www.youtube.com/watch?v=8NpNlHQTNbI",
+      "date": "2026-04-15"
+    },
+    "86": {
+      "title": "Being Fat was \"Attractive\"",
+      "url": "https://www.youtube.com/watch?v=6QbvPc6vPf8",
+      "date": "2026-04-17"
+    },
+    "87": {
+      "title": "You're proving him right...",
+      "url": "https://www.youtube.com/watch?v=RS17Ow15lgg",
+      "date": "2026-04-19"
+    },
+    "88": {
+      "title": "I understand why normies call us crazy",
+      "url": "https://www.youtube.com/watch?v=FWieXpOl400",
+      "date": "2026-04-20"
+    },
+    "89": {
+      "title": "Living incongruent to nature",
+      "url": "https://www.youtube.com/watch?v=1sV_v4dER70",
+      "date": "2026-04-21"
+    },
+    "90": {
+      "title": "Plaqueboymax is making a mistake",
+      "url": "https://www.youtube.com/watch?v=Wg9jWpZHmTs",
+      "date": "2026-04-24"
+    },
+    "91": {
+      "title": "Moments before getting ghosted by a Stacy",
+      "url": "https://www.youtube.com/watch?v=kjpkd2NZ51Q",
+      "date": "2026-04-25"
+    },
+    "92": {
+      "title": "stop trying to be a good person",
+      "url": "https://www.youtube.com/watch?v=z6iaY-nJ4eU",
+      "date": "2026-04-26"
+    },
+    "93": {
+      "title": "Men will beta test you in life",
+      "url": "https://www.youtube.com/watch?v=iz22sogG040",
+      "date": "2026-04-27"
+    },
+    "94": {
+      "title": "When normies ask you about the Blackpill",
+      "url": "https://www.youtube.com/watch?v=NtyQJhJhcu0",
+      "date": "2026-04-28"
+    },
+    "95": {
+      "title": "sometimes violence is the answer",
+      "url": "https://www.youtube.com/watch?v=klHyWMsoA-s",
+      "date": "2026-04-29"
+    },
+    "96": {
+      "title": "The Blackpill Remains Undefeated",
+      "url": "https://www.youtube.com/watch?v=uQpWtLZZsSE",
+      "date": "2026-05-01"
+    },
+    "97": {
+      "title": "The Self Aware Jester",
+      "url": "https://www.youtube.com/watch?v=TfmME3FmKmo",
+      "date": "2026-05-02"
+    },
+    "98": {
+      "title": "Sub5s are held to higher standards",
+      "url": "https://www.youtube.com/watch?v=Rt95y1OQ_h0",
+      "date": "2026-05-03"
+    },
+    "99": {
+      "title": "choosing the mother of my offspring",
+      "url": "https://www.youtube.com/watch?v=VPRoEqYDFWs",
+      "date": "2026-05-03"
+    },
+    "100": {
+      "title": "going through my hinge likes",
+      "url": "https://www.youtube.com/watch?v=_vmKVpggQVs",
+      "date": "2026-05-04"
+    },
+    "101": {
+      "title": "the Stacy ghosted me",
+      "url": "https://www.youtube.com/watch?v=2pm4Lou3VF8",
+      "date": "2026-05-05"
+    },
+    "102": {
+      "title": "they trained girls to not be like this anymore",
+      "url": "https://www.youtube.com/watch?v=trHrzjaCNhk",
+      "date": "2026-05-05"
+    },
+    "103": {
+      "title": "girl strategically ghosts me but stalks me (Girlfriend baiting)",
+      "url": "https://www.youtube.com/watch?v=kyYnmxO9yBY",
+      "date": "2026-05-06"
+    },
+    "104": {
+      "title": "on sub8 theory",
+      "url": "https://www.youtube.com/watch?v=ij3aM-RTNdw",
+      "date": "2026-05-07"
+    },
+    "105": {
+      "title": "picking up a 304 on a whim while sympathizing with sub5s",
+      "url": "https://www.youtube.com/watch?v=fFTPIMSP3M0",
+      "date": "2026-05-07"
+    },
+    "106": {
+      "title": "so, Austin Dunham hit on a girl I was seeing... (Male vs Female Gaze or Attachment Pill?)",
+      "url": "https://www.youtube.com/watch?v=xUFAUsssm3M",
+      "date": "2026-05-07"
+    },
+    "107": {
+      "title": "just some giga lifefuel a day to keep mr. rope away",
+      "url": "https://www.youtube.com/watch?v=B-v4LXjvv9A",
+      "date": "2026-05-08"
+    },
+    "108": {
+      "title": "am I really that crazy guys?",
+      "url": "https://www.youtube.com/watch?v=05hxX7ljwJw",
+      "date": "2026-05-08"
+    },
+    "109": {
+      "title": "rappers actually get no girls lol",
+      "url": "https://www.youtube.com/watch?v=FfdJovYJXVQ",
+      "date": "2026-05-10"
+    },
+    "110": {
+      "title": "Clavicular's First Misstep",
+      "url": "https://www.youtube.com/watch?v=KAY6vZn8DzY",
+      "date": "2026-05-11"
+    },
+    "111": {
+      "title": "TERA LIFEFUEL I saw while walking my dog",
+      "url": "https://www.youtube.com/watch?v=2Rj5SnUNios",
+      "date": "2026-05-11"
+    },
+    "112": {
+      "title": "How to Win People Over FT. ⁨@penguinz0⁩  (Low Hanging Fruit Opportunities)",
+      "url": "https://www.youtube.com/watch?v=_KLHA2ggomQ",
+      "date": "2026-05-11"
+    },
+    "113": {
+      "title": "Watch me COPE about The Odyssey and Christopher Nolan (The Extents of Wishful Thinking)",
+      "url": "https://www.youtube.com/watch?v=9vO61S0n4cA",
+      "date": "2026-05-12"
+    },
+    "114": {
+      "title": "Day in the life of a Blackpilled ND Millionaire",
+      "url": "https://www.youtube.com/watch?v=3BoDymsCJ7Y",
+      "date": "2026-05-12"
+    },
+    "115": {
+      "title": "Amouranth’s Betabux Husband Picks the Low Hanging Fruit: DDG",
+      "url": "https://www.youtube.com/watch?v=ahQGV0W-EcI",
+      "date": "2026-05-13"
+    },
+    "116": {
+      "title": "pov: u just found Jacked & Stacked @JackedStacked21",
+      "url": "https://www.youtube.com/watch?v=gSQmCIMx2c0",
+      "date": "2026-05-13"
+    },
+    "117": {
+      "title": "why I'm extra nice to sub5 men",
+      "url": "https://www.youtube.com/watch?v=xr3VByimQh0",
+      "date": "2026-05-13"
+    },
+    "118": {
+      "title": "on mog guilt",
+      "url": "https://www.youtube.com/watch?v=AbunrT01rJI",
+      "date": "2026-05-14"
+    },
+    "119": {
+      "title": "“If I were not Alexander, then I should wish to be Diogenes\" - Living True to Your Biology",
+      "url": "https://www.youtube.com/watch?v=EqKb-W0fNfE",
+      "date": "2026-05-14"
+    },
+    "120": {
+      "title": "failing to articulate a fringe Nagasaki pill in a khole (Raw Processes Zero straight from the Dome)",
+      "url": "https://www.youtube.com/watch?v=PpgYL6iM7IA",
+      "date": "2026-05-14"
+    },
+    "121": {
+      "title": "it feels so good to finally be understood",
+      "url": "https://www.youtube.com/watch?v=YON5gVBNVDQ",
+      "date": "2026-05-15"
+    },
+    "122": {
+      "title": "When a girl strategically ghosts you (Boyfriend Baiting)",
+      "url": "https://www.youtube.com/watch?v=NYnpEeDjd1A",
+      "date": "2026-05-16"
+    },
+    "123": {
+      "title": "very controversial topic",
+      "url": "https://www.youtube.com/watch?v=LZ1fX46Wx5o",
+      "date": "2026-05-17"
+    },
+    "124": {
+      "title": "girls don't seem to move on / stalk me (Very Personal Lore)",
+      "url": "https://www.youtube.com/watch?v=OkqI_Pz70mg",
+      "date": "2026-05-17"
+    },
+    "125": {
+      "title": "Neurotypical night out",
+      "url": "https://www.youtube.com/watch?v=w-8n0fhWJiQ",
+      "date": "2026-05-18"
+    },
+    "126": {
+      "title": "allowing genetic determinism to motivate you",
+      "url": "https://www.youtube.com/watch?v=oAsoolJQ2LE",
+      "date": "2026-05-18"
+    },
+    "127": {
+      "title": "treated her like sh*t, but she still stalks me and shows up to my apartment uninvited (Emiliana)",
+      "url": "https://www.youtube.com/watch?v=C9jRj0Lx69I",
+      "date": "2026-05-19"
+    },
+    "128": {
+      "title": "It's not because your father left; it's because your father.",
+      "url": "https://www.youtube.com/watch?v=coMeGMKEccc",
+      "date": "2026-05-20"
+    },
+    "129": {
+      "title": "just let go",
+      "url": "https://www.youtube.com/watch?v=m9zmK_Ioob4",
+      "date": "2026-05-20"
+    },
+    "130": {
+      "title": "going through my hinge likes ep 2",
+      "url": "https://www.youtube.com/watch?v=c-VHJBCWL6s",
+      "date": "2026-05-21"
+    },
+    "131": {
+      "title": "Cosplaying as a Neurotypical Millionaire Vlogger",
+      "url": "https://www.youtube.com/watch?v=lKu4njoVolw",
+      "date": "2026-05-22"
+    },
+    "132": {
+      "title": "Why everyone's overly nonchalant and deadpan (Fear of Extension)",
+      "url": "https://www.youtube.com/watch?v=HRKOotYUTo4",
+      "date": "2026-05-22"
+    },
+    "133": {
+      "title": "People are waking up to the blackpill, but it goes much deeper (Schizo Cosplay)",
+      "url": "https://www.youtube.com/watch?v=a89pcXW429s",
+      "date": "2026-05-23"
+    },
+    "134": {
+      "title": "All it takes is 1 night to permanently scar a girl (My Caribbean Mistress)",
+      "url": "https://www.youtube.com/watch?v=h53tIWlKAdM",
+      "date": "2026-05-24"
+    },
+    "135": {
+      "title": "Video Programming to help you stop being a b!tch",
+      "url": "https://www.youtube.com/watch?v=zxTCGMl_KBg",
+      "date": "2026-05-24"
+    },
+    "136": {
+      "title": "Understanding the Darkest Part of Female Nature - Dual Mating Strategy",
+      "url": "https://www.youtube.com/watch?v=n8qUXvXAKfI",
+      "date": "2026-05-27"
+    },
+    "137": {
+      "title": "Biting off more than you can chew (as a betabuxer)",
+      "url": "https://www.youtube.com/watch?v=1KoH_FVACWw",
+      "date": "2026-05-27"
+    },
+    "138": {
+      "title": "BenDaDonnn Fails BETA TEST from Adrien Broner after Extending Himself",
+      "url": "https://www.youtube.com/watch?v=s8IL7wGE-yM",
+      "date": "2026-05-28"
+    },
+    "139": {
+      "title": "Responding to Aestheticswaiting (Embracing your true nature)",
+      "url": "https://www.youtube.com/watch?v=EQWOc64VYqs",
+      "date": "2026-05-28"
+    },
+    "140": {
+      "title": "response to post from Tails (what if ur not 6'8, but want to participate?)",
+      "url": "https://www.youtube.com/watch?v=Ox2tc6MVVrY",
+      "date": "2026-05-29"
+    },
+    "141": {
+      "title": "\"Get back in your cave\" (Epistemic wall-banging)",
+      "url": "https://www.youtube.com/watch?v=9gKjb9EZ7sw",
+      "date": "2026-05-29"
+    },
+    "142": {
+      "title": "Learn to appreciate 304s, just don't miscategorize them...",
+      "url": "https://www.youtube.com/watch?v=0ElMKRPizvY",
+      "date": "2026-05-29"
+    },
+    "143": {
+      "title": "responding to Alexander Grace (They're all Chameleons, just not for you)",
+      "url": "https://www.youtube.com/watch?v=A1JkRRNKEoA",
+      "date": "2026-05-30"
+    },
+    "144": {
+      "title": "Dating Guru Casey Zander takes the Blackpill (balancing looksmaxing & genetic acceptance)",
+      "url": "https://www.youtube.com/watch?v=RGMXf4A0b2I",
+      "date": "2026-05-30"
+    },
+    "145": {
+      "title": "\"Revealing your hand\" signals low genetic value (Monica update)",
+      "url": "https://www.youtube.com/watch?v=G6eh83P6Rf4",
+      "date": "2026-05-31"
+    },
+    "146": {
+      "title": "Blue collar right after high school is more congruent with many people's biology #genetics #biology",
+      "url": "https://www.youtube.com/watch?v=NBZDAVsD05s",
+      "date": "2026-06-01"
+    },
+    "147": {
+      "title": "\"You're a product of your environment\" myth - Heritability Snowballing (Deviators & Disruptors)",
+      "url": "https://www.youtube.com/watch?v=eZHlruluYDI",
+      "date": "2026-06-01"
+    },
+    "148": {
+      "title": "\"Men are the beautiful gender, not women\" (cope) response to Arthur Kwon Lee",
+      "url": "https://www.youtube.com/watch?v=XOt9ZYIqaFc",
+      "date": "2026-06-02"
+    },
+    "149": {
+      "title": "When to fight your biology, and when to \"just be yourself bro\"...",
+      "url": "https://www.youtube.com/watch?v=8kEcZI7Ph6c",
+      "date": "2026-06-03"
+    },
+    "150": {
+      "title": "Letting sub 5s slide (2 7 Pity)",
+      "url": "https://www.youtube.com/watch?v=kW9gEOQ5HzQ",
+      "date": "2026-06-04"
+    },
+    "151": {
+      "title": "Normies want you to stay in your genetic lane regardless of hard work #blackpill #dating #genetics",
+      "url": "https://www.youtube.com/watch?v=qU8qaQJhgME",
+      "date": "2026-06-05"
+    },
+    "152": {
+      "title": "just let them think ur retarded",
+      "url": "https://www.youtube.com/watch?v=06zrH2fN7Cc",
+      "date": "2026-06-07"
+    },
+    "153": {
+      "title": "I don't think women are the problem... (Hypergamy is just a symptom)",
+      "url": "https://www.youtube.com/watch?v=h7pQTjJ3OKQ",
+      "date": "2026-06-09"
+    },
+    "154": {
+      "title": "thinking about having kids",
+      "url": "https://www.youtube.com/watch?v=ZtZ7xwVa5nw",
+      "date": "2026-06-11"
+    },
+    "155": {
+      "title": "going through my hinge likes ep 3",
+      "url": "https://www.youtube.com/watch?v=dMlS71Lv3BI",
+      "date": "2026-06-11"
+    },
+    "156": {
+      "title": "going through my hinge likes ep 3.5",
+      "url": "https://www.youtube.com/watch?v=rEOfSBcO7mI",
+      "date": "2026-06-12"
+    },
+    "157": {
+      "title": "Dating Guru Casey Zander Takes the Blackpill (Redpill to Looksmax to Blackpill Pipeline)",
+      "url": "https://www.youtube.com/watch?v=BdlttRw46Ls",
+      "date": "2026-06-14"
+    },
+    "158": {
+      "title": "Clavicular's Botched Nose Job (Gene Frauding & Losing the Harmony Gamble)",
+      "url": "https://www.youtube.com/watch?v=nPkzgLUjgSQ",
+      "date": "2026-06-16"
+    },
+    "159": {
+      "title": "How to properly call someone retarded (from a Retard)",
+      "url": "https://www.youtube.com/watch?v=IZFy7TVZsbI",
+      "date": "2026-06-18"
+    },
+    "160": {
+      "title": "My experience at the club after leaning down, relationships, & preselection anecdotes",
+      "url": "https://www.youtube.com/watch?v=qpH6eR6SapA",
+      "date": "2026-06-21"
+    },
+    "161": {
+      "title": "the fruitlessness of being too ahead of the curve",
+      "url": "https://www.youtube.com/watch?v=dDMGObGCaSc",
+      "date": "2026-06-22"
+    },
+    "162": {
+      "title": "Understanding betabuxing kinda makes materialism repulsive...",
+      "url": "https://www.youtube.com/watch?v=p3BKqtRIu54",
+      "date": "2026-06-23"
+    },
+    "163": {
+      "title": "Life gets better when you stop trying to control narratives",
+      "url": "https://www.youtube.com/watch?v=_wi3-W29H9Q",
+      "date": "2026-06-24"
+    },
+    "164": {
+      "title": "Embracing your archetype for career advantages",
+      "url": "https://www.youtube.com/watch?v=Je8EduCjG8s",
+      "date": "2026-06-25"
+    },
+    "165": {
+      "title": "Do you have the genetics to be a good investor? (Response to TechLead)",
+      "url": "https://www.youtube.com/watch?v=tSX4j6X5N1M",
+      "date": "2026-06-25"
+    },
+    "166": {
+      "title": "The theatre of Democracy",
+      "url": "https://www.youtube.com/watch?v=8VNIP1IzJmI",
+      "date": "2026-06-26"
+    },
+    "167": {
+      "title": "so your girl posted a bikini pic... (Male vs Female Compensation)",
+      "url": "https://www.youtube.com/watch?v=aHggVWArfFU",
+      "date": "2026-06-28"
+    },
+    "168": {
+      "title": "Redpill advice is mostly gene frauding as men who don't need to try",
+      "url": "https://www.youtube.com/watch?v=L_2sCGgNQ8k",
+      "date": "2026-06-29"
+    },
+    "169": {
+      "title": "yea... just blindly trust those studies",
+      "url": "https://www.youtube.com/watch?v=FPYBq8qbB4I",
+      "date": "2026-07-02"
+    },
+    "170": {
+      "title": "going through my hinge matches and likes ep 4",
+      "url": "https://www.youtube.com/watch?v=PwpR3_thZd4",
+      "date": "2026-07-03"
+    },
+    "171": {
+      "title": "The N Word's Future Use Case",
+      "url": "https://www.youtube.com/watch?v=FyOzb67YzSI",
+      "date": "2026-07-04"
+    },
+    "172": {
+      "title": "why you experience joy and pain - embracing your design",
+      "url": "https://www.youtube.com/watch?v=qXpniY_SjVw",
+      "date": "2026-07-05"
+    },
+    "173": {
+      "title": "The power of not smiling after a beta test...",
+      "url": "https://www.youtube.com/watch?v=X_R41OeQYrs",
+      "date": "2026-07-06"
+    },
+    "174": {
+      "title": "Connor Murphy Dies - Was Balding the Cause?",
+      "url": "https://www.youtube.com/watch?v=dgER4qNrKLw",
+      "date": "2026-07-08"
+    },
+    "175": {
+      "title": "Why You Have a Higher \"Purpose\" Than Simply Reproduction (Generational Replication)",
+      "url": "https://www.youtube.com/watch?v=G9lig2R-gAs",
+      "date": "2026-07-08"
+    },
+    "176": {
+      "title": "No ones \"crazy\"...",
+      "url": "https://www.youtube.com/watch?v=x4ovirYSM24",
+      "date": "2026-07-09"
+    },
+    "177": {
+      "title": "Lil Tjay Beta Tests Jack Doherty and gets Smacked!",
+      "url": "https://www.youtube.com/watch?v=aj7IME4yeZw",
+      "date": "2026-07-10"
+    },
+    "178": {
+      "title": "going through my hinge likes ep 5.5",
+      "url": "https://www.youtube.com/watch?v=jblnoh7TV5s",
+      "date": "2026-07-15"
+    },
+    "179": {
+      "title": "Your \"Disorders\" are super powers given the right environment...",
+      "url": "https://www.youtube.com/watch?v=uZZHNSxx5qw",
+      "date": "2026-07-15"
+    },
+    "180": {
+      "title": "going through my hinge likes and matches ep 5",
+      "url": "https://www.youtube.com/watch?v=2OKjKIQOfJg",
+      "date": "2026-07-16"
+    },
+    "181": {
+      "title": "Stop blindly trusting studies! #science",
+      "url": "https://www.youtube.com/watch?v=cWhbzFZDWYE",
+      "date": "2026-07-16"
+    },
+    "182": {
+      "title": "How antidepressants passed FDA approval (loophole explained)",
+      "url": "https://www.youtube.com/watch?v=u7lsEOFUwQA",
+      "date": "2026-07-21"
+    },
+    "183": {
+      "title": "going through my hinge likes ep 6",
+      "url": "https://www.youtube.com/watch?v=x9j5HTZbmIE",
+      "date": "2026-07-24"
+    },
+    "184": {
+      "title": "Dark truth I realized when dating 2 girls at once for 2 years (Gianna & Bella P1)",
+      "url": "https://www.youtube.com/watch?v=CwJyhhm8y9I",
+      "date": "2026-07-29"
+    },
+    "185": {
+      "title": "Be careful with girls who send subliminals on social media (Gianna & Bella P3)",
+      "url": "https://www.youtube.com/watch?v=L_V0rhu_Wm4",
+      "date": "2026-07-30"
+    },
+    "186": {
+      "title": "Girl I took on vacation almost dies (Gianna & Bella P5)",
+      "url": "https://www.youtube.com/watch?v=NJdfhaeQ7UE",
+      "date": "2026-07-30"
+    },
+    "187": {
+      "title": "Revealing the Deceptive Tactics used to Fuel the AI Bubble (From a CS Perspective)",
+      "url": "https://www.youtube.com/watch?v=sEzWT25cB4w",
+      "date": "2026-08-04"
+    },
+    "188": {
+      "title": "why being right can lose you money in investing",
+      "url": "https://www.youtube.com/watch?v=LVCbDfrVsPw",
+      "date": "2026-08-05"
+    },
+    "189": {
+      "title": "GPUs running tasks in parallel isnt going to spawn AGI lmao #ai #aibubble",
+      "url": "https://www.youtube.com/watch?v=IR6NS9odlEU",
+      "date": "2026-08-06"
+    },
+    "190": {
+      "title": "Instead of Betabuxing... try this",
+      "url": "https://www.youtube.com/watch?v=Jq6SD2UkJFs",
+      "date": "2026-08-23"
+    },
+    "191": {
+      "title": "\"just focus on your purpose bro\"...",
+      "url": "https://www.youtube.com/watch?v=CH21iH14Ers",
+      "date": "2026-09-08"
+    },
+    "192": {
+      "title": "Stop trying to mimic Chad's behaviors in 2026 - @ModernSchema Response",
+      "url": "https://www.youtube.com/watch?v=jKPLlSN46Bc",
+      "date": "2026-09-09"
+    },
+    "193": {
+      "title": "Why holding a regular coca-cola can is free aura - The Diet Coke Pill",
+      "url": "https://www.youtube.com/watch?v=xRL2EA6u1qM",
+      "date": "2026-09-12"
+    },
+    "194": {
+      "title": "The Downfall of Many Men in the Blackpill - The Ego Pill",
+      "url": "https://www.youtube.com/watch?v=pNx6vJqGkL4",
+      "date": "2026-09-14"
+    },
+    "195": {
+      "title": "How to be Happy (from a blackpilled millionaire)",
+      "url": "https://www.youtube.com/watch?v=SpybKpAQ2F8",
+      "date": "2026-10-01"
+    },
+    "196": {
+      "title": "The only way COLD approach can work (without an IOI)...",
+      "url": "https://www.youtube.com/watch?v=N-fhDbxBEBk",
+      "date": "2026-10-03"
+    },
+    "197": {
+      "title": "you're probably too smart to succeed",
+      "url": "https://www.youtube.com/watch?v=sJMX9Lc6Ero",
+      "date": "2026-10-09"
+    },
+    "198": {
+      "title": "Behaviors of Becky - How Females Compensate for lack of Beauty",
+      "url": "https://www.youtube.com/watch?v=GUDSQGjoE0I",
+      "date": "2026-10-17"
+    },
+    "199": {
+      "title": "You're not actually Blackpilled... yet",
+      "url": "https://www.youtube.com/watch?v=VKc6PQpxjAU",
+      "date": "2026-10-21"
+    },
+    "200": {
+      "title": "AI is disrupting female Instagramers",
+      "url": "https://www.youtube.com/watch?v=7alLKk0joak",
+      "date": "2026-10-23"
+    },
+    "201": {
+      "title": "Social Media Isn't Brainwashing You... its just expediting natural selection",
+      "url": "https://www.youtube.com/watch?v=Vh7KSCqtCaI",
+      "date": "2026-10-24"
+    },
+    "202": {
+      "title": "Why Low IQ and High IQ People Agree - The Layers of Realization",
+      "url": "https://www.youtube.com/watch?v=QwRAAQC4fSs",
+      "date": "2026-10-25"
+    }
+  }
+}

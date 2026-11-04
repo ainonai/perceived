@@ -1,0 +1,495 @@
+[
+  {
+    "id": "D01",
+    "title": "Attraction has more than one outcome",
+    "nodes": [
+      [
+        "a",
+        "Appearance",
+        60,
+        170
+      ],
+      [
+        "b",
+        "Behavior & signals",
+        60,
+        365
+      ],
+      [
+        "q",
+        "Perceived desirability",
+        415,
+        265
+      ],
+      [
+        "d",
+        "Sexual desire",
+        770,
+        170
+      ],
+      [
+        "r",
+        "Resources & care",
+        415,
+        540
+      ],
+      [
+        "u",
+        "Practical value",
+        770,
+        540
+      ],
+      [
+        "t",
+        "Pursuit & retention",
+        770,
+        365
+      ]
+    ],
+    "links": [
+      [
+        "a",
+        "q"
+      ],
+      [
+        "b",
+        "q"
+      ],
+      [
+        "q",
+        "d"
+      ],
+      [
+        "d",
+        "t"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "u",
+        "t"
+      ]
+    ],
+    "note": "Desire, practical value, pursuit, and remaining together are distinct variables.",
+    "originalMap": "../diagrams/d01_female_causal_architecture.svg"
+  },
+  {
+    "id": "D02",
+    "title": "From an encounter to an ongoing bond",
+    "nodes": [
+      [
+        "e",
+        "Encounter",
+        60,
+        190
+      ],
+      [
+        "i",
+        "Mutual interest",
+        415,
+        190
+      ],
+      [
+        "b",
+        "Ongoing bond",
+        770,
+        190
+      ],
+      [
+        "f",
+        "Care & practical fit",
+        415,
+        470
+      ],
+      [
+        "x",
+        "Separation or return",
+        770,
+        470
+      ]
+    ],
+    "links": [
+      [
+        "e",
+        "i"
+      ],
+      [
+        "i",
+        "b"
+      ],
+      [
+        "f",
+        "b"
+      ],
+      [
+        "b",
+        "x"
+      ]
+    ],
+    "note": "A person can leave despite remaining desire. Returning does not identify the cause.",
+    "originalMap": "../diagrams/d02_attraction_relationship_stages.svg"
+  },
+  {
+    "id": "D03",
+    "title": "What an action changes—and what it signals",
+    "nodes": [
+      [
+        "g",
+        "Major improvement",
+        60,
+        150
+      ],
+      [
+        "p",
+        "Observable appearance",
+        415,
+        150
+      ],
+      [
+        "o",
+        "Real priorities",
+        60,
+        530
+      ],
+      [
+        "b",
+        "Genuine availability",
+        415,
+        530
+      ],
+      [
+        "e",
+        "Visible effort",
+        60,
+        340
+      ],
+      [
+        "c",
+        "Compensation inferred",
+        415,
+        340
+      ],
+      [
+        "v",
+        "Perceived value",
+        770,
+        340
+      ]
+    ],
+    "links": [
+      [
+        "g",
+        "p"
+      ],
+      [
+        "p",
+        "v"
+      ],
+      [
+        "o",
+        "b"
+      ],
+      [
+        "b",
+        "v"
+      ],
+      [
+        "e",
+        "c"
+      ],
+      [
+        "c",
+        "v"
+      ]
+    ],
+    "note": "Manufactured rival cues imitate alternatives; they are not the same as having them.",
+    "originalMap": "../diagrams/d03_signals_effort_and_naturalness.svg"
+  },
+  {
+    "id": "D04",
+    "title": "Starting conditions, action, and a life",
+    "nodes": [
+      [
+        "g",
+        "Inherited dispositions",
+        60,
+        170
+      ],
+      [
+        "e",
+        "Environment",
+        60,
+        470
+      ],
+      [
+        "a",
+        "Attention & behavior",
+        415,
+        170
+      ],
+      [
+        "p",
+        "Practice & reflection",
+        415,
+        470
+      ],
+      [
+        "s",
+        "Skills & opportunities",
+        770,
+        170
+      ],
+      [
+        "f",
+        "Fit & fulfillment",
+        770,
+        470
+      ]
+    ],
+    "links": [
+      [
+        "g",
+        "a"
+      ],
+      [
+        "e",
+        "a"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "p",
+        "s"
+      ],
+      [
+        "p",
+        "f"
+      ]
+    ],
+    "note": "These are conceptual pathways. Stable dispositions and acquired capacities coexist.",
+    "originalMap": "../diagrams/d04_overall_worldview.svg"
+  },
+  {
+    "id": "D05",
+    "title": "Two different kinds of question",
+    "nodes": [
+      [
+        "d",
+        "Physical causation",
+        60,
+        180
+      ],
+      [
+        "a",
+        "Agency & responsibility",
+        415,
+        180
+      ],
+      [
+        "m",
+        "Acceptance & meaning",
+        770,
+        180
+      ],
+      [
+        "e",
+        "Entropy & expansion",
+        60,
+        470
+      ],
+      [
+        "h",
+        "Cosmic future",
+        415,
+        470
+      ],
+      [
+        "r",
+        "Recurrence?",
+        770,
+        470
+      ]
+    ],
+    "links": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "e",
+        "h"
+      ],
+      [
+        "h",
+        "r"
+      ]
+    ],
+    "note": "Recurrence is conditional and speculative. Personal identity remains an additional question.",
+    "originalMap": "../diagrams/d05_determinism_meaning_universe.svg"
+  },
+  {
+    "id": "D06",
+    "title": "A finding and the claim beyond it",
+    "nodes": [
+      [
+        "a",
+        "Appearance",
+        60,
+        155
+      ],
+      [
+        "b",
+        "Romantic evaluations",
+        415,
+        155,
+        "support"
+      ],
+      [
+        "x",
+        "Universal 90% rule?",
+        770,
+        155,
+        "question"
+      ],
+      [
+        "g",
+        "Genetic variation",
+        60,
+        355
+      ],
+      [
+        "v",
+        "Population differences",
+        415,
+        355,
+        "support"
+      ],
+      [
+        "y",
+        "Individual destiny?",
+        770,
+        355,
+        "question"
+      ],
+      [
+        "p",
+        "Publication bias",
+        60,
+        555
+      ],
+      [
+        "i",
+        "Inflated published benefit",
+        415,
+        555,
+        "support"
+      ],
+      [
+        "z",
+        "Zero actual benefit?",
+        770,
+        555,
+        "question"
+      ]
+    ],
+    "links": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "x",
+        "boundary"
+      ],
+      [
+        "g",
+        "v"
+      ],
+      [
+        "v",
+        "y",
+        "boundary"
+      ],
+      [
+        "p",
+        "i"
+      ],
+      [
+        "i",
+        "z",
+        "boundary"
+      ]
+    ],
+    "note": "The middle column refers to the narrower reviewed finding; the last column is not established by it.",
+    "originalMap": "../diagrams/d06_evidence_uncertainty_map.svg"
+  },
+  {
+    "id": "D07",
+    "title": "Inheritance and exposure can reach the same outcome",
+    "nodes": [
+      [
+        "p",
+        "Parental traits",
+        415,
+        140
+      ],
+      [
+        "f",
+        "Family conditions",
+        60,
+        345
+      ],
+      [
+        "g",
+        "Child inherited traits",
+        770,
+        345
+      ],
+      [
+        "e",
+        "Exposure & learning",
+        60,
+        555
+      ],
+      [
+        "o",
+        "Child outcomes",
+        770,
+        555
+      ]
+    ],
+    "links": [
+      [
+        "p",
+        "f"
+      ],
+      [
+        "p",
+        "g"
+      ],
+      [
+        "f",
+        "e"
+      ],
+      [
+        "e",
+        "o"
+      ],
+      [
+        "g",
+        "o"
+      ]
+    ],
+    "note": "A correlation with a family condition does not, by itself, isolate either pathway.",
+    "originalMap": "../diagrams/d07_genetics_environment_competing_paths.svg"
+  }
+]
