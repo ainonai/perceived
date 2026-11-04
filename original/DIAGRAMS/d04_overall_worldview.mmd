@@ -1,0 +1,29 @@
+%% Overall worldview architecture
+%% A = Julius; B = inferred connection; C = independent evidence.
+%% See README.md for the source ledger for every edge.
+flowchart TD
+    g["Inherited dispositions"]
+    e["Experienced environment"]
+    a["Attention and interpretation"]
+    c["Choices and behavior"]
+    k["Practice and acquired skill"]
+    i["Institutions and incentives"]
+    s["Opportunities / success"]
+    r["Rewards and discomfort"]
+    p["Self-knowledge / purpose"]
+    f["Environment fit"]
+    w["Fulfillment / acceptance"]
+    g -->|"D04-E01: predisposes noticing"| a
+    e -->|"D04-E02: encountered inputs"| a
+    a -.->|"D04-E03: interpreted opportunities"| c
+    g -->|"D04-E04: behavioral dispositions"| c
+    c -->|"D04-E05: selects / evokes"| e
+    c -->|"D04-E06: deliberate practice"| k
+    k -->|"D04-E07: improvement / learning"| s
+    i -->|"D04-E08: rewards and constraints"| c
+    s -.->|"D04-E09: new resources and exposure"| e
+    r -->|"D04-E10: prompts reflection"| p
+    p -->|"D04-E11: choose congruence"| f
+    f -->|"D04-E12: more workable life"| w
+    c -->|"D04-E13: evolved reward account"| r
+    p -->|"D04-E14: release outcome control"| w

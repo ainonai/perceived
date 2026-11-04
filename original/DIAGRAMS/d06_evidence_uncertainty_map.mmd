@@ -1,0 +1,22 @@
+%% Evidence and uncertainty map
+%% A = Julius; B = inferred connection; C = independent evidence.
+%% See README.md for the source ledger for every edge.
+flowchart TD
+    a["A: Physical attractiveness"]
+    b["Romantic evaluations"]
+    c["A: Genetic differences"]
+    d["Population trait variance"]
+    e["Immutable individual destiny"]
+    f["A: Rival / preselection cues"]
+    g["Desirability ratings"]
+    h["Healthy long-term bond"]
+    i["Publication bias"]
+    j["Inflated published benefit"]
+    k["No actual drug benefit"]
+    a -->|"D06-E01: C: supported association"| b
+    c -->|"D06-E02: C: substantial conditional support"| d
+    d -->|"D06-E03: A: leap not warranted"| e
+    f -->|"D06-E04: C: conditional support"| g
+    g -.->|"D06-E05: B: does not establish this outcome"| h
+    i -->|"D06-E06: C: supported in studied trials"| j
+    j -->|"D06-E07: A: zero-effect leap contradicted"| k

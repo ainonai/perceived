@@ -1,0 +1,28 @@
+%% Attraction and relationship dynamics
+%% A = Julius; B = inferred connection; C = independent evidence.
+%% See README.md for the source ledger for every edge.
+flowchart TD
+    e["Encounter and initial appraisal"]
+    i["Mutual interest"]
+    f["Practical fit and expectations"]
+    b["Ongoing bond"]
+    s["Guaranteed attention inferred"]
+    v["Inferred alternatives / value falls"]
+    l["Desire or pursuit declines"]
+    c["Care and reliability"]
+    x["Withdrawal or separation"]
+    r["Renewed contact"]
+    z["Exit despite remaining desire"]
+    e -->|"D02-E01: appearance / context"| i
+    i -->|"D02-E02: initial attraction"| b
+    f -->|"D02-E03: workable arrangement"| b
+    c -->|"D02-E04: sustains relationship"| b
+    b -->|"D02-E05: security develops"| s
+    s -->|"D02-E06: may imply dependence"| v
+    v -->|"D02-E07: proposed attraction loss"| l
+    l -.->|"D02-E08: relationship strain"| x
+    b -->|"D02-E09: commitment mismatch"| x
+    x -->|"D02-E10: possible return"| r
+    r -->|"D02-E11: possible resumption"| b
+    c -->|"D02-E12: too little care can prompt exit"| z
+    b -.->|"D02-E13: trust / feasibility limits"| z

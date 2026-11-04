@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-11-01T03:44:33+00:00",
+  "origin_index": "..\\julius_analysis\\faithful_pilot_v2\\gpt-6.1-terra\\consolidation_index_all.json",
+  "videos_required": 202,
+  "videos_included": 202,
+  "original_source_words_from_index": 516553,
+  "consolidated_words_from_index": 290805,
+  "compact_file_whitespace_words": 296272,
+  "compact_file_characters": 1891918,
+  "timestamp_url_wrappers_removed": 4950,
+  "other_timestamp_links_preserved": 0,
+  "verbatim_source_fallbacks": 1,
+  "all_consolidated_passages_unchanged": true,
+  "all_videos_have_one_parent_video_url": true,
+  "original_source_transcripts_untouched": true,
+  "tokenizer": "o200k_base",
+  "compact_token_count": 420006,
+  "original_merged_token_count": 531684,
+  "note": "This audit verifies mechanical text preservation, not scientific truth or semantic fidelity of the earlier AI consolidation.",
+  "tokens_saved": 111678,
+  "percent_tokens_saved": 21.0
+}

@@ -1,0 +1,28 @@
+%% Female nature — proposed causal architecture
+%% A = Julius; B = inferred connection; C = independent evidence.
+%% See README.md for the source ledger for every edge.
+flowchart TD
+    g["Inherited dispositions"]
+    p["Physical phenotype"]
+    m["Mating-market conditions"]
+    a["Perceived alternatives"]
+    b["Behavior and availability"]
+    q["Perceived genetic / mate value"]
+    r["Resources and care"]
+    u["Logistical relationship value"]
+    d["Sexual desire"]
+    v["Pursuit / investment"]
+    t["Relationship retention"]
+    g -->|"D01-E01: traits expressed"| p
+    m -->|"D01-E02: choice set"| a
+    p -->|"D01-E03: rapid appraisal"| q
+    a -->|"D01-E04: less dependence"| b
+    b -->|"D01-E05: signals options"| q
+    q -->|"D01-E06: relative quality"| d
+    r -->|"D01-E07: care and support"| u
+    u -->|"D01-E08: practical feasibility"| t
+    d -->|"D01-E09: wanting the partner"| v
+    v -.->|"D01-E10: social proof feedback"| a
+    d -->|"D01-E11: desire contributes"| t
+    u -->|"D01-E12: possible synergy"| d
+    r -->|"D01-E13: overt compensation can lower"| q
