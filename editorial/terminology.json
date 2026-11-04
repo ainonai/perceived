@@ -1,0 +1,432 @@
+[
+  {
+    "term": "Normie",
+    "definition": "An ordinary or conventionally minded person, often outside the blackpill subculture. In appearance discussions it can also mean someone of average perceived attractiveness.",
+    "aliases": [
+      "normie",
+      "normies"
+    ],
+    "videos": [
+      62,
+      152
+    ],
+    "chapter": "about-julius"
+  },
+  {
+    "term": "Mogging",
+    "definition": "Visibly overshadowing another person in appearance, stature, or a particular comparison. Mogguilt names discomfort about being the person doing the overshadowing.",
+    "aliases": [
+      "mogging",
+      "mogged",
+      "mog"
+    ],
+    "videos": [
+      84,
+      118
+    ],
+    "chapter": "living-cooperation-conflict-and-unequal-starting-conditions"
+  },
+  {
+    "term": "Cope",
+    "definition": "Wishful thinking or a convenient explanation used to protect a preferred belief from uncomfortable information.",
+    "aliases": [
+      "cope",
+      "coping"
+    ],
+    "videos": [
+      25,
+      113
+    ],
+    "chapter": "reality-perception-and-levels-of-explanation"
+  },
+  {
+    "term": "Lifefuel",
+    "definition": "An observation or example that supplies hope, encouragement, or reassurance. The relationship glimpsed while walking a dog illustrates the term’s use.",
+    "aliases": [
+      "lifefuel",
+      "life fuel"
+    ],
+    "videos": [
+      107
+    ],
+    "chapter": "relationships-personal-accounts-and-general-explanations"
+  },
+  {
+    "term": "Ascension",
+    "definition": "Slang for a marked improvement in appearance, perceived desirability, or dating prospects. The word describes an informal change in standing rather than a measured biological category.",
+    "aliases": [
+      "ascension",
+      "ascend",
+      "ascending"
+    ],
+    "videos": [
+      25,
+      82
+    ],
+    "chapter": "attraction-presentation-effort-and-diminishing-returns"
+  },
+  {
+    "term": "Chameleon maxing",
+    "definition": "Imitating preferences, mannerisms, or selectivity to fit an attractive archetype or imply greater desirability. A copied reply schedule and forced aloofness illustrate the same mechanism.",
+    "aliases": [
+      "chameleon maxing",
+      "chameleonmaxing"
+    ],
+    "videos": [
+      198
+    ],
+    "chapter": "attraction-preselection-and-social-proof"
+  },
+  {
+    "term": "Neurotypical / neurodivergent",
+    "definition": "Terms for broadly typical cognitive functioning and patterns that differ from it. The videos also use them as self-descriptive social labels; neither term specifies a person’s intelligence or one particular diagnosis.",
+    "aliases": [
+      "neurotypical",
+      "neurodivergent",
+      "neurodivergence",
+      "NT",
+      "ND"
+    ],
+    "videos": [
+      85,
+      152,
+      179
+    ],
+    "chapter": "about-julius"
+  },
+  {
+    "term": "Halo effect",
+    "definition": "An overall impression influencing judgments of particular qualities. Appearance can change whether the same conduct seems confident, arrogant, mysterious, or awkward.",
+    "aliases": [
+      "halo effect"
+    ],
+    "videos": [
+      3,
+      63
+    ],
+    "chapter": "attraction-appearance-and-the-halo-effect"
+  },
+  {
+    "term": "Sexual selection",
+    "definition": "Selection associated with differences in mating success. A trait can aid reproductive appeal while carrying survival costs, as the peacock example illustrates.",
+    "aliases": [
+      "sexual selection"
+    ],
+    "videos": [
+      4,
+      84
+    ],
+    "chapter": "attraction-sexual-selection-and-costly-signals"
+  },
+  {
+    "term": "Costly signaling / handicap principle",
+    "definition": "A proposed explanation in which the cost of producing or maintaining a display makes it informative about the ability to bear that cost. It differs from a preference simply becoming self-reinforcing.",
+    "aliases": [
+      "costly signaling",
+      "costly signalling",
+      "handicap principle"
+    ],
+    "videos": [
+      84
+    ],
+    "chapter": "attraction-sexual-selection-and-costly-signals"
+  },
+  {
+    "term": "Phenotype",
+    "definition": "An observable characteristic or expression of an organism, arising through development in an environment. Appearance is part of phenotype, but the term is broader than facial attractiveness.",
+    "aliases": [
+      "phenotype",
+      "phenotypes"
+    ],
+    "videos": [
+      3,
+      193
+    ],
+    "chapter": "biology-dispositions-help-shape-experience"
+  },
+  {
+    "term": "Gene–environment correlation",
+    "definition": "A relationship between inherited dispositions and the environments associated with them. Passive, evocative, and active routes concern parental settings, responses elicited from others, and settings a person seeks.",
+    "aliases": [
+      "gene–environment correlation",
+      "gene-environment correlation"
+    ],
+    "videos": [
+      147,
+      199
+    ],
+    "chapter": "biology-dispositions-help-shape-experience"
+  },
+  {
+    "term": "Environmental mismatch",
+    "definition": "A disposition operating under conditions unlike those in which it developed. Modern reward sources can stimulate a motivation without producing its proposed ancestral benefit.",
+    "aliases": [
+      "environmental mismatch"
+    ],
+    "videos": [
+      4,
+      149,
+      172
+    ],
+    "chapter": "biology-evolution-without-a-planner"
+  },
+  {
+    "term": "Polygenic score",
+    "definition": "A prediction combining information from many genetic variants. A score expresses an estimate with uncertainty rather than the outcome a particular individual must reach.",
+    "aliases": [
+      "polygenic score",
+      "polygenic scores",
+      "polygenic prediction"
+    ],
+    "videos": [
+      20,
+      29,
+      199
+    ],
+    "chapter": "biology-biotechnology-and-prediction"
+  },
+  {
+    "term": "Embryo selection",
+    "definition": "Choosing among available embryos using particular criteria. The available embryos, uncertainty of prediction, and competing objectives constrain the choice.",
+    "aliases": [
+      "embryo selection"
+    ],
+    "videos": [
+      29
+    ],
+    "chapter": "biology-biotechnology-and-prediction"
+  },
+  {
+    "term": "Gene editing",
+    "definition": "Changing DNA rather than choosing among existing embryos. Editing, selection, and prediction are different operations.",
+    "aliases": [
+      "gene editing"
+    ],
+    "videos": [
+      29
+    ],
+    "chapter": "biology-biotechnology-and-prediction"
+  },
+  {
+    "term": "Physical determinism",
+    "definition": "The position that a system’s state and laws determine its subsequent evolution. It differs from genetic determinism, predictability, and the further philosophical question of agency.",
+    "aliases": [
+      "physical determinism",
+      "determinism"
+    ],
+    "videos": [
+      7,
+      194
+    ],
+    "chapter": "reality-determinism-and-agency"
+  },
+  {
+    "term": "Compatibilism",
+    "definition": "A family of views in which meaningful agency can exist within causation, often through deliberation and responsiveness to reasons rather than uncaused choice.",
+    "aliases": [
+      "compatibilism"
+    ],
+    "videos": [
+      7,
+      111,
+      194
+    ],
+    "chapter": "reality-determinism-and-agency"
+  },
+  {
+    "term": "Relativity of simultaneity",
+    "definition": "The dependence of judgments about which distant events are simultaneous on the observer’s reference frame. It is different from the time a signal takes to arrive.",
+    "aliases": [
+      "relativity of simultaneity",
+      "simultaneity"
+    ],
+    "videos": [
+      12
+    ],
+    "chapter": "reality-relativity-and-the-distant-present"
+  },
+  {
+    "term": "Signal travel time",
+    "definition": "The time required for information to propagate between locations. An Earth–Mars question and its reply each require propagation time.",
+    "aliases": [
+      "signal travel time",
+      "signal travel",
+      "light travel time"
+    ],
+    "videos": [
+      12
+    ],
+    "chapter": "reality-relativity-and-the-distant-present"
+  },
+  {
+    "term": "Entropy / thermodynamic arrow",
+    "definition": "Entropy is a state quantity used in thermodynamics. The thermodynamic arrow concerns the direction of macroscopic change, illustrated by cooling drinks, wear, and dissipated motion.",
+    "aliases": [
+      "entropy",
+      "thermodynamic arrow"
+    ],
+    "videos": [
+      13
+    ],
+    "chapter": "reality-entropy-heat-death-and-recurrence"
+  },
+  {
+    "term": "Recurrence",
+    "definition": "A return to earlier or arbitrarily similar states under specified dynamics. Infinite duration alone does not establish that every imaginable state, or a particular life, must repeat.",
+    "aliases": [
+      "recurrence",
+      "cosmic recurrence"
+    ],
+    "videos": [
+      17,
+      18,
+      32
+    ],
+    "chapter": "reality-entropy-heat-death-and-recurrence"
+  },
+  {
+    "term": "Consciousness",
+    "definition": "Subjective experience: there being something it feels like to see, feel pain, enjoy a moment, or be aware of oneself. A description of behavior does not by itself explain that experience.",
+    "aliases": [
+      "consciousness",
+      "conscious experience"
+    ],
+    "videos": [
+      17,
+      26,
+      195
+    ],
+    "chapter": "reality-consciousness-and-meaning"
+  },
+  {
+    "term": "Personal identity",
+    "definition": "What makes someone the same subject over time or across a proposed physical copy. Repetition of a physical pattern and continuity of an experiencing subject are distinct questions.",
+    "aliases": [
+      "personal identity"
+    ],
+    "videos": [
+      17,
+      32,
+      68
+    ],
+    "chapter": "reality-consciousness-and-meaning"
+  },
+  {
+    "term": "Generational replication",
+    "definition": "An extension of the reproductive theme to care, cooperation, specialization, innovation, and a future community for descendants. Biological function and an individual’s chosen purpose remain different questions.",
+    "aliases": [
+      "generational replication"
+    ],
+    "videos": [
+      175,
+      195
+    ],
+    "chapter": "living-pleasure-purpose-and-continuity"
+  },
+  {
+    "term": "Diminishing returns",
+    "definition": "Smaller additional benefits from further effort or change. In presentation, it distinguishes consequential improvements from repeatedly optimizing tiny details.",
+    "aliases": [
+      "diminishing returns",
+      "diminishing-return"
+    ],
+    "videos": [
+      77,
+      193
+    ],
+    "chapter": "attraction-presentation-effort-and-diminishing-returns"
+  },
+  {
+    "term": "Jealousy induction",
+    "definition": "Deliberately changing a partner’s perception of possible rivals or alternatives. Its effect on attention is separate from its effect on trust or relationship quality.",
+    "aliases": [
+      "jealousy induction",
+      "rival cues"
+    ],
+    "videos": [
+      74,
+      83,
+      127
+    ],
+    "chapter": "relationships-rival-cues-and-jealousy"
+  },
+  {
+    "term": "Ghosting",
+    "definition": "Withdrawing from contact without a clear explanation. The absence of a reply can have several causes; a return does not reveal every reason for the silence.",
+    "aliases": [
+      "ghosting"
+    ],
+    "videos": [
+      101,
+      103,
+      122
+    ],
+    "chapter": "relationships-ghosting-and-inferred-motives"
+  },
+  {
+    "term": "Social proof",
+    "definition": "Using other people’s conduct or apparent preferences as information. Preselection is its particular application to apparent interest in a prospective partner.",
+    "aliases": [
+      "social proof"
+    ],
+    "videos": [
+      74,
+      160
+    ],
+    "chapter": "attraction-preselection-and-social-proof"
+  },
+  {
+    "term": "Causal inference",
+    "definition": "Reasoning about what produces an outcome, often by comparing what happens under different conditions. Prediction or correlation alone does not identify a causal route.",
+    "aliases": [
+      "causal inference"
+    ],
+    "videos": [
+      147,
+      169,
+      181
+    ],
+    "chapter": "biology-heritability-is-a-population-measure"
+  },
+  {
+    "term": "Confounding",
+    "definition": "An alternative causal structure in which another factor helps explain an observed association. Selection into a school, household, or feed can complicate an apparent environmental effect.",
+    "aliases": [
+      "confounding",
+      "confounder",
+      "confounders"
+    ],
+    "videos": [
+      128,
+      147,
+      199
+    ],
+    "chapter": "biology-dispositions-help-shape-experience"
+  },
+  {
+    "term": "Falsifiability",
+    "definition": "The possibility that an observation could count against a proposition. Redefining every outcome as confirmation prevents a meaningful test.",
+    "aliases": [
+      "falsifiability",
+      "falsifiable"
+    ],
+    "videos": [
+      169,
+      181
+    ],
+    "chapter": "methods"
+  },
+  {
+    "term": "Reproductive investment",
+    "definition": "The costs and resources associated with producing and caring for offspring. It enters the female-choice hypothesis alongside economic and cultural constraints.",
+    "aliases": [
+      "reproductive investment"
+    ],
+    "videos": [
+      4,
+      136,
+      153
+    ],
+    "chapter": "attraction-hypergamy-and-female-choice"
+  }
+]
