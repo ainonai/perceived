@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="740" height="1132" viewBox="0 0 740 1132" role="img" aria-labelledby="title desc"><title id="title">The life of a relationship</title><desc id="desc">Different outcomes at different stages. Ivory lines denote expressed claims; dashed rose lines denote editorial or competing pathways; sage denotes evaluated support; red denotes contradicted inference. Full status remains in each edge title and the source ledger. This diagram preserves 11 original nodes and 13 original directed links.</desc><rect width="740" height="1132" fill="#151313"/><text x="28" y="30" fill="#d67272" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">D02 / WORLDVIEW ATLAS</text><text x="28" y="62" fill="#f1eade" font-family="Georgia,serif" font-size="28">The life of a relationship</text><text x="28" y="88" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="12">Different outcomes at different stages</text><line x1="28" x2="712" y1="108" y2="108" stroke="#383737"/><g transform="translate(31.5,119)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 925.2)">
+<title>D02</title>
+<polygon fill="#151313" stroke="none" points="-21.6,21.6 -21.6,-925.2 655.23,-925.2 655.23,21.6 -21.6,21.6"/>
+<!-- e&#45;&gt;i -->
+<g id="D02&#45;E01" class="edge">
+<title>e&#45;&gt;i</title>
+<g id="a_D02&#45;E01"><a xlink:title="D02&#45;E01 | A: asserted | appearance / context">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M104,-845.76C104,-825.84 104,-799.21 104,-779.36"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="106.45,-779.42 104,-772.42 101.55,-779.42 106.45,-779.42"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="153.03" y="-809.55" font-family="Arial" font-size="10.50" fill="#b8b0a4">appearance / context</text>
+</g>
+<!-- i&#45;&gt;b -->
+<g id="D02&#45;E02" class="edge">
+<title>i&#45;&gt;b</title>
+<g id="a_D02&#45;E02"><a xlink:title="D02&#45;E02 | A: asserted | initial attraction">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M126.76,-730.49C144.09,-716.37 168.83,-697.08 191.97,-682.2 204.34,-674.24 218.23,-666.41 231.18,-659.53"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="232.14,-661.79 237.21,-656.37 229.87,-657.45 232.14,-661.79"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="226.98" y="-685.35" font-family="Arial" font-size="10.50" fill="#b8b0a4">initial attraction</text>
+</g>
+<!-- f&#45;&gt;b -->
+<g id="D02&#45;E03" class="edge">
+<title>f&#45;&gt;b</title>
+<g id="a_D02&#45;E03"><a xlink:title="D02&#45;E03 | A: asserted | workable arrangement">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M273.94,-721.42C272.66,-709.35 271.76,-695.09 272.53,-682.2 272.88,-676.29 273.48,-669.98 274.17,-663.98"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="276.58,-664.42 275,-657.17 271.72,-663.82 276.58,-664.42"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="324.76" y="-685.35" font-family="Arial" font-size="10.50" fill="#b8b0a4">workable arrangement</text>
+</g>
+<!-- b&#45;&gt;s -->
+<g id="D02&#45;E05" class="edge">
+<title>b&#45;&gt;s</title>
+<g id="a_D02&#45;E05"><a xlink:title="D02&#45;E05 | A: asserted | security develops">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M271.17,-615.29C264.48,-596.6 254.13,-567.67 245.89,-544.64"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="248.3,-544.11 243.64,-538.34 243.69,-545.76 248.3,-544.11"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="301.42" y="-572.85" font-family="Arial" font-size="10.50" fill="#b8b0a4">security develops</text>
+</g>
+<!-- b&#45;&gt;x -->
+<g id="D02&#45;E09" class="edge">
+<title>b&#45;&gt;x</title>
+<g id="a_D02&#45;E09"><a xlink:title="D02&#45;E09 | A: self&#45;reported interpretation | commitment mismatch">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M214.57,-632.62C132.52,-626.54 0,-602.23 0,-508.6 0,-508.6 0,-508.6 0,-258.2 0,-186.8 88.58,-156.89 154.59,-144.51"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="154.83,-146.96 161.28,-143.31 153.96,-142.14 154.83,-146.96"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="52.51" y="-380.25" font-family="Arial" font-size="10.50" fill="#b8b0a4">commitment mismatch</text>
+</g>
+<!-- b&#45;&gt;z -->
+<g id="D02&#45;E13" class="edge">
+<title>b&#45;&gt;z</title>
+<g id="a_D02&#45;E13"><a xlink:title="D02&#45;E13 | B: inferred connection | trust / feasibility limits">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M339.95,-615.19C361.28,-607.81 385.06,-598.7 406,-588.6 425.14,-579.37 428.35,-574.22 446.64,-563.4 459.14,-556.02 472.64,-548.27 485.5,-541"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="486.64,-543.17 491.54,-537.6 484.23,-538.9 486.64,-543.17"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="482.82" y="-579.15" font-family="Arial" font-size="10.50" fill="#d67272">trust / feasibility</text>
+<text xml:space="preserve" text-anchor="middle" x="482.82" y="-566.55" font-family="Arial" font-size="10.50" fill="#d67272">limits</text>
+</g>
+<!-- s&#45;&gt;v -->
+<g id="D02&#45;E06" class="edge">
+<title>s&#45;&gt;v</title>
+<g id="a_D02&#45;E06"><a xlink:title="D02&#45;E06 | A: asserted, contested | may imply dependence">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M233,-478.56C233,-461.41 233,-439.28 233,-420.78"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="235.45,-420.97 233,-413.97 230.55,-420.97 235.45,-420.97"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="286.99" y="-442.35" font-family="Arial" font-size="10.50" fill="#b8b0a4">may imply dependence</text>
+</g>
+<!-- v&#45;&gt;l -->
+<g id="D02&#45;E07" class="edge">
+<title>v&#45;&gt;l</title>
+<g id="a_D02&#45;E07"><a xlink:title="D02&#45;E07 | A: asserted, contested | proposed attraction loss">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M224.68,-354.2C222.56,-345.73 220.58,-336.35 219.52,-327.6 218.32,-317.68 218.52,-306.92 219.33,-296.96"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="221.75,-297.32 220.01,-290.11 216.88,-296.83 221.75,-297.32"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="275.26" y="-318.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">proposed attraction loss</text>
+</g>
+<!-- l&#45;&gt;x -->
+<g id="D02&#45;E08" class="edge">
+<title>l&#45;&gt;x</title>
+<g id="a_D02&#45;E08"><a xlink:title="D02&#45;E08 | B: inferred connection | relationship strain">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M225,-230.16C225,-213.01 225,-190.88 225,-172.38"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="227.45,-172.57 225,-165.57 222.55,-172.57 227.45,-172.57"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="266.15" y="-193.95" font-family="Arial" font-size="10.50" fill="#d67272">relationship strain</text>
+</g>
+<!-- c&#45;&gt;b -->
+<g id="D02&#45;E04" class="edge">
+<title>c&#45;&gt;b</title>
+<g id="a_D02&#45;E04"><a xlink:title="D02&#45;E04 | A: asserted | sustains relationship">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M474.18,-730.37C449.25,-716.45 414.37,-697.47 383,-682.2 366.71,-674.27 348.72,-666.19 332.3,-659.06"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="333.3,-656.83 325.91,-656.3 331.36,-661.33 333.3,-656.83"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="454.86" y="-685.35" font-family="Arial" font-size="10.50" fill="#b8b0a4">sustains relationship</text>
+</g>
+<!-- c&#45;&gt;z -->
+<g id="D02&#45;E12" class="edge">
+<title>c&#45;&gt;z</title>
+<g id="a_D02&#45;E12"><a xlink:title="D02&#45;E12 | A: asserted, conditional | too little care can prompt exit">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M510.82,-730.69C516.79,-690.75 530.77,-597.19 538.54,-545.15"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="540.92,-545.8 539.53,-538.51 536.07,-545.07 540.92,-545.8"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="567.49" y="-638.55" font-family="Arial" font-size="10.50" fill="#b8b0a4">too little care can</text>
+<text xml:space="preserve" text-anchor="middle" x="567.49" y="-625.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">prompt exit</text>
+</g>
+<!-- x&#45;&gt;r -->
+<g id="D02&#45;E10" class="edge">
+<title>x&#45;&gt;r</title>
+<g id="a_D02&#45;E10"><a xlink:title="D02&#45;E10 | A: self&#45;reported outcome | possible return">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M244.73,-105.73C257.4,-87.57 273.72,-64.18 286.03,-46.55"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="287.75,-48.36 289.75,-41.22 283.73,-45.56 287.75,-48.36"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="306.01" y="-69.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">possible return</text>
+</g>
+<!-- r&#45;&gt;b -->
+<g id="D02&#45;E11" class="edge">
+<title>r&#45;&gt;b</title>
+<g id="a_D02&#45;E11"><a xlink:title="D02&#45;E11 | A: self&#45;reported outcome | possible resumption">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M328.56,-40.06C351.75,-60.59 383,-95.42 383,-134 383,-508.6 383,-508.6 383,-508.6 383,-546.73 376.36,-559.27 352,-588.6 344.92,-597.12 335.83,-604.52 326.46,-610.73"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="325.29,-608.57 320.67,-614.37 327.9,-612.72 325.29,-608.57"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="429.69" y="-318.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">possible resumption</text>
+</g>
+<!-- e -->
+<g id="D02&#45;node&#45;e" class="node">
+<title>e</title>
+<g id="a_D02&#45;node&#45;e"><a xlink:title="Encounter and initial appraisal">
+<path fill="#302020" stroke="#b64747" d="M175.8,-903.6C175.8,-903.6 32.2,-903.6 32.2,-903.6 26.2,-903.6 20.2,-897.6 20.2,-891.6 20.2,-891.6 20.2,-858 20.2,-858 20.2,-852 26.2,-846 32.2,-846 32.2,-846 175.8,-846 175.8,-846 181.8,-846 187.8,-852 187.8,-858 187.8,-858 187.8,-891.6 187.8,-891.6 187.8,-897.6 181.8,-903.6 175.8,-903.6"/>
+<text xml:space="preserve" text-anchor="middle" x="104" y="-879.3" font-family="Arial" font-size="15.00" fill="#f1eade">Encounter and initial</text>
+<text xml:space="preserve" text-anchor="middle" x="104" y="-861.3" font-family="Arial" font-size="15.00" fill="#f1eade">appraisal</text>
+</a>
+</g>
+</g>
+<!-- i -->
+<g id="D02&#45;node&#45;i" class="node">
+<title>i</title>
+<g id="a_D02&#45;node&#45;i"><a xlink:title="Mutual interest">
+<path fill="#272424" stroke="#56534f" d="M157.03,-770.4C157.03,-770.4 50.97,-770.4 50.97,-770.4 44.97,-770.4 38.97,-764.4 38.97,-758.4 38.97,-758.4 38.97,-742.8 38.97,-742.8 38.97,-736.8 44.97,-730.8 50.97,-730.8 50.97,-730.8 157.03,-730.8 157.03,-730.8 163.03,-730.8 169.03,-736.8 169.03,-742.8 169.03,-742.8 169.03,-758.4 169.03,-758.4 169.03,-764.4 163.03,-770.4 157.03,-770.4"/>
+<text xml:space="preserve" text-anchor="middle" x="104" y="-746.1" font-family="Arial" font-size="15.00" fill="#f1eade">Mutual interest</text>
+</a>
+</g>
+</g>
+<!-- f -->
+<g id="D02&#45;node&#45;f" class="node">
+<title>f</title>
+<g id="a_D02&#45;node&#45;f"><a xlink:title="Practical fit and expectations">
+<path fill="#272424" stroke="#56534f" d="M333.11,-779.4C333.11,-779.4 222.89,-779.4 222.89,-779.4 216.89,-779.4 210.89,-773.4 210.89,-767.4 210.89,-767.4 210.89,-733.8 210.89,-733.8 210.89,-727.8 216.89,-721.8 222.89,-721.8 222.89,-721.8 333.11,-721.8 333.11,-721.8 339.11,-721.8 345.11,-727.8 345.11,-733.8 345.11,-733.8 345.11,-767.4 345.11,-767.4 345.11,-773.4 339.11,-779.4 333.11,-779.4"/>
+<text xml:space="preserve" text-anchor="middle" x="278" y="-755.1" font-family="Arial" font-size="15.00" fill="#f1eade">Practical fit and</text>
+<text xml:space="preserve" text-anchor="middle" x="278" y="-737.1" font-family="Arial" font-size="15.00" fill="#f1eade">expectations</text>
+</a>
+</g>
+</g>
+<!-- b -->
+<g id="D02&#45;node&#45;b" class="node">
+<title>b</title>
+<g id="a_D02&#45;node&#45;b"><a xlink:title="Ongoing bond">
+<path fill="#272424" stroke="#56534f" d="M328.96,-655.2C328.96,-655.2 227.04,-655.2 227.04,-655.2 221.04,-655.2 215.04,-649.2 215.04,-643.2 215.04,-643.2 215.04,-627.6 215.04,-627.6 215.04,-621.6 221.04,-615.6 227.04,-615.6 227.04,-615.6 328.96,-615.6 328.96,-615.6 334.96,-615.6 340.96,-621.6 340.96,-627.6 340.96,-627.6 340.96,-643.2 340.96,-643.2 340.96,-649.2 334.96,-655.2 328.96,-655.2"/>
+<text xml:space="preserve" text-anchor="middle" x="278" y="-630.9" font-family="Arial" font-size="15.00" fill="#f1eade">Ongoing bond</text>
+</a>
+</g>
+</g>
+<!-- s -->
+<g id="D02&#45;node&#45;s" class="node">
+<title>s</title>
+<g id="a_D02&#45;node&#45;s"><a xlink:title="Guaranteed attention inferred">
+<path fill="#272424" stroke="#56534f" d="M307.31,-536.4C307.31,-536.4 158.69,-536.4 158.69,-536.4 152.69,-536.4 146.69,-530.4 146.69,-524.4 146.69,-524.4 146.69,-490.8 146.69,-490.8 146.69,-484.8 152.69,-478.8 158.69,-478.8 158.69,-478.8 307.31,-478.8 307.31,-478.8 313.31,-478.8 319.31,-484.8 319.31,-490.8 319.31,-490.8 319.31,-524.4 319.31,-524.4 319.31,-530.4 313.31,-536.4 307.31,-536.4"/>
+<text xml:space="preserve" text-anchor="middle" x="233" y="-512.1" font-family="Arial" font-size="15.00" fill="#f1eade">Guaranteed attention</text>
+<text xml:space="preserve" text-anchor="middle" x="233" y="-494.1" font-family="Arial" font-size="15.00" fill="#f1eade">inferred</text>
+</a>
+</g>
+</g>
+<!-- v -->
+<g id="D02&#45;node&#45;v" class="node">
+<title>v</title>
+<g id="a_D02&#45;node&#45;v"><a xlink:title="Inferred alternatives / value falls">
+<path fill="#272424" stroke="#56534f" d="M307.29,-412.2C307.29,-412.2 158.71,-412.2 158.71,-412.2 152.71,-412.2 146.71,-406.2 146.71,-400.2 146.71,-400.2 146.71,-366.6 146.71,-366.6 146.71,-360.6 152.71,-354.6 158.71,-354.6 158.71,-354.6 307.29,-354.6 307.29,-354.6 313.29,-354.6 319.29,-360.6 319.29,-366.6 319.29,-366.6 319.29,-400.2 319.29,-400.2 319.29,-406.2 313.29,-412.2 307.29,-412.2"/>
+<text xml:space="preserve" text-anchor="middle" x="233" y="-387.9" font-family="Arial" font-size="15.00" fill="#f1eade">Inferred alternatives /</text>
+<text xml:space="preserve" text-anchor="middle" x="233" y="-369.9" font-family="Arial" font-size="15.00" fill="#f1eade">value falls</text>
+</a>
+</g>
+</g>
+<!-- l -->
+<g id="D02&#45;node&#45;l" class="node">
+<title>l</title>
+<g id="a_D02&#45;node&#45;l"><a xlink:title="Desire or pursuit declines">
+<path fill="#272424" stroke="#56534f" d="M283.86,-288C283.86,-288 166.14,-288 166.14,-288 160.14,-288 154.14,-282 154.14,-276 154.14,-276 154.14,-242.4 154.14,-242.4 154.14,-236.4 160.14,-230.4 166.14,-230.4 166.14,-230.4 283.86,-230.4 283.86,-230.4 289.86,-230.4 295.86,-236.4 295.86,-242.4 295.86,-242.4 295.86,-276 295.86,-276 295.86,-282 289.86,-288 283.86,-288"/>
+<text xml:space="preserve" text-anchor="middle" x="225" y="-263.7" font-family="Arial" font-size="15.00" fill="#f1eade">Desire or pursuit</text>
+<text xml:space="preserve" text-anchor="middle" x="225" y="-245.7" font-family="Arial" font-size="15.00" fill="#f1eade">declines</text>
+</a>
+</g>
+</g>
+<!-- c -->
+<g id="D02&#45;node&#45;c" class="node">
+<title>c</title>
+<g id="a_D02&#45;node&#45;c"><a xlink:title="Care and reliability">
+<path fill="#272424" stroke="#56534f" d="M573.95,-770.4C573.95,-770.4 442.05,-770.4 442.05,-770.4 436.05,-770.4 430.05,-764.4 430.05,-758.4 430.05,-758.4 430.05,-742.8 430.05,-742.8 430.05,-736.8 436.05,-730.8 442.05,-730.8 442.05,-730.8 573.95,-730.8 573.95,-730.8 579.95,-730.8 585.95,-736.8 585.95,-742.8 585.95,-742.8 585.95,-758.4 585.95,-758.4 585.95,-764.4 579.95,-770.4 573.95,-770.4"/>
+<text xml:space="preserve" text-anchor="middle" x="508" y="-746.1" font-family="Arial" font-size="15.00" fill="#f1eade">Care and reliability</text>
+</a>
+</g>
+</g>
+<!-- x -->
+<g id="D02&#45;node&#45;x" class="node">
+<title>x</title>
+<g id="a_D02&#45;node&#45;x"><a xlink:title="Withdrawal or separation">
+<path fill="#272424" stroke="#56534f" d="M274.69,-163.8C274.69,-163.8 175.31,-163.8 175.31,-163.8 169.31,-163.8 163.31,-157.8 163.31,-151.8 163.31,-151.8 163.31,-118.2 163.31,-118.2 163.31,-112.2 169.31,-106.2 175.31,-106.2 175.31,-106.2 274.69,-106.2 274.69,-106.2 280.69,-106.2 286.69,-112.2 286.69,-118.2 286.69,-118.2 286.69,-151.8 286.69,-151.8 286.69,-157.8 280.69,-163.8 274.69,-163.8"/>
+<text xml:space="preserve" text-anchor="middle" x="225" y="-139.5" font-family="Arial" font-size="15.00" fill="#f1eade">Withdrawal or</text>
+<text xml:space="preserve" text-anchor="middle" x="225" y="-121.5" font-family="Arial" font-size="15.00" fill="#f1eade">separation</text>
+</a>
+</g>
+</g>
+<!-- r -->
+<g id="D02&#45;node&#45;r" class="node">
+<title>r</title>
+<g id="a_D02&#45;node&#45;r"><a xlink:title="Renewed contact">
+<path fill="#272424" stroke="#56534f" d="M365.79,-39.6C365.79,-39.6 242.21,-39.6 242.21,-39.6 236.21,-39.6 230.21,-33.6 230.21,-27.6 230.21,-27.6 230.21,-12 230.21,-12 230.21,-6 236.21,0 242.21,0 242.21,0 365.79,0 365.79,0 371.79,0 377.79,-6 377.79,-12 377.79,-12 377.79,-27.6 377.79,-27.6 377.79,-33.6 371.79,-39.6 365.79,-39.6"/>
+<text xml:space="preserve" text-anchor="middle" x="304" y="-15.3" font-family="Arial" font-size="15.00" fill="#f1eade">Renewed contact</text>
+</a>
+</g>
+</g>
+<!-- z -->
+<g id="D02&#45;node&#45;z" class="node">
+<title>z</title>
+<g id="a_D02&#45;node&#45;z"><a xlink:title="Exit despite remaining desire">
+<path fill="#272424" stroke="#56534f" d="M621.63,-536.4C621.63,-536.4 466.37,-536.4 466.37,-536.4 460.37,-536.4 454.37,-530.4 454.37,-524.4 454.37,-524.4 454.37,-490.8 454.37,-490.8 454.37,-484.8 460.37,-478.8 466.37,-478.8 466.37,-478.8 621.63,-478.8 621.63,-478.8 627.63,-478.8 633.63,-484.8 633.63,-490.8 633.63,-490.8 633.63,-524.4 633.63,-524.4 633.63,-530.4 627.63,-536.4 621.63,-536.4"/>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-512.1" font-family="Arial" font-size="15.00" fill="#f1eade">Exit despite remaining</text>
+<text xml:space="preserve" text-anchor="middle" x="544" y="-494.1" font-family="Arial" font-size="15.00" fill="#f1eade">desire</text>
+</a>
+</g>
+</g>
+</g>
+</g><line x1="28" x2="712" y1="1081" y2="1081" stroke="#383737"/><text x="28" y="1104" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="10">13 links · Same nodes and directions as the original · Read the edge ledger for qualifications</text></svg>

@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="763" height="990" viewBox="0 0 763 990" role="img" aria-labelledby="title desc"><title id="title">A map of the worldview</title><desc id="desc">Conceptual connections across the collection. Ivory lines denote expressed claims; dashed rose lines denote editorial or competing pathways; sage denotes evaluated support; red denotes contradicted inference. Full status remains in each edge title and the source ledger. This diagram preserves 11 original nodes and 14 original directed links.</desc><rect width="763" height="990" fill="#151313"/><text x="28" y="30" fill="#d67272" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">D04 / WORLDVIEW ATLAS</text><text x="28" y="62" fill="#f1eade" font-family="Georgia,serif" font-size="28">A map of the worldview</text><text x="28" y="88" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="12">Conceptual connections across the collection</text><line x1="28" x2="735" y1="108" y2="108" stroke="#383737"/><g transform="translate(27,119)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 783)">
+<title>D04</title>
+<polygon fill="#151313" stroke="none" points="-21.6,21.6 -21.6,-783 687.45,-783 687.45,21.6 -21.6,21.6"/>
+<!-- g&#45;&gt;a -->
+<g id="D04&#45;E01" class="edge">
+<title>g&#45;&gt;a</title>
+<g id="a_D04&#45;E01"><a xlink:title="D04&#45;E01 | A: asserted | predisposes noticing">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M114.68,-721.45C105.29,-714.16 95.73,-705.09 89.27,-694.8 83.47,-685.54 79.74,-674.38 77.34,-663.83"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="79.78,-663.56 76.01,-657.17 74.98,-664.52 79.78,-663.56"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="137.14" y="-685.35" font-family="Arial" font-size="10.50" fill="#b8b0a4">predisposes noticing</text>
+</g>
+<!-- g&#45;&gt;c -->
+<g id="D04&#45;E04" class="edge">
+<title>g&#45;&gt;c</title>
+<g id="a_D04&#45;E04"><a xlink:title="D04&#45;E04 | A: asserted | behavioral dispositions">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M168.66,-721.62C176.77,-714.04 185.24,-704.75 191,-694.8 220.01,-644.71 232.3,-576.97 237.15,-539.68"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="239.55,-540.22 237.97,-532.97 234.68,-539.62 239.55,-540.22"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="279.55" y="-623.25" font-family="Arial" font-size="10.50" fill="#b8b0a4">behavioral dispositions</text>
+</g>
+<!-- e&#45;&gt;a -->
+<g id="D04&#45;E02" class="edge">
+<title>e&#45;&gt;a</title>
+<g id="a_D04&#45;E02"><a xlink:title="D04&#45;E02 | A: asserted, sometimes minimized | encountered inputs">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M98.63,-164.15C54.65,-183.53 0,-218.19 0,-270.8 0,-512.2 0,-512.2 0,-512.2 0,-542.08 18.19,-570.34 36.41,-591.14"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="34.4,-592.58 40.92,-596.12 38.03,-589.29 34.4,-592.58"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="44.66" y="-392.85" font-family="Arial" font-size="10.50" fill="#b8b0a4">encountered inputs</text>
+</g>
+<!-- a&#45;&gt;c -->
+<g id="D04&#45;E03" class="edge">
+<title>a&#45;&gt;c</title>
+<g id="a_D04&#45;E03"><a xlink:title="D04&#45;E03 | B: inferred connection | interpreted opportunities">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M65,-597.32C62.98,-584.15 63.38,-568.97 71.76,-558 81.38,-545.42 111.24,-535.47 143.19,-528.1"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="143.42,-530.56 149.72,-526.65 142.35,-525.78 143.42,-530.56"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="128.38" y="-561.15" font-family="Arial" font-size="10.50" fill="#d67272">interpreted opportunities</text>
+</g>
+<!-- c&#45;&gt;e -->
+<g id="D04&#45;E05" class="edge">
+<title>c&#45;&gt;e</title>
+<g id="a_D04&#45;E05"><a xlink:title="D04&#45;E05 | A: asserted | selects / evokes">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M227.79,-490.97C217.69,-474.16 203.78,-448.75 196,-424.8 166.99,-335.51 157.33,-223.68 154.3,-172.66"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="156.75,-172.67 153.91,-165.81 151.86,-172.94 156.75,-172.67"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="211.61" y="-330.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">selects / evokes</text>
+</g>
+<!-- c&#45;&gt;k -->
+<g id="D04&#45;E06" class="edge">
+<title>c&#45;&gt;k</title>
+<g id="a_D04&#45;E06"><a xlink:title="D04&#45;E06 | A: self&#45;reported mechanism | deliberate practice">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M251.03,-491C260.17,-475.07 273.42,-451.99 284.51,-432.69"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="286.6,-433.96 287.96,-426.67 282.35,-431.52 286.6,-433.96"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="315.4" y="-454.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">deliberate practice</text>
+</g>
+<!-- c&#45;&gt;r -->
+<g id="D04&#45;E13" class="edge">
+<title>c&#45;&gt;r</title>
+<g id="a_D04&#45;E13"><a xlink:title="D04&#45;E13 | A: asserted, overgeneralized | evolved reward account">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M295.65,-490.92C318.2,-482.94 344.43,-473.46 368,-464.4 405.35,-450.05 447.05,-432.9 479.06,-419.49"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="479.94,-421.77 485.44,-416.81 478.04,-417.26 479.94,-421.77"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="455.04" y="-454.95" font-family="Arial" font-size="10.50" fill="#b8b0a4">evolved reward account</text>
+</g>
+<!-- k&#45;&gt;s -->
+<g id="D04&#45;E07" class="edge">
+<title>k&#45;&gt;s</title>
+<g id="a_D04&#45;E07"><a xlink:title="D04&#45;E07 | A: self&#45;reported mechanism | improvement / learning">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M306.38,-366.96C307.35,-347.04 308.66,-320.41 309.64,-300.56"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="312.08,-300.73 309.98,-293.62 307.19,-300.49 312.08,-300.73"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="361.58" y="-330.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">improvement / learning</text>
+</g>
+<!-- i&#45;&gt;c -->
+<g id="D04&#45;E08" class="edge">
+<title>i&#45;&gt;c</title>
+<g id="a_D04&#45;E08"><a xlink:title="D04&#45;E08 | A: asserted | rewards and constraints">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M384.05,-597.13C352,-578.23 310.32,-553.66 280.05,-535.81"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="281.32,-533.72 274.04,-532.27 278.83,-537.94 281.32,-533.72"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="391.74" y="-561.15" font-family="Arial" font-size="10.50" fill="#b8b0a4">rewards and constraints</text>
+</g>
+<!-- s&#45;&gt;e -->
+<g id="D04&#45;E09" class="edge">
+<title>s&#45;&gt;e</title>
+<g id="a_D04&#45;E09"><a xlink:title="D04&#45;E09 | B: inferred connection | new resources and exposure">
+<path fill="none" stroke="#d67272" stroke-width="1.1" stroke-dasharray="5,2" d="M287,-251.69C259.39,-229.71 213.99,-193.56 183.8,-169.52"/>
+<polygon fill="#d67272" stroke="#d67272" stroke-width="1.1" points="185.53,-167.77 178.53,-165.32 182.48,-171.6 185.53,-167.77"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="285.82" y="-206.55" font-family="Arial" font-size="10.50" fill="#d67272">new resources and</text>
+<text xml:space="preserve" text-anchor="middle" x="285.82" y="-193.95" font-family="Arial" font-size="10.50" fill="#d67272">exposure</text>
+</g>
+<!-- r&#45;&gt;p -->
+<g id="D04&#45;E10" class="edge">
+<title>r&#45;&gt;p</title>
+<g id="a_D04&#45;E10"><a xlink:title="D04&#45;E10 | A: asserted | prompts reflection">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M532,-375.91C532,-358.13 532,-331.15 532,-309.25"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="534.45,-309.5 532,-302.5 529.55,-309.5 534.45,-309.5"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="573.73" y="-330.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">prompts reflection</text>
+</g>
+<!-- p&#45;&gt;f -->
+<g id="D04&#45;E11" class="edge">
+<title>p&#45;&gt;f</title>
+<g id="a_D04&#45;E11"><a xlink:title="D04&#45;E11 | A: recommended mechanism | choose congruence">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M475.46,-242.61C464.38,-235.13 453.64,-226.23 445.35,-216 435.2,-203.48 428.73,-186.68 424.74,-172.56"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="427.12,-171.95 422.99,-165.79 422.37,-173.18 427.12,-171.95"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="491.18" y="-200.25" font-family="Arial" font-size="10.50" fill="#b8b0a4">choose congruence</text>
+</g>
+<!-- p&#45;&gt;w -->
+<g id="D04&#45;E14" class="edge">
+<title>p&#45;&gt;w</title>
+<g id="a_D04&#45;E14"><a xlink:title="D04&#45;E14 | A: recommended mechanism | release outcome control">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M540.68,-242.57C550.65,-205.11 563.22,-137.54 543,-84.6 540.29,-77.51 536.2,-70.75 531.5,-64.56"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="533.59,-63.24 527.27,-59.36 529.79,-66.34 533.59,-63.24"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="609.82" y="-140.85" font-family="Arial" font-size="10.50" fill="#b8b0a4">release outcome control</text>
+</g>
+<!-- f&#45;&gt;w -->
+<g id="D04&#45;E12" class="edge">
+<title>f&#45;&gt;w</title>
+<g id="a_D04&#45;E12"><a xlink:title="D04&#45;E12 | A: asserted | more workable life">
+<path fill="none" stroke="#b8b0a4" stroke-width="1.1" d="M428.82,-123.92C435.01,-112.3 443.4,-97.31 451.8,-84.6 456.13,-78.05 461,-71.28 465.85,-64.81"/>
+<polygon fill="#b8b0a4" stroke="#b8b0a4" stroke-width="1.1" points="467.77,-66.33 470.07,-59.28 463.88,-63.36 467.77,-66.33"/>
+</a>
+</g>
+<text xml:space="preserve" text-anchor="middle" x="494.4" y="-87.75" font-family="Arial" font-size="10.50" fill="#b8b0a4">more workable life</text>
+</g>
+<!-- g -->
+<g id="D04&#45;node&#45;g" class="node">
+<title>g</title>
+<g id="a_D04&#45;node&#45;g"><a xlink:title="Inherited dispositions">
+<path fill="#302020" stroke="#b64747" d="M219.3,-761.4C219.3,-761.4 70.7,-761.4 70.7,-761.4 64.7,-761.4 58.7,-755.4 58.7,-749.4 58.7,-749.4 58.7,-733.8 58.7,-733.8 58.7,-727.8 64.7,-721.8 70.7,-721.8 70.7,-721.8 219.3,-721.8 219.3,-721.8 225.3,-721.8 231.3,-727.8 231.3,-733.8 231.3,-733.8 231.3,-749.4 231.3,-749.4 231.3,-755.4 225.3,-761.4 219.3,-761.4"/>
+<text xml:space="preserve" text-anchor="middle" x="145" y="-737.1" font-family="Arial" font-size="15.00" fill="#f1eade">Inherited dispositions</text>
+</a>
+</g>
+</g>
+<!-- e -->
+<g id="D04&#45;node&#45;e" class="node">
+<title>e</title>
+<g id="a_D04&#45;node&#45;e"><a xlink:title="Experienced environment">
+<path fill="#272424" stroke="#56534f" d="M241.89,-163.8C241.89,-163.8 64.11,-163.8 64.11,-163.8 58.11,-163.8 52.11,-157.8 52.11,-151.8 52.11,-151.8 52.11,-136.2 52.11,-136.2 52.11,-130.2 58.11,-124.2 64.11,-124.2 64.11,-124.2 241.89,-124.2 241.89,-124.2 247.89,-124.2 253.89,-130.2 253.89,-136.2 253.89,-136.2 253.89,-151.8 253.89,-151.8 253.89,-157.8 247.89,-163.8 241.89,-163.8"/>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-139.5" font-family="Arial" font-size="15.00" fill="#f1eade">Experienced environment</text>
+</a>
+</g>
+</g>
+<!-- a -->
+<g id="D04&#45;node&#45;a" class="node">
+<title>a</title>
+<g id="a_D04&#45;node&#45;a"><a xlink:title="Attention and interpretation">
+<path fill="#272424" stroke="#56534f" d="M121.04,-655.2C121.04,-655.2 24.96,-655.2 24.96,-655.2 18.96,-655.2 12.96,-649.2 12.96,-643.2 12.96,-643.2 12.96,-609.6 12.96,-609.6 12.96,-603.6 18.96,-597.6 24.96,-597.6 24.96,-597.6 121.04,-597.6 121.04,-597.6 127.04,-597.6 133.04,-603.6 133.04,-609.6 133.04,-609.6 133.04,-643.2 133.04,-643.2 133.04,-649.2 127.04,-655.2 121.04,-655.2"/>
+<text xml:space="preserve" text-anchor="middle" x="73" y="-630.9" font-family="Arial" font-size="15.00" fill="#f1eade">Attention and</text>
+<text xml:space="preserve" text-anchor="middle" x="73" y="-612.9" font-family="Arial" font-size="15.00" fill="#f1eade">interpretation</text>
+</a>
+</g>
+</g>
+<!-- c -->
+<g id="D04&#45;node&#45;c" class="node">
+<title>c</title>
+<g id="a_D04&#45;node&#45;c"><a xlink:title="Choices and behavior">
+<path fill="#272424" stroke="#56534f" d="M316.39,-531C316.39,-531 163.61,-531 163.61,-531 157.61,-531 151.61,-525 151.61,-519 151.61,-519 151.61,-503.4 151.61,-503.4 151.61,-497.4 157.61,-491.4 163.61,-491.4 163.61,-491.4 316.39,-491.4 316.39,-491.4 322.39,-491.4 328.39,-497.4 328.39,-503.4 328.39,-503.4 328.39,-519 328.39,-519 328.39,-525 322.39,-531 316.39,-531"/>
+<text xml:space="preserve" text-anchor="middle" x="240" y="-506.7" font-family="Arial" font-size="15.00" fill="#f1eade">Choices and behavior</text>
+</a>
+</g>
+</g>
+<!-- k -->
+<g id="D04&#45;node&#45;k" class="node">
+<title>k</title>
+<g id="a_D04&#45;node&#45;k"><a xlink:title="Practice and acquired skill">
+<path fill="#272424" stroke="#56534f" d="M381.38,-424.8C381.38,-424.8 228.62,-424.8 228.62,-424.8 222.62,-424.8 216.62,-418.8 216.62,-412.8 216.62,-412.8 216.62,-379.2 216.62,-379.2 216.62,-373.2 222.62,-367.2 228.62,-367.2 228.62,-367.2 381.38,-367.2 381.38,-367.2 387.38,-367.2 393.38,-373.2 393.38,-379.2 393.38,-379.2 393.38,-412.8 393.38,-412.8 393.38,-418.8 387.38,-424.8 381.38,-424.8"/>
+<text xml:space="preserve" text-anchor="middle" x="305" y="-400.5" font-family="Arial" font-size="15.00" fill="#f1eade">Practice and acquired</text>
+<text xml:space="preserve" text-anchor="middle" x="305" y="-382.5" font-family="Arial" font-size="15.00" fill="#f1eade">skill</text>
+</a>
+</g>
+</g>
+<!-- i -->
+<g id="D04&#45;node&#45;i" class="node">
+<title>i</title>
+<g id="a_D04&#45;node&#45;i"><a xlink:title="Institutions and incentives">
+<path fill="#272424" stroke="#56534f" d="M486.29,-655.2C486.29,-655.2 377.71,-655.2 377.71,-655.2 371.71,-655.2 365.71,-649.2 365.71,-643.2 365.71,-643.2 365.71,-609.6 365.71,-609.6 365.71,-603.6 371.71,-597.6 377.71,-597.6 377.71,-597.6 486.29,-597.6 486.29,-597.6 492.29,-597.6 498.29,-603.6 498.29,-609.6 498.29,-609.6 498.29,-643.2 498.29,-643.2 498.29,-649.2 492.29,-655.2 486.29,-655.2"/>
+<text xml:space="preserve" text-anchor="middle" x="432" y="-630.9" font-family="Arial" font-size="15.00" fill="#f1eade">Institutions and</text>
+<text xml:space="preserve" text-anchor="middle" x="432" y="-612.9" font-family="Arial" font-size="15.00" fill="#f1eade">incentives</text>
+</a>
+</g>
+</g>
+<!-- s -->
+<g id="D04&#45;node&#45;s" class="node">
+<title>s</title>
+<g id="a_D04&#45;node&#45;s"><a xlink:title="Opportunities / success">
+<path fill="#272424" stroke="#56534f" d="M392.79,-291.6C392.79,-291.6 229.21,-291.6 229.21,-291.6 223.21,-291.6 217.21,-285.6 217.21,-279.6 217.21,-279.6 217.21,-264 217.21,-264 217.21,-258 223.21,-252 229.21,-252 229.21,-252 392.79,-252 392.79,-252 398.79,-252 404.79,-258 404.79,-264 404.79,-264 404.79,-279.6 404.79,-279.6 404.79,-285.6 398.79,-291.6 392.79,-291.6"/>
+<text xml:space="preserve" text-anchor="middle" x="311" y="-267.3" font-family="Arial" font-size="15.00" fill="#f1eade">Opportunities / success</text>
+</a>
+</g>
+</g>
+<!-- r -->
+<g id="D04&#45;node&#45;r" class="node">
+<title>r</title>
+<g id="a_D04&#45;node&#45;r"><a xlink:title="Rewards and discomfort">
+<path fill="#272424" stroke="#56534f" d="M616.71,-415.8C616.71,-415.8 447.29,-415.8 447.29,-415.8 441.29,-415.8 435.29,-409.8 435.29,-403.8 435.29,-403.8 435.29,-388.2 435.29,-388.2 435.29,-382.2 441.29,-376.2 447.29,-376.2 447.29,-376.2 616.71,-376.2 616.71,-376.2 622.71,-376.2 628.71,-382.2 628.71,-388.2 628.71,-388.2 628.71,-403.8 628.71,-403.8 628.71,-409.8 622.71,-415.8 616.71,-415.8"/>
+<text xml:space="preserve" text-anchor="middle" x="532" y="-391.5" font-family="Arial" font-size="15.00" fill="#f1eade">Rewards and discomfort</text>
+</a>
+</g>
+</g>
+<!-- p -->
+<g id="D04&#45;node&#45;p" class="node">
+<title>p</title>
+<g id="a_D04&#45;node&#45;p"><a xlink:title="Self&#45;knowledge / purpose">
+<path fill="#272424" stroke="#56534f" d="M591.29,-300.6C591.29,-300.6 472.71,-300.6 472.71,-300.6 466.71,-300.6 460.71,-294.6 460.71,-288.6 460.71,-288.6 460.71,-255 460.71,-255 460.71,-249 466.71,-243 472.71,-243 472.71,-243 591.29,-243 591.29,-243 597.29,-243 603.29,-249 603.29,-255 603.29,-255 603.29,-288.6 603.29,-288.6 603.29,-294.6 597.29,-300.6 591.29,-300.6"/>
+<text xml:space="preserve" text-anchor="middle" x="532" y="-276.3" font-family="Arial" font-size="15.00" fill="#f1eade">Self&#45;knowledge /</text>
+<text xml:space="preserve" text-anchor="middle" x="532" y="-258.3" font-family="Arial" font-size="15.00" fill="#f1eade">purpose</text>
+</a>
+</g>
+</g>
+<!-- f -->
+<g id="D04&#45;node&#45;f" class="node">
+<title>f</title>
+<g id="a_D04&#45;node&#45;f"><a xlink:title="Environment fit">
+<path fill="#272424" stroke="#56534f" d="M472.86,-163.8C472.86,-163.8 365.14,-163.8 365.14,-163.8 359.14,-163.8 353.14,-157.8 353.14,-151.8 353.14,-151.8 353.14,-136.2 353.14,-136.2 353.14,-130.2 359.14,-124.2 365.14,-124.2 365.14,-124.2 472.86,-124.2 472.86,-124.2 478.86,-124.2 484.86,-130.2 484.86,-136.2 484.86,-136.2 484.86,-151.8 484.86,-151.8 484.86,-157.8 478.86,-163.8 472.86,-163.8"/>
+<text xml:space="preserve" text-anchor="middle" x="419" y="-139.5" font-family="Arial" font-size="15.00" fill="#f1eade">Environment fit</text>
+</a>
+</g>
+</g>
+<!-- w -->
+<g id="D04&#45;node&#45;w" class="node">
+<title>w</title>
+<g id="a_D04&#45;node&#45;w"><a xlink:title="Fulfillment / acceptance">
+<path fill="#272424" stroke="#56534f" d="M536.2,-57.6C536.2,-57.6 451.8,-57.6 451.8,-57.6 445.8,-57.6 439.8,-51.6 439.8,-45.6 439.8,-45.6 439.8,-12 439.8,-12 439.8,-6 445.8,0 451.8,0 451.8,0 536.2,0 536.2,0 542.2,0 548.2,-6 548.2,-12 548.2,-12 548.2,-45.6 548.2,-45.6 548.2,-51.6 542.2,-57.6 536.2,-57.6"/>
+<text xml:space="preserve" text-anchor="middle" x="494" y="-33.3" font-family="Arial" font-size="15.00" fill="#f1eade">Fulfillment /</text>
+<text xml:space="preserve" text-anchor="middle" x="494" y="-15.3" font-family="Arial" font-size="15.00" fill="#f1eade">acceptance</text>
+</a>
+</g>
+</g>
+</g>
+</g><line x1="28" x2="735" y1="939" y2="939" stroke="#383737"/><text x="28" y="962" fill="#a9a7a2" font-family="Arial,sans-serif" font-size="10">14 links · Same nodes and directions as the original · Read the edge ledger for qualifications</text></svg>

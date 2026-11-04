@@ -1,0 +1,112 @@
+{
+  "id": "D07",
+  "title": "Inheritance & competing pathways",
+  "nodes": [
+    {
+      "name": "pg",
+      "label": "Parental inherited traits"
+    },
+    {
+      "name": "pt",
+      "label": "Parental behavior / interests"
+    },
+    {
+      "name": "cg",
+      "label": "Child inherited traits"
+    },
+    {
+      "name": "hb",
+      "label": "Home books / activities"
+    },
+    {
+      "name": "fa",
+      "label": "Father absence / disruption"
+    },
+    {
+      "name": "re",
+      "label": "Resources / caregiving"
+    },
+    {
+      "name": "ex",
+      "label": "Child exposure / learning"
+    },
+    {
+      "name": "co",
+      "label": "Child outcomes"
+    }
+  ],
+  "edges": [
+    {
+      "tail": "pg",
+      "head": "pt",
+      "id": "D07-E01",
+      "label": "predispositions",
+      "originalDashed": false,
+      "status": "A: proposed; B diagram placement"
+    },
+    {
+      "tail": "pg",
+      "head": "cg",
+      "id": "D07-E02",
+      "label": "genetic transmission",
+      "originalDashed": false,
+      "status": "A: stated biological premise"
+    },
+    {
+      "tail": "pt",
+      "head": "hb",
+      "id": "D07-E03",
+      "label": "parent chooses books",
+      "originalDashed": false,
+      "status": "A: explicit example"
+    },
+    {
+      "tail": "pt",
+      "head": "fa",
+      "id": "D07-E04",
+      "label": "possible contribution",
+      "originalDashed": false,
+      "status": "A: qualified hypothesis"
+    },
+    {
+      "tail": "cg",
+      "head": "co",
+      "id": "D07-E05",
+      "label": "inherited contribution",
+      "originalDashed": false,
+      "status": "A/C: conditional support"
+    },
+    {
+      "tail": "hb",
+      "head": "ex",
+      "id": "D07-E06",
+      "label": "opportunity to learn",
+      "originalDashed": true,
+      "status": "B: competing inferred pathway"
+    },
+    {
+      "tail": "fa",
+      "head": "re",
+      "id": "D07-E07",
+      "label": "changes family conditions",
+      "originalDashed": false,
+      "status": "B/C: competing pathway"
+    },
+    {
+      "tail": "re",
+      "head": "ex",
+      "id": "D07-E08",
+      "label": "access and support",
+      "originalDashed": true,
+      "status": "B: competing inferred pathway"
+    },
+    {
+      "tail": "ex",
+      "head": "co",
+      "id": "D07-E09",
+      "label": "environmental effects possible",
+      "originalDashed": false,
+      "status": "C: supported in specified designs"
+    }
+  ]
+}

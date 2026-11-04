@@ -1,0 +1,296 @@
+[
+  {
+    "file": "assets/artwork/channel-avatar.png",
+    "width": 160,
+    "height": 160,
+    "bytes": 39287,
+    "sha256": "01a49a774fc9a2a9c1e09c92b50e22c4ed32ad79fd1de1030fcc84d42bb3cc3c"
+  },
+  {
+    "file": "assets/artwork/marble-bust-crimson-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 108928,
+    "sha256": "aa6c9b4afcebd1050f4474fd3cd956ba7ce89c2e57e2eac45674b5128b709fa2"
+  },
+  {
+    "file": "assets/artwork/marble-bust-crimson.webp",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 327002,
+    "sha256": "070eb626261b0029289b49390c04aea5887b73422586eebb5899d0b40cc313b6"
+  },
+  {
+    "file": "assets/artwork/marble-bust-small.webp",
+    "width": 600,
+    "height": 600,
+    "bytes": 21906,
+    "sha256": "ac6059240d3a29368ae55957b4a289a287666432e6829a1ecb275a79ab4c0b47"
+  },
+  {
+    "file": "assets/artwork/marble-bust.webp",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 127540,
+    "sha256": "53bdf21cdab42738092ad945b27539978857fe61297a3918446b099a09184119"
+  },
+  {
+    "file": "assets/artwork/marble-reflections-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 104446,
+    "sha256": "d5797f55911ccd056b671041142c3944ec658ccefcf209c318670eeaeedd94d3"
+  },
+  {
+    "file": "assets/artwork/marble-reflections.webp",
+    "width": 1774,
+    "height": 887,
+    "bytes": 207464,
+    "sha256": "29a0e17845b8f1ac3eb3101dfc41ab20496ad966db3d10559208550bb5efa570"
+  },
+  {
+    "file": "assets/artwork/night-road-small.webp",
+    "width": 1200,
+    "height": 675,
+    "bytes": 55756,
+    "sha256": "b21292fea34cf9a1c3ee6fa3abee90b259961e6bcb5adb159ad2dbb52246d843"
+  },
+  {
+    "file": "assets/artwork/night-road.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 169652,
+    "sha256": "54cdc7f74699e26151276673dc8c1332d0a9b22042dcc1c361d2e688554c495f"
+  },
+  {
+    "file": "assets/photos/chess-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 64960,
+    "sha256": "0ec39f5e31fb244772c083fc6a19922a592e9b0514912fd4995381fdecdf44fb"
+  },
+  {
+    "file": "assets/photos/chess.webp",
+    "width": 2560,
+    "height": 1700,
+    "bytes": 249644,
+    "sha256": "1dac83c47572e9b693c1db813e27cf764c9732669542e7eb17fb33071ea621a5"
+  },
+  {
+    "file": "assets/photos/city-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 222946,
+    "sha256": "078d0aa1d0a81b02772f855856c336b478575d3fd10fef73d1b32d6cbe00cfd7"
+  },
+  {
+    "file": "assets/photos/city.webp",
+    "width": 1867,
+    "height": 2800,
+    "bytes": 885426,
+    "sha256": "96661549de5f419fac17e7180e41cf7cc1627488bd7f68741eef7cd9bd6b3243"
+  },
+  {
+    "file": "assets/photos/cosmic-cliffs-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 269030,
+    "sha256": "d5449f4558cd199a91a57745a56e2ee629233b77fd1a313092e2daa2600d5727"
+  },
+  {
+    "file": "assets/photos/cosmic-cliffs.webp",
+    "width": 3840,
+    "height": 2224,
+    "bytes": 1601040,
+    "sha256": "1c2b8b25aa8f1854608aab5d1c24d2fce491ab2cfd6f41a280956c5ad557e268"
+  },
+  {
+    "file": "assets/photos/couple-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 216982,
+    "sha256": "f8546629d7af00736588a79d5c99b23a035796e1f53bf3e8d613c2de63dd636f"
+  },
+  {
+    "file": "assets/photos/couple.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 1301608,
+    "sha256": "ec781f71d2621d0eca8e3494de608b65ad76ca55398d8c5255855c1fb33f9447"
+  },
+  {
+    "file": "assets/photos/forest-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 178894,
+    "sha256": "e79779037842f6b53ce9b9970d4022e0003cde41e4228870f444275b26261ebe"
+  },
+  {
+    "file": "assets/photos/forest.webp",
+    "width": 1868,
+    "height": 2800,
+    "bytes": 1257936,
+    "sha256": "f8b6d322e485620513a2188a15375b0bde914ac4d5d461df6ca8f59d607af271"
+  },
+  {
+    "file": "assets/photos/laboratory-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 72130,
+    "sha256": "a9d924d6fef3c40e17f466a3af5f092d8c038be33d2cb9de6677f4b22c9c8e2e"
+  },
+  {
+    "file": "assets/photos/laboratory.webp",
+    "width": 1867,
+    "height": 2800,
+    "bytes": 443002,
+    "sha256": "827bc2d5f89f1c8f98340231927421a84ac021e68e615b005c812ee5ff3d4197"
+  },
+  {
+    "file": "assets/photos/library-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 185910,
+    "sha256": "88472f542fb3916173a68b4c6337c1551d671cf083f1b835161c4116f1d46581"
+  },
+  {
+    "file": "assets/photos/library.webp",
+    "width": 2560,
+    "height": 1708,
+    "bytes": 1197992,
+    "sha256": "27c6717c752d676191e8fddd58353ca62ec124c43d01e0b3385f1e815353a4b0"
+  },
+  {
+    "file": "assets/photos/mist-forest-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 115144,
+    "sha256": "54416950fc9f150809fa2b19e75dea8bf0e3526148651c163d0d8de81672fa57"
+  },
+  {
+    "file": "assets/photos/mist-forest.webp",
+    "width": 2560,
+    "height": 3840,
+    "bytes": 1690528,
+    "sha256": "058473891b965a66e2d44664c292e5367f2ffc7a0ac9143a69298409a455ac05"
+  },
+  {
+    "file": "assets/photos/mountains-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 249936,
+    "sha256": "2c8b7b2282bce7c46c05331f259ae7deb456985418091719591f1ac36fa3f999"
+  },
+  {
+    "file": "assets/photos/mountains.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 1078566,
+    "sha256": "a9f7a45bc10eadf023d8a98c577c70734b70f71c48d6f5b5fe091eb2781069fb"
+  },
+  {
+    "file": "assets/photos/nebula-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 306596,
+    "sha256": "f7d56b9514c5c608e01bf8e1fca24fbe5ae054258c94f79f7d624d1dd5bfdcf4"
+  },
+  {
+    "file": "assets/photos/nebula.webp",
+    "width": 1617,
+    "height": 2800,
+    "bytes": 1212326,
+    "sha256": "6e210767fbf8ac5770fe2c55b3db0404fe50699c1b62a930c707135bb6574729"
+  },
+  {
+    "file": "assets/photos/newspapers-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 226482,
+    "sha256": "7123b30a8e33005bb3e787f0b28689dda1f5559392965e8adb40c82e78602509"
+  },
+  {
+    "file": "assets/photos/newspapers.webp",
+    "width": 2800,
+    "height": 3733,
+    "bytes": 1543222,
+    "sha256": "8ca4fb9be141721540ec1409ef3d6d0d3f7c5403630160db0e172af39289a25e"
+  },
+  {
+    "file": "assets/photos/night-street-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 30368,
+    "sha256": "8314cd6451c51635c8f414f1d608e4c51c28655cf70e2ca7219196b515648308"
+  },
+  {
+    "file": "assets/photos/night-street.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 163500,
+    "sha256": "1465a7f126e2d4b0f1a855dbd6f96bfafd3098e1272c8eba9d25978c9a1f2555"
+  },
+  {
+    "file": "assets/photos/ocean-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 231692,
+    "sha256": "5cfde50e4f982a4f030d9b0f3a9f99a874e761b004a5bc7aa8795f5bc17c6b4f"
+  },
+  {
+    "file": "assets/photos/ocean.webp",
+    "width": 1865,
+    "height": 2800,
+    "bytes": 1029180,
+    "sha256": "aee2c63ea9e82b31e4e288ea3dd1d8b214962abf5a6d2d1017cd5956dc4c4f23"
+  },
+  {
+    "file": "assets/photos/peacock-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 341032,
+    "sha256": "fe9eafed8d2e0e114df6b229da63e7f41e0d9d4795534a2f0c8e14cc568f4265"
+  },
+  {
+    "file": "assets/photos/peacock.webp",
+    "width": 1867,
+    "height": 2800,
+    "bytes": 1599138,
+    "sha256": "431915fbfd54839ba0754611335119d8813a33d4536b79c6ebc9be2b801cd130"
+  },
+  {
+    "file": "assets/photos/social-media-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 69306,
+    "sha256": "2c8bc302bc6df0e18a7b7067743879b67d6ff4ba81ac44a3d8b55d7d72820684"
+  },
+  {
+    "file": "assets/photos/social-media.webp",
+    "width": 2800,
+    "height": 2048,
+    "bytes": 403404,
+    "sha256": "f442691424ca55100a33d94787c53a720077e93384114af1d6761568356f543b"
+  },
+  {
+    "file": "assets/photos/stairs-small.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 73762,
+    "sha256": "a3d1de994584e736e8e1366d61a9d7d092b243862c22df219be571ffb478b775"
+  },
+  {
+    "file": "assets/photos/stairs.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 287918,
+    "sha256": "02888bbc502fa69249062dfaff86fb11af9c3862b0306eb794f87921745ad2b1"
+  },
+  {
+    "file": "assets/social-card.png",
+    "width": 1200,
+    "height": 630,
+    "bytes": 93681,
+    "sha256": "40296b09929e0e05eb7d9ddd1103929223d9d4134434f8194e89b946950e016c"
+  }
+]

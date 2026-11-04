@@ -1,0 +1,144 @@
+{
+  "id": "D05",
+  "title": "Causation, meaning & the cosmos",
+  "nodes": [
+    {
+      "name": "d",
+      "label": "Physical determinism"
+    },
+    {
+      "name": "c",
+      "label": "Choices have prior causes"
+    },
+    {
+      "name": "b",
+      "label": "Reduced blame / pride"
+    },
+    {
+      "name": "a",
+      "label": "Acceptance of fate"
+    },
+    {
+      "name": "m",
+      "label": "Practical peace / meaning"
+    },
+    {
+      "name": "e",
+      "label": "Evolutionary replication"
+    },
+    {
+      "name": "p",
+      "label": "Life purpose interpreted"
+    },
+    {
+      "name": "t",
+      "label": "Entropy / cosmic expansion"
+    },
+    {
+      "name": "h",
+      "label": "Far-future heat death"
+    },
+    {
+      "name": "f",
+      "label": "Hypothetical fluctuations"
+    },
+    {
+      "name": "r",
+      "label": "Recurrence proposed"
+    },
+    {
+      "name": "s",
+      "label": "Same subjective self?"
+    }
+  ],
+  "edges": [
+    {
+      "tail": "d",
+      "head": "c",
+      "id": "D05-E01",
+      "label": "causal account",
+      "originalDashed": false,
+      "status": "A: philosophical commitment"
+    },
+    {
+      "tail": "c",
+      "head": "b",
+      "id": "D05-E02",
+      "label": "compassion inference",
+      "originalDashed": false,
+      "status": "A: normative inference"
+    },
+    {
+      "tail": "d",
+      "head": "a",
+      "id": "D05-E03",
+      "label": "amor fati response",
+      "originalDashed": false,
+      "status": "A: normative response"
+    },
+    {
+      "tail": "a",
+      "head": "m",
+      "id": "D05-E04",
+      "label": "claimed peace",
+      "originalDashed": false,
+      "status": "A: practical claim"
+    },
+    {
+      "tail": "e",
+      "head": "p",
+      "id": "D05-E05",
+      "label": "function becomes purpose",
+      "originalDashed": false,
+      "status": "A: philosophical interpretation"
+    },
+    {
+      "tail": "p",
+      "head": "m",
+      "id": "D05-E06",
+      "label": "congruence / duty",
+      "originalDashed": false,
+      "status": "A: asserted practical pathway"
+    },
+    {
+      "tail": "t",
+      "head": "h",
+      "id": "D05-E07",
+      "label": "model-dependent extrapolation",
+      "originalDashed": false,
+      "status": "A: physical account"
+    },
+    {
+      "tail": "h",
+      "head": "f",
+      "id": "D05-E08",
+      "label": "if suitable dynamics",
+      "originalDashed": false,
+      "status": "A: speculative"
+    },
+    {
+      "tail": "f",
+      "head": "r",
+      "id": "D05-E09",
+      "label": "state recreation proposed",
+      "originalDashed": false,
+      "status": "A: speculative"
+    },
+    {
+      "tail": "r",
+      "head": "s",
+      "id": "D05-E10",
+      "label": "identity unresolved",
+      "originalDashed": false,
+      "status": "A: explicit open question"
+    },
+    {
+      "tail": "r",
+      "head": "m",
+      "id": "D05-E11",
+      "label": "comforting interpretation",
+      "originalDashed": true,
+      "status": "B: inferred connection"
+    }
+  ]
+}
