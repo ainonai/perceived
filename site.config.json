@@ -1,0 +1,10 @@
+{
+  "name": "Perceived",
+  "subtitle": "The Julius Perceiver archive",
+  "description": "A consolidated reading archive of Julius Perceiver's video transcripts, connecting attraction, inheritance, purpose, society, and physical reality.",
+  "repository": "https://github.com/ainonai/perceived",
+  "mainChannel": "https://www.youtube.com/@JuliusPerceiver",
+  "rawChannel": "https://www.youtube.com/@juliusperceiverraw/videos",
+  "edition": "04",
+  "url": "https://ainonai.github.io/perceived/"
+}

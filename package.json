@@ -1,0 +1,25 @@
+{
+  "name": "perceived",
+  "private": true,
+  "version": "1.4.0",
+  "description": "A static Julius Perceiver reading archive with transcript provenance and interactive exploration.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "python3 scripts/check.py",
+    "verify": "npm run build && npm run check",
+    "package": "python3 scripts/package.py",
+    "format": "prettier --write \"scripts/*.mjs\" \"assets/*.js\" \"styles/*.css\" site.config.json"
+  },
+  "devDependencies": {
+    "@viz-js/viz": "3.25.0",
+    "marked": "17.0.5",
+    "prettier": "3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ainonai/perceived.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

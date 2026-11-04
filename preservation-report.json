@@ -1,0 +1,309 @@
+{
+  "originalArchiveFiles": 40,
+  "allOriginalFilesMatchUpload": true,
+  "videoTranscripts": 202,
+  "originalTranscriptWordsFromAudit": 516553,
+  "compactConsolidationWordsFromAudit": 296272,
+  "originalDiagramLinks": 77,
+  "allDiagramSemanticsPreserved": true,
+  "diagramChecks": [
+    {
+      "figure": "D01",
+      "nodes": 11,
+      "directedLinks": 13,
+      "allNodeLabelsMatch": true,
+      "allEndpointsAndLabelsMatch": true,
+      "allOriginalStatusesMatch": true
+    },
+    {
+      "figure": "D02",
+      "nodes": 11,
+      "directedLinks": 13,
+      "allNodeLabelsMatch": true,
+      "allEndpointsAndLabelsMatch": true,
+      "allOriginalStatusesMatch": true
+    },
+    {
+      "figure": "D03",
+      "nodes": 10,
+      "directedLinks": 10,
+      "allNodeLabelsMatch": true,
+      "allEndpointsAndLabelsMatch": true,
+      "allOriginalStatusesMatch": true
+    },
+    {
+      "figure": "D04",
+      "nodes": 11,
+      "directedLinks": 14,
+      "allNodeLabelsMatch": true,
+      "allEndpointsAndLabelsMatch": true,
+      "allOriginalStatusesMatch": true
+    },
+    {
+      "figure": "D05",
+      "nodes": 12,
+      "directedLinks": 11,
+      "allNodeLabelsMatch": true,
+      "allEndpointsAndLabelsMatch": true,
+      "allOriginalStatusesMatch": true
+    },
+    {
+      "figure": "D06",
+      "nodes": 11,
+      "directedLinks": 7,
+      "allNodeLabelsMatch": true,
+      "allEndpointsAndLabelsMatch": true,
+      "allOriginalStatusesMatch": true
+    },
+    {
+      "figure": "D07",
+      "nodes": 8,
+      "directedLinks": 9,
+      "allNodeLabelsMatch": true,
+      "allEndpointsAndLabelsMatch": true,
+      "allOriginalStatusesMatch": true
+    }
+  ],
+  "files": [
+    {
+      "path": "ASSIGNMENT.md",
+      "bytes": 12772,
+      "sha256": "a24f863de2044f3911616c4b781966f58054cd4467e2a5b0dbc3704fc5ba0415",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "COVERAGE_AND_LIMITATIONS.md",
+      "bytes": 9733,
+      "sha256": "042984841b6d66ecd95528f578e6b0c31d988f954be34a41d5c1200bc90f531d",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/README.md",
+      "bytes": 24482,
+      "sha256": "adb6fe76bca44147b1949e010cef4ec8e6a462e57e49db42a1709ec1b54c4f9b",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d01_female_causal_architecture.mmd",
+      "bytes": 1089,
+      "sha256": "885907706be788d264f43127dfcb58ada256db8772c4369aa15e0ea7bec8f75e",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d01_female_causal_architecture.png",
+      "bytes": 448398,
+      "sha256": "8ff1e063092ef94be3e66efbba3e4416eb56766b5cc33adf5fd097ab70f251ef",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d01_female_causal_architecture.svg",
+      "bytes": 16458,
+      "sha256": "24782cb8086ced31253acb71227d6b6c15dc949212fa0250c65456258a5dab71",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d02_attraction_relationship_stages.mmd",
+      "bytes": 1146,
+      "sha256": "c1e9854eceda921f27708ab09ffc85744a26a3e944189acc15fc111ce09f549a",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d02_attraction_relationship_stages.png",
+      "bytes": 558734,
+      "sha256": "39cf9992a74b2d6414bf23a9f083d67b46051b5ee60a79fc118118e892a95c9b",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d02_attraction_relationship_stages.svg",
+      "bytes": 17218,
+      "sha256": "c426a07ec8a0504c2cb2a64944535b7dc0f13fc8a9a4a2f8da24613124ed358d",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d03_signals_effort_and_naturalness.mmd",
+      "bytes": 939,
+      "sha256": "2475b1891e3056c4b0c31ea0bb65774e5e0058ab9a414d6d4e547a6803a097a0",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d03_signals_effort_and_naturalness.png",
+      "bytes": 396343,
+      "sha256": "1fadd9957ed6b387f9e9ab3d1cd01fdfe539e6da9e5afa4a883d19c13da945cb",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d03_signals_effort_and_naturalness.svg",
+      "bytes": 14174,
+      "sha256": "90b051bef24c4bc0ba2e7532661e0a64faa6e0cced3b609a3b4c24f8b5e3f745",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d04_overall_worldview.mmd",
+      "bytes": 1175,
+      "sha256": "c98c4fbc841371cc1f79eb3fdd529e6029c6d9b6ed0585d9c978411e58c22946",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d04_overall_worldview.png",
+      "bytes": 531088,
+      "sha256": "21b0944847637a17f143c4375ac95f0068e61c6ca7e9e71d192437087df8bb34",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d04_overall_worldview.svg",
+      "bytes": 17573,
+      "sha256": "47ef0336fffa10489256de54dc3cfde3803d916d2415ff1910651068405579e0",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d05_determinism_meaning_universe.mmd",
+      "bytes": 1065,
+      "sha256": "15740f1643912f3d3da08f281a366d61b19589ad305e021d7a2fea44e4bdd369",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d05_determinism_meaning_universe.png",
+      "bytes": 442580,
+      "sha256": "e4a6314d2b9fb3eda9066c8b279b66fceb388127e3c3b7ff98516420a2a39c28",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d05_determinism_meaning_universe.svg",
+      "bytes": 15659,
+      "sha256": "4e2eed6ad096aa7891b8d241f971333202b620115d1753d28a07c4e94ea6b0f7",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d06_evidence_uncertainty_map.mmd",
+      "bytes": 904,
+      "sha256": "1b39346d4c65176ebccb878c02aa27a93643624364f4d133873d6d6c1b036f2e",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d06_evidence_uncertainty_map.png",
+      "bytes": 392158,
+      "sha256": "faba17e8d524161deac62c94a8786c652a2c09386ea1b732b884fc8300797d5e",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d06_evidence_uncertainty_map.svg",
+      "bytes": 12949,
+      "sha256": "63678595feefefb386bc245e0b8149e1528e73a7de51a01c2f263b6ae3d88c8e",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d07_genetics_environment_competing_paths.mmd",
+      "bytes": 900,
+      "sha256": "37b14e3ca112d00ac4688178ee649bd2dfe67ee5d1bd0565b7a303ac514f924d",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d07_genetics_environment_competing_paths.png",
+      "bytes": 381892,
+      "sha256": "9599c1da47efbe4f2de9b679163442b7c2236cd4f5abfd7b600667734abc18ff",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "DIAGRAMS/d07_genetics_environment_competing_paths.svg",
+      "bytes": 12181,
+      "sha256": "fd5d442a8942eeb855e06ba41be0fa7ac545a197966355d24d2b84a72e10ef0a",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "EVOLUTION_AND_TENSIONS/Chronology_Contradictions_and_Development.md",
+      "bytes": 27697,
+      "sha256": "504a9fa577b2d40064207c1bbb5098ee0ad1e1e9361de4dda61617be4d4f486c",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "FEMALE_NATURE/Complete_Model.md",
+      "bytes": 54180,
+      "sha256": "80abfda1800d58331f69f503c638509ac35d9cbfb1acf29874e4d5d1fafc8f5e",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "FEMALE_NATURE/Relationship_and_Dating_Applications.md",
+      "bytes": 28080,
+      "sha256": "6737d081c13c64cefda8810e1e11f6cf7486279f40575d7c8f009e8bd4af11ad",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "JULIUS_PROFILE/Who_Is_Julius.md",
+      "bytes": 17710,
+      "sha256": "1ed23fe6ff38278a3fcda630c0eb31c8a9c40fbfb24a5b4f189203891e80f0c2",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "QUALITY_AND_INTEGRITY.md",
+      "bytes": 2472,
+      "sha256": "b4c50c38048caeae0b8ba25f11bb53991a1a18e7e50b76172cfb4c50b177b58f",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "READER.html",
+      "bytes": 660869,
+      "sha256": "958430811655f648af15ab5a7f26c5fdc9bb532e770d38eb665b1d09624a525c",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "REALITY_AND_UNIVERSE/Principles_of_Reality.md",
+      "bytes": 34331,
+      "sha256": "f8e9e445f87cc3bd8a8ad478e7693da790481c78f62cc1c4026c73870a845d3d",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "REFERENCE/Glossary_Questions_and_Source_Index.md",
+      "bytes": 112147,
+      "sha256": "4b84c22965006e6b173f507a7a2c5f66f4f3fe5f4a112764ad7d20b874b5b062",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "SCIENCE/Scientific_Evidence_Review.md",
+      "bytes": 70799,
+      "sha256": "8bf5c2704ea3736b79cbdd2164c715682948119607f75f497a29e8329fba1c64",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "SOURCE_CORPUS/AUDIT.json",
+      "bytes": 938,
+      "sha256": "78debb25abb0656119a088e65a336854c828827d4ef76509b34e61282024eb8f",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "SOURCE_CORPUS/CATALOG.csv",
+      "bytes": 31099,
+      "sha256": "c1ea4d75ee74298e1d31dbba26379307676d9ca05ca6ee1ffa29765a55e435b2",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "SOURCE_CORPUS/CATALOG.json",
+      "bytes": 140242,
+      "sha256": "b7fe0c82d440830d6471c8beed75fe099165468882ca035aabe29933aad678b3",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "SOURCE_CORPUS/JULIUS_KNOWLEDGEBASE.md",
+      "bytes": 1916666,
+      "sha256": "c30198ef701e653f9b2765012e70ec7e67a5afa819a2e5d0ce1848d22dcb91ef",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "SOURCE_CORPUS/README.md",
+      "bytes": 2156,
+      "sha256": "69b86e53592ab6fbdc27f8b3ebe87cf0f2e98d9e2286deb653497e6f0e92dc86",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 10206,
+      "sha256": "cda97869aebaf6f65c05ba6e393afe5747b1f975099329e01ac3eb6fe1c6e861",
+      "matchesUploadedArchive": true
+    },
+    {
+      "path": "SUCCESS_AND_LIFE/Success_Happiness_and_Living.md",
+      "bytes": 32082,
+      "sha256": "c2442a75660953f1c570616f4857c677a903d08e223a3995279f86fc3b493967",
+      "matchesUploadedArchive": true
+    }
+  ]
+}
