@@ -171,6 +171,22 @@
     "chapter": "biology-evolution-without-a-planner"
   },
   {
+    "term": "Polygenicity",
+    "definition": "The contribution of many genetic variants to one trait.",
+    "aliases": ["polygenicity"],
+    "videos": [179],
+    "timestamps": { "179": 108 },
+    "chapter": "biology-polygenic-traits-and-disorders"
+  },
+  {
+    "term": "Pleiotropy",
+    "definition": "One genetic variant influences more than one trait.",
+    "aliases": ["pleiotropy"],
+    "videos": [179],
+    "timestamps": { "179": 134 },
+    "chapter": "biology-polygenic-traits-and-disorders"
+  },
+  {
     "term": "Polygenic score",
     "definition": "A prediction combining information from many genetic variants. A score expresses an estimate with uncertainty rather than the outcome a particular individual must reach.",
     "aliases": [
@@ -179,11 +195,29 @@
       "polygenic prediction"
     ],
     "videos": [
+      179,
       20,
       29,
       199
     ],
-    "chapter": "biology-biotechnology-and-prediction"
+    "timestamps": { "179": 380 },
+    "chapter": "biology-polygenic-traits-and-disorders"
+  },
+  {
+    "term": "Publication bias",
+    "definition": "Some results are more likely to be published than others, so the published studies can give a skewed picture of the full evidence.",
+    "aliases": ["publication bias"],
+    "videos": [182],
+    "timestamps": { "182": 751 },
+    "chapter": "how-to-read-a-study"
+  },
+  {
+    "term": "Outcome switching",
+    "definition": "Changing which result a study treats as its main outcome after the study begins. A paper can mislead readers when it leaves that change unexplained.",
+    "aliases": ["outcome switching"],
+    "videos": [182],
+    "timestamps": { "182": 1384 },
+    "chapter": "how-to-read-a-study"
   },
   {
     "term": "Embryo selection",

@@ -21,7 +21,7 @@ Do not upload only the ZIP or leave the files inside another directory. Relative
 - All **40 original files**, unchanged, in `original/`.
 - All **202 consolidated video-transcript sections**, embedded in the page, with catalog dates and original video links.
 - The full attraction model, applications, practical philosophy, reality discussion, Julius profile, chronology, and coverage notes.
-- **27 scientific claim reviews**, **55 bibliography entries**, **88 glossary terms** (55 original terms and 33 additional explanations), and **34 reader questions**.
+- **27 scientific claim reviews**, **55 bibliography entries**, **92 glossary terms** (55 original terms and 37 additional explanations), and **34 reader questions**.
 - Seven original diagrams and all **77 directed links**, plus readable overviews and complete redesigned causal maps.
 
 The audit records 516,553 original transcript words. The included compact knowledgebase contains 296,272 whitespace-delimited words. This is transcript-derived knowledge consolidation; the export does not include the original raw transcript files. The shorter reading chapters and interactive map supplement the complete material.

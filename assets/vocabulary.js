@@ -93,7 +93,7 @@
   function leave() {
     if (!pinned) timer = setTimeout(hide, 180);
   }
-  for (const chapter of document.querySelectorAll(".chapter-prose")) {
+  for (const chapter of document.querySelectorAll(".chapter-prose, .study-guide")) {
     const seen = new Set();
     const walker = document.createTreeWalker(chapter, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
