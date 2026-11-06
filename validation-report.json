@@ -1,16 +1,16 @@
 {
   "status": "PASS",
-  "uniqueIds": 2854,
+  "uniqueIds": 2856,
   "internalLinks": 531,
   "brokenInternalLinks": 0,
-  "localReferences": 105,
+  "localReferences": 106,
   "missingLocalFiles": 0,
   "preservedOriginalFiles": 40,
   "preservedDiagramLinks": 77,
   "graphNodes": 86,
   "graphConnections": 112,
   "decodedRasterAssets": 42,
-  "imagesWithAltText": 74,
+  "imagesWithAltText": 76,
   "externalScriptDependencies": 0,
   "sourceLinkedReadingParagraphs": 131,
   "counts": {
@@ -27,7 +27,7 @@
     "generatedArtwork": 3,
     "ideaSpaceNodes": 86,
     "ideaSpaceLinks": 112,
-    "htmlBytes": 3815488
+    "htmlBytes": 3818167
   },
   "errors": []
 }

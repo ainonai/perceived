@@ -2605,64 +2605,26 @@
       "chapter": "study-reading",
       "heading": "How to read a study skeptically",
       "paragraph": 1,
-      "sha256": "91122d242f7aa39df50d07b2af16795904a95d665420ff868565a7f91db40714",
+      "sha256": "2461e1dd8bbb46558f7032ee412e2720110dd591c7e3b33afa3f4555e93e9f34",
       "kind": "source paraphrase and research context",
       "sources": [
+        {
+          "video": 181,
+          "time": "00:02:36",
+          "title": "Stop blindly trusting studies! #science"
+        },
         {
           "video": 181,
           "time": "00:00:00",
           "title": "Stop blindly trusting studies! #science"
-        },
-        {
-          "video": 182,
-          "time": "00:24:09",
-          "title": "How antidepressants passed FDA approval (loophole explained)"
         }
       ]
     },
     {
       "chapter": "study-reading",
-      "heading": "How to read a study skeptically",
+      "heading": "What reached the journals",
       "paragraph": 2,
-      "sha256": "df64a59e0c3f757a4bb69cd93f2ba91a216a3bb5fd34b38e5bb537bc0ab003f8",
-      "kind": "source paraphrase and research context",
-      "sources": [
-        {
-          "video": 181,
-          "time": "00:01:06",
-          "title": "Stop blindly trusting studies! #science"
-        },
-        {
-          "video": 182,
-          "time": "00:20:41",
-          "title": "How antidepressants passed FDA approval (loophole explained)"
-        }
-      ]
-    },
-    {
-      "chapter": "study-reading",
-      "heading": "How to read a study skeptically",
-      "paragraph": 3,
-      "sha256": "2d4b4bb401774916e29832f0504252212a6e74d97abf822e2ffbb612f32aab8a",
-      "kind": "source paraphrase and research context",
-      "sources": [
-        {
-          "video": 181,
-          "time": "00:01:39",
-          "title": "Stop blindly trusting studies! #science"
-        },
-        {
-          "video": 182,
-          "time": "00:22:18",
-          "title": "How antidepressants passed FDA approval (loophole explained)"
-        }
-      ]
-    },
-    {
-      "chapter": "study-reading",
-      "heading": "How to read a study skeptically",
-      "paragraph": 4,
-      "sha256": "16172a770c1f314e18754043e48ed7125c0bb356efee876fb12a6a79a747c7e8",
+      "sha256": "ae5d7a6d7d9eb49cb13c7c6025fd96aca891f34dcf417d1f68341c6e1a97ee6c",
       "kind": "source paraphrase and research context",
       "sources": [
         {
@@ -2679,9 +2641,47 @@
     },
     {
       "chapter": "study-reading",
-      "heading": "How to read a study skeptically",
+      "heading": "Before the paper reaches print",
+      "paragraph": 3,
+      "sha256": "b3b8ee5ad72b01533ef47807cc509db0cb8b64569900d164dc26feb685854d53",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 181,
+          "time": "00:01:06",
+          "title": "Stop blindly trusting studies! #science"
+        },
+        {
+          "video": 182,
+          "time": "00:20:41",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "Before the paper reaches print",
+      "paragraph": 4,
+      "sha256": "f732d00b2b16bde6e7d2e167e6fa4855d87b289fd7bc4ee97589f64c4d62ead8",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 181,
+          "time": "00:01:39",
+          "title": "Stop blindly trusting studies! #science"
+        },
+        {
+          "video": 182,
+          "time": "00:22:18",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "Before the paper reaches print",
       "paragraph": 5,
-      "sha256": "be9c6855e73f5906693d054abeec02fcc620f524f411d87d384dff21250726b0",
+      "sha256": "fef8c5544d78c7bbd413836b4bc90d94517befd48a2f0438909356ab9c3d0e6a",
       "kind": "source paraphrase and research context",
       "sources": [
         {
