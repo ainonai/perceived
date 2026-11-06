@@ -56,7 +56,7 @@
       button.className = "section-bookmark";
       button.title = "Copy section link";
       button.setAttribute("aria-label", `Copy link to ${title}`);
-      button.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 4h12v16l-6-4-6 4z"/></svg>
+      button.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m10 14 4-4m-7 2-2 2a3.5 3.5 0 0 0 5 5l2-2m0-10 2-2a3.5 3.5 0 0 1 5 5l-2 2"/></svg>
         <svg class="bookmark-check" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>`;
       let reset;
       button.addEventListener("click", async () => {
