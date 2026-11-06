@@ -704,7 +704,7 @@ const publicationRows = [
   })
   .join("");
 const publicationFigure = `<figure class="publication-comparison" aria-labelledby="publication-comparison-title"><figcaption id="publication-comparison-title">How often trials looked positive</figcaption><div class="publication-pair">${publicationRows}</div><p>Share of trials classified or presented as positive in Turner’s comparison. <a href="https://doi.org/10.1056/NEJMsa065779" target="_blank" rel="noopener noreferrer">Turner et al., 2008</a></p></figure>`;
-const studyReading = removeLead(read("editorial/study-reading.md")).split(/(?=^### )/m);
+const studyReading = removeLead(read("editorial/study-reading.md")).trim().split(/\n\s*\n/);
 const studyBody = studyReading.map((section, i) =>
   md(section, "study-reading") + (i === 1 ? publicationFigure : ""),
 ).join("");
