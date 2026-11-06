@@ -2143,7 +2143,7 @@ main {
   filter: none;
   transform: translate3d(
       calc(var(--mx, 0) * 10px),
-      calc(var(--my, 0) * -7px + var(--parallax-y, 0px)),
+      calc(var(--my, 0) * -7px),
       35px
     )
     rotateY(calc(var(--mx, 0) * 4deg)) rotateX(calc(var(--my, 0) * -3deg))
@@ -3655,22 +3655,6 @@ body {
     radial-gradient(ellipse at 94% 20%, #6b000024, transparent 47%),
     radial-gradient(ellipse at 10% 70%, #203d4c20, transparent 50%);
 }
-.mist {
-  position: absolute;
-  inset: -20%;
-  opacity: 0.16;
-  background-image: url("artwork/mist.svg");
-  background-repeat: repeat-x;
-  background-size: 1300px 900px;
-  will-change: transform;
-  animation: mist-drift 75s ease-in-out infinite alternate;
-}
-.mist-near {
-  opacity: 0.1;
-  animation: mist-drift-near 100s ease-in-out infinite alternate;
-  background-size: 1800px 1200px;
-  inset: -35%;
-}
 .night-glow {
   position: absolute;
   inset: 0;
@@ -3681,22 +3665,6 @@ body {
     transparent 70%,
     #92000016
   );
-}
-@keyframes mist-drift {
-  from {
-    transform: translate3d(-5%, 0, 0);
-  }
-  to {
-    transform: translate3d(8%, -4%, 0);
-  }
-}
-@keyframes mist-drift-near {
-  from {
-    transform: translate3d(9%, 1%, 0) scale(1.04);
-  }
-  to {
-    transform: translate3d(-7%, 5%, 0) scale(1.12);
-  }
 }
 main {
   position: relative;
@@ -3719,14 +3687,6 @@ main {
 .chapter-cover {
   position: relative;
 }
-.chapter-cover::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background: url("artwork/mist.svg") center/1300px auto;
-  pointer-events: none;
-  animation: mist-drift 75s ease-in-out infinite alternate;
-}
 .chapter-cover img {
   object-position: center 45%;
 }
@@ -3745,20 +3705,11 @@ main {
   object-fit: cover;
   transform: translate3d(
       calc(var(--mx, 0) * -8px),
-      calc(var(--my, 0) * -5px + var(--parallax-y, 0px)),
+      calc(var(--my, 0) * -5px),
       0
     )
     scale(1.08);
   transition: transform 0.2s ease-out;
-}
-.night-interlude::after {
-  content: "";
-  position: absolute;
-  inset: -10%;
-  background: url("artwork/mist.svg") center/1200px auto;
-  opacity: 0.23;
-  animation: mist-drift-near 90s ease-in-out infinite alternate;
-  pointer-events: none;
 }
 .night-interlude figcaption {
   position: absolute;
@@ -3784,27 +3735,7 @@ main {
   bottom: 24px;
   right: 24px;
 }
-[data-motion="off"] .mist,
-[data-motion="off"] .chapter-cover::after,
-[data-motion="off"] .night-interlude::after {
-  animation-play-state: paused;
-}
-[data-motion="off"] [data-parallax] img {
-  transform: none !important;
-  transition: none !important;
-  will-change: auto;
-}
-[data-motion="off"] .topic-card img {
-  transition: none;
-}
 @media (max-width: 700px) {
-  .mist {
-    opacity: 0.1;
-    animation-duration: 100s;
-  }
-  .mist-near {
-    display: none;
-  }
   .back-top {
     right: 16px;
     bottom: 18px;
@@ -3822,21 +3753,8 @@ main {
   .night-interlude b {
     font-size: 24px;
   }
-  .chapter-cover::after {
-    height: 230px;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
-  .mist,
-  .chapter-cover::after,
-  .night-interlude::after {
-    animation: none !important;
-  }
-  [data-parallax] img {
-    transform: none !important;
-    transition: none !important;
-    will-change: auto;
-  }
   .topic-card img {
     transition: none;
   }
@@ -3845,10 +3763,8 @@ main {
   }
 }
 @media print {
-  .atmosphere,
-  .chapter-cover::after,
-  .night-interlude::after {
-    display: none !important;
+  .atmosphere {
+    display: none;
   }
 }
 .atmosphere::before {
@@ -3878,15 +3794,6 @@ main {
 }
 .space-open .sidebar {
   pointer-events: none;
-}
-/* Only animate local mist while its photograph is visible. */
-.chapter-cover::after,
-.night-interlude::after {
-  animation-play-state: paused;
-}
-[data-motion="on"] .chapter-cover.is-in-view::after,
-[data-motion="on"] .night-interlude.is-in-view::after {
-  animation-play-state: running;
 }
 @media print {
   .space-layout.is-expanded {
@@ -4199,7 +4106,7 @@ h4 {
   border: 0;
   filter: brightness(0.76) saturate(0.8);
   object-fit: cover;
-  transform: translate3d(0, var(--parallax-y, 0px), 0) scale(1.035);
+  transform: scale(1.035);
   mask-image: linear-gradient(
     to bottom,
     transparent,
@@ -4217,12 +4124,6 @@ h4 {
   font-size: 14px;
   line-height: 1.8;
   border: 0;
-}
-.chapter-cover::after {
-  left: -2%;
-  right: -2%;
-  height: 380px;
-  opacity: 0.2;
 }
 .article {
   overflow: clip;
@@ -4395,8 +4296,7 @@ h4 {
   .brand strong {
     font-size: 36px;
   }
-  .chapter-cover img,
-  .chapter-cover::after {
+  .chapter-cover img {
     height: 340px;
   }
 }
@@ -4554,8 +4454,7 @@ h4 {
     margin: 10px -21px 20px;
     padding-top: 0;
   }
-  .chapter-cover img,
-  .chapter-cover::after {
+  .chapter-cover img {
     height: 290px;
   }
   .chapter-cover figcaption {
@@ -4650,9 +4549,6 @@ h4 {
     transform: none !important;
     transition: none !important;
   }
-}
-[data-motion="off"] .chapter-cover img {
-  transform: none;
 }
 @media print {
   .hero h1 {
@@ -4805,63 +4701,6 @@ h4 {
   object-position: center 43%;
 }
 
-/* Translucent edge clouds sit over the margins, never intercepting interaction. */
-.edge-atmosphere {
-  position: fixed;
-  inset: 0;
-  overflow: clip;
-  pointer-events: none;
-  z-index: 3;
-  contain: layout paint;
-  --fog-left-y: 0px;
-  --fog-right-y: 0px;
-}
-.edge-fog {
-  position: absolute;
-  top: -28%;
-  width: clamp(110px, 20vw, 370px);
-  height: 160%;
-  opacity: 0.36;
-  will-change: transform;
-  mask-image: linear-gradient(90deg, #000 0%, #000b 30%, transparent 100%);
-}
-.edge-fog-left {
-  left: -65px;
-  transform: translate3d(0, var(--fog-left-y), 0);
-}
-.edge-fog-right {
-  right: -65px;
-  transform: translate3d(0, var(--fog-right-y), 0) scaleX(-1);
-}
-.edge-fog span {
-  position: absolute;
-  inset: -10% -50%;
-  background: url("artwork/mist.svg") center / 900px 1250px repeat-y;
-  filter: blur(17px);
-  animation: edge-fog-drift 48s ease-in-out infinite alternate;
-}
-.edge-fog-right span {
-  animation-delay: -24s;
-  background-size: 1150px 1500px;
-}
-@keyframes edge-fog-drift {
-  from {
-    transform: translate3d(-7%, -3%, 0) scale(1);
-  }
-  to {
-    transform: translate3d(9%, 5%, 0) scale(1.12);
-  }
-}
-[data-motion="off"] .edge-fog {
-  transform: none;
-  will-change: auto;
-}
-[data-motion="off"] .edge-fog span {
-  animation-play-state: paused;
-}
-.space-open .edge-atmosphere {
-  visibility: hidden;
-}
 * {
   scrollbar-width: thin;
   scrollbar-color: #963333 #100d0d;
@@ -4885,19 +4724,6 @@ h4 {
   background: #100d0d;
 }
 @media (max-width: 700px) {
-  .edge-fog {
-    width: 120px;
-    opacity: 0.24;
-  }
-  .edge-fog-left {
-    left: -70px;
-  }
-  .edge-fog-right {
-    right: -70px;
-  }
-  .edge-fog span {
-    filter: blur(12px);
-  }
   .reading-photo {
     margin: 21px 0 25px;
   }
@@ -4910,13 +4736,6 @@ h4 {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .edge-fog {
-    transform: none !important;
-    will-change: auto;
-  }
-  .edge-fog span {
-    animation: none;
-  }
 }
 
 /* Give expanded references a useful second column rather than a blank right half. */
@@ -5291,27 +5110,6 @@ main [tabindex="-1"]:focus {
 .example-notes a:hover {
   color: var(--accent);
 }
-.edge-fog-left {
-  transform: translate3d(var(--fog-left-x, 0px), var(--fog-left-y), 0);
-}
-.edge-fog-right {
-  transform: translate3d(var(--fog-right-x, 0px), var(--fog-right-y), 0)
-    scaleX(-1);
-}
-.edge-fog span::before {
-  content: "";
-  position: absolute;
-  inset: -15%;
-  background: url("artwork/mist.svg") 35% 50% / 1300px 1500px repeat-y;
-  opacity: 0.55;
-  filter: blur(15px);
-  transform: translate3d(var(--fog-deep-x, 0px), 4%, 0) scale(1.15);
-}
-[data-motion="off"] .edge-fog-left,
-[data-motion="off"] .edge-fog-right,
-[data-motion="off"] .edge-fog span::before {
-  transform: none;
-}
 
 .space-expanded-search {
   position: absolute;
@@ -5432,17 +5230,10 @@ sup.paper-reference {
   background: #070505f2;
 }
 .space-open .atmosphere,
-.space-open .edge-atmosphere,
 .space-open .masthead,
 .space-open .sidebar,
 .space-open main > :not(#idea-space) {
   visibility: hidden;
-}
-.space-open .mist,
-.space-open .edge-fog span,
-.space-open .chapter-cover::after,
-.space-open .night-interlude::after {
-  animation-play-state: paused !important;
 }
 .space-layout.is-expanded {
   inset: 20px;
@@ -5515,4 +5306,15 @@ sup.paper-reference {
 .back-top:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
+}
+
+.external-arrow {
+  width: 0.7em;
+  height: 0.7em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.45;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: 0.03em;
 }

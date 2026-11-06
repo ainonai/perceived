@@ -3,7 +3,7 @@
   "uniqueIds": 2847,
   "internalLinks": 518,
   "brokenInternalLinks": 0,
-  "localReferences": 106,
+  "localReferences": 105,
   "missingLocalFiles": 0,
   "preservedOriginalFiles": 40,
   "preservedDiagramLinks": 77,
@@ -14,7 +14,7 @@
   "externalScriptDependencies": 0,
   "sourceLinkedReadingParagraphs": 123,
   "counts": {
-    "editorialWords": 7064,
+    "editorialWords": 7052,
     "videoTranscripts": 202,
     "evidenceReviews": 27,
     "bibliographyEntries": 55,
@@ -27,7 +27,7 @@
     "generatedArtwork": 3,
     "ideaSpaceNodes": 86,
     "ideaSpaceLinks": 112,
-    "htmlBytes": 3763670
+    "htmlBytes": 3800123
   },
   "errors": []
 }

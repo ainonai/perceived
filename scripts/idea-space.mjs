@@ -1,8 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { mapDetails, detailConnections } from "./map-details.mjs";
 const root = path.resolve(
-  path.dirname(new URL(import.meta.url).pathname),
+  path.dirname(fileURLToPath(import.meta.url)),
   "..",
 );
 const esc = (s) =>
@@ -13,13 +14,7 @@ const esc = (s) =>
         c
       ],
   );
-export function ideaSpace() {
-  const videos = JSON.parse(
-    fs.readFileSync(
-      path.join(root, "original/SOURCE_CORPUS/CATALOG.json"),
-      "utf8",
-    ),
-  ).videos;
+export function ideaSpace(videos) {
   const groups = [
     [
       "biology",

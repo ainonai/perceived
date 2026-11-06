@@ -25,15 +25,15 @@ if __name__ == '__main__':
         with zipfile.ZipFile(temporary) as archive:
             if archive.testzip() is not None:
                 raise ValueError('Package integrity check failed')
-            for line in (ROOT / 'ORIGINAL_SHA256SUMS.txt').read_text().splitlines():
+            for line in (ROOT / 'ORIGINAL_SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
                 expected, filename = line.split('  ', 1)
                 if hashlib.sha256(archive.read(filename)).hexdigest() != expected:
                     raise ValueError(f'Original source mismatch: {filename}')
-            for row in json.loads((ROOT/'assets/image-integrity.json').read_text()):
+            for row in json.loads((ROOT/'assets/image-integrity.json').read_text(encoding='utf-8')):
                 if hashlib.sha256(archive.read(row['file'])).hexdigest() != row['sha256']:
                     raise ValueError(f"Image integrity mismatch: {row['file']}")
             count = len(archive.namelist())
-        with open(temporary, 'rb') as checked:
+        with open(temporary, 'r+b') as checked:
             os.fsync(checked.fileno())
         os.replace(temporary, DESTINATION)
         print(f'{DESTINATION} ({count} files, verified)')

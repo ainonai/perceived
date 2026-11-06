@@ -8,9 +8,9 @@ Genuine desire is the starting point. Keeping it alive, building a workable rela
 
 Perceived alternatives affect the urgency of commitment. In **discrepancy theory**, a man whose desirability clearly exceeds his partner’s has more credible options elsewhere. His attention carries a different weight from attention that seems guaranteed. The mechanism links the perceived gap between partners with how much each feels they have to lose. [V104 · 03:03](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=183s) [V104 · 04:26](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=266s)
 
-Being “too alpha” creates a different problem. Julius describes Emiliana leaving amid insecurity and competition anxiety even though she still desired him. Desire had not disappeared; remaining in the relationship had become difficult. Showing care matters to retention, especially when partners are closer in perceived desirability. [V127 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V190 · 03:11](https://www.youtube.com/watch?v=Jq6SD2UkJFs&t=191s)
+**Competition anxiety** wears down a relationship even while desire stays strong. A woman who feels she has to keep competing for a man’s attention is likely to leave while she still wants him. That’s the problem with being “too alpha” in a long-term relationship. Show her you care. When the gap in **SMV** is smaller, affection and knowing you’ll be there carry more weight. Julius calls that practical side **logistical attraction**. [V127 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V190 · 03:11](https://www.youtube.com/watch?v=Jq6SD2UkJFs&t=191s)
 
-Make an informed choice, then let go of constant paranoia. Julius warns that insecurity can become self-fulfilling: fear of betrayal begins shaping the relationship itself. Screening a partner and spending the relationship anxiously anticipating betrayal are different ways to live with the same concern. [V136 · 32:43](https://www.youtube.com/watch?v=n8qUXvXAKfI&t=1963s)
+Choose carefully. Once you’ve chosen, let go of the need to be on guard. Julius calls insecurity a **self-fulfilling prophecy** when fear of cheating starts dictating how you treat your partner. Acting on that fear helps bring about the betrayal you were trying to prevent. [V136 · 32:43](https://www.youtube.com/watch?v=n8qUXvXAKfI&t=1963s)
 
 ### Independence and performed indifference
 
@@ -38,7 +38,7 @@ When Bella asks about the headband, Julius describes smiling rather than rushing
 
 ### Compatibility, agreements, and exit
 
-Choosing the mother of your children involves more than deciding whom you want to date casually. Respect for her values and the possibility of a stable monogamous household become central. Julius’s Hinge reviews make the screening concrete: long-term goals, outdoor interests, pets, humor, religion, and family pictures all contribute to the impression. [V099 · 04:27](https://www.youtube.com/watch?v=VPRoEqYDFWs&t=267s) [V183 · 19:34](https://www.youtube.com/watch?v=x9j5HTZbmIE&t=1174s) [V183 · 23:18](https://www.youtube.com/watch?v=x9j5HTZbmIE&t=1398s)
+Choosing the mother of your children brings a different set of questions from deciding whom to date casually. Julius gives weight to respecting her values and to the prospect of a stable monogamous household. [V099 · 04:27](https://www.youtube.com/watch?v=VPRoEqYDFWs&t=267s)
 
 **Dual mating** separates reproductive appeal from provision: one partner supplies resources while another supplies the preferred inherited traits. The hypothesis concerns varying predispositions, often operating without a conscious plan. Julius’s practical answer is to combine desire and provision in one relationship; after discovered infidelity, he recommends leaving. [V136 · 10:50](https://www.youtube.com/watch?v=n8qUXvXAKfI&t=650s) [V136 · 19:07](https://www.youtube.com/watch?v=n8qUXvXAKfI&t=1147s) [V136 · 24:36](https://www.youtube.com/watch?v=n8qUXvXAKfI&t=1476s)
 
@@ -46,7 +46,7 @@ Julius’s overlapping relationships with Gianna and Bella give exclusivity a co
 
 ### Personal accounts and general explanations
 
-Emiliana’s relationship with Julius includes blocking, renewed contact, repeated conflict, and a confrontation at a beach club. Attraction persists through the instability. The distinction between alpha desire and beta qualities explains why renewed contact is possible while a lasting relationship remains difficult: wanting to return and being able to stay are separate problems. [V127 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V127 · 30:52](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1852s) [V127 · 31:39](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1899s)
+Julius recalls blocking, renewed contact, and a confrontation at a beach club. He later clarified who withdrew in the Emiliana story: he stopped responding, and she continued to pursue contact. His nearby explanation of how insecurity can make someone leave was a tangent about a different situation. [V127 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V127 · 30:52](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1852s) [V127 · 31:39](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1899s)
 
 The Caribbean encounter begins with a brief impression and later contact; Monica’s withdrawal follows a commitment dispute; Gianna and Bella become part of overlapping relationships. Each has a different starting point. Following those sequences makes the role of desire, attachment, uncertainty, and commitment easier to see than treating every return or silence as the same event. [V134 · 00:00](https://www.youtube.com/watch?v=h53tIWlKAdM&t=0s) [V145 · 00:00](https://www.youtube.com/watch?v=G6eh83P6Rf4&t=0s) [V184 · 00:00](https://www.youtube.com/watch?v=CwJyhhm8y9I&t=0s)
 

@@ -19,7 +19,7 @@ Do not upload only the ZIP or leave the files inside another directory. Relative
 ## Preserved material
 
 - All **40 original files**, unchanged, in `original/`.
-- All **202 consolidated video-transcript sections**, embedded in the page, with catalog dates and original video links.
+- All **202 baseline consolidated video-transcript sections**, embedded in the page, with catalog dates and original video links. Later uploads appear as separately identified, reviewed transcript notes.
 - The full attraction model, applications, practical philosophy, reality discussion, Julius profile, chronology, and coverage notes.
 - **27 scientific claim reviews**, **55 bibliography entries**, **88 glossary terms** (55 original terms and 33 additional explanations), and **34 reader questions**.
 - Seven original diagrams and all **77 directed links**, plus readable overviews and complete redesigned causal maps.
@@ -30,11 +30,11 @@ The audit records 516,553 original transcript words. The included compact knowle
 
 The site provides full-text search, a filterable transcript archive, an expandable complete reference, evidence assessments, glossary lookup, and a saved reading position. The 86-concept map supports panning, zooming, individual node dragging, centered labels that scale with their circles, search, subject filters, and an expanded view with related source links.
 
-Images fade into the page, with translucent edge clouds that respond to scrolling and layered perspective/parallax. The page honors reduced-motion preferences, and pauses ambient animation when hidden. Local effects pause outside the visible area. Nine larger subsection photographs accompany concrete, timestamp-linked examples. Only the “A shadow…” opening uses a drop capital; other chapter openings retain their full first word. Underlined vocabulary opens definitions on hover, tap, or keyboard focus. Expanded maps close with ×, Escape, or a click outside; the background stays inactive until closed. Expanded references include a contents column and close buttons.
+Images blend into the page through fixed backdrop artwork and soft gradients. Nine larger subsection photographs accompany concrete, timestamp-linked examples. Only the “A shadow…” opening uses a drop capital; other chapter openings retain their full first word. Underlined vocabulary opens definitions on hover, tap, or keyboard focus. Expanded maps close with ×, Escape, or a click outside; the background stays inactive until closed. Expanded references include a contents column and close buttons.
 
 ## Develop
 
-Use Node 20 or newer and Python 3. The supplied generated files are ready to publish; this toolchain is needed only when rebuilding.
+Use Node 20 or newer with npm, and Python 3. On Windows, make sure `python` runs your Python 3 installation. On macOS and Linux, the build uses `python3`. The supplied generated files are ready to publish; this toolchain is needed only when rebuilding.
 
 ```sh
 npm ci
@@ -47,6 +47,7 @@ npm run verify
 |---|---|
 | `site.config.json` | Name, edition, repository URL, and channel URLs |
 | `editorial/` | The six shorter reading chapters |
+| `editorial/updates/` | Reviewed video additions and their timestamped notes |
 | `styles/site.css` | Canonical readable stylesheet; design tokens are at the top |
 | `assets/fonts.css`, `assets/fonts/` | Self-hosted typefaces, manifests, and original licenses |
 | `assets/reader.js` | Search, source filters, navigation, and diagram viewer |
@@ -54,7 +55,6 @@ npm run verify
 | `assets/map-labels.js` | Centered, proportionally scaled map labels |
 | `editorial/terminology.json` | Additional source-linked definitions and aliases |
 | `assets/vocabulary.js` | Inline glossary definitions and source links |
-| `assets/experience.js` | Visibility-aware parallax and edge fog |
 | `scripts/build.mjs` | Page assembly and source routing |
 | `scripts/idea-space.mjs` | Concept map content and related source records |
 | `scripts/overview-diagrams.mjs` | Simplified diagram definitions |
@@ -67,7 +67,7 @@ npm run verify
 
 The included GitHub workflow runs verification on pushes and pull requests and checks that published outputs match their sources. The lockfile pins development dependencies. Markdown and diagram libraries run during the build, not in the reader's browser. The stylesheet is built from one canonical source instead of a stack of edition-specific overrides. Legacy browser preference keys remain compatible with previous reader versions.
 
-Keep `original/` unchanged. `.gitattributes` disables text conversion for that directory, preserving its hashes when checking out the repository on Windows. New research and corrections belong in identified editorial material rather than silent changes to the source record.
+Keep `original/` unchanged. `.gitattributes` disables text conversion for that directory, preserving its hashes when checking out the repository on Windows. New research and corrections belong in identified editorial material. The archive workflow describes how to add reviewed uploads. [Archive workflow](CODEX_WORKFLOW.md)
 
 ## Attribution and scope
 
@@ -83,7 +83,7 @@ The page includes a 1200 × 630 PNG sharing card, Open Graph metadata, a canonic
 
 `site.config.json` sets the expected GitHub Pages address to `https://ainonai.github.io/perceived/`. This is deployment configuration, not a claim that the site is already published. If you use a custom domain or a different Pages address, update `url` and rebuild so preview images use the correct absolute URL. Link previews can load once the page and image are publicly accessible. Protocol reference: [Open Graph](https://ogp.me/).
 
-After replacing photographs, run `python3 scripts/check_images.py` in an environment with Pillow, then `npm run verify`. The image manifest is checked during packaging as well, so damaged thumbnails cannot pass unnoticed just because their paths exist.
+After replacing photographs, run `node scripts/python.mjs scripts/check_images.py` in an environment with Pillow, then `npm run verify`. The image manifest is checked during packaging as well, so damaged thumbnails cannot pass unnoticed just because their paths exist.
 
 Final research presentation: the 27 main entries now separate the source proposition, reported findings, and study scope. Filters describe research designs rather than verdicts. Prescriptive advice and reviewer judgments remain in an explicitly labeled “Original supplied review” within each entry; the original review file is unchanged. These notes summarize the supplied review and do not claim a new literature search. Their editable source is `editorial/evidence-notes.json`. Transcript bullet lists now inherit the body text size and line spacing instead of using a small metadata font.
 
@@ -98,3 +98,5 @@ The former floating map-label system has been removed. Each label is now a child
 Writing review: the six reading chapters now explain mechanisms directly, retaining all 123 paragraphs and their existing source pointers. Concrete stories, channel vocabulary, and the distinction between desire, commitment, and practical support remain in the reading text. Selected expanded passages, reader questions, map descriptions, definitions, and image captions were edited for the same voice. Research findings remain in their evidence notes. No original archive text was changed.
 
 Glossary review: all 55 original terms now have concise reading-edition definitions, preserving their source links and the additional 33 terms. Definitions describe concepts directly; scientific distinctions and hypothetical status remain where they affect the meaning.
+
+For Codex setup and the first incremental video task, see [CODEX_WORKFLOW.md](CODEX_WORKFLOW.md).

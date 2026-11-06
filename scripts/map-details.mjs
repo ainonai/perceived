@@ -140,7 +140,7 @@ export const mapDetails = [
     "desire",
     "dissatisfaction",
     "Desire & dissatisfaction",
-    "Continued desire does not establish trust or a workable relationship. The Emiliana example puts these outcomes side by side.",
+    "Desire can persist even when insecurity makes a relationship difficult to sustain.",
     "relationships-personal-accounts-and-general-explanations",
     [127],
   ],

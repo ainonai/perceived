@@ -8,7 +8,7 @@ Being wanted for yourself differs from securing a relationship through what you 
 
 Being sexually desired, keeping a relationship, and choosing a mother for your children involve different priorities. A less conventionally attractive partner can be just as sexually appealing and more pleasant to spend time with. Choosing to have children introduces another consideration: the physical and inherited traits you want to pass on. [V104 · 14:16](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=856s) [V104 · 14:36](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=876s) [V104 · 15:34](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=934s)
 
-A partner can continue to desire a man and still leave because insecurity or too little care makes the relationship difficult to sustain. Julius’s relationship with Emiliana supplies the example. Long-term retention needs beta qualities alongside alpha desire; attraction alone does not settle whether someone stays. [V127 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V190 · 02:16](https://www.youtube.com/watch?v=Jq6SD2UkJFs&t=136s)
+A partner can still feel desire and leave when the relationship becomes too insecure to sustain. Julius uses this as a general example of why attraction and staying together are separate outcomes. Care and reliability matter more once a relationship has to last. [V127 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V190 · 02:16](https://www.youtube.com/watch?v=Jq6SD2UkJFs&t=136s)
 
 ### Appearance and the halo effect
 
@@ -16,7 +16,7 @@ The **halo effect** changes how a personality is read. Confidence becomes attrac
 
 Julius’s phrase “90% looks” puts appearance firmly at the front of the explanation. Yet in the same video he argues that the blackpill pendulum has swung too far toward excluding everything else. The point of restoring that balance is to understand the remaining influences without abandoning the central importance he gives appearance. [V194 · 32:10](https://www.youtube.com/watch?v=pNx6vJqGkL4&t=1930s)
 
-His own preferences make those influences concrete. In a Hinge review, Annie’s unusual first picture seems quirky, funny, and courageous before he has examined her face. A stuffed duck, outdoor interests, books, and philosophy also draw his attention. Good morals, mutual respect, and enjoyable company matter when deciding whom he wants a relationship with. [V156 · 04:10](https://www.youtube.com/watch?v=rEOfSBcO7mI&t=250s) [V130 · 10:41](https://www.youtube.com/watch?v=c-VHJBCWL6s&t=641s) [V104 · 14:36](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=876s)
+Good morals, mutual respect, and enjoyable company matter when Julius describes choosing a partner. His Hinge videos satirize the gap between the traits people say they value and the weight they give appearance. Annie’s segment belongs to that satire, so it does not establish what won him over in an actual encounter. [V156 · 04:10](https://www.youtube.com/watch?v=rEOfSBcO7mI&t=250s) [V104 · 14:36](https://www.youtube.com/watch?v=ij3aM-RTNdw&t=876s)
 
 ### Sexual selection and costly signals
 
