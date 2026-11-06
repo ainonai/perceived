@@ -7,8 +7,8 @@
   "missingLocalFiles": 0,
   "preservedOriginalFiles": 40,
   "preservedDiagramLinks": 77,
-  "graphNodes": 86,
-  "graphConnections": 112,
+  "graphNodes": 87,
+  "graphConnections": 113,
   "decodedRasterAssets": 42,
   "imagesWithAltText": 76,
   "externalScriptDependencies": 0,
@@ -25,9 +25,9 @@
     "diagrams": 7,
     "photographs": 16,
     "generatedArtwork": 3,
-    "ideaSpaceNodes": 86,
-    "ideaSpaceLinks": 112,
-    "htmlBytes": 3816141
+    "ideaSpaceNodes": 87,
+    "ideaSpaceLinks": 113,
+    "htmlBytes": 3816679
   },
   "errors": []
 }

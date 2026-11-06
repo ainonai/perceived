@@ -380,8 +380,8 @@
       "kind": "Practical philosophy",
       "summary": "Amor fati concerns accepting the conditions of a life. It can coexist with action when control is distinguished from a guaranteed result.",
       "href": "living-action-and-acceptance",
-      "x": 475.3313472352239,
-      "y": 1071.1916958170602,
+      "x": 443.21526971286664,
+      "y": 1030.1881424992744,
       "videos": [
         129,
         163,
@@ -417,8 +417,8 @@
       "kind": "Analytical concept",
       "summary": "What another person stands to gain can supply a stronger reason to act than gratitude for past service alone.",
       "href": "society-information-and-public-narratives",
-      "x": 131.82111091992385,
-      "y": 1182.0417487584439,
+      "x": 134.4118721109632,
+      "y": 1171.446791352271,
       "videos": [
         8,
         52,
@@ -1105,8 +1105,8 @@
       "tier": 3,
       "radius": 58,
       "kind": "Subtopic",
-      "x": 473.4814377152736,
-      "y": 1301.847795952875
+      "x": 491.685077238953,
+      "y": 1325.2583674280831
     },
     {
       "id": "ego-control",
@@ -1122,8 +1122,8 @@
       "tier": 3,
       "radius": 66,
       "kind": "Subtopic",
-      "x": 168.2693241301332,
-      "y": 977.5778723757165
+      "x": 152.33786932075853,
+      "y": 966.2282282931891
     },
     {
       "id": "esg",
@@ -1138,8 +1138,8 @@
       "tier": 3,
       "radius": 58,
       "kind": "Subtopic",
-      "x": 323.6929520481046,
-      "y": 963.2576929383342
+      "x": 286.4568149419357,
+      "y": 886.5532107188973
     },
     {
       "id": "narratives",
@@ -1156,8 +1156,25 @@
       "tier": 3,
       "radius": 66,
       "kind": "Subtopic",
-      "x": 235.34097682770454,
-      "y": 1389.7772057148854
+      "x": 382.0394536252252,
+      "y": 1214.290365369512
+    },
+    {
+      "id": "publication-bias",
+      "label": "Publication bias",
+      "summary": "When favorable findings reach print more often, the published studies can give a rosier picture than the full set of results.",
+      "href": "how-to-read-a-study",
+      "videos": [
+        181,
+        182
+      ],
+      "group": "society",
+      "parent": "incentives",
+      "tier": 3,
+      "radius": 74,
+      "kind": "Subtopic",
+      "x": 103.8438018237341,
+      "y": 1383.2523462343727
     },
     {
       "id": "feeds",
@@ -1172,8 +1189,8 @@
       "tier": 3,
       "radius": 58,
       "kind": "Subtopic",
-      "x": 68.97453422803457,
-      "y": 1510.0062618071233
+      "x": 60.907528759426256,
+      "y": 1541.5320873743783
     },
     {
       "id": "mimesis",
@@ -1509,8 +1526,8 @@
       "tier": 3,
       "radius": 74,
       "kind": "Subtopic",
-      "x": 626.3758278706297,
-      "y": 1241.025158442247
+      "x": 629.475372946585,
+      "y": 1236.244943960466
     }
   ],
   "edges": [
@@ -1961,6 +1978,13 @@
       "kind": "topic",
       "label": "Explore a finer distinction",
       "summary": "A documented event, a plausible motive, and an allegation of coordination require different evidence."
+    },
+    {
+      "from": "incentives",
+      "to": "publication-bias",
+      "kind": "topic",
+      "label": "Explore a finer distinction",
+      "summary": "When favorable findings reach print more often, the published studies can give a rosier picture than the full set of results."
     },
     {
       "from": "media",

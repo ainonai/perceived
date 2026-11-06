@@ -2600,26 +2600,7 @@
       "chapter": "study-reading",
       "heading": "How to read a study skeptically",
       "paragraph": 1,
-      "sha256": "f3ffc992dbea2ef4cff50379f582af442637e89aaf3ebdc333b075d1898d025b",
-      "kind": "source paraphrase and research context",
-      "sources": [
-        {
-          "video": 181,
-          "time": "00:02:36",
-          "title": "Stop blindly trusting studies! #science"
-        },
-        {
-          "video": 181,
-          "time": "00:00:00",
-          "title": "Stop blindly trusting studies! #science"
-        }
-      ]
-    },
-    {
-      "chapter": "study-reading",
-      "heading": "How to read a study skeptically",
-      "paragraph": 2,
-      "sha256": "6f5c4dde9971af4d9b3c4756fd30a505bb4ce718d23cfd141908029309a7f9ee",
+      "sha256": "26960003250264c5564c6e937464dbd796fb30cb24f39b833f68e269ebc64eee",
       "kind": "source paraphrase and research context",
       "sources": [
         {
@@ -2637,8 +2618,27 @@
     {
       "chapter": "study-reading",
       "heading": "How to read a study skeptically",
+      "paragraph": 2,
+      "sha256": "e4463e4e0b116da83377b34cb045bf035df5b51c0a478a340f58e67c641d8132",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 181,
+          "time": "00:02:36",
+          "title": "Stop blindly trusting studies! #science"
+        },
+        {
+          "video": 181,
+          "time": "00:00:00",
+          "title": "Stop blindly trusting studies! #science"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "How to read a study skeptically",
       "paragraph": 3,
-      "sha256": "b26367d7c5414f13e65eaef8e9b2af1fee5cbe4a66f3b5a69f8003fe669cce0a",
+      "sha256": "2aefff7625381aea1e01bd80c0465cc8bc73b7b87803a2fd7738e45025833f23",
       "kind": "source paraphrase and research context",
       "sources": [
         {
@@ -2657,7 +2657,7 @@
       "chapter": "study-reading",
       "heading": "How to read a study skeptically",
       "paragraph": 4,
-      "sha256": "5e2d92a7ebd620fe5419082824b88eaad821d064a8d7e954ef72634e426a8116",
+      "sha256": "24d034315e52fd39e768cda71b936343f675dd1dc066a160ae6b61150cc15d43",
       "kind": "source paraphrase and research context",
       "sources": [
         {
@@ -2676,7 +2676,7 @@
       "chapter": "study-reading",
       "heading": "How to read a study skeptically",
       "paragraph": 5,
-      "sha256": "f617c230af42ba824803f76ee6b0fd904f2fd1a064036951edd855d51364f97b",
+      "sha256": "296f64745211486baa1ba1e0146daed707f22c5746022b1bf6dbba348ffc4225",
       "kind": "source paraphrase and research context",
       "sources": [
         {

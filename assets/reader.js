@@ -280,8 +280,9 @@
       r.el.hidden = !show;
       if (show) count++;
     });
-    $("#source-count").textContent =
-      `${count} of ${sources.length} video transcripts${q || year !== "all" ? " match this filter" : " · titles, annotations, and full consolidated text"}`;
+    const status = $("#source-count");
+    status.textContent =
+      `${count} of ${sources.length} ${status.dataset.sourceNoun}${q || year !== "all" ? " match this filter" : ` · ${status.dataset.sourceDetail}`}`;
   }
   $("#source-query").addEventListener("input", () => {
     clearTimeout(sourceTimer);
