@@ -10,10 +10,10 @@ const escape = (value) =>
 /** Static metadata is readable by link-preview crawlers without executing JavaScript. */
 export function pageMetadata(site) {
   const url = new URL(site.url).href;
-  const image = new URL("assets/social-card.png", url).href;
+  const image = new URL("assets/artwork/channel-avatar.png", url).href;
   const title = `${site.name}: The Julius Perceiver archive`;
   const alt =
-    "Perceived, the Julius Perceiver archive, in ivory and red with an abstract eye emblem.";
+    "A marble Caesar portrait used as the Julius Perceiver channel avatar.";
   const fields = [
     ["og:site_name", site.name],
     ["og:title", title],
@@ -23,12 +23,12 @@ export function pageMetadata(site) {
     ["og:image", image],
     ["og:image:secure_url", image],
     ["og:image:type", "image/png"],
-    ["og:image:width", "1200"],
-    ["og:image:height", "630"],
+    ["og:image:width", "160"],
+    ["og:image:height", "160"],
     ["og:image:alt", alt],
   ];
   const twitter = [
-    ["twitter:card", "summary_large_image"],
+    ["twitter:card", "summary"],
     ["twitter:title", title],
     ["twitter:description", site.description],
     ["twitter:image", image],
