@@ -9,7 +9,22 @@ npm ci
 npm run verify
 ```
 
-Set `npm run verify` as an optional action. For local reading, open the generated index.html or serve the repository root with `python -m http.server 4173`. Production uses the GitHub Pages branch already configured for this repo. [Codex local environments](https://learn.chatgpt.com/docs/environments/local-environment)
+Set `npm run verify` as an optional action. On Windows, serve the checkout with `py -3 -m http.server 4173 --bind 127.0.0.1` and open [the local review](http://127.0.0.1:4173/). Production uses the GitHub Pages branch already configured for this repo. [Codex local environments](https://learn.chatgpt.com/docs/environments/local-environment)
+
+## Creator feedback and source review
+
+A request from Julius can name a topic or point to videos. Locate the existing archive entries first. Read the timed passage and adjacent cues, then consult the saved per-video consolidation for other relevant passages. Explain the idea and its mechanism in ordinary reading prose. Preserve a concrete example and the source’s own conditions. Use bold for the term the reader should remember. For an outside research claim, check the original study and explain what it measured.
+
+From this checkout, give the source review command the private timed-source folder. This example locates all three videos behind the biology and study-reading additions:
+
+```powershell
+$sources = '..\project-perceived\local-data\julius_archive'
+py -3 scripts/review_sources.py --archive $sources --video uZZHNSxx5qw --video cWhbzFZDWYE --at u7lsEOFUwQA@12:47
+```
+
+The command finds stable archive numbers, caption provenance, the raw file, and any saved Terra consolidation. An `--at` argument includes nearby cues. For a monthly plan, omit `--video` and `--at`, give it the current private inventories with repeated `--archive` flags, and leave the default limit of ten. Use the private product’s channel preview to discover newer uploads when the inventories need refreshing. The review command reads local files and makes zero provider calls.
+
+Make the smallest set of changes that fully tells the story. Update the authored paragraphs, grounding entries, and any dependent glossary, timeline, or map text. Check the rendered writing and source links on a phone and desktop. Bring the owner a running local page and a concise account of the additions. Keep the release decision with the owner.
 
 ## Reviewed video additions
 
