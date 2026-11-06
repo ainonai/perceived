@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "uniqueIds": 2856,
+  "uniqueIds": 2854,
   "internalLinks": 530,
   "brokenInternalLinks": 0,
   "localReferences": 106,
@@ -27,7 +27,7 @@
     "generatedArtwork": 3,
     "ideaSpaceNodes": 86,
     "ideaSpaceLinks": 112,
-    "htmlBytes": 3816295
+    "htmlBytes": 3816141
   },
   "errors": []
 }
