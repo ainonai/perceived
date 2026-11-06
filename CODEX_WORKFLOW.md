@@ -40,4 +40,4 @@ Aim to review about 10 new videos per month across the main and Raw channels. Fo
 
 ## Private inputs
 
-If Codex needs original timed text or historical scripts, extract **Perceived_Codex_Source_Kit.zip** outside the public repository and give Codex the local folder path. Start with a few relevant files and the new video transcript. The site’s existing compact corpus is already committed. The raw chat, large original ZIP, private links, local audio and API keys should not go into the public repo.
+Use the sibling Project Perceived checkout’s `local-data/julius_archive` for original timed text and historical scripts. If it lives elsewhere, pass its existing directory to the source review command. Read the relevant spans and open the local HTML preview for review. The site’s existing compact corpus is already committed. Keep raw chat, private links, local audio and API keys outside the public repo.

@@ -5285,29 +5285,74 @@ sup.paper-reference {
 .study-guide {
   margin: 36px 0;
 }
+.study-guide > h3 em {
+  font-style: italic;
+}
+.study-reading-art {
+  margin: 1.1rem 0 1.55rem;
+}
+.study-reading-art img {
+  width: 100%;
+  aspect-ratio: 2.35;
+  display: block;
+  object-fit: cover;
+  object-position: center 56%;
+  mask-image: linear-gradient(180deg, #000 77%, transparent);
+}
+.study-reading-art figcaption {
+  margin-top: .35rem;
+  color: var(--muted);
+  font: 400 14px/1.5 var(--sans);
+}
+.explore-method {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr);
+  align-items: stretch;
+  margin: 2.1rem 0;
+  border-block: 1px solid var(--rule);
+  text-decoration: none;
+  color: var(--ink);
+}
+.explore-method > div { padding: clamp(16px, 3vw, 32px) 1rem clamp(16px, 3vw, 32px) 0; }
+.explore-method h3 { margin: .3rem 0; font: 600 clamp(24px, 4vw, 37px)/1.15 var(--display); }
+.explore-method p { margin: .3rem 0 .5rem; color: var(--muted); }
+.explore-method img { width: 100%; height: 100%; max-height: 15rem; object-fit: cover; mask-image: linear-gradient(90deg, transparent, #000 45%); }
+.explore-method-link { color: var(--accent); font: 600 14px/1.5 var(--sans); }
+.explore-method:hover .explore-method-link { text-decoration: underline; }
+#ref-science { max-width: 54rem; }
+@media (max-width: 620px) {
+  .explore-method { grid-template-columns: 1fr; }
+  .explore-method img { max-height: 9.5rem; mask-image: linear-gradient(180deg, #000 63%, transparent); }
+}
 .study-guide .example-notes {
   margin-bottom: 22px;
 }
 .publication-comparison {
-  margin: 22px 0;
+  margin: 1.3rem 0 1.75rem;
   max-width: 42rem;
-  padding: clamp(16px, 3vw, 28px);
-  border: 1px solid var(--rule);
-  background: linear-gradient(150deg, var(--accent-soft), var(--surface) 76%);
-  color: var(--ink);
+  padding: .9rem 0 1rem;
+  border-block: 1px solid var(--rule);
 }
-.publication-comparison figcaption b {
-  display: block;
-  margin-top: 2px;
-  font: 600 clamp(23px, 3vw, 32px)/1.2 var(--display);
+.publication-comparison figcaption {
+  font: 600 15px/1.5 var(--sans);
+  color: var(--muted);
+}
+.publication-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .65rem 1.3rem;
 }
 .publication-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: baseline;
-  gap: 6px 14px;
-  margin-top: 16px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: .35rem;
+  margin-top: .55rem;
   font: 600 16px/1.35 var(--sans);
+}
+.publication-row strong {
+  font: 600 clamp(2.6rem, 6vw, 4.35rem)/1 var(--display);
+  color: var(--ink);
 }
 .publication-row small,
 .publication-comparison p {
@@ -5317,20 +5362,14 @@ sup.paper-reference {
 .publication-row small {
   display: block;
 }
-.publication-track {
-  grid-column: 1 / -1;
-  height: 8px;
-  overflow: hidden;
-  background: var(--wash);
-}
-.publication-track span {
-  display: block;
-  width: var(--share);
-  height: 100%;
-  background: linear-gradient(90deg, var(--accent-strong), var(--accent));
-}
 .publication-comparison p {
   margin: 16px 0 0;
+}
+
+.hero-art::after {
+  background: radial-gradient(ellipse at 54% 42%, transparent 56%, #0008 100%);
+  display: block;
+  pointer-events: none;
 }
 
 /* Center the return arrow independently of native button padding and SVG baselines. */
