@@ -1,6 +1,6 @@
 # Perceived archive
 
-This is JPerceived, the public Julius Perceiver reading archive. Project Perceived is the separate creator research product. Start with README.md and CODEX_WORKFLOW.md. When resuming, verify the branch, local diff, and transcript count in the rendered site. A pilot branch can have a different count from the editorial review branch.
+Perceived is the public Julius Perceiver reading archive. Start with README.md and CODEX_WORKFLOW.md. When resuming, verify the branch, local diff, and transcript count in the rendered site. A pilot branch can have a different count from the editorial review branch.
 
 Use Node 22 and Python 3.12 for the existing GitHub workflow. Install with npm ci. Run npm run verify before submitting a change. Commit the rebuilt HTML and generated assets along with source changes. GitHub Pages serves the repository root.
 
