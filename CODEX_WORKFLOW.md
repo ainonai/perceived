@@ -18,11 +18,11 @@ A request from Julius can name a topic or point to videos. Locate the existing a
 From this checkout, give the source review command the private timed-source folder. This example locates all three videos behind the biology and study-reading additions:
 
 ```powershell
-$sources = '..\project-perceived\local-data\julius_archive'
+$sources = 'C:\path\to\private\julius_archive'
 py -3 scripts/review_sources.py --archive $sources --video uZZHNSxx5qw --video cWhbzFZDWYE --at u7lsEOFUwQA@12:47
 ```
 
-The command finds stable archive numbers, caption provenance, the raw file, and any saved Terra consolidation. An `--at` argument includes nearby cues. For a monthly plan, omit `--video` and `--at`, give it the current private inventories with repeated `--archive` flags, and leave the default limit of ten. Use the private product’s channel preview to discover newer uploads when the inventories need refreshing. The review command reads local files and makes zero provider calls.
+The command finds stable archive numbers, caption provenance, the raw file, and any saved Terra consolidation. An `--at` argument includes nearby cues. For a monthly plan, omit `--video` and `--at`, give it the current private inventories with repeated `--archive` flags, and leave the default limit of ten. Refresh the inventories from both channel feeds when needed. The review command reads local files and makes zero provider calls.
 
 Open with the scene, question, or mechanism that makes the idea worth reading. Use the vocabulary to explain what happened. Read the whole revised subsection in the browser, including the transitions into and out of it. Check the actual paragraph and its open source list at phone and desktop widths. Video and paper notes in a reading share one local sequence, small markers, and one source list. Update the grounding entries and any dependent glossary, timeline, or map text. Bring the owner a running local page and a concise account of the additions. Keep the release decision with the owner.
 
@@ -42,4 +42,4 @@ Aim to review about 10 new videos per month across the main and Raw channels. Fo
 
 ## Private inputs
 
-Use the sibling Project Perceived checkout’s `local-data/julius_archive` for original timed text and historical scripts. If it lives elsewhere, pass its existing directory to the source review command. Read the relevant spans and open the local HTML preview for review. The site’s existing compact corpus is already committed. Keep raw chat, private links, local audio and API keys outside the public repo.
+For original timed text, pass the private source kit directory to the source review command. Perceived’s build uses its committed compact corpus and reviewed additions. Read the relevant spans and open the local HTML preview for review. Keep raw chat, private links, local audio and API keys outside the public repo.
