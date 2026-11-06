@@ -21,7 +21,7 @@ Do not upload only the ZIP or leave the files inside another directory. Relative
 - All **40 original files**, unchanged, in `original/`.
 - All **202 baseline consolidated video-transcript sections**, embedded in the page, with catalog dates and original video links. Later uploads appear as separately identified, reviewed transcript notes.
 - The full attraction model, applications, practical philosophy, reality discussion, Julius profile, chronology, and coverage notes.
-- **27 scientific claim reviews**, **55 bibliography entries**, **88 glossary terms** (55 original terms and 33 additional explanations), and **34 reader questions**.
+- **27 scientific claim reviews**, **55 bibliography entries**, **92 glossary terms** (55 original terms and 37 additional explanations), and **34 reader questions**.
 - Seven original diagrams and all **77 directed links**, plus readable overviews and complete redesigned causal maps.
 
 The audit records 516,553 original transcript words. The included compact knowledgebase contains 296,272 whitespace-delimited words. This is transcript-derived knowledge consolidation; the export does not include the original raw transcript files. The shorter reading chapters and interactive map supplement the complete material.
@@ -89,13 +89,13 @@ Final research presentation: the 27 main entries now separate the source proposi
 
 Profile copy edit: the displayed extended profile now uses `editorial/profile.md`, retaining all of the original profile’s video links and section destinations while replacing defensive framing with informative prose. The original profile remains unchanged in `original/`. The return-to-top control now scrolls directly on every click, including when the URL already ends in `#top`; its icon is centered in a 44px button.
 
-Source-grounding pass: all 123 body paragraphs in the six reading chapters were rewritten against the supplied timestamped consolidation. `editorial/source-grounding.json` records their text hashes and video/time pointers; `scripts/check_grounding.py` verifies coverage and pointer integrity. The six chapters contain about 7,060 whitespace-delimited words including notes. This is a paraphrase audit of the supplied consolidation, not a new viewing of the videos or independent verification of their claims.
+`editorial/source-grounding.json` records the paragraph hashes and timestamped sources for the six reading chapters and the guide to reading studies. `scripts/check_grounding.py` verifies coverage and pointer integrity. The Biology and study-reading additions also draw on checked raw captions and linked primary research.
 
 The reading presentation now separates source-account material from the original atlas reviewer’s commentary. Edited extended source views are in `editorial/references/`; all original documents and the complete 202-section corpus remain unchanged in `original/`. Reader questions, glossary copy edits, and map summaries have editable sources in `editorial/reader-questions.json`, `editorial/glossary-copy.json`, and `editorial/map-notes.json`. Research notes retain study findings and scope; the original full review remains available through its file link. Chronological comparisons retain the source formulations without reviewer verdict paragraphs.
 
 The former floating map-label system has been removed. Each label is now a child of its node, centered in local coordinates and scaled by exactly the same parent transform as the circle. No screen-size floor, label boxes, displacement search, or separate collision pass remains.
 
-Writing review: the six reading chapters now explain mechanisms directly, retaining all 123 paragraphs and their existing source pointers. Concrete stories, channel vocabulary, and the distinction between desire, commitment, and practical support remain in the reading text. Selected expanded passages, reader questions, map descriptions, definitions, and image captions were edited for the same voice. Research findings remain in their evidence notes. No original archive text was changed.
+The reading chapters explain mechanisms directly, using concrete stories and channel vocabulary. Expanded passages, reader questions, map descriptions, definitions, and image captions use the same voice. The study-reading guide follows analysis choices, hypotheses, and selective publication through examples from the videos. The evidence notes link to the relevant research.
 
 Glossary review: all 55 original terms now have concise reading-edition definitions, preserving their source links and the additional 33 terms. Definitions describe concepts directly; scientific distinctions and hypothetical status remain where they affect the meaning.
 

@@ -28,6 +28,8 @@ const root = path.resolve(
 const read = (p) => fs.readFileSync(path.join(root, p), "utf8");
 const write = (p, s) => fs.writeFileSync(path.join(root, p), s);
 const site = JSON.parse(read("site.config.json"));
+const addedTerms = JSON.parse(read("editorial/terminology.json"));
+const glossaryDestinations = new Set(addedTerms.map((term) => `#${term.chapter}`));
 const esc = (s) =>
   String(s).replace(
     /[&<>"']/g,
@@ -143,6 +145,7 @@ renderer.html = ({ text }) => {
 function route(href) {
   if (/^https?:\/\//i.test(href)) return href;
   if (/^(?:javascript|data|vbscript):/i.test(href)) return "#methods";
+  if (renderContext === "reference" && glossaryDestinations.has(href)) return href;
   const [filename, fragment] = href.split("#");
   const target = filename
     ? path.posix.normalize(
@@ -781,7 +784,6 @@ const originalGlossaryRows = glossarySection
     (l) =>
       l.startsWith("|") && !l.startsWith("|---") && !l.startsWith("| Term"),
   );
-const addedTerms = JSON.parse(read("editorial/terminology.json"));
 const originalAliases = {
   "Female / male gaze": ["female gaze", "male gaze"],
   "Female choice": ["female choice", "female-choice hypothesis"],
@@ -826,7 +828,12 @@ const glossaryRows = originalGlossaryRows
           .map((ordinal) => {
             const v = sourceVideos.find((video) => video.ordinal === ordinal);
             if (!v) throw new Error(`Missing glossary video ${ordinal}`);
-            return `[V${String(ordinal).padStart(3, "0")} · ${v.published_at_utc.slice(0, 10)} · 00:00](${v.video_url}&t=0s)`;
+            const time = term.timestamps?.[ordinal] ?? 0;
+            if (!Number.isInteger(time) || time < 0)
+              throw new Error(`Invalid glossary timestamp for ${term.term}`);
+            const minutes = String(Math.floor(time / 60)).padStart(2, "0");
+            const seconds = String(time % 60).padStart(2, "0");
+            return `[V${String(ordinal).padStart(3, "0")} · ${v.published_at_utc.slice(0, 10)} · ${minutes}:${seconds}](${v.video_url}&t=${time}s)`;
           })
           .join(" ") + ` · [Read the explanation](#${term.chapter})`,
     })),
