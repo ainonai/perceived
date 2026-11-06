@@ -139,13 +139,12 @@ def main():
     if 'sound-panel' in html or 'music-config.js' in html:errors.append(('removed audio UI still present',True))
     if not all(marker in html for marker in ('id="space-close"','id="space-backdrop"','id="vocab-popover"')):errors.append(('missing reading controls',True))
     config=json.loads((ROOT/'site.config.json').read_text(encoding='utf-8'))
-    expected_image=config['url'].rstrip('/')+'/assets/artwork/channel-avatar.png'
+    expected_image=config['url'].rstrip('/')+'/assets/social-card.png'
     if p.metadata.get('og:image')!=expected_image:errors.append(('incorrect social image URL',p.metadata.get('og:image')))
     if p.metadata.get('og:url')!=config['url'] or p.canonical!=config['url']:errors.append(('incorrect canonical URL',True))
-    if p.metadata.get('twitter:card')!='summary':errors.append(('missing compact preview',True))
-    header=(ROOT/'assets/artwork/channel-avatar.png').read_bytes()[:24]
-    width,height=int.from_bytes(header[16:20],'big'),int.from_bytes(header[20:24],'big')
-    if header[:8]!=b'\x89PNG\r\n\x1a\n' or (width,height)!=(160,160) or (p.metadata.get('og:image:width'),p.metadata.get('og:image:height'))!=(str(width),str(height)):errors.append(('incorrect social card dimensions',True))
+    if p.metadata.get('twitter:card')!='summary_large_image':errors.append(('missing large-image preview',True))
+    header=(ROOT/'assets/social-card.png').read_bytes()[:24]
+    if header[:8]!=b'\x89PNG\r\n\x1a\n' or int.from_bytes(header[16:20],'big')!=1200 or int.from_bytes(header[20:24],'big')!=630:errors.append(('incorrect social card dimensions',True))
     report={'status':'PASS' if not errors else 'FAIL','uniqueIds':len(counts),'internalLinks':sum(x.startswith('#') for x in p.links),'brokenInternalLinks':len(missing),'localReferences':len(local),'missingLocalFiles':len(missingfiles),'preservedOriginalFiles':len(actual),'preservedDiagramLinks':diagram_links,'graphNodes':len(node_ids),'graphConnections':len(space['edges']),'decodedRasterAssets':len(image_manifest),'imagesWithAltText':len(p.images),'externalScriptDependencies':0,'sourceLinkedReadingParagraphs':grounding['sourceLinkedParagraphs'],'counts':expected,'errors':errors}
     (ROOT/'validation-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8',newline='\n')
     print(json.dumps(report,indent=2));return bool(errors)
