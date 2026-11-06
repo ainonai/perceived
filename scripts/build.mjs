@@ -544,36 +544,33 @@ const subsectionImages = {
     ],
   },
 };
-function numberedVideoNotes(body) {
-  const examples = [];
-  const numbered = body.replace(
-    /<a ([^>]*href="https:\/\/www\.youtube\.com\/watch[^>]+)>(.*?)<\/a>/g,
-    (_, attributes, label) => {
-      examples.push(`<li><a ${attributes}>${label}</a></li>`);
-      return `<sup class="example-citation"><a ${attributes} aria-label="${esc(plain(label))}" title="${esc(plain(label))}">${examples.length}</a></sup>`;
-    },
-  );
-  const notes = examples.length
-    ? `<details class="example-notes"><summary>Video examples <span>${examples.length} timestamped ${examples.length === 1 ? "link" : "links"}</span></summary><ol>${examples.join("")}</ol></details>`
-    : "";
-  return joinCitationNotes(numbered) + notes;
-}
-function numberedStudyNotes(body) {
-  const notes = new Map();
+function numberedReadingNotes(body) {
+  const sources = [];
+  const paperNumbers = new Map();
   const numbered = body.replace(
     /<a ([^>]*href="(https:\/\/[^"]+)"[^>]*)>(.*?)<\/a>/g,
     (_, attributes, url, label) => {
       const video = url.startsWith("https://www.youtube.com/watch?");
-      const title = `${video ? "Julius, video" : "Original study"} · ${plain(label)}`;
-      if (!notes.has(url)) notes.set(url, { number: notes.size + 1, attributes, title });
-      return `<sup class="example-citation"><a ${attributes} aria-label="${esc(title)}" title="${esc(title)}">${notes.get(url).number}</a></sup>`;
+      const title = plain(label);
+      let number = video ? undefined : paperNumbers.get(url);
+      if (number === undefined) {
+        number = sources.push({ attributes, title, video });
+        if (!video) paperNumbers.set(url, number);
+      }
+      return `<sup class="example-citation"><a ${attributes} aria-label="${esc(title)}" title="${esc(title)}">${number}</a></sup>`;
     },
   );
-  const entries = [...notes.values()].map(({ attributes, title }) =>
+  if (!sources.length) return numbered;
+  const onlyVideos = sources.every(({ video }) => video);
+  const heading = onlyVideos ? "Video examples" : "Sources and studies";
+  const count = onlyVideos
+    ? `${sources.length} timestamped ${sources.length === 1 ? "link" : "links"}`
+    : `${sources.length} numbered references`;
+  const entries = sources.map(({ attributes, title }) =>
     `<li><a ${attributes}>${esc(title)}</a></li>`,
   );
   return joinCitationNotes(numbered) +
-    `<details class="example-notes"><summary>Sources and studies <span>${entries.length} numbered references</span></summary><ol>${entries.join("")}</ol></details>`;
+    `<details class="example-notes"><summary>${heading} <span>${count}</span></summary><ol>${entries.join("")}</ol></details>`;
 }
 function editorial(key) {
   const c = editorialMap[key],
@@ -587,7 +584,7 @@ function editorial(key) {
     const [rk, rn] = c.references[Math.min(i, c.references.length - 1)];
     const target = refId(rk, rn);
     // Build the editorial copy with simple, distinct heading anchors.
-    let body = numberedVideoNotes(
+    let body = numberedReadingNotes(
       md(piece, c.origin)
         .replace(/<h4 id="[^"]+">/g, `<h3>`)
         .replace(/<\/h4>/g, "</h3>"),
@@ -715,7 +712,7 @@ const studyGuide = searchWrap(
   "how-to-read-a-study",
   "How to read a study skeptically",
   "Research methods",
-  `<div class="prose study-guide"><h3><em>How to read a study skeptically</em></h3>${photo("library", "The published record is the part readers can see. Illustrative photograph.", "study-reading-art")}${numberedStudyNotes(studyBody)}<p class="source-trail"><a href="#ref-science-s16-antidepressants-publication-bias-does-not-mean-zero-efficacy">Research note on antidepressant trials and publication bias</a></p></div>`,
+  `<div class="prose study-guide"><h3><em>How to read a study skeptically</em></h3>${photo("library", "The published record is the part readers can see. Illustrative photograph.", "study-reading-art")}${numberedReadingNotes(studyBody)}<p class="source-trail"><a href="#ref-science-s16-antidepressants-publication-bias-does-not-mean-zero-efficacy">Research note on antidepressant trials and publication bias</a></p></div>`,
   6,
 );
 const evidence = `<article class="article main-chapter" id="evidence"><header class="article-head"><div class="chapter-kicker">07 / Claims & evidence</div><h2>Claims, evidence & unresolved questions</h2><div class="article-meta"><span>27 priority propositions</span><span>55 linked references</span><span>Review supplied with the original atlas · 1 November 2026</span></div></header>${photo("laboratory", "Research notes connect the source propositions with the studies cited in the supplied atlas. Illustrative photograph.")}<div class="prose"><p>These 27 propositions connect the channel’s ideas with the studies and theoretical references cited in the supplied atlas. Each entry separates the reported findings from the population, research design, and outcome those findings concern.</p><p>The notes summarize the supplied review, completed 1 November 2026. They are not a new systematic review or a fresh verification of its 55 references. The original review, including its interpretations and conclusions, remains available inside each entry.</p></div>${studyGuide}<details class="details-box" id="ref-science"><summary>Review scope, methods & standards</summary><div class="details-content reference-prose">${md(scienceScope, "science")}</div></details><details class="details-box"><summary>Research questions at a glance<small>Comparison table</small></summary><div class="details-content"><div class="table-wrap" tabindex="0" role="region" aria-label="Research designs and questions"><table class="evidence-table"><thead><tr><th>ID</th><th>Question</th><th>Topic</th><th>Design and scope</th></tr></thead><tbody>${evidenceRows}</tbody></table></div></div></details><div class="filter-row" aria-label="Filter evidence reviews"><button class="filter-button" data-evidence-filter="all" aria-pressed="true">All claims</button><button class="filter-button" data-evidence-filter="research" aria-pressed="false">Empirical research</button><button class="filter-button" data-evidence-filter="methods" aria-pressed="false">Research methods</button><button class="filter-button" data-evidence-filter="theory" aria-pressed="false">Theory & models</button><button class="filter-button" data-evidence-filter="unreviewed" aria-pressed="false">Direct evidence not reviewed</button></div><div class="control-row"><span id="evidence-count" aria-live="polite">27 of 27 research notes</span><button class="text-button" id="expand-evidence">Open visible notes</button></div>${scienceHTML}<details class="details-box" id="unchecked-claims"><summary>What the review leaves unresolved</summary><div class="details-content reference-prose">${md(scienceOpen, "science")}</div></details><details class="details-box" id="bibliography"><summary>The scientific bibliography<small>55 sources & access records</small></summary><div class="details-content reference-prose">${md(scienceBib, "science")}</div></details></article>`;
@@ -766,7 +763,7 @@ const tensionItems = tensionEntries
       .replace(/ \[V130 · 2026-05-21 · 10:23\]\([^)]+\)/, "")
       .replace(
         "The Emiliana account says being too alpha can cause insecurity and withdrawal.",
-        "Julius pauses the Emiliana story to explain how insecurity can make a partner leave while desire persists.",
+        "Competition anxiety can wear down a relationship even while desire persists.",
       );
     return `<details class="details-box" id="${id}" data-search-unit data-search-title="${esc(title)}" data-search-label="Development & tensions" data-search-weight="3"><summary>${esc(title.replace(/ versus /g, " and "))}</summary><div class="details-content reference-prose">${md(body, "tensions")}</div></details>`;
   })
@@ -907,15 +904,11 @@ const sourceCards = sourceVideos
       );
     if (v.ordinal === 127)
       context.push(
-        "Julius later clarified that he stopped responding and Emiliana kept seeking contact. He discusses a desired partner leaving in a separate tangent.",
+        "Julius later clarified that he stopped responding and Emiliana kept seeking contact.",
       );
     if (correctedSmv !== originalSection)
       context.push(
         "The display corrects the transcription of SMV, which means sexual market value.",
-      );
-    if (section !== correctedSmv)
-      context.push(
-        "The display uses Julius’s intended term polygyny, a marriage structure in which a man has multiple wives.",
       );
     const contextHtml = context
       .map((note) => `<p class="reference-intro">${esc(note)}</p>`)

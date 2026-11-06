@@ -5536,12 +5536,6 @@ main [tabindex="-1"]:focus {
   vertical-align: super;
   margin-left: 3px;
 }
-.chapter-prose .example-citation a[href*="youtube.com"] {
-  font-size: 12px;
-  text-decoration: none;
-  color: #d29188;
-  padding: 0 2px;
-}
 .example-notes {
   margin: 15px 0 0;
   font: 14px/1.7 var(--sans);
@@ -5679,14 +5673,19 @@ sup.paper-reference {
   padding: 0;
   white-space: nowrap;
 }
-.chapter-prose .example-citation a[href*="youtube.com"],
-.paper-reference a {
+.prose .example-citation a,
+.prose .paper-reference a {
   font: inherit;
   line-height: 0;
   vertical-align: baseline;
   padding: 0;
   margin: 0;
+  color: #d29188;
   text-decoration: none;
+}
+.prose .example-citation a:hover,
+.prose .paper-reference a:hover {
+  text-decoration: underline;
 }
 .citation-separator {
   padding: 0 0.08em;
