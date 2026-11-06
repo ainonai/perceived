@@ -13,7 +13,7 @@ Set `npm run verify` as an optional action. On Windows, serve the checkout with 
 
 ## Creator feedback and source review
 
-A request from Julius can name a topic or point to videos. Locate the existing archive entries first. Read the timed passage and adjacent cues, then consult the saved per-video consolidation for other relevant passages. Explain the idea and its mechanism in ordinary reading prose. Preserve a concrete example and the source’s own conditions. Use bold for the term the reader should remember. For an outside research claim, check the original study and explain what it measured.
+A request from Julius can name a topic or point to videos. Locate the existing archive entries first. Read the timed passage and adjacent cues, then consult the saved per-video consolidation for other relevant passages. Explain the idea and its mechanism in ordinary reading prose. Preserve a concrete example and the source’s own conditions. Use bold for the term the reader should remember. If you introduce an illustrative example, make clear it is an illustration. Keep independent research in the evidence review unless it was discussed in the source or requested as part of the feature. When a study belongs in a reading, check the original paper, explain what it measured, and make clear how it entered the article.
 
 From this checkout, give the source review command the private timed-source folder. This example locates all three videos behind the biology and study-reading additions:
 
@@ -24,9 +24,11 @@ py -3 scripts/review_sources.py --archive $sources --video uZZHNSxx5qw --video c
 
 The command finds stable archive numbers, caption provenance, the raw file, and any saved Terra consolidation. An `--at` argument includes nearby cues. For a monthly plan, omit `--video` and `--at`, give it the current private inventories with repeated `--archive` flags, and leave the default limit of ten. Use the private product’s channel preview to discover newer uploads when the inventories need refreshing. The review command reads local files and makes zero provider calls.
 
-Make the smallest set of changes that fully tells the story. Update the authored paragraphs, grounding entries, and any dependent glossary, timeline, or map text. Check the rendered writing and source links on a phone and desktop. Bring the owner a running local page and a concise account of the additions. Keep the release decision with the owner.
+Open with the scene, question, or mechanism that makes the idea worth reading. Use the vocabulary to explain what happened. Read the whole revised subsection in the browser, including the transitions into and out of it. Check the actual paragraph and its open source list at phone and desktop widths. Video and paper notes in a reading share one local sequence, small markers, and one source list. Update the grounding entries and any dependent glossary, timeline, or map text. Bring the owner a running local page and a concise account of the additions. Keep the release decision with the owner.
 
 ## Reviewed video additions
+
+“Update Perceived for the month” is the kickoff for this workflow. Run it from this checkout with the private source kit available. The deliverable is a local reading edition and a batch report with new titles, caption gaps, what changed, provider usage, and the preview URL.
 
 The build pairs the 202 baseline videos in `original/SOURCE_CORPUS` with reviewed additions from `editorial/updates/videos.json`. Keep pipeline trials on a separate local branch until the owner selects content for the archive.
 

@@ -46,7 +46,7 @@ Julius’s overlapping relationships with Gianna and Bella give exclusivity a co
 
 ### Personal accounts and general explanations
 
-Julius recalls blocking, renewed contact, and a confrontation at a beach club. He later clarified who withdrew in the Emiliana story: he stopped responding, and she continued to pursue contact. His nearby explanation of how insecurity can make someone leave was a tangent about a different situation. [V127 · 29:13](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1753s) [V127 · 30:52](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1852s) [V127 · 31:39](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1899s)
+At the beach club, Julius was talking to another woman when a drink splashed them both. He looked up and saw Emiliana. “Am I interrupting something?” she asked. He says he’d already stopped answering her. She kept trying to reach him. [V127 · 30:52](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1852s) [V127 · 31:39](https://www.youtube.com/watch?v=C9jRj0Lx69I&t=1899s)
 
 The Caribbean encounter begins with a brief impression and later contact; Monica’s withdrawal follows a commitment dispute; Gianna and Bella become part of overlapping relationships. Each has a different starting point. Following those sequences makes the role of desire, attachment, uncertainty, and commitment easier to see than treating every return or silence as the same event. [V134 · 00:00](https://www.youtube.com/watch?v=h53tIWlKAdM&t=0s) [V145 · 00:00](https://www.youtube.com/watch?v=G6eh83P6Rf4&t=0s) [V184 · 00:00](https://www.youtube.com/watch?v=CwJyhhm8y9I&t=0s)
 

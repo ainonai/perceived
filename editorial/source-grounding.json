@@ -697,7 +697,26 @@
       "chapter": "biology",
       "heading": "Polygenic traits and disorders",
       "paragraph": 9,
-      "sha256": "90b1aa403d92f67a81a84aa91c87dce62b8957d837a1aa720ec7efbbce331455",
+      "sha256": "ee34af53c3ff3ad0c498ed4656e0cf0c2ee5dd541f23963f3315d94977f7fbd4",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 179,
+          "time": "00:11:33",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        },
+        {
+          "video": 179,
+          "time": "00:12:14",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        }
+      ]
+    },
+    {
+      "chapter": "biology",
+      "heading": "Polygenic traits and disorders",
+      "paragraph": 10,
+      "sha256": "a9fa0e4502085def8885065249eb7c8e4171edf7739dc62e9a41ccdd8710f374",
       "kind": "source paraphrase and research context",
       "sources": [
         {
@@ -715,37 +734,18 @@
     {
       "chapter": "biology",
       "heading": "Polygenic traits and disorders",
-      "paragraph": 10,
-      "sha256": "88d2589a0ef30afb99214732803baca837de03cff0279028c1419de365dca6a3",
+      "paragraph": 11,
+      "sha256": "3da92f1d0deb6946e6bdb9042dba1707776fdb6a3e80e31341d67b95bc3948b5",
       "kind": "source paraphrase and research context",
       "sources": [
         {
           "video": 179,
           "time": "00:06:20",
           "title": "Your \"Disorders\" are super powers given the right environment..."
-        }
-      ]
-    },
-    {
-      "chapter": "biology",
-      "heading": "Polygenic traits and disorders",
-      "paragraph": 11,
-      "sha256": "d6f847d25bbd2581bf98dfda4c403c448e1070fae4e10f6ef547cbda7e0b4f26",
-      "kind": "source paraphrase and research context",
-      "sources": [
-        {
-          "video": 179,
-          "time": "00:11:33",
-          "title": "Your \"Disorders\" are super powers given the right environment..."
         },
         {
           "video": 179,
           "time": "00:12:14",
-          "title": "Your \"Disorders\" are super powers given the right environment..."
-        },
-        {
-          "video": 179,
-          "time": "00:05:51",
           "title": "Your \"Disorders\" are super powers given the right environment..."
         }
       ]
@@ -1278,14 +1278,9 @@
       "chapter": "relationships",
       "heading": "Personal accounts and general explanations",
       "paragraph": 18,
-      "sha256": "febd0d72491f2618a51a1d91d8c535e44e1ff579dfbfe7eeee82802972c2f18b",
+      "sha256": "0f2a3631f7cbdb5d168b4cf63668b9df65a95e17efdb99175ad144af39d0c15a",
       "kind": "source paraphrase",
       "sources": [
-        {
-          "video": 127,
-          "time": "00:29:13",
-          "title": "treated her like sh*t, but she still stalks me and shows up to my apartment uninvited (Emiliana)"
-        },
         {
           "video": 127,
           "time": "00:30:52",

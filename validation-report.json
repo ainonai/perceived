@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "uniqueIds": 2856,
-  "internalLinks": 531,
+  "internalLinks": 530,
   "brokenInternalLinks": 0,
   "localReferences": 106,
   "missingLocalFiles": 0,
@@ -14,7 +14,7 @@
   "externalScriptDependencies": 0,
   "sourceLinkedReadingParagraphs": 131,
   "counts": {
-    "editorialWords": 7267,
+    "editorialWords": 7277,
     "videoTranscripts": 202,
     "evidenceReviews": 27,
     "bibliographyEntries": 55,
@@ -27,7 +27,7 @@
     "generatedArtwork": 3,
     "ideaSpaceNodes": 86,
     "ideaSpaceLinks": 112,
-    "htmlBytes": 3818167
+    "htmlBytes": 3816295
   },
   "errors": []
 }

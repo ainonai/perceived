@@ -44,6 +44,25 @@ def main():
     deferred=re.compile(r'(?:fuller|detailed|complete) (?:account|article|reference) (?:preserves|retains|includes|explains|contains|rejects)',re.I)
     for chapter in (ROOT/'editorial').glob('*.md'):
         if deferred.search(chapter.read_text(encoding='utf-8')):errors.append(('reading chapter defers its explanation',chapter.name))
+    reading_sections = re.findall(
+        r'<section id="([^"]+)"[^>]*data-search-label="(?:Reading edition · [^"]+|Research methods)"[^>]*>(.*?)</section>',
+        html, re.S,
+    )
+    for identifier, section in reading_sections:
+        reading, separator, notes = section.partition('<details class="example-notes">')
+        external_links = re.findall(r'<a\b[^>]*href="(https://[^"]+)"', reading)
+        cited = re.findall(
+            r'<sup class="example-citation">(.*?)</sup>', reading, re.S,
+        )
+        pointers = re.findall(r'<a\b[^>]*href="(https://[^"]+)"[^>]*>(\d+)</a>', ''.join(cited))
+        note_list = re.findall(r'<li><a\b[^>]*href="(https://[^"]+)"', notes.partition('</details>')[0])
+        if external_links != [url for url, _ in pointers] or (
+            external_links and not separator
+        ) or any(
+            not 1 <= int(number) <= len(note_list) or note_list[int(number) - 1] != url
+            for url, number in pointers
+        ):
+            errors.append(('reading citation does not match its numbered note', identifier))
     expected=json.loads((ROOT/'build-report.json').read_text(encoding='utf-8'))
     for label,pattern,number in [('sources',r'class="details-box source-entry"',len(catalog)),('evidence reviews',r'class="details-box evidence-claim"',27),('questions',r'class="details-box faq"',34),('glossary terms',r'class="glossary-item"',55+len(json.loads((ROOT/'editorial/terminology.json').read_text(encoding='utf-8'))))]:
         n=len(re.findall(pattern,html))
