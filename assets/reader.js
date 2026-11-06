@@ -157,7 +157,7 @@
     $("#continue-reading").href = "#" + saved;
   }
 
-  // Search all editorial sections, preserved references, and all 202 source texts.
+  // Search all editorial sections, preserved references, and all source texts.
   const searchDialog = $("#search-dialog"),
     searchInput = $("#global-query"),
     searchOutput = $("#search-results");
@@ -281,7 +281,7 @@
       if (show) count++;
     });
     $("#source-count").textContent =
-      `${count} of 202 video transcripts${q || year !== "all" ? " match this filter" : " · titles, annotations, and full consolidated text"}`;
+      `${count} of ${sources.length} video transcripts${q || year !== "all" ? " match this filter" : " · titles, annotations, and full consolidated text"}`;
   }
   $("#source-query").addEventListener("input", () => {
     clearTimeout(sourceTimer);

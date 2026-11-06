@@ -4,3 +4,11 @@ __pycache__/
 qa/
 *.zip
 .DS_Store
+
+# Local source material and credentials
+.env
+.env.*
+local-data/
+julius_archive/
+julius_analysis/
+*.log

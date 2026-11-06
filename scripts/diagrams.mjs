@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 let vizModule;
@@ -15,7 +16,7 @@ try {
   );
 }
 const root = path.resolve(
-  path.dirname(new URL(import.meta.url).pathname),
+  path.dirname(fileURLToPath(import.meta.url)),
   "..",
 );
 const original = path.join(root, "original/DIAGRAMS");
@@ -266,6 +267,6 @@ export async function renderDiagrams() {
 }
 if (
   process.argv[1] &&
-  path.resolve(process.argv[1]) === new URL(import.meta.url).pathname
+  path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)
 )
   await renderDiagrams();

@@ -14,7 +14,7 @@ The images are editorial illustrations, not documentary photographs or authentic
 
 The portrait brief specified ivory Roman marble, a near-black background, sculpted detail, and vivid crimson rim light. The reflection brief specified two marble busts, a dark mirror, and red architectural light. The forest brief specified a nocturnal road, cold mist, dark tree silhouettes, and small distant headlights. Generated outputs were converted to WebP without enlarging the full-size originals.
 
-The dimensional effect is made with layered images, CSS perspective, pointer movement, and modest scroll parallax. It is not a rotatable 3D scan. There is no continuously rendered WebGL scene or remote model dependency. Reduced-motion settings disable movement. Ambient effects pause when the page is hidden.
+Layered images and lighting give the portrait and reflection scenes their depth. The forest artwork is fixed behind the reading page.
 
 ## Real photographs
 
@@ -32,4 +32,4 @@ Stock photographs and artwork illustrate topics and atmosphere; they do not esta
 
 The universe cover uses the wide Cosmic Cliffs observation at 3840 pixels across, avoiding a narrow portrait crop stretched across the chapter. New newspaper and smartphone photographs illustrate the information and social-media subsections. Nine subsection figures include topic-specific captions; the chess photograph now fills the reading column. Corrupt mountain, ocean, and Pillars thumbnails were regenerated from the valid local originals.
 
-Soft side fog combines a static SVG cloud texture, a slow composited drift, and bounded scroll parallax. It remains translucent at the margins, accepts no pointer events, and respects reduced-motion preferences. The sound panel and audio code were removed at the owner’s request.
+The archive handoff removes the fog, pointer and scroll effects, and keeps the fixed forest artwork. The earlier reading pass removed the sound panel and audio code at the owner’s request.

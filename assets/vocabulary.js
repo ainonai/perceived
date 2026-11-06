@@ -83,7 +83,7 @@
       source.href = entry.source;
       source.target = "_blank";
       source.rel = "noopener noreferrer";
-      source.textContent = "Source video ↗";
+      source.textContent = "Source video";
       links.append(source);
     }
     if (!popup.matches(":popover-open")) popup.showPopover();

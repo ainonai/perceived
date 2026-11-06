@@ -207,7 +207,7 @@
       .map((id) => {
         const v = data.videos[id];
         return v
-          ? `<a class="space-video" href="${escape(v.url)}" target="_blank" rel="noopener noreferrer"><span>V${String(id).padStart(3, "0")} · ${v.date}</span>${escape(v.title)} ↗</a>`
+          ? `<a class="space-video" href="${escape(v.url)}" target="_blank" rel="noopener noreferrer"><span>V${String(id).padStart(3, "0")} · ${v.date}</span>${escape(v.title)}</a>`
           : "";
       })
       .join("");

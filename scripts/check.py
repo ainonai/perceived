@@ -26,9 +26,10 @@ class Inspect(HTMLParser):
 
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
-    from check_grounding import check as check_grounding
-    grounding=check_grounding()
-    html=(ROOT/'index.html').read_text();p=Inspect();p.feed(html);counts=Counter(p.ids);errors=[]
+    from check_grounding import check as check_grounding, source_catalog
+    catalog=source_catalog()
+    grounding=check_grounding(catalog)
+    html=(ROOT/'index.html').read_text(encoding='utf-8');p=Inspect();p.feed(html);counts=Counter(p.ids);errors=[]
     duplicates=[k for k,n in counts.items() if n>1]
     if duplicates:errors.append(('duplicate IDs',duplicates))
     missing=sorted(set(h[1:] for h in p.links if h.startswith('#') and h[1:] not in counts))
@@ -42,12 +43,16 @@ def main():
     if any(s.startswith(('https:','http:')) for s in p.scripts):errors.append(('external script dependency',True))
     deferred=re.compile(r'(?:fuller|detailed|complete) (?:account|article|reference) (?:preserves|retains|includes|explains|contains|rejects)',re.I)
     for chapter in (ROOT/'editorial').glob('*.md'):
-        if deferred.search(chapter.read_text()):errors.append(('reading chapter defers its explanation',chapter.name))
-    expected=json.loads((ROOT/'build-report.json').read_text())
-    for label,pattern,number in [('sources',r'class="details-box source-entry"',202),('evidence reviews',r'class="details-box evidence-claim"',27),('questions',r'class="details-box faq"',34),('glossary terms',r'class="glossary-item"',55+len(json.loads((ROOT/'editorial/terminology.json').read_text())))]:
+        if deferred.search(chapter.read_text(encoding='utf-8')):errors.append(('reading chapter defers its explanation',chapter.name))
+    expected=json.loads((ROOT/'build-report.json').read_text(encoding='utf-8'))
+    for label,pattern,number in [('sources',r'class="details-box source-entry"',len(catalog)),('evidence reviews',r'class="details-box evidence-claim"',27),('questions',r'class="details-box faq"',34),('glossary terms',r'class="glossary-item"',55+len(json.loads((ROOT/'editorial/terminology.json').read_text(encoding='utf-8'))))]:
         n=len(re.findall(pattern,html))
         if n!=number:errors.append((label,n,number))
-    notes=json.loads((ROOT/'editorial/evidence-notes.json').read_text())
+    if expected['videoTranscripts']!=len(catalog):errors.append(('build source count mismatch',expected['videoTranscripts'],len(catalog)))
+    for ordinal in catalog:
+        anchor=f'source-v{ordinal:03d}'
+        if anchor not in counts or anchor+'-text' not in counts:errors.append(('source anchors missing',ordinal))
+    notes=json.loads((ROOT/'editorial/evidence-notes.json').read_text(encoding='utf-8'))
     if [n['number'] for n in notes]!=list(range(1,28)):errors.append(('evidence note coverage',True))
     if html.count('class="original-review"')!=27:errors.append(('original review entries missing',True))
     for note in notes:
@@ -55,26 +60,26 @@ def main():
         for ref in re.findall(r'\[R(\d+)\]',note['findings']+note['scope']):
             if not 1<=int(ref)<=55:errors.append(('research reference missing',ref))
     if html.count('data-glossary-origin="original"')!=55:errors.append(('original glossary definitions not preserved',True))
-    extra_terms=json.loads((ROOT/'editorial/terminology.json').read_text())
+    extra_terms=json.loads((ROOT/'editorial/terminology.json').read_text(encoding='utf-8'))
     if html.count('data-glossary-origin="added"')!=len(extra_terms):errors.append(('additional glossary count mismatch',True))
     for term in extra_terms:
         if term['chapter'] not in counts:errors.append(('glossary chapter missing',term['term']))
         if not term.get('aliases') or not term.get('videos'):errors.append(('glossary provenance missing',term['term']))
     actual=[]
     for f in sorted((ROOT/'original').rglob('*')):
-        if f.is_file():actual.append((str(f.relative_to(ROOT)),digest(f)))
+        if f.is_file():actual.append((f.relative_to(ROOT).as_posix(),digest(f)))
     manifest=ROOT/'ORIGINAL_SHA256SUMS.txt'
     if manifest.exists():
-        recorded=[(line.split('  ',1)[1],line.split('  ',1)[0]) for line in manifest.read_text().splitlines() if line]
-        if recorded!=actual:errors.append(('original archive hash mismatch',True))
+        recorded=[(line.split('  ',1)[1],line.split('  ',1)[0]) for line in manifest.read_text(encoding='utf-8').splitlines() if line]
+        if recorded!=sorted(actual):errors.append(('original archive hash mismatch',True))
     else:errors.append(('missing original hash manifest',True))
     for f in (ROOT/'assets/diagrams').glob('*.svg'):ET.parse(f)
     diagram_links=0
-    ledger=(ROOT/'original/DIAGRAMS/README.md').read_text()
+    ledger=(ROOT/'original/DIAGRAMS/README.md').read_text(encoding='utf-8')
     statuses={m[0]:m[2] for m in re.findall(r'^\| (D\d\d-E\d\d) \| (.*?) \| (.*?) \|',ledger,re.M)}
     for source in sorted((ROOT/'original/DIAGRAMS').glob('*.mmd')):
-        data=json.loads((ROOT/'assets/diagrams'/source.with_suffix('.json').name).read_text())
-        text=source.read_text()
+        data=json.loads((ROOT/'assets/diagrams'/source.with_suffix('.json').name).read_text(encoding='utf-8'))
+        text=source.read_text(encoding='utf-8')
         old_nodes={m[0]:m[1] for m in re.findall(r'^\s+(\w+)\["([^"]+)"\]',text,re.M)}
         if old_nodes!={x['name']:x['label'] for x in data['nodes']}:errors.append(('diagram node mismatch',source.name))
         old_edges={m[2]:(m[0],m[4],m[3]) for m in re.findall(r'^\s+(\w+)\s+(-->|-\.->)\|"(D\d\d-E\d\d): ([^"]+)"\|\s*(\w+)',text,re.M)}
@@ -86,7 +91,9 @@ def main():
         if not set(old_edges).issubset(svg_ids):errors.append(('diagram SVG IDs missing',source.name))
         diagram_links+=len(old_edges)
     if diagram_links!=77:errors.append(('diagram link total',diagram_links))
-    space=json.loads((ROOT/'idea-space-data.json').read_text())
+    space=json.loads((ROOT/'idea-space-data.json').read_text(encoding='utf-8'))
+    map_urls={n:v['url'] for n,v in space['videos'].items()}
+    if map_urls!={str(n):v['video_url'] for n,v in catalog.items()}:errors.append(('graph source catalog mismatch',True))
     node_ids=[n['id'] for n in space['nodes']]
     if len(node_ids)!=len(set(node_ids)):errors.append(('duplicate graph node IDs',True))
     for n in space['nodes']:
@@ -100,19 +107,19 @@ def main():
     for svg in (ROOT/'assets/overviews').glob('*.svg'):ET.parse(svg)
     if re.search(r'&lt;a id=&quot;d0\d',html):errors.append(('escaped diagram anchor rendered as text',True))
     for css in (ROOT/'assets').glob('*.css'):
-        for match in re.finditer(r"url\(['\"]?([^)'\"]+)",css.read_text()):
+        for match in re.finditer(r"url\(['\"]?([^)'\"]+)",css.read_text(encoding='utf-8')):
             value=match.group(1)
             if not value.startswith(('data:','https:','http:','#')) and not (css.parent/value).is_file():errors.append(('missing CSS asset',value))
-    image_manifest=json.loads((ROOT/'assets/image-integrity.json').read_text())
+    image_manifest=json.loads((ROOT/'assets/image-integrity.json').read_text(encoding='utf-8'))
     recorded_images={row['file'] for row in image_manifest}
-    actual_images={str(f.relative_to(ROOT)) for f in (ROOT/'assets').rglob('*') if f.suffix.lower() in {'.png','.webp','.jpg','.jpeg'}}
+    actual_images={f.relative_to(ROOT).as_posix() for f in (ROOT/'assets').rglob('*') if f.suffix.lower() in {'.png','.webp','.jpg','.jpeg'}}
     if recorded_images!=actual_images:errors.append(('unrecorded or missing raster assets',sorted(actual_images^recorded_images)))
     for row in image_manifest:
         file=ROOT/row['file']
         if not file.is_file() or digest(file)!=row['sha256']:errors.append(('image checksum mismatch',row['file']))
     if 'sound-panel' in html or 'music-config.js' in html:errors.append(('removed audio UI still present',True))
     if not all(marker in html for marker in ('id="space-close"','id="space-backdrop"','id="vocab-popover"')):errors.append(('missing reading controls',True))
-    config=json.loads((ROOT/'site.config.json').read_text())
+    config=json.loads((ROOT/'site.config.json').read_text(encoding='utf-8'))
     expected_image=config['url'].rstrip('/')+'/assets/social-card.png'
     if p.metadata.get('og:image')!=expected_image:errors.append(('incorrect social image URL',p.metadata.get('og:image')))
     if p.metadata.get('og:url')!=config['url'] or p.canonical!=config['url']:errors.append(('incorrect canonical URL',True))
@@ -120,7 +127,7 @@ def main():
     header=(ROOT/'assets/social-card.png').read_bytes()[:24]
     if header[:8]!=b'\x89PNG\r\n\x1a\n' or int.from_bytes(header[16:20],'big')!=1200 or int.from_bytes(header[20:24],'big')!=630:errors.append(('incorrect social card dimensions',True))
     report={'status':'PASS' if not errors else 'FAIL','uniqueIds':len(counts),'internalLinks':sum(x.startswith('#') for x in p.links),'brokenInternalLinks':len(missing),'localReferences':len(local),'missingLocalFiles':len(missingfiles),'preservedOriginalFiles':len(actual),'preservedDiagramLinks':diagram_links,'graphNodes':len(node_ids),'graphConnections':len(space['edges']),'decodedRasterAssets':len(image_manifest),'imagesWithAltText':len(p.images),'externalScriptDependencies':0,'sourceLinkedReadingParagraphs':grounding['sourceLinkedParagraphs'],'counts':expected,'errors':errors}
-    (ROOT/'validation-report.json').write_text(json.dumps(report,indent=2))
+    (ROOT/'validation-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8',newline='\n')
     print(json.dumps(report,indent=2));return bool(errors)
 
 if __name__=='__main__':sys.exit(main())

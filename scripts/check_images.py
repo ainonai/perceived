@@ -13,7 +13,7 @@ def main():
         if path.suffix.lower() not in {'.png','.webp','.jpg','.jpeg'}:continue
         with Image.open(path) as image:
             image.load()
-            rows.append({'file':str(path.relative_to(ROOT)),'width':image.width,'height':image.height,'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
-    (ROOT/'assets/image-integrity.json').write_text(json.dumps(rows,indent=2)+'\n')
+            rows.append({'file':path.relative_to(ROOT).as_posix(),'width':image.width,'height':image.height,'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
+    (ROOT/'assets/image-integrity.json').write_text(json.dumps(rows,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(f'Decoded and recorded all {len(rows)} raster assets.')
 if __name__=='__main__':main()

@@ -30,7 +30,7 @@ The audit records 516,553 original transcript words. The included compact knowle
 
 The site provides full-text search, a filterable transcript archive, an expandable complete reference, evidence assessments, glossary lookup, and a saved reading position. The 86-concept map supports panning, zooming, individual node dragging, centered labels that scale with their circles, search, subject filters, and an expanded view with related source links.
 
-Images fade into the page, with translucent edge clouds that respond to scrolling and layered perspective/parallax. The page honors reduced-motion preferences, and pauses ambient animation when hidden. Local effects pause outside the visible area. Nine larger subsection photographs accompany concrete, timestamp-linked examples. Only the “A shadow…” opening uses a drop capital; other chapter openings retain their full first word. Underlined vocabulary opens definitions on hover, tap, or keyboard focus. Expanded maps close with ×, Escape, or a click outside; the background stays inactive until closed. Expanded references include a contents column and close buttons.
+Images blend into the page through fixed backdrop artwork and soft gradients. Nine larger subsection photographs accompany concrete, timestamp-linked examples. Only the “A shadow…” opening uses a drop capital; other chapter openings retain their full first word. Underlined vocabulary opens definitions on hover, tap, or keyboard focus. Expanded maps close with ×, Escape, or a click outside; the background stays inactive until closed. Expanded references include a contents column and close buttons.
 
 ## Develop
 
@@ -54,7 +54,6 @@ npm run verify
 | `assets/map-labels.js` | Centered, proportionally scaled map labels |
 | `editorial/terminology.json` | Additional source-linked definitions and aliases |
 | `assets/vocabulary.js` | Inline glossary definitions and source links |
-| `assets/experience.js` | Visibility-aware parallax and edge fog |
 | `scripts/build.mjs` | Page assembly and source routing |
 | `scripts/idea-space.mjs` | Concept map content and related source records |
 | `scripts/overview-diagrams.mjs` | Simplified diagram definitions |
