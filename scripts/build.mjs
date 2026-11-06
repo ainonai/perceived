@@ -356,6 +356,7 @@ const editorialMap = {
       ["reality", 1],
       ["reality", 2],
       ["reality", 3],
+      ["reality", 3],
       ["reality", 4],
       ["reality", 5],
       ["reality", 14],
@@ -540,6 +541,20 @@ const subsectionImages = {
     ],
   },
 };
+function numberedVideoNotes(body) {
+  const examples = [];
+  const numbered = body.replace(
+    /<a ([^>]*href="https:\/\/www\.youtube\.com\/watch[^>]+)>(.*?)<\/a>/g,
+    (_, attributes, label) => {
+      examples.push(`<li><a ${attributes}>${label}</a></li>`);
+      return `<sup class="example-citation"><a ${attributes} aria-label="${esc(plain(label))}" title="${esc(plain(label))}">${examples.length}</a></sup>`;
+    },
+  );
+  const notes = examples.length
+    ? `<details class="example-notes"><summary>Video examples <span>${examples.length} timestamped ${examples.length === 1 ? "link" : "links"}</span></summary><ol>${examples.join("")}</ol></details>`
+    : "";
+  return joinCitationNotes(numbered) + notes;
+}
 function editorial(key) {
   const c = editorialMap[key],
     text = read(`editorial/${key}.md`),
@@ -552,21 +567,14 @@ function editorial(key) {
     const [rk, rn] = c.references[Math.min(i, c.references.length - 1)];
     const target = refId(rk, rn);
     // Build the editorial copy with simple, distinct heading anchors.
-    let body = md(piece, c.origin)
-      .replace(/<h4 id="[^"]+">/g, `<h3>`)
-      .replace(/<\/h4>/g, "</h3>");
-    const examples = [];
-    body = body.replace(
-      /<a ([^>]*href="https:\/\/www\.youtube\.com\/watch[^>]+)>(.*?)<\/a>/g,
-      (_, attributes, label) => {
-        examples.push(`<li><a ${attributes}>${label}</a></li>`);
-        return `<sup class="example-citation"><a ${attributes} aria-label="${esc(plain(label))}" title="${esc(plain(label))}">${examples.length}</a></sup>`;
-      },
+    let body = numberedVideoNotes(
+      md(piece, c.origin)
+        .replace(/<h4 id="[^"]+">/g, `<h3>`)
+        .replace(/<\/h4>/g, "</h3>"),
     );
-    body = joinCitationNotes(body);
-    if (examples.length)
-      body += `<details class="example-notes"><summary>Video examples <span>${examples.length} timestamped ${examples.length === 1 ? "link" : "links"}</span></summary><ol>${examples.join("")}</ol></details>`;
     body += `<p class="source-trail">Reference: <a href="#${target}">${esc(referenceLabel(rk, headings[rk].find((h) => h.id === target)?.name || "Extended account"))}</a> · <a href="#evidence">Evidence review</a></p>`;
+    if (key === "biology" && title === "Polygenic traits and disorders")
+      body += '<p class="source-trail"><a href="#ref-science-s15-are-disorders-merely-mismatched-superpowers">Research note on neurodevelopment and environmental fit</a></p>';
     if (key === "attraction" && i === 1)
       body += `<div class="stage-grid"><div><span>01 · APPEARANCE</span><b>Initial desire</b><p>Looks and the halo effect.</p></div><div><span>02 · COMPARISON</span><b>Perceived alternatives</b><p>SMV discrepancy within a relationship.</p></div><div><span>03 · CARE</span><b>Logistical attraction</b><p>Resources, affection, and dependability.</p></div><div><span>04 · CONTINUITY</span><b>A future family</b><p>Partner choice and generational replication.</p></div></div>`;
     // Images are keyed to subsection titles so editing the chapter order keeps them relevant.
@@ -579,7 +587,7 @@ function editorial(key) {
         photo(image, caption, "reading-photo") +
         body.slice(headingEnd);
     }
-    if (key === "biology" && i === 3)
+    if (key === "biology" && title === "Dispositions help shape experience")
       body += contextFigure(
         6,
         "Heritability snowballing connects dispositions with the environments a person seeks, selects, or creates.",
@@ -669,7 +677,24 @@ const scienceHTML = scienceClaims
 const scienceScope = scienceSections.find((s) => s.startsWith("## Scope"));
 const scienceOpen = scienceSections.find((s) => s.startsWith("## Priority"));
 const scienceBib = scienceSections.find((s) => s.startsWith("## Bibliography"));
-const evidence = `<article class="article main-chapter" id="evidence"><header class="article-head"><div class="chapter-kicker">07 / Claims & evidence</div><h2>Claims, evidence & unresolved questions</h2><div class="article-meta"><span>27 priority propositions</span><span>55 linked references</span><span>Review supplied with the original atlas · 1 November 2026</span></div></header>${photo("laboratory", "Research notes connect the source propositions with the studies cited in the supplied atlas. Illustrative photograph.")}<div class="prose"><p>These 27 propositions connect the channel’s ideas with the studies and theoretical references cited in the supplied atlas. Each entry separates the reported findings from the population, research design, and outcome those findings concern.</p><p>The notes summarize the supplied review, completed 1 November 2026. They are not a new systematic review or a fresh verification of its 55 references. The original review, including its interpretations and conclusions, remains available inside each entry.</p></div><details class="details-box" id="ref-science"><summary>Review scope, methods & standards</summary><div class="details-content reference-prose">${md(scienceScope, "science")}</div></details><details class="details-box"><summary>Research questions at a glance<small>Comparison table</small></summary><div class="details-content"><div class="table-wrap" tabindex="0" role="region" aria-label="Research designs and questions"><table class="evidence-table"><thead><tr><th>ID</th><th>Question</th><th>Topic</th><th>Design and scope</th></tr></thead><tbody>${evidenceRows}</tbody></table></div></div></details><div class="filter-row" aria-label="Filter evidence reviews"><button class="filter-button" data-evidence-filter="all" aria-pressed="true">All claims</button><button class="filter-button" data-evidence-filter="research" aria-pressed="false">Empirical research</button><button class="filter-button" data-evidence-filter="methods" aria-pressed="false">Research methods</button><button class="filter-button" data-evidence-filter="theory" aria-pressed="false">Theory & models</button><button class="filter-button" data-evidence-filter="unreviewed" aria-pressed="false">Direct evidence not reviewed</button></div><div class="control-row"><span id="evidence-count" aria-live="polite">27 of 27 research notes</span><button class="text-button" id="expand-evidence">Open visible notes</button></div>${scienceHTML}<details class="details-box" id="unchecked-claims"><summary>What the review leaves unresolved</summary><div class="details-content reference-prose">${md(scienceOpen, "science")}</div></details><details class="details-box" id="bibliography"><summary>The scientific bibliography<small>55 sources & access records</small></summary><div class="details-content reference-prose">${md(scienceBib, "science")}</div></details></article>`;
+const publicationRows = [
+  ["FDA reviews", 38, 74],
+  ["Journal publications", 48, 51],
+]
+  .map(([label, positive, total]) => {
+    const percent = Math.round((positive / total) * 100);
+    return `<div class="publication-row"><span>${label} <small>${positive} of ${total} trials</small></span><strong>${percent}%</strong><div class="publication-track" aria-hidden="true"><span style="--share:${percent}%"></span></div></div>`;
+  })
+  .join("");
+const publicationFigure = `<figure class="publication-comparison" aria-labelledby="publication-comparison-title"><figcaption id="publication-comparison-title"><span class="kicker">Selective publication</span><b>How often trials looked positive</b></figcaption>${publicationRows}<p>Share of trials classified or presented as positive. <a href="#r30">Turner et al. (2008)</a></p></figure>`;
+const studyGuide = searchWrap(
+  "how-to-read-a-study",
+  "How to read a study skeptically",
+  "Research methods",
+  `<div class="prose study-guide"><h3>How to read a study skeptically</h3>${numberedVideoNotes(md(removeLead(read("editorial/study-reading.md")), "science"))}${publicationFigure}<p class="source-trail"><a href="#ref-science-s16-antidepressants-publication-bias-does-not-mean-zero-efficacy">Research note on antidepressant trials and publication bias</a></p></div>`,
+  6,
+);
+const evidence = `<article class="article main-chapter" id="evidence"><header class="article-head"><div class="chapter-kicker">07 / Claims & evidence</div><h2>Claims, evidence & unresolved questions</h2><div class="article-meta"><span>27 priority propositions</span><span>55 linked references</span><span>Review supplied with the original atlas · 1 November 2026</span></div></header>${photo("laboratory", "Research notes connect the source propositions with the studies cited in the supplied atlas. Illustrative photograph.")}<div class="prose"><p>These 27 propositions connect the channel’s ideas with the studies and theoretical references cited in the supplied atlas. Each entry separates the reported findings from the population, research design, and outcome those findings concern.</p><p>The notes summarize the supplied review, completed 1 November 2026. They are not a new systematic review or a fresh verification of its 55 references. The original review, including its interpretations and conclusions, remains available inside each entry.</p></div>${studyGuide}<details class="details-box" id="ref-science"><summary>Review scope, methods & standards</summary><div class="details-content reference-prose">${md(scienceScope, "science")}</div></details><details class="details-box"><summary>Research questions at a glance<small>Comparison table</small></summary><div class="details-content"><div class="table-wrap" tabindex="0" role="region" aria-label="Research designs and questions"><table class="evidence-table"><thead><tr><th>ID</th><th>Question</th><th>Topic</th><th>Design and scope</th></tr></thead><tbody>${evidenceRows}</tbody></table></div></div></details><div class="filter-row" aria-label="Filter evidence reviews"><button class="filter-button" data-evidence-filter="all" aria-pressed="true">All claims</button><button class="filter-button" data-evidence-filter="research" aria-pressed="false">Empirical research</button><button class="filter-button" data-evidence-filter="methods" aria-pressed="false">Research methods</button><button class="filter-button" data-evidence-filter="theory" aria-pressed="false">Theory & models</button><button class="filter-button" data-evidence-filter="unreviewed" aria-pressed="false">Direct evidence not reviewed</button></div><div class="control-row"><span id="evidence-count" aria-live="polite">27 of 27 research notes</span><button class="text-button" id="expand-evidence">Open visible notes</button></div>${scienceHTML}<details class="details-box" id="unchecked-claims"><summary>What the review leaves unresolved</summary><div class="details-content reference-prose">${md(scienceOpen, "science")}</div></details><details class="details-box" id="bibliography"><summary>The scientific bibliography<small>55 sources & access records</small></summary><div class="details-content reference-prose">${md(scienceBib, "science")}</div></details></article>`;
 
 // Original diagrams remain standalone, with the complete edge ledger beside them.
 const diagramTitles = [

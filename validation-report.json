@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "uniqueIds": 2847,
-  "internalLinks": 518,
+  "uniqueIds": 2850,
+  "internalLinks": 527,
   "brokenInternalLinks": 0,
   "localReferences": 105,
   "missingLocalFiles": 0,
@@ -12,9 +12,9 @@
   "decodedRasterAssets": 42,
   "imagesWithAltText": 74,
   "externalScriptDependencies": 0,
-  "sourceLinkedReadingParagraphs": 123,
+  "sourceLinkedReadingParagraphs": 131,
   "counts": {
-    "editorialWords": 7052,
+    "editorialWords": 7267,
     "videoTranscripts": 202,
     "evidenceReviews": 27,
     "bibliographyEntries": 55,
@@ -27,7 +27,7 @@
     "generatedArtwork": 3,
     "ideaSpaceNodes": 86,
     "ideaSpaceLinks": 112,
-    "htmlBytes": 3800123
+    "htmlBytes": 3811581
   },
   "errors": []
 }
