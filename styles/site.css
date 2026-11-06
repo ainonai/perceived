@@ -5403,3 +5403,62 @@ sup.paper-reference {
   stroke-linejoin: round;
   vertical-align: 0.03em;
 }
+
+.section-bookmark {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  font: 500 12px/1 var(--sans);
+  vertical-align: middle;
+}
+.section-bookmark:hover,
+.section-bookmark.is-copied {
+  border-color: var(--rule);
+  color: var(--ink);
+}
+.section-bookmark svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.section-bookmark .bookmark-check,
+.section-bookmark.is-copied svg:first-child {
+  display: none;
+}
+.section-bookmark.is-copied .bookmark-check {
+  display: block;
+}
+.section-bookmark.is-copied::after {
+  content: "Copied";
+  position: absolute;
+  z-index: 1;
+  inset: auto 0 calc(100% + 4px) auto;
+  padding: 5px 7px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--ink);
+  pointer-events: none;
+}
+.section-bookmark-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 12px 0;
+}
+@media print {
+  .section-bookmark,
+  .section-bookmark-row {
+    display: none;
+  }
+}

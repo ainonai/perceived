@@ -45,6 +45,59 @@
   const announce = (text) => {
     $("#status-message").textContent = text;
   };
+
+  function addSectionLinks() {
+    const base = $('link[rel="canonical"]')?.href || location.href;
+    function bookmark(id, title) {
+      const url = new URL(base);
+      url.hash = id;
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "section-bookmark";
+      button.title = "Copy section link";
+      button.setAttribute("aria-label", `Copy link to ${title}`);
+      button.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 4h12v16l-6-4-6 4z"/></svg>
+        <svg class="bookmark-check" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>`;
+      let reset;
+      button.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(url.href);
+        } catch {
+          window.prompt("Copy this section link", url.href);
+          return;
+        }
+        button.classList.add("is-copied");
+        announce(`Link copied for ${title}`);
+        clearTimeout(reset);
+        reset = setTimeout(() => button.classList.remove("is-copied"), 1800);
+      });
+      return button;
+    }
+
+    const linked = new Set();
+    for (const heading of $$("#main :is(h1, h2, h3, h4)")) {
+      if (heading.closest("a, summary")) continue;
+      const section = heading.closest("section[id], article[id], details");
+      const id = heading.id || (section?.matches("details") ? "" : section?.id);
+      if (!id || linked.has(id)) continue;
+      linked.add(id);
+      heading.append(" ", bookmark(id, heading.textContent.trim()));
+    }
+
+    for (const detail of $$("#main details.details-box[id]")) {
+      const summary = $(":scope > summary", detail);
+      const title =
+        $(".source-title, .claim-name", summary) ||
+        $(":scope > span", summary) ||
+        summary;
+      const row = document.createElement("div");
+      row.className = "section-bookmark-row";
+      row.append(bookmark(detail.id, title.textContent.trim()));
+      summary.after(row);
+    }
+  }
+  addSectionLinks();
+
   $("#print-button").addEventListener("click", () => window.print());
   const sidebar = $("#sidebar"),
     menu = $("#menu-button");
