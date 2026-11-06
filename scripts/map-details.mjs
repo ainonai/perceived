@@ -273,6 +273,14 @@ export const mapDetails = [
     [8, 30, 166],
   ],
   [
+    "incentives",
+    "publication-bias",
+    "Publication bias",
+    "When favorable findings reach print more often, the published studies can give a rosier picture than the full set of results.",
+    "how-to-read-a-study",
+    [181, 182],
+  ],
+  [
     "media",
     "feeds",
     "Personalized feeds",
