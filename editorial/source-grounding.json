@@ -1,6 +1,6 @@
 {
-  "basis": "Supplied timestamped transcript consolidation, not a new viewing of the original videos.",
-  "scope": "All body paragraphs in the six main reading chapters. Source references identify the arguments or examples being paraphrased. Research evaluation is presented separately.",
+  "basis": "Supplied timestamped transcript consolidation. The additions on polygenic traits and reading studies were also checked against saved raw captions.",
+  "scope": "Body paragraphs in the six main reading chapters and the guide to reading studies. Video references identify arguments or examples. Primary sources supply research context.",
   "paragraphs": [
     {
       "chapter": "attraction",
@@ -695,8 +695,65 @@
     },
     {
       "chapter": "biology",
-      "heading": "Dispositions help shape experience",
+      "heading": "Polygenic traits and disorders",
       "paragraph": 9,
+      "sha256": "90b1aa403d92f67a81a84aa91c87dce62b8957d837a1aa720ec7efbbce331455",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 179,
+          "time": "00:01:48",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        },
+        {
+          "video": 179,
+          "time": "00:02:14",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        }
+      ]
+    },
+    {
+      "chapter": "biology",
+      "heading": "Polygenic traits and disorders",
+      "paragraph": 10,
+      "sha256": "88d2589a0ef30afb99214732803baca837de03cff0279028c1419de365dca6a3",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 179,
+          "time": "00:06:20",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        }
+      ]
+    },
+    {
+      "chapter": "biology",
+      "heading": "Polygenic traits and disorders",
+      "paragraph": 11,
+      "sha256": "d6f847d25bbd2581bf98dfda4c403c448e1070fae4e10f6ef547cbda7e0b4f26",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 179,
+          "time": "00:11:33",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        },
+        {
+          "video": 179,
+          "time": "00:12:14",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        },
+        {
+          "video": 179,
+          "time": "00:05:51",
+          "title": "Your \"Disorders\" are super powers given the right environment..."
+        }
+      ]
+    },
+    {
+      "chapter": "biology",
+      "heading": "Dispositions help shape experience",
+      "paragraph": 12,
       "sha256": "f5f550564bafe2e22e07fcbccdcb6a6dd4edeb7449fca60d18ee338420edb583",
       "kind": "source paraphrase",
       "sources": [
@@ -715,7 +772,7 @@
     {
       "chapter": "biology",
       "heading": "Dispositions help shape experience",
-      "paragraph": 10,
+      "paragraph": 13,
       "sha256": "c2642066c5beddf378b88b64bdfb5b5e90e80f32d55b2392607e7d3cb43866c9",
       "kind": "source paraphrase",
       "sources": [
@@ -739,7 +796,7 @@
     {
       "chapter": "biology",
       "heading": "Dispositions help shape experience",
-      "paragraph": 11,
+      "paragraph": 14,
       "sha256": "e98ebfea5ec9cfef9b2e5069af4b5ab7e08908d606d7de7489244846dd96c93d",
       "kind": "source paraphrase",
       "sources": [
@@ -763,7 +820,7 @@
     {
       "chapter": "biology",
       "heading": "Individuals and populations",
-      "paragraph": 12,
+      "paragraph": 15,
       "sha256": "4350347ef4a75ae0995538222bc3481e6461bece6928abcc6069a4d7916545fa",
       "kind": "source paraphrase",
       "sources": [
@@ -782,7 +839,7 @@
     {
       "chapter": "biology",
       "heading": "Individuals and populations",
-      "paragraph": 13,
+      "paragraph": 16,
       "sha256": "873ac15052443b25f429978d769b97b24581915878e070d68637308dbf02fae1",
       "kind": "source paraphrase",
       "sources": [
@@ -796,7 +853,7 @@
     {
       "chapter": "biology",
       "heading": "Individuals and populations",
-      "paragraph": 14,
+      "paragraph": 17,
       "sha256": "ae292a33032fd9f66c23b5a97ed4fa9356cc5c1facee7824823f24466fc94536",
       "kind": "source paraphrase",
       "sources": [
@@ -820,7 +877,7 @@
     {
       "chapter": "biology",
       "heading": "Biotechnology and prediction",
-      "paragraph": 15,
+      "paragraph": 18,
       "sha256": "6ceefb0a83f68dd29861174cfe4a70e3577478aa5b7d05bcae2bd3711d6b16e5",
       "kind": "source paraphrase",
       "sources": [
@@ -839,7 +896,7 @@
     {
       "chapter": "biology",
       "heading": "Biotechnology and prediction",
-      "paragraph": 16,
+      "paragraph": 19,
       "sha256": "f1da33c07e7e2e4b9cd5e455d2072604f31d7c454374f452b99a0fe8f037a1bb",
       "kind": "source paraphrase",
       "sources": [
@@ -863,7 +920,7 @@
     {
       "chapter": "biology",
       "heading": "Biotechnology and prediction",
-      "paragraph": 17,
+      "paragraph": 20,
       "sha256": "8bf882754a039d7818237d91a01441bbb38dd1a5edfc6e95b87caadeb20a158d",
       "kind": "source paraphrase",
       "sources": [
@@ -2541,6 +2598,96 @@
           "video": 188,
           "time": "00:05:29",
           "title": "why being right can lose you money in investing"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "How to read a study skeptically",
+      "paragraph": 1,
+      "sha256": "91122d242f7aa39df50d07b2af16795904a95d665420ff868565a7f91db40714",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 181,
+          "time": "00:00:00",
+          "title": "Stop blindly trusting studies! #science"
+        },
+        {
+          "video": 182,
+          "time": "00:24:09",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "How to read a study skeptically",
+      "paragraph": 2,
+      "sha256": "df64a59e0c3f757a4bb69cd93f2ba91a216a3bb5fd34b38e5bb537bc0ab003f8",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 181,
+          "time": "00:01:06",
+          "title": "Stop blindly trusting studies! #science"
+        },
+        {
+          "video": 182,
+          "time": "00:20:41",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "How to read a study skeptically",
+      "paragraph": 3,
+      "sha256": "2d4b4bb401774916e29832f0504252212a6e74d97abf822e2ffbb612f32aab8a",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 181,
+          "time": "00:01:39",
+          "title": "Stop blindly trusting studies! #science"
+        },
+        {
+          "video": 182,
+          "time": "00:22:18",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "How to read a study skeptically",
+      "paragraph": 4,
+      "sha256": "16172a770c1f314e18754043e48ed7125c0bb356efee876fb12a6a79a747c7e8",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 182,
+          "time": "00:12:31",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
+        },
+        {
+          "video": 182,
+          "time": "00:13:32",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
+        }
+      ]
+    },
+    {
+      "chapter": "study-reading",
+      "heading": "How to read a study skeptically",
+      "paragraph": 5,
+      "sha256": "be9c6855e73f5906693d054abeec02fcc620f524f411d87d384dff21250726b0",
+      "kind": "source paraphrase and research context",
+      "sources": [
+        {
+          "video": 182,
+          "time": "00:23:04",
+          "title": "How antidepressants passed FDA approval (loophole explained)"
         }
       ]
     }

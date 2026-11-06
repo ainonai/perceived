@@ -1,8 +1,9 @@
 {
   "status": "PASS",
   "chapters": 6,
-  "sourceLinkedParagraphs": 123,
-  "timestampLinks": 287,
-  "distinctSourceVideos": 66,
+  "methodsGuides": 1,
+  "sourceLinkedParagraphs": 131,
+  "timestampLinks": 302,
+  "distinctSourceVideos": 68,
   "basis": "Supplied transcript consolidation; source coverage and pointer checks, not a new viewing or scientific verification."
 }

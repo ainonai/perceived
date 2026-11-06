@@ -4395,7 +4395,7 @@ h4 {
     height: 340px;
     max-height: 340px;
     aspect-ratio: auto;
-    margin: -8px -21px -25px;
+    margin: -8px -21px 8px;
     overflow: hidden;
   }
   .hero-art img {
@@ -4403,18 +4403,15 @@ h4 {
     height: 115%;
     object-position: center 36%;
     object-fit: cover;
-    mask-image: linear-gradient(
-      to bottom,
-      transparent,
-      black 14%,
-      black 68%,
-      transparent 95%
-    );
+    mask-image:
+      linear-gradient(to right, transparent, black 8%, black 92%, transparent),
+      linear-gradient(to bottom, transparent, black 14%, black 71%, transparent 86%);
   }
   .hero-art .image-credit {
-    bottom: 36px;
+    bottom: 12px;
     right: 20px;
     font-size: 11px;
+    color: #d7cbc5;
   }
   .hero-art::before {
     right: 10px;
@@ -5284,6 +5281,56 @@ sup.paper-reference {
   color: var(--muted);
   background: transparent;
   border-color: var(--rule);
+}
+.study-guide {
+  margin: 36px 0;
+}
+.study-guide .example-notes {
+  margin-bottom: 22px;
+}
+.publication-comparison {
+  margin: 22px 0;
+  max-width: 42rem;
+  padding: clamp(16px, 3vw, 28px);
+  border: 1px solid var(--rule);
+  background: linear-gradient(150deg, var(--accent-soft), var(--surface) 76%);
+  color: var(--ink);
+}
+.publication-comparison figcaption b {
+  display: block;
+  margin-top: 2px;
+  font: 600 clamp(23px, 3vw, 32px)/1.2 var(--display);
+}
+.publication-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin-top: 16px;
+  font: 600 16px/1.35 var(--sans);
+}
+.publication-row small,
+.publication-comparison p {
+  color: var(--muted);
+  font: 400 14px/1.5 var(--sans);
+}
+.publication-row small {
+  display: block;
+}
+.publication-track {
+  grid-column: 1 / -1;
+  height: 8px;
+  overflow: hidden;
+  background: var(--wash);
+}
+.publication-track span {
+  display: block;
+  width: var(--share);
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-strong), var(--accent));
+}
+.publication-comparison p {
+  margin: 16px 0 0;
 }
 
 /* Center the return arrow independently of native button padding and SVG baselines. */

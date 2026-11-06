@@ -20,6 +20,14 @@ Identical twins raised apart offer a way to examine inherited similarities acros
 
 **Genetic recombination** helps explain why siblings differ. Having a very tall brother does not mean you inherited the same combination of variants or were destined to reach his height. Development also depends on conditions: starvation, serious injury, and isolation are far removed from ordinary differences between homes. [V199 · 17:36](https://www.youtube.com/watch?v=VKc6PQpxjAU&t=1056s) [V199 · 34:47](https://www.youtube.com/watch?v=VKc6PQpxjAU&t=2087s)
 
+### Polygenic traits and disorders
+
+**Polygenicity** means many genetic variants contribute to one trait. **Pleiotropy** goes the other way. One variant can affect several traits. Julius brings the two ideas together when he talks about depression and ADHD. Many variants contribute to each predisposition, and some of those variants can also contribute to other traits. [V179 · 01:48](https://www.youtube.com/watch?v=uZZHNSxx5qw&t=108s) [V179 · 02:14](https://www.youtube.com/watch?v=uZZHNSxx5qw&t=134s) [NHGRI definition](https://www.genome.gov/genetics-glossary/Polygenic-Trait)
+
+A **polygenic score** combines the estimated contributions of many variants to estimate a predisposition. The Psychiatric Genomics Consortium found genetic regions associated with more than one of the eight disorders it studied. It also found associations specific to particular disorders. People with similar scores can have different outcomes as their development and circumstances unfold. [V179 · 06:20](https://www.youtube.com/watch?v=uZZHNSxx5qw&t=380s) [Cross-disorder genetics study](https://pubmed.ncbi.nlm.nih.gov/31835028/)
+
+When Julius’s computer stalls, he reaches for his phone and starts checking notifications. In high school he would tune out the lesson to do another class’s homework or work on his new business. His “superpowers” framing asks where a tendency like rapid task-switching gets in the way and where it fits the work you want to do. He describes ADHD as his own suspicion. A clinical assessment considers how often symptoms occur and how much they interfere with daily life across settings. [V179 · 11:33](https://www.youtube.com/watch?v=uZZHNSxx5qw&t=693s) [V179 · 12:14](https://www.youtube.com/watch?v=uZZHNSxx5qw&t=734s) [V179 · 05:51](https://www.youtube.com/watch?v=uZZHNSxx5qw&t=351s) [R28]
+
 ### Dispositions help shape experience
 
 **Heritability snowballing** is the compounding of predisposition and experience. An interest draws your attention; attention becomes practice; practice creates further opportunities in the same direction. To understand an environment’s influence, ask how someone came to spend time there in the first place. [V147 · 07:30](https://www.youtube.com/watch?v=eZHlruluYDI&t=450s) [V201 · 03:49](https://www.youtube.com/watch?v=Vh7KSCqtCaI&t=229s)

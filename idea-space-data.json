@@ -597,9 +597,10 @@
     {
       "id": "prediction",
       "label": "Polygenic prediction",
-      "summary": "A polygenic score estimates an outcome with uncertainty. Prediction and gene editing are different operations.",
-      "href": "biology-biotechnology-and-prediction",
+      "summary": "A polygenic score combines information from many variants to estimate a predisposition. Some of those variants also influence other traits.",
+      "href": "biology-polygenic-traits-and-disorders",
       "videos": [
+        179,
         29,
         199
       ],
@@ -1735,7 +1736,7 @@
       "to": "prediction",
       "kind": "topic",
       "label": "Explore a finer distinction",
-      "summary": "A polygenic score estimates an outcome with uncertainty. Prediction and gene editing are different operations."
+      "summary": "A polygenic score combines information from many variants to estimate a predisposition. Some of those variants also influence other traits."
     },
     {
       "from": "heritability",

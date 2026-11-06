@@ -12,9 +12,9 @@ export const mapDetails = [
     "inheritance",
     "prediction",
     "Polygenic prediction",
-    "A polygenic score estimates an outcome with uncertainty. Prediction and gene editing are different operations.",
-    "biology-biotechnology-and-prediction",
-    [29, 199],
+    "A polygenic score combines information from many variants to estimate a predisposition. Some of those variants also influence other traits.",
+    "biology-polygenic-traits-and-disorders",
+    [179, 29, 199],
   ],
   [
     "heritability",

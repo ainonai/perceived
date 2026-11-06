@@ -7,6 +7,7 @@ from pathlib import Path
 import hashlib,json,re
 ROOT=Path(__file__).resolve().parents[1]
 CHAPTERS=['attraction','biology','relationships','living','reality','society']
+METHODS_GUIDES=['study-reading']
 
 UPDATES=ROOT/'editorial/updates'
 
@@ -38,7 +39,7 @@ def check(catalog=None):
     records={(r['chapter'],r['paragraph']):r for r in ledger}
     count=links=0;used=set()
     note=re.compile(r'\s*\[V(\d{3,}) · ((?:\d\d:)?\d\d:\d\d)\]\((https://www.youtube.com/watch\?v=[^&\s)]+)&t=(\d+)s\)')
-    for key in CHAPTERS:
+    for key in (*CHAPTERS,*METHODS_GUIDES):
         paragraphs=[p.strip() for p in (ROOT/f'editorial/{key}.md').read_text(encoding='utf-8').split('\n\n') if p.strip() and not p.startswith('#')]
         for i,p in enumerate(paragraphs,1):
             row=records[(key,i)];matches=list(note.finditer(p))
@@ -61,7 +62,7 @@ def check(catalog=None):
     basis = 'Supplied transcript consolidation; source coverage and pointer checks, not a new viewing or scientific verification.'
     if any(ordinal > baseline_count for ordinal in used):
         basis = 'Supplied transcript consolidation and reviewed additions; source coverage and pointer checks.'
-    report={'status':'PASS','chapters':len(CHAPTERS),'sourceLinkedParagraphs':count,'timestampLinks':links,'distinctSourceVideos':len(used),'basis':basis}
+    report={'status':'PASS','chapters':len(CHAPTERS),'methodsGuides':len(METHODS_GUIDES),'sourceLinkedParagraphs':count,'timestampLinks':links,'distinctSourceVideos':len(used),'basis':basis}
     (ROOT/'source-grounding-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8',newline='\n')
     return report
 if __name__=='__main__': print(json.dumps(check(),indent=2))
